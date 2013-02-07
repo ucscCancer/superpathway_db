@@ -618,6 +618,7 @@ RELA/p50 (complex)	BIRC3	-t>
 RELA/p50 (complex)	JUN	-t>
 RELA/p50 (complex)	MYC	-t>
 RELA/p50 (complex)	TRAF2	-t>
+RELA/p50 (complex)	apoptosis (abstract)	-a>
 RELA/p50 (complex)	apoptosis (abstract)	-a|
 RELA/p50 (complex)	FOS	-t>
 RELA/p50 (complex)	TNF	-t>
@@ -629,6 +630,7 @@ KSR1	KSR/14-3-3 /MEK1-2 (complex)	component>
 KSR1	RAF1/14-3-3 (complex)	-a>
 KSR1	MAP2K2	-a>
 KSR1	MAP2K1	-a>
+KSR1	BRAF	-a|
 KSR1	BRAF	-a>
 KSR1	KSR/14-3-3 (dimer)/MEK1-2 (complex)	component>
 KSR1	KSR/14-3-3 (dimer)/MEK1-2-active (complex)	component>
@@ -656,6 +658,7 @@ RPS6KA3	PDPK1	-a>
 ITGAV	PDGF-BB/PDGFRB (dimer)/alphav/beta3 Integrin/Necl-5 (dimer) (complex)	component>
 ITGAV	alphav/beta3 Integrin (complex)	component>
 EIF4A1	EIF-4E/EIF-4G/EIF-4A (complex)	component>
+PAG1	CSK	-a>
 PAG1	CSK	-a|
 Bb/C3b (complex)	properdin/Bb/C3b (complex)	component>
 RAP1B	RAP1 (family)	member>
@@ -802,6 +805,7 @@ Similar to CaM3	CaM (family)	member>
 Similar to CaM1	CaM (family)	member>
 KIF15	NuMA/Tpx2/Hklp2 (complex)	component>
 SFN	14-3-3 family (family)	member>
+ELK1	FOS	-a>
 ELK1	FOS	-t>
 ELK1	ELK1/SRF(dimer) (complex)	component>
 ELK1	ELK1/SRF (complex)	component>
@@ -868,6 +872,7 @@ CSK	SRC	-a|
 CSK	Src Family Kinases (family)	-a|
 CSK	LCK	-a|
 PP2A-catalytic subunit C (family)	PP2A (complex)	component>
+RHOA/GTP (complex)	cell migration (abstract)	-a|
 RHOA/GTP (complex)	cell migration (abstract)	-a>
 RHOA/GTP (complex)	CDKN1B	-a>
 RHOA/GTP (complex)	AKT1	-a|
@@ -925,6 +930,7 @@ MAPK3	RELA/p50 (complex)	-a>
 MAPK3	MYC	-a>
 MAPK3	TERT	-a>
 MAPK3	ERK1-2-active	member>
+MAPK3	FOS	-a>
 MAPK3	FOS	-t>
 MAPK3	SP1	-a>
 MAPK3	RXRA	-a>
@@ -962,6 +968,7 @@ GTP	RAC1/GTP (complex)	component>
 Ligand (family)	Ligand/GPCR(+)/Arrestin/(SRC/Hck/c-Fgr) (complex)	component>
 DOCK4	PDGF-BB/PDGFRB (dimer)/GRB2/DOCK4/Dynamin 2 (complex)	component>
 DOCK4	GRB2/DOCK4/Dynamin 2 (complex)	component>
+CASP2	Lamin A/C/Lamin B1/Lamin B2 (cleaved) (complex)	-a|
 CASP2	Lamin A/C/Lamin B1/Lamin B2 (cleaved) (complex)	-a>
 EP300	JUN	-t>
 EP300	SFN	-t>
@@ -1178,10 +1185,12 @@ ERK1-2-active	PTK2	-a>
 ERK1-2-active	STAT3	-a>
 ERK1-2-active	ELK1	-a>
 ERK1-2-active	RAF1	-a>
+ERK1-2-active	JUN	-a>
 ERK1-2-active	JUN	-t>
 ERK1-2-active	RAF1/14-3-3 (complex)	-a>
 ERK1-2-active	KSR/14-3-3 (dimer)/MEK1-2 (complex)	-a>
 ERK1-2-active	KSR1	-a|
+ERK1-2-active	FOS	-a>
 ERK1-2-active	FOS	-t>
 ERK1-2-active	IFNG	-t>
 ERK1-2-active	CREB1	-a>
@@ -1368,6 +1377,7 @@ WASL	cell migration (abstract)	-a>
 WASL	PDGF-BB/PDGFRB (dimer)/GAB1/N-WASP/NCK1-2 (complex)	component>
 WASL	GAB1/N-WASP (complex)	component>
 response to hypoxia (abstract)	HIF1A	-a>
+response to hypoxia (abstract)	glucose transporters	-t>
 response to hypoxia (abstract)	glucose transporters	-a>
 response to hypoxia (abstract)	EDN1	-t>
 response to hypoxia (abstract)	BRCA1	-t>
@@ -1423,8 +1433,10 @@ RAF1/BRAF/14-3-3/14-3-3 (complex)	BRAF/14-3-3 (complex)	component>
 FYN	Src Family Kinases-active	member>
 FYN	Src Family Kinases (family)	member>
 AKT1	RB/E2F-1 (complex)	-a|
+AKT1	MYC	-t>
 AKT1	MYC	-a>
 AKT1	cell migration (abstract)	-a>
+AKT1	GSK3B	-a>
 AKT1	GSK3B	-a|
 AKT1	TERT(+1)/TEP1/hTR RNA (complex)	-a>
 AKT1	PAK1	-a>
@@ -1435,6 +1447,7 @@ AKT1	chemotaxis (abstract)	-a>
 AKT1	RAF1	-a|
 AKT1	CREB/CREB (complex)	-a>
 AKT1	FRAP1	-a>
+AKT1	TERT	-t>
 AKT1	TERT	-a>
 AKT1	IKKs (family)	-a>
 AKT1	BCL2	-a>
@@ -1480,6 +1493,7 @@ PPP2CA	PP2A (complex)	component>
 PPP2CA	AKT1	-a>
 EIF4G1	EIF-4E/EIF-4G/EIF-4A (complex)	component>
 PPP2CB	PP2A-catalytic subunit C (family)	member>
+GSK3B	NFATC1	-a>
 GSK3B	NFATC1	-a|
 GSK3B	CYCLIN D1/CDK4/CDK6 (complex)	-a>
 GSK3B	TP53	-a|
@@ -1582,6 +1596,7 @@ MAPK1	STAT3	-a>
 MAPK1	MYC	-a>
 MAPK1	TERT	-a>
 MAPK1	ERK1-2-active	member>
+MAPK1	FOS	-a>
 MAPK1	FOS	-t>
 MAPK1	SP1	-a>
 MAPK1	RELA/p50 (complex)	-a>
@@ -1595,14 +1610,17 @@ MAPK1	STAT3/STAT3 (Ser727) (complex)	-a>
 MAPK1	ELK1	-a>
 MAPK1	BCL2	-a|
 NBN	NBS1/Rad50/Mre11 (complex)	component>
+MAPK8	NFATC1	-a|
 MAPK8	NFATC1	-a>
 MAPK8	JNK family (family)	member>
+MAPK8	JUN	-a>
 MAPK8	JUN	-t>
 MAPK8	MAPK3	-a|
 MAPK8	MAPK1	-a|
 MAPK8	SP1	-a>
 MAPK8	RXRA	-a>
 MAPK8	JNK family-active	member>
+MAPK8	BCL2	-a|
 MAPK8	BCL2	-a>
 MAPK9	IFNG	-t|
 MAPK9	JNK family (family)	member>
@@ -1655,6 +1673,7 @@ NUMA1	NuMA/Tpx2 (complex)	component>
 WAVE2/Nap1/Sra1/ABI1/HSPC300 (complex)	Arp2/3 complex (complex)	-a>
 FRAP1	PPP2CA	-a|
 FRAP1	STAT3/STAT3 (Ser727) (complex)	-a>
+FRAP1	PPP2R5D	-a|
 FRAP1	PPP2R5D	-a>
 GRB2/SOS1 (complex)	PDGF-BB/PDGFRB (dimer)/GRB2/SOS1/SHP2 (complex)	component>
 GRB2/SOS1 (complex)	PDGF-BB/PDGFRB (dimer)/p52 SHC/GRB2/SOS1 (complex)	component>
