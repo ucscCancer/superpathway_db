@@ -1,0 +1,23 @@
+protein	ACOX1
+complex	Activated_PPARA_RXRA_Heterodimer_(complex)
+protein	PPARA
+complex	PPARA__Fatty_Acid_Complex_(Activated_PPARA)_(complex)
+complex	PPARA_RXRA_Coactivator_Complex_(complex)
+complex	PPARA_RXRA_Heterodimer_(complex)
+complex	PPARA_RXRA_Repressor_Complex_(complex)
+protein	RXRA
+protein	TBL1X
+protein	TBL1XR1
+PPARA__Fatty_Acid_Complex_(Activated_PPARA)_(complex)	Activated_PPARA_RXRA_Heterodimer_(complex)	component>
+PPARA_RXRA_Coactivator_Complex_(complex)	ACOX1	-a>
+Activated_PPARA_RXRA_Heterodimer_(complex)	PPARA_RXRA_Coactivator_Complex_(complex)	component>
+PPARA	PPARA__Fatty_Acid_Complex_(Activated_PPARA)_(complex)	component>
+PPARA	PPARA_RXRA_Heterodimer_(complex)	component>
+RXRA	Activated_PPARA_RXRA_Heterodimer_(complex)	component>
+RXRA	PPARA_RXRA_Heterodimer_(complex)	component>
+PPARA_RXRA_Repressor_Complex_(complex)	PPARA_RXRA_Coactivator_Complex_(complex)	-a>
+PPARA_RXRA_Heterodimer_(complex)	PPARA_RXRA_Repressor_Complex_(complex)	component>
+TBL1X	PPARA_RXRA_Repressor_Complex_(complex)	component>
+TBL1X	PPARA_RXRA_Coactivator_Complex_(complex)	component>
+TBL1XR1	PPARA_RXRA_Repressor_Complex_(complex)	component>
+TBL1XR1	PPARA_RXRA_Coactivator_Complex_(complex)	component>

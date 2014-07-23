@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="The maturation of the early endosome compartment into a late endosome is triggered by the presence of phosphoinositide phosphatidylinositol 3,5-bisphosphate (PI(3,5)P2) (Cabezas et al. 2006, Ikonomov et al. 2006, Ikonomov et al. 2001)."/>
+ <att name="displayName" type="string" value="PIPs transport between early and late endosome membranes"/>
+ <att name="name" type="string" value="PIPs transport between early and late endosome membranes"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_b5d4c46a0555e840ac262e9813f5f704"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="GENE ONTOLOGY:GO:0045332"/>
+  <att name="db_xref" type="string" value="Pubmed:11285266"/>
+  <att name="db_xref" type="string" value="Pubmed:16510848"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:1660502"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_121209"/>
+  <att name="db_xref" type="string" value="Pubmed:16448788"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="1-O-(3-sn-phosphatidyl)-1D-myo-inositol 3,5-bis(dihydrogen phosphate)">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:673"/>
+   <att name="db_xref" type="string" value="pubchem-substance:11533205"/>
+   <att name="db_xref" type="string" value="pubchem:11533205"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:11286"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:16851"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_58bb7c99cbc0c53f5dcf78b9822abcf8"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="1-O-(3-sn-phosphatidyl)-1D-myo-inositol 3,5-bis(dihydrogen phosphate)"/>
+ </node>
+ <node id="1" label="1-O-(3-sn-phosphatidyl)-1D-myo-inositol 3,5-bis(dihydrogen phosphate)">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:673"/>
+   <att name="db_xref" type="string" value="pubchem-substance:11533205"/>
+   <att name="db_xref" type="string" value="pubchem:11533205"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:11286"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:16851"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_3f9c8060788cf28b6433e4b8a3d4ed4c"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="1-O-(3-sn-phosphatidyl)-1D-myo-inositol 3,5-bis(dihydrogen phosphate)"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_3f9c8060788cf28b6433e4b8a3d4ed4c - http://purl.org/pc2/4/SmallMolecule_58bb7c99cbc0c53f5dcf78b9822abcf8" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_648a973d411258dd8ded9b401ce6ff70"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

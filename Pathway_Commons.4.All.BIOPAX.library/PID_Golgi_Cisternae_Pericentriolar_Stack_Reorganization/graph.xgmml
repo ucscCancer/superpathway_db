@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_152544"/>
+ <att name="displayName" type="string" value="Golgi Cisternae Pericentriolar Stack Reorganization"/>
+ <att name="name" type="string" value="Golgi_Cisternae_Pericentriolar_Stack_Reorganization"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_bcb49bdbe86700844794a02711fc264b"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="PLK">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000300093"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000166851"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000300093"/>
+   <att name="db_xref" type="string" value="omim:602098"/>
+   <att name="db_xref" type="string" value="NCBI Gene:5347"/>
+   <att name="db_xref" type="string" value="HGNC:PLK1"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1Q4K"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_005021"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_005030"/>
+   <att name="db_xref" type="string" value="UniProt:Q99746"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:9077"/>
+   <att name="db_xref" type="string" value="UniProt:Q15153"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:PLK1"/>
+   <att name="db_xref" type="string" value="UniProt:P53350"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P53350"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="PLK1_HUMAN"/>
+   <att name="aliases" type="string" value="PLK-1"/>
+   <att name="aliases" type="string" value="PLK1"/>
+   <att name="aliases" type="string" value="STPK13"/>
+   <att name="aliases" type="string" value="Serine/threonine-protein kinase 13"/>
+   <att name="aliases" type="string" value="Polo-like kinase 1"/>
+   <att name="aliases" type="string" value="2.7.11.21"/>
+   <att name="aliases" type="string" value="PLK"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="PLK"/>
+ </node>
+ <node id="1" label="GRASP65">
+  <att name="label" type="string" value="GRASP65"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000403552"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000313869"/>
+   <att name="db_xref" type="string" value="NCBI Gene:64689"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000114745"/>
+   <att name="db_xref" type="string" value="UniProt:Q8N272"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:GORASP1"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_031899"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000452389"/>
+   <att name="db_xref" type="string" value="UniProt:Q96H42"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000431601"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000319283"/>
+   <att name="db_xref" type="string" value="UniProt:B3KWC8"/>
+   <att name="db_xref" type="string" value="omim:606867"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_114105"/>
+   <att name="db_xref" type="string" value="HGNC:GORASP1"/>
+   <att name="db_xref" type="string" value="UniProt:Q3SYG7"/>
+   <att name="db_xref" type="string" value="UniProt:Q9BQQ3"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000403167"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:16769"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q9BQQ3"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="GORS1_HUMAN"/>
+   <att name="aliases" type="string" value="GOLPH5"/>
+   <att name="aliases" type="string" value="Golgi peripheral membrane protein p65"/>
+   <att name="aliases" type="string" value="GORASP1"/>
+   <att name="aliases" type="string" value="Golgi phosphoprotein 5"/>
+   <att name="aliases" type="string" value="Golgi reassembly-stacking protein of 65 kDa"/>
+   <att name="aliases" type="string" value="GRASP65"/>
+  </att>
+ </node>
+ <edge label="http://identifiers.org/uniprot/P53350 - http://identifiers.org/uniprot/Q9BQQ3" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_54182f4f3b5f3da8ce407d5e0cfa8718"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9BQQ3 - http://identifiers.org/uniprot/Q9BQQ3" source="1" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_99cf2337795dda627995daf1e9883937"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

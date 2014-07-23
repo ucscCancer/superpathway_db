@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_113687"/>
+ <att name="displayName" type="string" value="Deadenylation-dependent mRNA decay"/>
+ <att name="name" type="string" value="Deadenylation_dependent_mRNA_decay"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_4a33ecee6a0b77586c56b995755c9873"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="5'-Adenylic acid">
+  <att name="label" type="string" value="5'-Adenylic acid"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_988ed0fba945081581398560cbb6b785"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="Guanylic acid">
+  <att name="label" type="string" value="Guanylic acid"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_d714235d9c464cd729b328425eb27dc8"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="mature mRNA (eukaryotic, capped and deadenylated)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_78bb71d05480d5fe75e195e440478751"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="mature mRNA (eukaryotic, capped and deadenylated)"/>
+ </node>
+ <node id="3" label="Cytidine-5'-monophosphate">
+  <att name="label" type="string" value="Cytidine-5'-monophosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_8fdc5c6178d762614d9801ed14895d5d"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="4" label="Water">
+  <att name="label" type="string" value="Water"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_deab5bdc5d7299be544be3488402bc7e"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="5" label="5'Uridylic acid">
+  <att name="label" type="string" value="5'Uridylic acid"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_514143f5ba40d5c7414a8dc4db4ce933"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_78bb71d05480d5fe75e195e440478751 - http://purl.org/pc2/4/SmallMolecule_8fdc5c6178d762614d9801ed14895d5d" source="2" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_1b4dd41e322e281f7aff7eb8c9d00c1b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_78bb71d05480d5fe75e195e440478751 - http://purl.org/pc2/4/SmallMolecule_514143f5ba40d5c7414a8dc4db4ce933" source="2" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_1b4dd41e322e281f7aff7eb8c9d00c1b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_78bb71d05480d5fe75e195e440478751 - http://purl.org/pc2/4/SmallMolecule_988ed0fba945081581398560cbb6b785" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_1b4dd41e322e281f7aff7eb8c9d00c1b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_78bb71d05480d5fe75e195e440478751 - http://purl.org/pc2/4/SmallMolecule_d714235d9c464cd729b328425eb27dc8" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_1b4dd41e322e281f7aff7eb8c9d00c1b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_deab5bdc5d7299be544be3488402bc7e - http://purl.org/pc2/4/PhysicalEntity_78bb71d05480d5fe75e195e440478751" source="4" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_d2304e5969c6ca46211ffeff1ac67870"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_deab5bdc5d7299be544be3488402bc7e - http://purl.org/pc2/4/SmallMolecule_8fdc5c6178d762614d9801ed14895d5d" source="4" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_1b4dd41e322e281f7aff7eb8c9d00c1b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_deab5bdc5d7299be544be3488402bc7e - http://purl.org/pc2/4/SmallMolecule_514143f5ba40d5c7414a8dc4db4ce933" source="4" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_1b4dd41e322e281f7aff7eb8c9d00c1b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_deab5bdc5d7299be544be3488402bc7e - http://purl.org/pc2/4/SmallMolecule_988ed0fba945081581398560cbb6b785" source="4" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_1b4dd41e322e281f7aff7eb8c9d00c1b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_deab5bdc5d7299be544be3488402bc7e - http://purl.org/pc2/4/SmallMolecule_d714235d9c464cd729b328425eb27dc8" source="4" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_1b4dd41e322e281f7aff7eb8c9d00c1b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

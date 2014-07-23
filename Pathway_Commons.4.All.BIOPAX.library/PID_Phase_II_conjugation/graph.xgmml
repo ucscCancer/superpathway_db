@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_59842"/>
+ <att name="displayName" type="string" value="Phase II conjugation"/>
+ <att name="name" type="string" value="Phase_II_conjugation"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_62c0a05730b3a3ba4c94b0802ee2ac02"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Water">
+  <att name="label" type="string" value="Water"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_deab5bdc5d7299be544be3488402bc7e"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="Inorganic Phosphate">
+  <att name="label" type="string" value="Inorganic Phosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_e16e2e931bc93b503c83db26ae084a10"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_deab5bdc5d7299be544be3488402bc7e - http://purl.org/pc2/4/SmallMolecule_e16e2e931bc93b503c83db26ae084a10" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_57674eb6271d0023a5763750072b637c"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

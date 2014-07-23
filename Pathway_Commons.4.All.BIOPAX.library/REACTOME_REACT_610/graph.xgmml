@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Transcription of the heavy (H)-strand of mitochondrial DNA (mtDNA) involves two overlapping transcription units (Montoyaet al.,1982; Montoya et al., 1983). The first unit starts right upstream of the tRNAPhe gene and spans the tRNAPhe, rRNA 12S, rRNA 16S and tRNAVal genes (initiation site IH1). The other starts about 100 bp further downstream (initiation site IH2), at the boundary between tRNAPhe and rRNA12S genes, and produces a single polycistronic RNA that encompasses almost the entire length of the H-strand. The ribosomal transcription unit is transcribed at a much higher rate compared to the other transcription unit and control of its expression is exerted both at the level of initiation and termination (Gelfand and Attardi, 1981; Attardi et al., 1990). A central role in the control of termination has been attributed to the mitochondrial transcription termination factor (mTERF), a 39-kDa protein that binds to a 28-base pair region of mtDNA located within the tRNALeu(UUR) gene, at a position immediately downstream of the rRNA 16S gene (Fernandez-Silva et al.,1997; Kruse et al., 1989)."/>
+ <att name="displayName" type="string" value="Mitochondrial transcription termination"/>
+ <att name="name" type="string" value="Mitochondrial transcription termination"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_ea15c7733a406734c015d8a044aedbd1"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Pubmed:6883508"/>
+  <att name="db_xref" type="string" value="Pubmed:3018722"/>
+  <att name="db_xref" type="string" value="Pubmed:2752429"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_610"/>
+  <att name="db_xref" type="string" value="Pubmed:6185947"/>
+  <att name="db_xref" type="string" value="Pubmed:2276421"/>
+  <att name="db_xref" type="string" value="Pubmed:9118945"/>
+  <att name="db_xref" type="string" value="GENE ONTOLOGY:GO:0006393"/>
+  <att name="db_xref" type="string" value="Pubmed:6086013"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:163316"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Mitochondrial transcription termination factor 1">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000127989"/>
+   <att name="db_xref" type="string" value="NCBI Gene:7978"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000351870"/>
+   <att name="db_xref" type="string" value="UniProt:Q99551"/>
+   <att name="db_xref" type="string" value="HGNC:MTERF"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:MTERF"/>
+   <att name="db_xref" type="string" value="UniProt:Q53H51"/>
+   <att name="db_xref" type="string" value="UniProt:Q9BVR7"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_008911"/>
+   <att name="db_xref" type="string" value="UniProt:A4D1E3"/>
+   <att name="db_xref" type="string" value="UniProt:Q32NF8"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000248643"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_006980"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:21463"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q99551"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="MTERF_HUMAN"/>
+   <att name="aliases" type="string" value="mTERF"/>
+   <att name="aliases" type="string" value="MTERF"/>
+   <att name="aliases" type="string" value="Mitochondrial transcription termination factor 1"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Mitochondrial transcription termination factor 1"/>
+ </node>
+ <node id="1" label="mitochondrial transcription termination sequence">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_fc4f1557e6a0d84060ba40609c962cff"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="mitochondrial transcription termination sequence"/>
+ </node>
+ <node id="2" label="mTERF:mitochondrial transcription termination sequence">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_3182b27187fc447df543075945c2e7c6"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="mTERF:mitochondrial transcription termination sequence"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/Q99551 - http://purl.org/pc2/4/Complex_3182b27187fc447df543075945c2e7c6" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_3182b27187fc447df543075945c2e7c6"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_fc4f1557e6a0d84060ba40609c962cff - http://purl.org/pc2/4/Complex_3182b27187fc447df543075945c2e7c6" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_3182b27187fc447df543075945c2e7c6"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

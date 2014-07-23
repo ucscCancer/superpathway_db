@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_137835"/>
+ <att name="displayName" type="string" value="ATM mediated response to DNA double-strand break"/>
+ <att name="name" type="string" value="ATM_mediated_response_to_DNA_double_strand_break"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_0db7fc8343d1c356fed3fcdbe08dc599"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Ataxia telangiectasia mutated">
+  <att name="label" type="string" value="Ataxia telangiectasia mutated"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000278616"/>
+   <att name="db_xref" type="string" value="NCBI Gene:472"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000278616"/>
+   <att name="db_xref" type="string" value="omim:607585"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000149311"/>
+   <att name="db_xref" type="string" value="UniProt:Q9NP02"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:795"/>
+   <att name="db_xref" type="string" value="UniProt:Q12758"/>
+   <att name="db_xref" type="string" value="PANTHER Family:PTHR11139:SF3"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000452508"/>
+   <att name="db_xref" type="string" value="UniProt:Q13315"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_000051"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UCX7"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_000042"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:ATM"/>
+   <att name="db_xref" type="string" value="HGNC:ATM"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000388058"/>
+   <att name="db_xref" type="string" value="UniProt:Q93007"/>
+   <att name="db_xref" type="string" value="UniProt:O15429"/>
+   <att name="db_xref" type="string" value="UniProt:Q16551"/>
+   <att name="db_xref" type="string" value="UniProt:B2RNX5"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q13315"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="ATM_HUMAN"/>
+   <att name="aliases" type="string" value="ATM"/>
+   <att name="aliases" type="string" value="2.7.11.1"/>
+   <att name="aliases" type="string" value="A-T mutated"/>
+   <att name="aliases" type="string" value="Ataxia telangiectasia mutated"/>
+  </att>
+ </node>
+ <node id="1" label="Adenosine 5'-triphosphate">
+  <att name="label" type="string" value="Adenosine 5'-triphosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_31ae42ccb4ff291372ed1cd8303ea9db"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="Adenosine 5'-diphosphate">
+  <att name="label" type="string" value="Adenosine 5'-diphosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_af453266d242000ff6059617dc4f12cc"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="dimeric phospho-ATM complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d6336e8681ce85154db557770e0a8a7f"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="dimeric phospho-ATM complex"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/Q13315 - http://purl.org/pc2/4/SmallMolecule_af453266d242000ff6059617dc4f12cc" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Control_eb4abfcbdcd0948f1d2371f2eb2971c0"/>
+  <att name="class" type="string" value="Control"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q13315 - http://purl.org/pc2/4/Complex_d6336e8681ce85154db557770e0a8a7f" source="0" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d6336e8681ce85154db557770e0a8a7f"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_31ae42ccb4ff291372ed1cd8303ea9db - http://purl.org/pc2/4/SmallMolecule_af453266d242000ff6059617dc4f12cc" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_3ec675b594ec0cf76a9b9cd88611c77f"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="MODEL_NOTES=Anandamide is an endocannabinoid. After it is released to the extracellular space from postsynaptic terminal, it binds to the cannabinoid receptor on the presynaptic terminal (see Endogenous cannabinoid signaling pathway). Anandamide is also transported via carrier-mediated uptake into nerve endings and glia. The nature of the carrier or transporter has not been characterized. It is believed to be through a selective process if facilitated diffusion. It is believed that anandamide can be produced via hydrolysis of the phospholipid precursor N-arachidonoyl phosphatidylethanolamine (PE), catalyzed by a phospholipase D-type activity. Medline=16938887 Medline=12843414"/>
+ <att name="url" type="string" value="http://identifiers.org/panther.pathway/P05727"/>
+ <att name="displayName" type="string" value="Anandamide_biosynthesis"/>
+ <att name="name" type="string" value="Anandamide_biosynthesis"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="PANTHER Pathway:P05727"/>
+ </att>
+ <node id="0" label="PHOSPHATIDYLETHANOLAMINE">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="pubchem:135610265"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:44887"/>
+   <att name="db_xref" type="string" value="pubchem-substance:135610265"/>
+   <att name="db_xref" type="string" value="InChIKey:LVNGJLRDBYCPGB-KDXMTYKHSA-O"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_b138cbdb2905e27094266a959610e849"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="PHOSPHATIDYLETHANOLAMINE"/>
+ </node>
+ <node id="1" label="N-arachidonoyl PE">
+  <att name="label" type="string" value="N-arachidonoyl PE"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_8ace5d2f55df9fdf17aca7fcc28487bd"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="Anandamide">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="pubchem:11534104"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:2700"/>
+   <att name="db_xref" type="string" value="pubchem-substance:11534104"/>
+   <att name="db_xref" type="string" value="InChIKey:LGEQQWMQCRIYKG-DOFZRALJSA-N"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_9e1e5ff4695e4a7c1a588ad01f09fb94"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Anandamide"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_b138cbdb2905e27094266a959610e849 - http://purl.org/pc2/4/SmallMolecule_8ace5d2f55df9fdf17aca7fcc28487bd" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_d8f9caa687b62060049e7c84515b5a5e"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_8ace5d2f55df9fdf17aca7fcc28487bd - http://purl.org/pc2/4/SmallMolecule_9e1e5ff4695e4a7c1a588ad01f09fb94" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_c7a81cc182dc0b85d32ad301d2119ba3"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

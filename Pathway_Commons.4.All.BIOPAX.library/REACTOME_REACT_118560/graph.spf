@@ -1,0 +1,29 @@
+protein	AGO1
+family	AGO1/2/3/4_(family)
+protein	AGO2
+complex	AGO2_siRNA_(complex)
+protein	AGO3
+protein	AGO4
+protein	DICER1
+complex	DICER_TRBP_duplex_siRNA_(complex)
+complex	Minimal_RISC_(siRNA)_(complex)
+protein	PRKRA
+protein	TARBP2
+complex	pre-RISC_(siRNA)_(complex)
+DICER1	DICER_TRBP_duplex_siRNA_(complex)	component>
+DICER_TRBP_duplex_siRNA_(complex)	TARBP2	-a>
+DICER_TRBP_duplex_siRNA_(complex)	PRKRA	-a>
+DICER_TRBP_duplex_siRNA_(complex)	DICER1	-a>
+DICER_TRBP_duplex_siRNA_(complex)	pre-RISC_(siRNA)_(complex)	-a>
+TARBP2	DICER_TRBP_duplex_siRNA_(complex)	component>
+AGO1/2/3/4_(family)	TARBP2	-a>
+AGO1/2/3/4_(family)	PRKRA	-a>
+AGO1/2/3/4_(family)	DICER1	-a>
+AGO1/2/3/4_(family)	pre-RISC_(siRNA)_(complex)	-a>
+pre-RISC_(siRNA)_(complex)	Minimal_RISC_(siRNA)_(complex)	-a>
+AGO4	AGO1/2/3/4_(family)	member>
+PRKRA	DICER_TRBP_duplex_siRNA_(complex)	component>
+AGO1	AGO1/2/3/4_(family)	member>
+AGO3	AGO1/2/3/4_(family)	member>
+AGO2	AGO2_siRNA_(complex)	component>
+AGO2	AGO1/2/3/4_(family)	member>

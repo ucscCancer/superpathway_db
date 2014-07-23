@@ -1,0 +1,29 @@
+complex	MII_(complex)
+protein	RBP1
+complex	RBP1_atROL_(complex)
+protein	RBP4
+protein	RHO
+protein	RLBP1
+complex	RLBP1_11cRAL_(complex)
+complex	RLBP1_11cROL_(complex)
+complex	Rhodopsin_11-cis-retinal_(complex)
+protein	STRA6
+protein	TTR
+complex	TTR_tetramer_(complex)
+complex	TTR_RBP4_STRA6_(complex)
+complex	TTR_RBP4_atROL_STRA6_(complex)
+RLBP1_11cROL_(complex)	RLBP1_11cRAL_(complex)	-a>
+RBP1_atROL_(complex)	RBP1	-a>
+RLBP1	RLBP1_11cROL_(complex)	component>
+RLBP1	RLBP1_11cRAL_(complex)	component>
+STRA6	TTR_RBP4_STRA6_(complex)	component>
+STRA6	TTR_RBP4_atROL_STRA6_(complex)	component>
+TTR_tetramer_(complex)	TTR_RBP4_STRA6_(complex)	component>
+TTR_tetramer_(complex)	TTR_RBP4_atROL_STRA6_(complex)	component>
+TTR_RBP4_atROL_STRA6_(complex)	TTR_RBP4_STRA6_(complex)	-a>
+RBP1	RBP1_atROL_(complex)	component>
+RBP4	TTR_RBP4_STRA6_(complex)	component>
+RBP4	TTR_RBP4_atROL_STRA6_(complex)	component>
+RHO	MII_(complex)	component>
+RHO	Rhodopsin_11-cis-retinal_(complex)	component>
+TTR	TTR_tetramer_(complex)	component>

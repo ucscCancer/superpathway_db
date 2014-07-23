@@ -1,0 +1,18 @@
+protein	TF
+complex	TF_TFRC_(complex)
+complex	TF_TFRC_dimer_(complex)
+protein	TFRC
+complex	TFRC_dimer_(complex)
+complex	holoTF_(complex)
+complex	holoTF_TFRC_(complex)
+complex	holoTF_TFRC_dimer_(complex)
+holoTF_(complex)	holoTF_TFRC_(complex)	component>
+holoTF_(complex)	holoTF_TFRC_dimer_(complex)	component>
+TFRC	TFRC_dimer_(complex)	component>
+TFRC_dimer_(complex)	TF_TFRC_(complex)	component>
+TFRC_dimer_(complex)	holoTF_TFRC_(complex)	component>
+TFRC_dimer_(complex)	TF_TFRC_dimer_(complex)	component>
+TFRC_dimer_(complex)	holoTF_TFRC_dimer_(complex)	component>
+TF	holoTF_(complex)	component>
+TF	TF_TFRC_(complex)	component>
+TF	TF_TFRC_dimer_(complex)	component>

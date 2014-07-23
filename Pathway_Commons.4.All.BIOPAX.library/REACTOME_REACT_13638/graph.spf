@@ -1,0 +1,27 @@
+protein	AATF
+protein	BAD
+protein	BCL2L11
+protein	MAGED1
+protein	MAPK8
+protein	NGF
+complex	NGF_ligand_p75NTR_NRAGE_CHE1_(complex)
+complex	NGF_p75NTR_NRAGE_(complex)
+protein	NGFR
+protein	RAC1
+complex	RAC1_GDP_(complex)
+complex	RAC1_GTP_(complex)
+complex	mature_NGF_homodimer_p75NTR_(complex)
+complex	mature_beta-NGF_homodimer_(complex)
+RAC1_GDP_(complex)	RAC1_GTP_(complex)	-a>
+mature_NGF_homodimer_p75NTR_(complex)	NGF_ligand_p75NTR_NRAGE_CHE1_(complex)	component>
+mature_NGF_homodimer_p75NTR_(complex)	NGF_p75NTR_NRAGE_(complex)	component>
+RAC1	RAC1_GTP_(complex)	component>
+RAC1	RAC1_GDP_(complex)	component>
+MAGED1	NGF_ligand_p75NTR_NRAGE_CHE1_(complex)	component>
+MAGED1	NGF_p75NTR_NRAGE_(complex)	component>
+mature_beta-NGF_homodimer_(complex)	mature_NGF_homodimer_p75NTR_(complex)	component>
+NGF	mature_beta-NGF_homodimer_(complex)	component>
+AATF	NGF_ligand_p75NTR_NRAGE_CHE1_(complex)	component>
+NGFR	mature_NGF_homodimer_p75NTR_(complex)	component>
+BAD	BCL2L11	-a>
+BCL2L11	BAD	-a>

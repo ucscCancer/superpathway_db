@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="MODEL_NOTES=Panther Pathway: P04392 The p53 pathway responds to stresses that can disrupt the fidelity of DNA replication and cell division. A stress signal is transmitted to the p53 protein by post-translational modifications. This results in the activation of the p53 protein as a transcription factor that initiates a program of cell cycle arrest, cellular senescence or apoptosis. The transcriptional network of p53-responsive genes produces proteins that interact with a large number of other signal transduction pathways in the cell and a number of positive and negative autoregulatory feedback loops act upon the p53 response. This diagram illustrates 3 such negative feedback loops. Medline=15838523 PMID: 15838523"/>
+ <att name="url" type="string" value="http://identifiers.org/panther.pathway/P04392"/>
+ <att name="displayName" type="string" value="P53 pathway feedback loops 1"/>
+ <att name="name" type="string" value="P53 pathway feedback loops 1"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="PANTHER Pathway:P04392"/>
+ </att>
+ <node id="0" label="Complex (Mdm2/P53)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_9f6d13c50f5c85d00bcb699863eb6b76"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Complex (Mdm2/P53)"/>
+ </node>
+ <node id="1" label="Complex (Pirh-1/P53)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_76c24b8662317b6fc2e1f69774b8ae0d"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Complex (Pirh-1/P53)"/>
+ </node>
+ <node id="2" label="Cop-1">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PANTHER Pathway Component:P04540"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_1ee20ecf9810197d7a7e3a79ffde5fa5"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Cop-1"/>
+ </node>
+ <node id="3" label="Mdm2">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PANTHER Pathway Component:P04536"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_7ab12dafd1af4ae5e16b6817f50ea470"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Mdm2"/>
+ </node>
+ <node id="4" label="P53">
+  <att name="label" type="string" value="P53"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PANTHER Pathway Component:P04539"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_99dd23c51bfd11528372507cc74ee761"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="5" label="Complex (Cop-1/P53)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e8911f8d4d0a71a3086a83ccfbb27b33"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Complex (Cop-1/P53)"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/ProteinReference_1ee20ecf9810197d7a7e3a79ffde5fa5 - http://purl.org/pc2/4/Complex_e8911f8d4d0a71a3086a83ccfbb27b33" source="2" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e8911f8d4d0a71a3086a83ccfbb27b33"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_7ab12dafd1af4ae5e16b6817f50ea470 - http://purl.org/pc2/4/Complex_9f6d13c50f5c85d00bcb699863eb6b76" source="3" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_9f6d13c50f5c85d00bcb699863eb6b76"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_99dd23c51bfd11528372507cc74ee761 - http://purl.org/pc2/4/Complex_e8911f8d4d0a71a3086a83ccfbb27b33" source="4" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e8911f8d4d0a71a3086a83ccfbb27b33"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_99dd23c51bfd11528372507cc74ee761 - http://purl.org/pc2/4/Complex_9f6d13c50f5c85d00bcb699863eb6b76" source="4" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_9f6d13c50f5c85d00bcb699863eb6b76"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_99dd23c51bfd11528372507cc74ee761 - http://purl.org/pc2/4/Complex_76c24b8662317b6fc2e1f69774b8ae0d" source="4" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_76c24b8662317b6fc2e1f69774b8ae0d"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

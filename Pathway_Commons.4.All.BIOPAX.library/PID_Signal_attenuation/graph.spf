@@ -1,0 +1,24 @@
+protein	GRB10
+complex	GRB10_INSR_(complex)
+protein	GRB2
+complex	GRB2_phospho-SHC_(complex)
+protein	INS
+protein	INSR
+protein	IRS
+protein	MAPK3
+protein	SHC1
+protein	SOS1
+complex	activated_insulin_receptor_(complex)
+complex	Insulin_(complex)
+protein	phospho-IRS
+complex	phospho-insulin_receptor_(complex)
+phospho-insulin_receptor_(complex)	activated_insulin_receptor_(complex)	component>
+activated_insulin_receptor_(complex)	GRB10_INSR_(complex)	component>
+phospho-IRS	IRS	-a>
+GRB10	GRB10_INSR_(complex)	component>
+INS	Insulin_(complex)	component>
+MAPK3	SOS1	-a>
+MAPK3	GRB2_phospho-SHC_(complex)	-a>
+INSR	phospho-insulin_receptor_(complex)	component>
+GRB2	GRB2_phospho-SHC_(complex)	component>
+Insulin_(complex)	activated_insulin_receptor_(complex)	component>

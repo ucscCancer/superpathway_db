@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_108642"/>
+ <att name="displayName" type="string" value="Activation of AMPA receptors"/>
+ <att name="name" type="string" value="Activation_of_AMPA_receptors"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_6b0c5e2e872f2b8baa2fecd3a2f8897c"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Ca permeable AMPA receptors">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_accf120e592298b6ecd267d00b38867f"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Ca permeable AMPA receptors"/>
+ </node>
+ <node id="1" label="L-Glutaminic acid">
+  <att name="label" type="string" value="L-Glutaminic acid"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_7f0dbdbed305136e378759e5b5001165"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="L-Glutaminic acid">
+  <att name="label" type="string" value="L-Glutaminic acid"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_f9cb83ea2bcb1d3ae2038633ccdec03e"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="Ca impermeable AMPA receptors">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_8f8c6f3a4f6b6866a8291225f74b1a48"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Ca impermeable AMPA receptors"/>
+ </node>
+ <node id="4" label="Ca impermeable AMPA receptor ligand complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a02fd13e971dc5ff052bbece983dbd90"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Ca impermeable AMPA receptor ligand complex"/>
+ </node>
+ <node id="5" label="Calcium">
+  <att name="label" type="string" value="Calcium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="6" label="Ca impermeable AMPA receptors">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_f2350b347fd6291b50415ce4b943d8d7"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Ca impermeable AMPA receptors"/>
+ </node>
+ <node id="7" label="Ca permeable AMPA receptors">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_859ed8ee5f2b6d1713fdbd2a640f38f5"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Ca permeable AMPA receptors"/>
+ </node>
+ <node id="8" label="Ca permeable AMPA receptor ligand complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_9fc1e2739318129e70c1775bbb836dfb"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Ca permeable AMPA receptor ligand complex"/>
+ </node>
+ <node id="9" label="Sodium">
+  <att name="label" type="string" value="Sodium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_accf120e592298b6ecd267d00b38867f - http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212" source="0" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_08cd9f0e1ee0a74fb0f07f44f0e43f50"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_accf120e592298b6ecd267d00b38867f - http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e" source="0" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_581c8c528745b4cb01be37e21e5d7960"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_7f0dbdbed305136e378759e5b5001165 - http://purl.org/pc2/4/Complex_a02fd13e971dc5ff052bbece983dbd90" source="1" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a02fd13e971dc5ff052bbece983dbd90"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_7f0dbdbed305136e378759e5b5001165 - http://purl.org/pc2/4/Complex_9fc1e2739318129e70c1775bbb836dfb" source="1" target="8">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_9fc1e2739318129e70c1775bbb836dfb"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_8f8c6f3a4f6b6866a8291225f74b1a48 - http://purl.org/pc2/4/Complex_a02fd13e971dc5ff052bbece983dbd90" source="3" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a02fd13e971dc5ff052bbece983dbd90"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_f2350b347fd6291b50415ce4b943d8d7 - http://purl.org/pc2/4/SmallMolecule_f9cb83ea2bcb1d3ae2038633ccdec03e" source="6" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_a6adf924eb7daf950c6b73089fb5a827"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_859ed8ee5f2b6d1713fdbd2a640f38f5 - http://purl.org/pc2/4/Complex_9fc1e2739318129e70c1775bbb836dfb" source="7" target="8">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_9fc1e2739318129e70c1775bbb836dfb"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

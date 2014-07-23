@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_60074"/>
+ <att name="displayName" type="string" value="Platelet Activation"/>
+ <att name="name" type="string" value="Platelet_Activation"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_a61f928cb6967d79acb635c2c427bfa5"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="None"/>
+ <node id="1" label="1,2-Diacylglycerol">
+  <att name="label" type="string" value="1,2-Diacylglycerol"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_4cce2fb2d608e5d6da4e6278a22e7300"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="Calcium">
+  <att name="label" type="string" value="Calcium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="1D-myo-Inositol 1,4,5-trisphosphate">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_701c5dc04b673a14cbac1c4146d3d34e"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="1D-myo-Inositol 1,4,5-trisphosphate"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4cce2fb2d608e5d6da4e6278a22e7300 - None" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Control_0330ea5d476c3bc4b0ff48c6b9a98ada"/>
+  <att name="class" type="string" value="Control"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4cce2fb2d608e5d6da4e6278a22e7300 - http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_c1cbe3b662c69d90ccac53cc0767446e"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_701c5dc04b673a14cbac1c4146d3d34e - http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_c1cbe3b662c69d90ccac53cc0767446e"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

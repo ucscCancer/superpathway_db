@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_125589"/>
+ <att name="displayName" type="string" value="Eicosanoid ligand-binding receptors"/>
+ <att name="name" type="string" value="Eicosanoid_ligand_binding_receptors"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_d3a9af612fb9f54cef5cd85c5e86ca04"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="G-protein coupled receptor TG1019">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt:Q86WP7"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000367930"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_683765"/>
+   <att name="db_xref" type="string" value="UniProt:Q8NGW4"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:OXER1"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:24884"/>
+   <att name="db_xref" type="string" value="UniProt:Q8TDS5"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_148962"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000162881"/>
+   <att name="db_xref" type="string" value="NCBI Gene:165140"/>
+   <att name="db_xref" type="string" value="HGNC:OXER1"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000378661"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q8TDS5"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="OXER1_HUMAN"/>
+   <att name="aliases" type="string" value="GPR170"/>
+   <att name="aliases" type="string" value="5-oxo-ETE G-protein coupled receptor"/>
+   <att name="aliases" type="string" value="OXER1"/>
+   <att name="aliases" type="string" value="G-protein coupled receptor 170"/>
+   <att name="aliases" type="string" value="TG1019"/>
+   <att name="aliases" type="string" value="G-protein coupled receptor R527"/>
+   <att name="aliases" type="string" value="G-protein coupled receptor TG1019"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="G-protein coupled receptor TG1019"/>
+ </node>
+ <node id="1" label="OXE receptor:5-oxo-ETE">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_1bca8b689424593d27f7167a6c2879f3"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="OXE receptor:5-oxo-ETE"/>
+ </node>
+ <node id="2" label="ChEBI:52287 5-oxo-ETE">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_0854ffed0b291511f73c1630b334b3b1"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="ChEBI:52287 5-oxo-ETE"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/Q8TDS5 - http://purl.org/pc2/4/Complex_1bca8b689424593d27f7167a6c2879f3" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_1bca8b689424593d27f7167a6c2879f3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_0854ffed0b291511f73c1630b334b3b1 - http://purl.org/pc2/4/Complex_1bca8b689424593d27f7167a6c2879f3" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_1bca8b689424593d27f7167a6c2879f3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

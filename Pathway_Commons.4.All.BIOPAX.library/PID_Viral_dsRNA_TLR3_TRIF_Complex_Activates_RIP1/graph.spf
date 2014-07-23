@@ -1,0 +1,31 @@
+complex	Activated_IKK_Complex_(complex)
+protein	CHUK
+protein	IKBKB
+protein	IKBKG
+complex	Inhibitor_of_KappaB_kinase_(IKK)_Complex_(complex)
+complex	NF-kB_complex_(complex)
+protein	Nuclear_factor_NF-kappa-B
+protein	RELA
+protein	RIPK1
+protein	RIPK3
+protein	TICAM1
+protein	TLR3
+complex	Viral_dsRNA_bound_to_TLR3_(complex)
+complex	Viral_dsRNA_TLR3_TRIF_complex_(complex)
+complex	Viral_dsRNA_TLR3_TRIF_RIP1_complex_(complex)
+TICAM1	Viral_dsRNA_TLR3_TRIF_complex_(complex)	component>
+RIPK1	Viral_dsRNA_TLR3_TRIF_RIP1_complex_(complex)	component>
+Viral_dsRNA_TLR3_TRIF_complex_(complex)	Viral_dsRNA_TLR3_TRIF_RIP1_complex_(complex)	component>
+Viral_dsRNA_TLR3_TRIF_RIP1_complex_(complex)	Activated_IKK_Complex_(complex)	-a>
+Inhibitor_of_KappaB_kinase_(IKK)_Complex_(complex)	Activated_IKK_Complex_(complex)	-a>
+CHUK	Inhibitor_of_KappaB_kinase_(IKK)_Complex_(complex)	component>
+CHUK	Activated_IKK_Complex_(complex)	component>
+IKBKB	Inhibitor_of_KappaB_kinase_(IKK)_Complex_(complex)	component>
+IKBKB	Activated_IKK_Complex_(complex)	component>
+TLR3	Viral_dsRNA_bound_to_TLR3_(complex)	component>
+RIPK3	Viral_dsRNA_TLR3_TRIF_RIP1_complex_(complex)	-a|
+IKBKG	Inhibitor_of_KappaB_kinase_(IKK)_Complex_(complex)	component>
+IKBKG	Activated_IKK_Complex_(complex)	component>
+RELA	NF-kB_complex_(complex)	component>
+Nuclear_factor_NF-kappa-B	NF-kB_complex_(complex)	component>
+Viral_dsRNA_bound_to_TLR3_(complex)	Viral_dsRNA_TLR3_TRIF_complex_(complex)	component>

@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_113159"/>
+ <att name="displayName" type="string" value="Mitochondrial Uncoupling Proteins"/>
+ <att name="name" type="string" value="Mitochondrial_Uncoupling_Proteins"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_4a8252ac5ec43174152862d180440a6c"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="UCP dimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_23bcee1b7d76996c7b082081774e87b0"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="UCP dimer"/>
+ </node>
+ <node id="1" label="H+">
+  <att name="label" type="string" value="H+"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_ecddd3f6c93b4e32e82ae15c06ddeb01"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="H+">
+  <att name="label" type="string" value="H+"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_272e9084e5f489e8b2c131bd8b49b36d"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="UCP">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_dc6ecb09bb5afba43e983f56a579a159"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="UCP"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/Complex_23bcee1b7d76996c7b082081774e87b0 - http://purl.org/pc2/4/Complex_23bcee1b7d76996c7b082081774e87b0" source="0" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_f5c4ad35da51d4dae1b2563ff2b41a7a"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_23bcee1b7d76996c7b082081774e87b0 - http://purl.org/pc2/4/SmallMolecule_ecddd3f6c93b4e32e82ae15c06ddeb01" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_f5c4ad35da51d4dae1b2563ff2b41a7a"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_272e9084e5f489e8b2c131bd8b49b36d - http://purl.org/pc2/4/Complex_23bcee1b7d76996c7b082081774e87b0" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_f5c4ad35da51d4dae1b2563ff2b41a7a"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_272e9084e5f489e8b2c131bd8b49b36d - http://purl.org/pc2/4/SmallMolecule_ecddd3f6c93b4e32e82ae15c06ddeb01" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_d9ca44c406c6247ebf0031ad9f3266e7"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_dc6ecb09bb5afba43e983f56a579a159 - http://purl.org/pc2/4/Complex_23bcee1b7d76996c7b082081774e87b0" source="3" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_23bcee1b7d76996c7b082081774e87b0"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

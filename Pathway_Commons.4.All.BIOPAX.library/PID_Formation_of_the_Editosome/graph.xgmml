@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_115338"/>
+ <att name="displayName" type="string" value="Formation of the Editosome"/>
+ <att name="name" type="string" value="Formation_of_the_Editosome"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_2a8a39c7c59948bd91f5c17b149295b6"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Stem-looped mRNA:ACF complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c62f770047bb3a60b76847499ef80c13"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Stem-looped mRNA:ACF complex"/>
+ </node>
+ <node id="1" label="ACF">
+  <att name="label" type="string" value="ACF"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_b383d46d89ed55bb1ec7126d054422a1"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="2" label="Stem-looped mRNA">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_149c1ea5bb8d85f1e66602bf4c5939e3"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Stem-looped mRNA"/>
+ </node>
+ <node id="3" label="Apolipoprotein B mRNA-editing enzyme 1">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENST00000229304"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001644"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UM71"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001635"/>
+   <att name="db_xref" type="string" value="NCBI Gene:339"/>
+   <att name="db_xref" type="string" value="HGNC:APOBEC1"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000229304"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UE64"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:APOBEC1"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:604"/>
+   <att name="db_xref" type="string" value="UniProt:P41238"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000111701"/>
+   <att name="db_xref" type="string" value="omim:600130"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P41238"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="ABEC1_HUMAN"/>
+   <att name="aliases" type="string" value="HEPR"/>
+   <att name="aliases" type="string" value="APOBEC1"/>
+   <att name="aliases" type="string" value="3.5.4.-"/>
+   <att name="aliases" type="string" value="Apolipoprotein B mRNA-editing enzyme 1"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Apolipoprotein B mRNA-editing enzyme 1"/>
+ </node>
+ <node id="4" label="Editosome for C to U editing">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_dda71f00a0bef6d9dfd347e82d9b7064"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Editosome for C to U editing"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/ProteinReference_b383d46d89ed55bb1ec7126d054422a1 - http://purl.org/pc2/4/Complex_c62f770047bb3a60b76847499ef80c13" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c62f770047bb3a60b76847499ef80c13"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_b383d46d89ed55bb1ec7126d054422a1 - http://purl.org/pc2/4/Complex_dda71f00a0bef6d9dfd347e82d9b7064" source="1" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_dda71f00a0bef6d9dfd347e82d9b7064"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_149c1ea5bb8d85f1e66602bf4c5939e3 - http://purl.org/pc2/4/Complex_c62f770047bb3a60b76847499ef80c13" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c62f770047bb3a60b76847499ef80c13"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_149c1ea5bb8d85f1e66602bf4c5939e3 - http://purl.org/pc2/4/Complex_dda71f00a0bef6d9dfd347e82d9b7064" source="2" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_dda71f00a0bef6d9dfd347e82d9b7064"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P41238 - http://purl.org/pc2/4/Complex_dda71f00a0bef6d9dfd347e82d9b7064" source="3" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_dda71f00a0bef6d9dfd347e82d9b7064"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

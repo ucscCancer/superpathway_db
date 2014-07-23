@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Edited: Gillespie, ME, 0000-00-00 00:00:00"/>
+ <att name="displayName" type="string" value="RNA Polymerase I Promoter Opening"/>
+ <att name="name" type="string" value="RNA Polymerase I Promoter Opening"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_2c8816a015c0bc7ddf3abf329ccb4361"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="GENE ONTOLOGY:GO:0006361"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:73728"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_2232"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="rDNA Promoter">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_a1cabc5bc5031d7df0ff4e28476ccf54"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="rDNA Promoter"/>
+ </node>
+ <node id="1" label="UBF-1">
+  <att name="label" type="string" value="UBF-1"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENST00000302904"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_055048"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:UBTF"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000390669"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000529383"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001070151"/>
+   <att name="db_xref" type="string" value="UniProt:A8K6R8"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001076684"/>
+   <att name="db_xref" type="string" value="PANTHER Family:PTHR13711:SF13"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000526094"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001070152"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000435708"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000343638"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000345297"/>
+   <att name="db_xref" type="string" value="HGNC:UBTF"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000533177"/>
+   <att name="db_xref" type="string" value="NCBI Gene:7343"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000436088"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000432925"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:12511"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000108312"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000393606"/>
+   <att name="db_xref" type="string" value="UniProt:P17480"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1K99"/>
+   <att name="db_xref" type="string" value="omim:600673"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000377231"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001076683"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000437180"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000302640"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_014233"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P17480"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="UBF1_HUMAN"/>
+   <att name="aliases" type="string" value="UBTF"/>
+   <att name="aliases" type="string" value="UBF"/>
+   <att name="aliases" type="string" value="Autoantigen NOR-90"/>
+   <att name="aliases" type="string" value="Upstream-binding factor 1"/>
+   <att name="aliases" type="string" value="UBF1"/>
+   <att name="aliases" type="string" value="UBF-1"/>
+  </att>
+ </node>
+ <node id="2" label="Phosphorylated UBF-1:rDNA promoter">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d8a838428e3ad7b1f7f403c5bfc63ea4"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Phosphorylated UBF-1:rDNA promoter"/>
+ </node>
+ <node id="3" label="UBF-1:rDNA Promoter">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7624bd4c48866223070c87bf826017e1"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="UBF-1:rDNA Promoter"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_a1cabc5bc5031d7df0ff4e28476ccf54 - http://purl.org/pc2/4/Complex_d8a838428e3ad7b1f7f403c5bfc63ea4" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d8a838428e3ad7b1f7f403c5bfc63ea4"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_a1cabc5bc5031d7df0ff4e28476ccf54 - http://purl.org/pc2/4/Complex_7624bd4c48866223070c87bf826017e1" source="0" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7624bd4c48866223070c87bf826017e1"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P17480 - http://purl.org/pc2/4/Complex_d8a838428e3ad7b1f7f403c5bfc63ea4" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d8a838428e3ad7b1f7f403c5bfc63ea4"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P17480 - http://purl.org/pc2/4/Complex_7624bd4c48866223070c87bf826017e1" source="1" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7624bd4c48866223070c87bf826017e1"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

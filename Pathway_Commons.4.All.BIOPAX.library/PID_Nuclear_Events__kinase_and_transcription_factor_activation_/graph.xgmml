@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_108582"/>
+ <att name="displayName" type="string" value="Nuclear Events (kinase and transcription factor activation)"/>
+ <att name="name" type="string" value="Nuclear_Events__kinase_and_transcription_factor_activation_"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_4b3c5a9c48183097460e806b54ef1140"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Phospho-Ribosomal protein S6 kinase">
+  <att name="label" type="string" value="Phospho-Ribosomal protein S6 kinase"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_8f5f2c20e93a7e8cf97bd996f45142f4"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="1" label="Adenosine 5'-triphosphate">
+  <att name="label" type="string" value="Adenosine 5'-triphosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_31ae42ccb4ff291372ed1cd8303ea9db"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="Adenosine 5'-diphosphate">
+  <att name="label" type="string" value="Adenosine 5'-diphosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_af453266d242000ff6059617dc4f12cc"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="Phospho-ERK dimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_5cae994d0f67c1e58506d09bae8de5ce"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Phospho-ERK dimer"/>
+ </node>
+ <node id="4" label="RPS6KA5">
+  <att name="label" type="string" value="RPS6KA5"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PANTHER Family:PTHR24351:SF42"/>
+   <att name="db_xref" type="string" value="NCBI Gene:9252"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_004746"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:RPS6KA5"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000261991"/>
+   <att name="db_xref" type="string" value="UniProt:O95316"/>
+   <att name="db_xref" type="string" value="omim:603607"/>
+   <att name="db_xref" type="string" value="HGNC:RPS6KA5"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000418736"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1VZO"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000261991"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000402787"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:10434"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_004755"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_872198"/>
+   <att name="db_xref" type="string" value="UniProt:O75582"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_182398"/>
+   <att name="db_xref" type="string" value="UniProt:Q96AF7"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000100784"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/O75582"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="KS6A5_HUMAN"/>
+   <att name="aliases" type="string" value="Nuclear mitogen- and stress-activated protein kinase 1"/>
+   <att name="aliases" type="string" value="90 kDa ribosomal protein S6 kinase 5"/>
+   <att name="aliases" type="string" value="RSK-like protein kinase"/>
+   <att name="aliases" type="string" value="RSKL"/>
+   <att name="aliases" type="string" value="2.7.11.1"/>
+   <att name="aliases" type="string" value="S6K-alpha-5"/>
+   <att name="aliases" type="string" value="MSK1"/>
+   <att name="aliases" type="string" value="RPS6KA5"/>
+  </att>
+ </node>
+ <edge label="http://purl.org/pc2/4/ProteinReference_8f5f2c20e93a7e8cf97bd996f45142f4 - http://purl.org/pc2/4/SmallMolecule_af453266d242000ff6059617dc4f12cc" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Control_a6618820a66756f41b6a4505a8ea46c6"/>
+  <att name="class" type="string" value="Control"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_31ae42ccb4ff291372ed1cd8303ea9db - http://purl.org/pc2/4/ProteinReference_8f5f2c20e93a7e8cf97bd996f45142f4" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_e9264eed44d3b7ec751205b1ff669c11"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_31ae42ccb4ff291372ed1cd8303ea9db - http://purl.org/pc2/4/SmallMolecule_af453266d242000ff6059617dc4f12cc" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_baf9252644665882ddf53ac602e9ce6d"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_31ae42ccb4ff291372ed1cd8303ea9db - http://identifiers.org/uniprot/O75582" source="1" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_e9264eed44d3b7ec751205b1ff669c11"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_5cae994d0f67c1e58506d09bae8de5ce - http://identifiers.org/uniprot/O75582" source="3" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Control_413ac56dee02399022f6d4a2e7b42c4d"/>
+  <att name="class" type="string" value="Control"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/O75582 - http://purl.org/pc2/4/SmallMolecule_af453266d242000ff6059617dc4f12cc" source="4" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Control_3e34bc4059d0816704d38fc928b9d9b7"/>
+  <att name="class" type="string" value="Control"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

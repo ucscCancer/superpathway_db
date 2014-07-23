@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Synthesis of full length complementary viral RNA (cRNA) requires that vRNA transcription initiates without the help of a host cell methyl RNA cap as a primer (Crow, 2004; Vreede, 2004; Deng, 2006), and that it proceeds to the 5' end of the vRNA template without stuttering on the sub-terminal poly-U sequence. Free viral NP protein appears to play a central role in enabling both of these features of cRNA synthesis, although the molecular details of its role remain unclear (Shapiro, 1988; Medcalf, 1999; Mullin, 2004)."/>
+ <att name="displayName" type="string" value="cRNA Synthesis"/>
+ <att name="name" type="string" value="cRNA Synthesis"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_9c86f88ed422cd8f234143c68fb265b9"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Pubmed:15163719"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:192869"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_9527"/>
+  <att name="db_xref" type="string" value="Pubmed:15557242"/>
+  <att name="db_xref" type="string" value="Pubmed:10438824"/>
+  <att name="db_xref" type="string" value="Pubmed:15308750"/>
+  <att name="db_xref" type="string" value="Pubmed:16474140"/>
+  <att name="db_xref" type="string" value="Pubmed:2453679"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="UniProt:P03428 PB2">
+  <att name="label" type="string" value="UniProt:P03428 PB2"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:P03428"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P03428"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="PB2"/>
+   <att name="aliases" type="string" value="UniProt:P03428 PB2"/>
+  </att>
+ </node>
+ <node id="1" label="UniProt:P03466 NP">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:P03466"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P03466"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="NP"/>
+   <att name="aliases" type="string" value="UniProt:P03466 NP"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="UniProt:P03466 NP"/>
+ </node>
+ <node id="2" label="Influenza H1N1 cRNA (extending)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_63e75fe33c5f5d1649c1a8214334b9e5"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Influenza H1N1 cRNA (extending)"/>
+ </node>
+ <node id="3" label="UniProt:P03433 PA">
+  <att name="label" type="string" value="UniProt:P03433 PA"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:P03433"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P03433"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="PA"/>
+   <att name="aliases" type="string" value="UniProt:P03433 PA"/>
+  </att>
+ </node>
+ <node id="4" label="UniProt:P03431 PB1">
+  <att name="label" type="string" value="UniProt:P03431 PB1"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:P03431"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P03431"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="PB1"/>
+   <att name="aliases" type="string" value="UniProt:P03431 PB1"/>
+  </att>
+ </node>
+ <node id="5" label="vRNA (Genomic):NP Complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_60b5d8e1e73226dee42f003ff83bee92"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="vRNA (Genomic):NP Complex"/>
+ </node>
+ <node id="6" label="Viral RNA dependent RNA polymerase">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e290b93c3dcb1c0591cda8edb786dd33"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Viral RNA dependent RNA polymerase"/>
+ </node>
+ <node id="7" label="Initiated vRNA-cRNA Complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_5f605d39ba2a5f3f0488313a2ebd6e9f"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Initiated vRNA-cRNA Complex"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/P03428 - http://purl.org/pc2/4/Complex_e290b93c3dcb1c0591cda8edb786dd33" source="0" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e290b93c3dcb1c0591cda8edb786dd33"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P03466 - http://purl.org/pc2/4/Complex_60b5d8e1e73226dee42f003ff83bee92" source="1" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_60b5d8e1e73226dee42f003ff83bee92"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_63e75fe33c5f5d1649c1a8214334b9e5 - http://purl.org/pc2/4/Complex_5f605d39ba2a5f3f0488313a2ebd6e9f" source="2" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_5f605d39ba2a5f3f0488313a2ebd6e9f"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P03433 - http://purl.org/pc2/4/Complex_e290b93c3dcb1c0591cda8edb786dd33" source="3" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e290b93c3dcb1c0591cda8edb786dd33"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P03431 - http://purl.org/pc2/4/Complex_e290b93c3dcb1c0591cda8edb786dd33" source="4" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e290b93c3dcb1c0591cda8edb786dd33"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_60b5d8e1e73226dee42f003ff83bee92 - http://purl.org/pc2/4/Complex_5f605d39ba2a5f3f0488313a2ebd6e9f" source="5" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_5f605d39ba2a5f3f0488313a2ebd6e9f"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_e290b93c3dcb1c0591cda8edb786dd33 - http://purl.org/pc2/4/Complex_5f605d39ba2a5f3f0488313a2ebd6e9f" source="6" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_5f605d39ba2a5f3f0488313a2ebd6e9f"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

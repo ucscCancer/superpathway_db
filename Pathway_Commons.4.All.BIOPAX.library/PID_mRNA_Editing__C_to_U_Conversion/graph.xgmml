@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_131528"/>
+ <att name="displayName" type="string" value="mRNA Editing: C to U Conversion"/>
+ <att name="name" type="string" value="mRNA_Editing__C_to_U_Conversion"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_c29cf2adaaf21654078a21be4d76df15"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="C to U edited ApoB RNA:Editosome complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c0dedf4972d7efb1d44ce848a87ddf1a"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="C to U edited ApoB RNA:Editosome complex"/>
+ </node>
+ <node id="1" label="C to U edited ApoB RNA">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_cea58034bac7625ec0b6ba8c82dcfbf7"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="C to U edited ApoB RNA"/>
+ </node>
+ <node id="2" label="3.5.4.-">
+  <att name="label" type="string" value="3.5.4.-"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="RefSeq:NP_001635"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:604"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UE64"/>
+   <att name="db_xref" type="string" value="NCBI Gene:339"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:APOBEC1"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000229304"/>
+   <att name="db_xref" type="string" value="HGNC:APOBEC1"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001644"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000229304"/>
+   <att name="db_xref" type="string" value="omim:600130"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000111701"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UM71"/>
+   <att name="db_xref" type="string" value="UniProt:P41238"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P41238"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="ABEC1_HUMAN"/>
+   <att name="aliases" type="string" value="HEPR"/>
+   <att name="aliases" type="string" value="Apolipoprotein B mRNA-editing enzyme 1"/>
+   <att name="aliases" type="string" value="APOBEC1"/>
+   <att name="aliases" type="string" value="3.5.4.-"/>
+  </att>
+ </node>
+ <node id="3" label="ACF">
+  <att name="label" type="string" value="ACF"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_b383d46d89ed55bb1ec7126d054422a1"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_cea58034bac7625ec0b6ba8c82dcfbf7 - http://purl.org/pc2/4/Complex_c0dedf4972d7efb1d44ce848a87ddf1a" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c0dedf4972d7efb1d44ce848a87ddf1a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P41238 - http://purl.org/pc2/4/Complex_c0dedf4972d7efb1d44ce848a87ddf1a" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c0dedf4972d7efb1d44ce848a87ddf1a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_b383d46d89ed55bb1ec7126d054422a1 - http://purl.org/pc2/4/Complex_c0dedf4972d7efb1d44ce848a87ddf1a" source="3" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c0dedf4972d7efb1d44ce848a87ddf1a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="GABA B receptors are coupled to Gproteins and function by increasing the K+ and decreasing the Ca2+ inside the cell. The increase in K+ increases the negative membrane potential of the cell thereby hyper polarizing the cell which inhibits the release of neurotransmitters. The decrease in Ca2+ also inhibits neurotransmitter in two ways; first by preventing the fusion of synaptic vesicles containing the neurotransmitter with the plasma membrane and second by decreasing the Ca2+ dependent recruitment of synaptic vesicles to the plasma membrane. In particular GABA B receptors inhibit voltage gated Ca2+ channels via the activity of Gbeta/Ggamma subunits of G proteins."/>
+ <att name="displayName" type="string" value="Inhibition of voltage gated Ca2+ channels via Gbeta/gamma subunits"/>
+ <att name="name" type="string" value="Inhibition of voltage gated Ca2+ channels via Gbeta/gamma subunits"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_ee8a7d4e914d7bee16791c932fc86d3e"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Pubmed:20655481"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:997272"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_25004"/>
+  <att name="db_xref" type="string" value="Pubmed:20655490"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="K(+)">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="InChIKey:NPYPAHLBTDXSSS-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:26219"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29103"/>
+   <att name="db_xref" type="string" value="pubchem:8145463"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145463"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:8345"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:49685"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_92412e88aaf5e2c85cb8cf923fc114b5"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="K(+)"/>
+ </node>
+ <node id="1" label="K(+)">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="InChIKey:NPYPAHLBTDXSSS-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:26219"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29103"/>
+   <att name="db_xref" type="string" value="pubchem:8145463"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145463"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:8345"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:49685"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_773b0d06f4781858c8c91e4773b5d355"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="K(+)"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_773b0d06f4781858c8c91e4773b5d355 - http://purl.org/pc2/4/SmallMolecule_92412e88aaf5e2c85cb8cf923fc114b5" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_dfb1866c3d5a9f0acbb60b22213494e2"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

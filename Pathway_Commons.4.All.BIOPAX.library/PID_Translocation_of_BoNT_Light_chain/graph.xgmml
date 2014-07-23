@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_111619"/>
+ <att name="displayName" type="string" value="Translocation of BoNT Light chain"/>
+ <att name="name" type="string" value="Translocation_of_BoNT_Light_chain"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_d04273f6ef55156fbbe5c833fcce8264"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Gangliosides:Synaptogamin">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_336e5822bfcb948fad3bae90f433315e"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Gangliosides:Synaptogamin"/>
+ </node>
+ <node id="1" label="BoNT Heavy Chain">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_19882d4bac7aeb006ddb66d05ef47fce"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="BoNT Heavy Chain"/>
+ </node>
+ <node id="2" label="BoNT with conformational change in Heavy chain N-terminal">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_8ee09e2b9879c2d64d2763bd7bdac4d2"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="BoNT with conformational change in Heavy chain N-terminal"/>
+ </node>
+ <node id="3" label="BoNT Light Chain">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_79d810f341fc578932902aa946d49428"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="BoNT Light Chain"/>
+ </node>
+ <node id="4" label="Synaptotagmins">
+  <att name="label" type="string" value="Synaptotagmins"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_fb895d357fda7e14ca76f99aac9f9522"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="5" label="Gangliosides:Synaptogamin">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c89b06996087e272b01426acc0b4e7b3"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Gangliosides:Synaptogamin"/>
+ </node>
+ <node id="6" label="BoNT Light chain Types B,D,F,G">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_b4f7e7daf251ab51676b6438728cafd2"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="BoNT Light chain Types B,D,F,G"/>
+ </node>
+ <node id="7" label="Gangliosides">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_a74171ce3886173ae2de43718b9971a6"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Gangliosides"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/Complex_336e5822bfcb948fad3bae90f433315e - http://purl.org/pc2/4/Complex_8ee09e2b9879c2d64d2763bd7bdac4d2" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_8ee09e2b9879c2d64d2763bd7bdac4d2"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_19882d4bac7aeb006ddb66d05ef47fce - http://purl.org/pc2/4/Complex_8ee09e2b9879c2d64d2763bd7bdac4d2" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_8ee09e2b9879c2d64d2763bd7bdac4d2"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_79d810f341fc578932902aa946d49428 - http://purl.org/pc2/4/Complex_8ee09e2b9879c2d64d2763bd7bdac4d2" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_8ee09e2b9879c2d64d2763bd7bdac4d2"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_fb895d357fda7e14ca76f99aac9f9522 - http://purl.org/pc2/4/Complex_c89b06996087e272b01426acc0b4e7b3" source="4" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c89b06996087e272b01426acc0b4e7b3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_fb895d357fda7e14ca76f99aac9f9522 - http://purl.org/pc2/4/Complex_336e5822bfcb948fad3bae90f433315e" source="4" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_336e5822bfcb948fad3bae90f433315e"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_a74171ce3886173ae2de43718b9971a6 - http://purl.org/pc2/4/Complex_c89b06996087e272b01426acc0b4e7b3" source="7" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c89b06996087e272b01426acc0b4e7b3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_a74171ce3886173ae2de43718b9971a6 - http://purl.org/pc2/4/Complex_336e5822bfcb948fad3bae90f433315e" source="7" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_336e5822bfcb948fad3bae90f433315e"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

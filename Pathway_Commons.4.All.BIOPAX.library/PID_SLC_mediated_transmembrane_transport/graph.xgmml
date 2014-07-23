@@ -1,0 +1,252 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_45763"/>
+ <att name="displayName" type="string" value="SLC-mediated transmembrane transport"/>
+ <att name="name" type="string" value="SLC_mediated_transmembrane_transport"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_29eaa6806215f2950cb69b5e7c2af023"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Chloride">
+  <att name="label" type="string" value="Chloride"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_d062a363bf14dd43921925405c976992"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="Sodium">
+  <att name="label" type="string" value="Sodium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="D-Fructose">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6f7547430468f7ca27dc115c99931c83"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="D-Fructose"/>
+ </node>
+ <node id="3" label="H+">
+  <att name="label" type="string" value="H+"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="4" label="D-Fructose">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_bffa47234706ab6b1464bba8c68cd09f"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="D-Fructose"/>
+ </node>
+ <node id="5" label="Chloride">
+  <att name="label" type="string" value="Chloride"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_0c66f30614ba9de5b0acfa8287525747"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="6" label="H+">
+  <att name="label" type="string" value="H+"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="7" label="Sodium">
+  <att name="label" type="string" value="Sodium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_d062a363bf14dd43921925405c976992 - http://purl.org/pc2/4/SmallMolecule_d062a363bf14dd43921925405c976992" source="0" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_d062a363bf14dd43921925405c976992 - http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_d062a363bf14dd43921925405c976992 - http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071" source="0" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_cbf32b9b00700f8c9207b243d20b85fc"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_d062a363bf14dd43921925405c976992 - http://purl.org/pc2/4/SmallMolecule_0c66f30614ba9de5b0acfa8287525747" source="0" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_cbf32b9b00700f8c9207b243d20b85fc"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_d062a363bf14dd43921925405c976992 - http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6" source="0" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_cbf32b9b00700f8c9207b243d20b85fc"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_d062a363bf14dd43921925405c976992 - http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e" source="0" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_cbf32b9b00700f8c9207b243d20b85fc"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2 - http://purl.org/pc2/4/SmallMolecule_d062a363bf14dd43921925405c976992" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2 - http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2" source="1" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2 - http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071" source="1" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_cbf32b9b00700f8c9207b243d20b85fc"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2 - http://purl.org/pc2/4/SmallMolecule_bffa47234706ab6b1464bba8c68cd09f" source="1" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_0499a68095dc985940e6dadde1cc95e9"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2 - http://purl.org/pc2/4/SmallMolecule_0c66f30614ba9de5b0acfa8287525747" source="1" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_cbf32b9b00700f8c9207b243d20b85fc"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2 - http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6" source="1" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_cbf32b9b00700f8c9207b243d20b85fc"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2 - http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e" source="1" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_cbf32b9b00700f8c9207b243d20b85fc"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6f7547430468f7ca27dc115c99931c83 - http://purl.org/pc2/4/SmallMolecule_bffa47234706ab6b1464bba8c68cd09f" source="2" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_0499a68095dc985940e6dadde1cc95e9"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6f7547430468f7ca27dc115c99931c83 - http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e" source="2" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_0499a68095dc985940e6dadde1cc95e9"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071 - http://purl.org/pc2/4/SmallMolecule_d062a363bf14dd43921925405c976992" source="3" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071 - http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071 - http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071" source="3" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_cbf32b9b00700f8c9207b243d20b85fc"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071 - http://purl.org/pc2/4/SmallMolecule_0c66f30614ba9de5b0acfa8287525747" source="3" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_cbf32b9b00700f8c9207b243d20b85fc"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071 - http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6" source="3" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_cbf32b9b00700f8c9207b243d20b85fc"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071 - http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e" source="3" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_cbf32b9b00700f8c9207b243d20b85fc"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_0c66f30614ba9de5b0acfa8287525747 - http://purl.org/pc2/4/SmallMolecule_d062a363bf14dd43921925405c976992" source="5" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_0c66f30614ba9de5b0acfa8287525747 - http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2" source="5" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_0c66f30614ba9de5b0acfa8287525747 - http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071" source="5" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_0c66f30614ba9de5b0acfa8287525747 - http://purl.org/pc2/4/SmallMolecule_0c66f30614ba9de5b0acfa8287525747" source="5" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_0c66f30614ba9de5b0acfa8287525747 - http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6" source="5" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_0c66f30614ba9de5b0acfa8287525747 - http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e" source="5" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6 - http://purl.org/pc2/4/SmallMolecule_d062a363bf14dd43921925405c976992" source="6" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6 - http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2" source="6" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6 - http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071" source="6" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_cbf32b9b00700f8c9207b243d20b85fc"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6 - http://purl.org/pc2/4/SmallMolecule_0c66f30614ba9de5b0acfa8287525747" source="6" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_cbf32b9b00700f8c9207b243d20b85fc"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6 - http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6" source="6" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_cbf32b9b00700f8c9207b243d20b85fc"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6 - http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e" source="6" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_cbf32b9b00700f8c9207b243d20b85fc"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e - http://purl.org/pc2/4/SmallMolecule_d062a363bf14dd43921925405c976992" source="7" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e - http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2" source="7" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e - http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071" source="7" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e - http://purl.org/pc2/4/SmallMolecule_0c66f30614ba9de5b0acfa8287525747" source="7" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e - http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6" source="7" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e - http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e" source="7" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_779d1955e398dc4795ed5bf4ccd72c95"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+</graph>

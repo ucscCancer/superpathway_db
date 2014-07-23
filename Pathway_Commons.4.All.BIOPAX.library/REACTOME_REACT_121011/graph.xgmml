@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Edited: Rothfels, K, 2012-05-16"/>
+ <att name="displayName" type="string" value="Signaling by FGFR3 mutants"/>
+ <att name="name" type="string" value="Signaling by FGFR3 mutants"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_3d1a7db6017d414fc57a23218e70470e"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Pubmed:9438390"/>
+  <att name="db_xref" type="string" value="Pubmed:10377013"/>
+  <att name="db_xref" type="string" value="Pubmed:9538690"/>
+  <att name="db_xref" type="string" value="Pubmed:9154000"/>
+  <att name="db_xref" type="string" value="Pubmed:9207791"/>
+  <att name="db_xref" type="string" value="Pubmed:7647778"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:2033514"/>
+  <att name="db_xref" type="string" value="Pubmed:8640234"/>
+  <att name="db_xref" type="string" value="Pubmed:7847369"/>
+  <att name="db_xref" type="string" value="Pubmed:7773297"/>
+  <att name="db_xref" type="string" value="Pubmed:8078586"/>
+  <att name="db_xref" type="string" value="Pubmed:8589699"/>
+  <att name="db_xref" type="string" value="Pubmed:19066716"/>
+  <att name="db_xref" type="string" value="Pubmed:10471491"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_121249"/>
+  <att name="db_xref" type="string" value="Pubmed:10053006"/>
+  <att name="db_xref" type="string" value="Pubmed:9279753"/>
+  <att name="db_xref" type="string" value="Pubmed:11466624"/>
+  <att name="db_xref" type="string" value="Pubmed:7670477"/>
+  <att name="db_xref" type="string" value="Pubmed:15282208"/>
+  <att name="db_xref" type="string" value="Pubmed:7913883"/>
+  <att name="db_xref" type="string" value="Pubmed:9865713"/>
+  <att name="db_xref" type="string" value="Pubmed:11055896"/>
+  <att name="db_xref" type="string" value="Pubmed:8845844"/>
+  <att name="db_xref" type="string" value="Pubmed:8841188"/>
+  <att name="db_xref" type="string" value="Pubmed:21711248"/>
+  <att name="db_xref" type="string" value="Pubmed:19749790"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="FGFR3 mutant dimers:TKIs">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_2d455f91ba9f9f10e9198f49fac7761b"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="FGFR3 mutant dimers:TKIs"/>
+ </node>
+ <node id="1" label="Tyrosine kinase inhibitors of FGFR3 mutants">
+  <att name="label" type="string" value="Tyrosine kinase inhibitors of FGFR3 mutants"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_781ff7bc383338933174bd307ff0be92"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="FGFR3 mutant dimers">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_20c9edc02ec3af3315430acb8d066640"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="FGFR3 mutant dimers"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_781ff7bc383338933174bd307ff0be92 - http://purl.org/pc2/4/Complex_2d455f91ba9f9f10e9198f49fac7761b" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_2d455f91ba9f9f10e9198f49fac7761b"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_20c9edc02ec3af3315430acb8d066640 - http://purl.org/pc2/4/Complex_2d455f91ba9f9f10e9198f49fac7761b" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_2d455f91ba9f9f10e9198f49fac7761b"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

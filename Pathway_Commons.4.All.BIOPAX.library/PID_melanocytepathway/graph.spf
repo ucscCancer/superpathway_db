@@ -1,0 +1,32 @@
+protein	CREB1
+protein	EP300
+protein	HRAS
+protein	KIT
+protein	KITLG
+protein	MAP2K1
+protein	MAP2K2
+protein	MAPK1
+protein	MAPK3
+protein	MITF
+complex	MITF/p300_(complex)
+protein	RAF1
+protein	RPS6KA1
+complex	SCF/SCF-R_(complex)
+RPS6KA1	CREB1	-a>
+MAP2K2	MAP2K1	-a>
+MAP2K2	MAPK1	-a>
+HRAS	RAF1	-a>
+KIT	SCF/SCF-R_(complex)	component>
+MAPK3	MITF	-a>
+MAPK3	RPS6KA1	-a>
+MAPK3	MAPK1	-a>
+MAP2K1	MAP2K2	-a>
+MAP2K1	MAPK1	-a>
+MAPK1	MITF	-a>
+MAPK1	MAPK3	-a>
+MAPK1	RPS6KA1	-a>
+MITF	MITF/p300_(complex)	component>
+KITLG	SCF/SCF-R_(complex)	component>
+EP300	MITF/p300_(complex)	component>
+RAF1	MAP2K2	-a>
+SCF/SCF-R_(complex)	HRAS	-a>

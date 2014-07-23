@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_120310"/>
+ <att name="displayName" type="string" value="Transmission across Chemical Synapses"/>
+ <att name="name" type="string" value="Transmission_across_Chemical_Synapses"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_6483f2b2598902c4cd0a520712f44d41"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Sodium">
+  <att name="label" type="string" value="Sodium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="Sodium">
+  <att name="label" type="string" value="Sodium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2 - http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_a4d8598fd2997c858768d6e9e44b5b88"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+</graph>

@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_112606"/>
+ <att name="displayName" type="string" value="phospho-PLA2 pathway"/>
+ <att name="name" type="string" value="phospho_PLA2_pathway"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_f73f25b440bc052852708e61fecea538"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Calcium">
+  <att name="label" type="string" value="Calcium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_b4597af1a47b10e9fdcdaa13ae5bb2e7"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="cis-5,8,11,14-Eicosatetraenoic acid">
+  <att name="label" type="string" value="cis-5,8,11,14-Eicosatetraenoic acid"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_7e2f2477b75af37bf5ee713ec0ca384b"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="1,2-Diacyl-sn-glycero-3-phosphocholine">
+  <att name="label" type="string" value="1,2-Diacyl-sn-glycero-3-phosphocholine"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_0d85ea48ac060fddc1a50acbfb7a64dc"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="Water">
+  <att name="label" type="string" value="Water"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_deab5bdc5d7299be544be3488402bc7e"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="4" label="Active PLA2:phosphatidylcholine">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_aa45622643736b3aae59ef82c96d1f3a"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Active PLA2:phosphatidylcholine"/>
+ </node>
+ <node id="5" label="CPLA2">
+  <att name="label" type="string" value="CPLA2"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENST00000367466"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:9035"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_024420"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_077734"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:PLA2G4A"/>
+   <att name="db_xref" type="string" value="UniProt:P47712"/>
+   <att name="db_xref" type="string" value="UniProt:Q29R80"/>
+   <att name="db_xref" type="string" value="HGNC:PLA2G4A"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1BCI"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000356436"/>
+   <att name="db_xref" type="string" value="omim:600522"/>
+   <att name="db_xref" type="string" value="NCBI Gene:5321"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000116711"/>
+   <att name="db_xref" type="string" value="PANTHER Family:PTHR10728:SF13"/>
+   <att name="db_xref" type="string" value="UniProt:B1AKG4"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P47712"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="PA24A_HUMAN"/>
+   <att name="aliases" type="string" value="3.1.1.4"/>
+   <att name="aliases" type="string" value="cPLA2"/>
+   <att name="aliases" type="string" value="PLA2G4A"/>
+   <att name="aliases" type="string" value="Phospholipase A2"/>
+   <att name="aliases" type="string" value="Phosphatidylcholine 2-acylhydrolase"/>
+   <att name="aliases" type="string" value="Lysophospholipase"/>
+   <att name="aliases" type="string" value="Phospholipase A2 group IVA"/>
+   <att name="aliases" type="string" value="3.1.1.5"/>
+   <att name="aliases" type="string" value="PLA2G4"/>
+   <att name="aliases" type="string" value="CPLA2"/>
+  </att>
+ </node>
+ <node id="6" label="Phosphatidylcholine">
+  <att name="label" type="string" value="Phosphatidylcholine"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_e9bed14d44583416d23879818bbbcfa8"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="7" label="2-Lysophosphatidylcholine">
+  <att name="label" type="string" value="2-Lysophosphatidylcholine"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_ab8d7f81af2332f85bbe86a415cbb61e"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_b4597af1a47b10e9fdcdaa13ae5bb2e7 - http://purl.org/pc2/4/Complex_aa45622643736b3aae59ef82c96d1f3a" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_aa45622643736b3aae59ef82c96d1f3a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_0d85ea48ac060fddc1a50acbfb7a64dc - http://purl.org/pc2/4/Complex_aa45622643736b3aae59ef82c96d1f3a" source="2" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_aa45622643736b3aae59ef82c96d1f3a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_deab5bdc5d7299be544be3488402bc7e - http://purl.org/pc2/4/SmallMolecule_7e2f2477b75af37bf5ee713ec0ca384b" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f720df9897ee12fc9444c25fc0c2c563"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_deab5bdc5d7299be544be3488402bc7e - http://purl.org/pc2/4/SmallMolecule_ab8d7f81af2332f85bbe86a415cbb61e" source="3" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f720df9897ee12fc9444c25fc0c2c563"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_aa45622643736b3aae59ef82c96d1f3a - http://purl.org/pc2/4/SmallMolecule_ab8d7f81af2332f85bbe86a415cbb61e" source="4" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_1a0f945f8f6fbfca862ce3dbadf1dac6"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P47712 - http://purl.org/pc2/4/Complex_aa45622643736b3aae59ef82c96d1f3a" source="5" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_aa45622643736b3aae59ef82c96d1f3a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_e9bed14d44583416d23879818bbbcfa8 - http://purl.org/pc2/4/SmallMolecule_7e2f2477b75af37bf5ee713ec0ca384b" source="6" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f720df9897ee12fc9444c25fc0c2c563"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_e9bed14d44583416d23879818bbbcfa8 - http://purl.org/pc2/4/SmallMolecule_ab8d7f81af2332f85bbe86a415cbb61e" source="6" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f720df9897ee12fc9444c25fc0c2c563"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

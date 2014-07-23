@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="MODEL_NOTES=2-arachydonoylglycerol is an endogenous lipids (or endocanabinoid compounds) that activates brain canabinoid receptors. This pathway illustrates 2 possible routes for its biosynthesis in neurons. Medline=12843414"/>
+ <att name="url" type="string" value="http://identifiers.org/panther.pathway/P05726"/>
+ <att name="displayName" type="string" value="5-arachidonylglycerol_biosynthesis"/>
+ <att name="name" type="string" value="5-arachidonylglycerol_biosynthesis"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="PANTHER Pathway:P05726"/>
+ </att>
+ <node id="0" label="2-AG">
+  <att name="label" type="string" value="2-AG"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:34261"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:52365"/>
+   <att name="db_xref" type="string" value="pubchem:58106671"/>
+   <att name="db_xref" type="string" value="pubchem-substance:58106671"/>
+   <att name="db_xref" type="string" value="InChIKey:RCRCTBLIHCHWDZ-DOFZRALJSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:52392"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_2048505b72ca90363a336151a65be21a"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="1,2-DAG">
+  <att name="label" type="string" value="1,2-DAG"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_2755352d9cacda28ccf11b81d7904a7e"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="phosphatidylinositol">
+  <att name="label" type="string" value="phosphatidylinositol"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:28874"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_43d87d5f541ba19fedabe9aad8d8fae3"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="lyso-PI">
+  <att name="label" type="string" value="lyso-PI"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_c313ae2d3e7ece6e25afd26d6d20fb85"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_2755352d9cacda28ccf11b81d7904a7e - http://purl.org/pc2/4/SmallMolecule_2048505b72ca90363a336151a65be21a" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_080a3d6dd7b6a4fc204cf59be500cfb9"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_43d87d5f541ba19fedabe9aad8d8fae3 - http://purl.org/pc2/4/SmallMolecule_2755352d9cacda28ccf11b81d7904a7e" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_c21b00733ba0bb335b8f11ec84314f0c"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_43d87d5f541ba19fedabe9aad8d8fae3 - http://purl.org/pc2/4/SmallMolecule_c313ae2d3e7ece6e25afd26d6d20fb85" source="2" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_375b325a5880948f23ad653273ff5738"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_c313ae2d3e7ece6e25afd26d6d20fb85 - http://purl.org/pc2/4/SmallMolecule_2048505b72ca90363a336151a65be21a" source="3" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_28a536c7f71a1e8f8ae170a2057e4b07"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

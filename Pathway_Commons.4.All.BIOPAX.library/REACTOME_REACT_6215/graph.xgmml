@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Authored: Steel, J, 2007-04-30 20:49:24"/>
+ <att name="displayName" type="string" value="Transport of HA trimer, NA tetramer and M2 tetramer from the endoplasmic reticulum to the Golgi Apparatus"/>
+ <att name="name" type="string" value="Transport of HA trimer, NA tetramer and M2 tetramer from the endoplasmic reticulum to the Golgi Apparatus"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_185903c04cf09da0fc00e48f76d3682f"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:168874"/>
+  <att name="db_xref" type="string" value="GENE ONTOLOGY:GO:0019060"/>
+  <att name="db_xref" type="string" value="Pubmed:None"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_6215"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="UniProt:P06821 M">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:P06821"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P06821"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="M"/>
+   <att name="aliases" type="string" value="UniProt:P06821 M"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="UniProt:P06821 M"/>
+ </node>
+ <node id="1" label="M2 Tetramer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7fced901f36e2fbe59acd8ddd777caaa"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="M2 Tetramer"/>
+ </node>
+ <node id="2" label="UniProt:P03452 HA">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:P03452"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P03452"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="HA"/>
+   <att name="aliases" type="string" value="UniProt:P03452 HA"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="UniProt:P03452 HA"/>
+ </node>
+ <node id="3" label="Glycosylated and folded HA trimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_1fe44f533279893483a62aa6d646e5c1"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Glycosylated and folded HA trimer"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/P06821 - http://purl.org/pc2/4/Complex_7fced901f36e2fbe59acd8ddd777caaa" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7fced901f36e2fbe59acd8ddd777caaa"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P03452 - http://purl.org/pc2/4/Complex_1fe44f533279893483a62aa6d646e5c1" source="2" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_1fe44f533279893483a62aa6d646e5c1"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

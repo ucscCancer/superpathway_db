@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_126048"/>
+ <att name="displayName" type="string" value="Serotonin receptors"/>
+ <att name="name" type="string" value="Serotonin_receptors"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_55020f0ce9b6fd81b018fa7c7eab6725"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="5-HT1A-F/5 receptor:serotonin">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d0b3c1773f85fc24d926429ad16166c8"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="5-HT1A-F/5 receptor:serotonin"/>
+ </node>
+ <node id="1" label="5-HT4/6/7 receptor:serotonin">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_feb5f3b0ce3cfb802b8b05a0d340d3ff"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="5-HT4/6/7 receptor:serotonin"/>
+ </node>
+ <node id="2" label="5-HT2 receptor:Serotonin">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f7b75b192cf0d7a7eb644a42f1b479a5"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="5-HT2 receptor:Serotonin"/>
+ </node>
+ <node id="3" label="5-HT2 receptor">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_80d7956240dca64603e9718b15d6cc35"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="5-HT2 receptor"/>
+ </node>
+ <node id="4" label="5-Hydroxytryptamine">
+  <att name="label" type="string" value="5-Hydroxytryptamine"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_ad9da22f118c7b918acf432f52f77ca7"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="5" label="5-HT4/6/7 receptor">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_9a7ec6cbee1607bf75fd83cdb8cb82a8"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="5-HT4/6/7 receptor"/>
+ </node>
+ <node id="6" label="5-HT1A-F/5 receptor">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_06df916bfac946209b352ff280a823c3"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="5-HT1A-F/5 receptor"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/ProteinReference_80d7956240dca64603e9718b15d6cc35 - http://purl.org/pc2/4/Complex_f7b75b192cf0d7a7eb644a42f1b479a5" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f7b75b192cf0d7a7eb644a42f1b479a5"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_ad9da22f118c7b918acf432f52f77ca7 - http://purl.org/pc2/4/Complex_d0b3c1773f85fc24d926429ad16166c8" source="4" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d0b3c1773f85fc24d926429ad16166c8"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_ad9da22f118c7b918acf432f52f77ca7 - http://purl.org/pc2/4/Complex_feb5f3b0ce3cfb802b8b05a0d340d3ff" source="4" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_feb5f3b0ce3cfb802b8b05a0d340d3ff"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_ad9da22f118c7b918acf432f52f77ca7 - http://purl.org/pc2/4/Complex_f7b75b192cf0d7a7eb644a42f1b479a5" source="4" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f7b75b192cf0d7a7eb644a42f1b479a5"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_9a7ec6cbee1607bf75fd83cdb8cb82a8 - http://purl.org/pc2/4/Complex_feb5f3b0ce3cfb802b8b05a0d340d3ff" source="5" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_feb5f3b0ce3cfb802b8b05a0d340d3ff"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_06df916bfac946209b352ff280a823c3 - http://purl.org/pc2/4/Complex_d0b3c1773f85fc24d926429ad16166c8" source="6" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d0b3c1773f85fc24d926429ad16166c8"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

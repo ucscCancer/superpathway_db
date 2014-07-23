@@ -1,0 +1,54 @@
+complex	AP-1_(complex)
+protein	CSNK2A1
+protein	ELK1
+protein	FOS
+protein	GRB2
+protein	HRAS
+protein	JAK2
+protein	JUN
+protein	MAP2K1
+protein	MAPK3
+protein	MPL
+complex	PI3K_(complex)
+protein	PIK3CA
+protein	PIK3R1
+protein	PKC
+protein	PLCG1
+protein	RAF1
+protein	RASA1
+complex	SHC/GRB2/SOS-1_(complex)
+protein	SHC1
+protein	SOS1
+protein	STAT1
+complex	STAT1/STAT3_(complex)
+protein	STAT3
+protein	STAT5
+complex	STAT5/STAT5_(complex)
+protein	THPO
+complex	TPO/TPO/TPO_R/TPO_R_(complex)
+HRAS	RAF1	-a>
+MAP2K1	MAPK3	-a>
+RAF1	MAP2K1	-a>
+STAT5	STAT5/STAT5_(complex)	component>
+STAT3	STAT1/STAT3_(complex)	component>
+STAT1	STAT1/STAT3_(complex)	component>
+PIK3CA	PI3K_(complex)	component>
+FOS	AP-1_(complex)	component>
+JUN	AP-1_(complex)	component>
+THPO	TPO/TPO/TPO_R/TPO_R_(complex)	component>
+MAPK3	ELK1	-a>
+MAPK3	JUN	-a>
+ELK1	FOS	-a>
+PIK3R1	PI3K_(complex)	component>
+TPO/TPO/TPO_R/TPO_R_(complex)	STAT5	-a>
+TPO/TPO/TPO_R/TPO_R_(complex)	STAT3	-a>
+TPO/TPO/TPO_R/TPO_R_(complex)	STAT1	-a>
+TPO/TPO/TPO_R/TPO_R_(complex)	PI3K_(complex)	-a>
+TPO/TPO/TPO_R/TPO_R_(complex)	PLCG1	-a>
+TPO/TPO/TPO_R/TPO_R_(complex)	SHC/GRB2/SOS-1_(complex)	-a>
+TPO/TPO/TPO_R/TPO_R_(complex)	JAK2	-a>
+SHC1	SHC/GRB2/SOS-1_(complex)	component>
+CSNK2A1	JUN	-a|
+SOS1	SHC/GRB2/SOS-1_(complex)	component>
+MPL	TPO/TPO/TPO_R/TPO_R_(complex)	component>
+GRB2	SHC/GRB2/SOS-1_(complex)	component>

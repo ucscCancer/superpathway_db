@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_69429"/>
+ <att name="displayName" type="string" value="JNK (c-Jun kinases) phosphorylation and activation mediated by activated human TAK1"/>
+ <att name="name" type="string" value="JNK__c_Jun_kinases__phosphorylation_and__activation_mediated_by_activated_human_TAK1"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_ef440a547f9ae845921ca230a0ee734b"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Adenosine 5'-triphosphate">
+  <att name="label" type="string" value="Adenosine 5'-triphosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="Activated TAK complexes">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_f95134ae1bf7fffdd2773c9a68539cd4"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Activated TAK complexes"/>
+ </node>
+ <node id="2" label="JNKs: MAPK8_MAPK9_MAPK10">
+  <att name="label" type="string" value="JNKs: MAPK8_MAPK9_MAPK10"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_cd6b4fb901abe52c2322ae2c92785957"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="3" label="phosphorylated JNKs: MAPK8_MAPK9_MAPK10">
+  <att name="label" type="string" value="phosphorylated JNKs: MAPK8_MAPK9_MAPK10"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_89e3d344bfb07ad929cc958d0ad7523e"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="4" label="Adenosine 5'-diphosphate">
+  <att name="label" type="string" value="Adenosine 5'-diphosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="5" label="phospho MKK4/ phospho MKK7">
+  <att name="label" type="string" value="phospho MKK4/ phospho MKK7"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_00fc64f32c73875fab0843549966e3d0"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="6" label="MKK4/MKK7">
+  <att name="label" type="string" value="MKK4/MKK7"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_0396f3b601944771e38388d243fc691d"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="7" label="Phosphorylated JNKs: MAPK8, MAPK9, MAPK10">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_cca6580af62724824720835425753704"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Phosphorylated JNKs: MAPK8, MAPK9, MAPK10"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148 - http://purl.org/pc2/4/ProteinReference_89e3d344bfb07ad929cc958d0ad7523e" source="0" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f7f158929705e9ce5690f940ed371e5d"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148 - http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_0ab8795a3cddb2cb7a0c7b2da6ceae11"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148 - http://purl.org/pc2/4/ProteinReference_00fc64f32c73875fab0843549966e3d0" source="0" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_0ab8795a3cddb2cb7a0c7b2da6ceae11"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_f95134ae1bf7fffdd2773c9a68539cd4 - http://purl.org/pc2/4/ProteinReference_00fc64f32c73875fab0843549966e3d0" source="1" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_597e3c632f7b37a1402dcbde19c8d85d"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_cd6b4fb901abe52c2322ae2c92785957 - http://purl.org/pc2/4/ProteinReference_89e3d344bfb07ad929cc958d0ad7523e" source="2" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f7f158929705e9ce5690f940ed371e5d"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_cd6b4fb901abe52c2322ae2c92785957 - http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3" source="2" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f7f158929705e9ce5690f940ed371e5d"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_89e3d344bfb07ad929cc958d0ad7523e - http://purl.org/pc2/4/ProteinReference_cca6580af62724824720835425753704" source="3" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_02973f6d2c3e8f889ba0b591d6ca92a2"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_00fc64f32c73875fab0843549966e3d0 - http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3" source="5" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_2305a85844c63d0dd10a3d6a8bd79653"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_0396f3b601944771e38388d243fc691d - http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3" source="6" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_0ab8795a3cddb2cb7a0c7b2da6ceae11"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_0396f3b601944771e38388d243fc691d - http://purl.org/pc2/4/ProteinReference_00fc64f32c73875fab0843549966e3d0" source="6" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_0ab8795a3cddb2cb7a0c7b2da6ceae11"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

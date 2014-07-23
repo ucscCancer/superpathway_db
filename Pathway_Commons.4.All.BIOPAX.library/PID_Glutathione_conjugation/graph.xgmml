@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_144350"/>
+ <att name="displayName" type="string" value="Glutathione conjugation"/>
+ <att name="name" type="string" value="Glutathione_conjugation"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_84769bc8608c405b0f7a08e87b145517"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="electrophilic substrate glutathione conjugate">
+  <att name="label" type="string" value="electrophilic substrate glutathione conjugate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_e07f30404d5259d1e26e235aebe7cfb7"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="Benzo(a)pyrene-7,8-diol 9,10-epoxide">
+  <att name="label" type="string" value="Benzo(a)pyrene-7,8-diol 9,10-epoxide"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_38cbcd1fb6ec12aab5fd71a87080d5d6"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="electrophilic substrate glutathione conjugate">
+  <att name="label" type="string" value="electrophilic substrate glutathione conjugate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_d654d886423a843ddd17a417858e4eac"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="5-L-Glutamyl-L-cysteinylglycine">
+  <att name="label" type="string" value="5-L-Glutamyl-L-cysteinylglycine"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_8dc51f0c55732014f5f1dfcf0d55e12d"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="4" label="Cytosolic GST homodimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f5da14b3b2fe9ee710902f0e67656d48"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Cytosolic GST homodimer"/>
+ </node>
+ <node id="5" label="Cytosolic GST">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_dba4095e94ab5e3810ac2c4811fb463c"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Cytosolic GST"/>
+ </node>
+ <node id="6" label="electrophilic substrate">
+  <att name="label" type="string" value="electrophilic substrate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_4301f7ead52d7c36f06a785c57126534"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="7" label="5-L-Glutamyl-L-cysteinylglycine">
+  <att name="label" type="string" value="5-L-Glutamyl-L-cysteinylglycine"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_1d2d06ef682b6f37f6fd436e069002f3"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="8" label="Microsomal GST homotrimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_78d1228b18b40f35dc544277a0e32dfb"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Microsomal GST homotrimer"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_38cbcd1fb6ec12aab5fd71a87080d5d6 - http://purl.org/pc2/4/SmallMolecule_d654d886423a843ddd17a417858e4eac" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f9c588cc74e55103bef533f02ac20f59"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_8dc51f0c55732014f5f1dfcf0d55e12d - http://purl.org/pc2/4/SmallMolecule_d654d886423a843ddd17a417858e4eac" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f9c588cc74e55103bef533f02ac20f59"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_f5da14b3b2fe9ee710902f0e67656d48 - http://purl.org/pc2/4/SmallMolecule_d654d886423a843ddd17a417858e4eac" source="4" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_6e8162843745b6127b0ba3c9a8d2952c"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_dba4095e94ab5e3810ac2c4811fb463c - http://purl.org/pc2/4/Complex_f5da14b3b2fe9ee710902f0e67656d48" source="5" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f5da14b3b2fe9ee710902f0e67656d48"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4301f7ead52d7c36f06a785c57126534 - http://purl.org/pc2/4/SmallMolecule_e07f30404d5259d1e26e235aebe7cfb7" source="6" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_ba621f5a501dda5fbdf02ecebfdac83d"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_1d2d06ef682b6f37f6fd436e069002f3 - http://purl.org/pc2/4/SmallMolecule_e07f30404d5259d1e26e235aebe7cfb7" source="7" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_ba621f5a501dda5fbdf02ecebfdac83d"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_78d1228b18b40f35dc544277a0e32dfb - http://purl.org/pc2/4/SmallMolecule_e07f30404d5259d1e26e235aebe7cfb7" source="8" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_31a1f312d202c5fcc5398800e3990173"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

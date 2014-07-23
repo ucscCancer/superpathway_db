@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_14374"/>
+ <att name="displayName" type="string" value="Toll Like Receptor 7/8 (TLR7/8) Cascade"/>
+ <att name="name" type="string" value="Toll_Like_Receptor_7_8__TLR7_8__Cascade"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_9575b9313e9a75bcaf9c9c29073f21bd"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="TLR receptors for ssRNA and imidazoquinoline compounds">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_c8c7478fa292c6fd44fa2da2aadacd57"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="TLR receptors for ssRNA and imidazoquinoline compounds"/>
+ </node>
+ <node id="1" label="Adenosine 5'-triphosphate">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Adenosine 5'-triphosphate"/>
+ </node>
+ <node id="2" label="TLR7 or TLR8 homodimer bound to recognized ligand">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_6a82633d11bfa0ca825634eeac55a137"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="TLR7 or TLR8 homodimer bound to recognized ligand"/>
+ </node>
+ <node id="3" label="Adenosine 5'-diphosphate">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Adenosine 5'-diphosphate"/>
+ </node>
+ <node id="4" label="Imiquimod">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_724f135ca1a2b9369f9efd64b85e8ea3"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Imiquimod"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_c8c7478fa292c6fd44fa2da2aadacd57 - http://purl.org/pc2/4/Complex_6a82633d11bfa0ca825634eeac55a137" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_6a82633d11bfa0ca825634eeac55a137"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148 - http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3" source="1" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_6d1b491f8d67d15e0ce5ef3a52520e44"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_724f135ca1a2b9369f9efd64b85e8ea3 - http://purl.org/pc2/4/Complex_6a82633d11bfa0ca825634eeac55a137" source="4" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_6a82633d11bfa0ca825634eeac55a137"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

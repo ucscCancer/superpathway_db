@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="MODEL_NOTES=No pathway definition"/>
+ <att name="url" type="string" value="http://identifiers.org/panther.pathway/P04387"/>
+ <att name="displayName" type="string" value="Histamine synthesis"/>
+ <att name="name" type="string" value="Histamine synthesis"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="PANTHER Pathway:P04387"/>
+ </att>
+ <node id="0" label="dioxidocarbon">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:48829"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:23011"/>
+   <att name="db_xref" type="string" value="pubchem:11533283"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:3283"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:16526"/>
+   <att name="db_xref" type="string" value="InChIKey:CURLTUGMZLYLDI-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13284"/>
+   <att name="db_xref" type="string" value="pubchem-substance:11533283"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13285"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13282"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13283"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_4bb1fd7922db0a5780668ab569da9426"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="dioxidocarbon"/>
+ </node>
+ <node id="1" label="(S)-alpha-amino-1H-Imidazole-4-propanoic acid">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="pubchem-substance:8145060"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13117"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:43190"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:21324"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:43114"/>
+   <att name="db_xref" type="string" value="InChIKey:HNDVDQJCIGZPNO-YFKPBYRVSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:6240"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:43239"/>
+   <att name="db_xref" type="string" value="pubchem:8145060"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:43048"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:15971"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_a5ba9fd1cdadb13eaac890f5e96c6f77"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="(S)-alpha-amino-1H-Imidazole-4-propanoic acid"/>
+ </node>
+ <node id="2" label="2-(1H-imidazol-4-yl)ethanamine">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:43187"/>
+   <att name="db_xref" type="string" value="pubchem:8143824"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8143824"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:18295"/>
+   <att name="db_xref" type="string" value="InChIKey:NTYJJOPFIAHURM-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:24596"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:14401"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:817"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_8c8aa5c505a5bc5665bed8ea622a32e7"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="2-(1H-imidazol-4-yl)ethanamine"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_a5ba9fd1cdadb13eaac890f5e96c6f77 - http://purl.org/pc2/4/SmallMolecule_4bb1fd7922db0a5780668ab569da9426" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_1b771123775732decf00d1d50959b01b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_a5ba9fd1cdadb13eaac890f5e96c6f77 - http://purl.org/pc2/4/SmallMolecule_8c8aa5c505a5bc5665bed8ea622a32e7" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_1b771123775732decf00d1d50959b01b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

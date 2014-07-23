@@ -1,0 +1,27 @@
+protein	KAT2B
+protein	RUNX2
+complex	RUNX2_WWTR1(TAZ)_(complex)
+protein	TBX5
+complex	TBX5_WWTR1_PCAF_(complex)
+family	TEAD_(family)
+protein	TEAD1
+protein	TEAD2
+protein	TEAD3
+protein	TEAD4
+complex	TEAD_WWTR1(TAZ)_(complex)
+complex	TEAD_YAP1_(complex)
+protein	WWTR1
+protein	YAP1
+WWTR1	RUNX2_WWTR1(TAZ)_(complex)	component>
+WWTR1	TEAD_WWTR1(TAZ)_(complex)	component>
+WWTR1	TBX5_WWTR1_PCAF_(complex)	component>
+KAT2B	TBX5_WWTR1_PCAF_(complex)	component>
+RUNX2	RUNX2_WWTR1(TAZ)_(complex)	component>
+TBX5	TBX5_WWTR1_PCAF_(complex)	component>
+TEAD3	TEAD_(family)	member>
+TEAD2	TEAD_(family)	member>
+TEAD1	TEAD_(family)	member>
+TEAD4	TEAD_(family)	member>
+TEAD_(family)	TEAD_WWTR1(TAZ)_(complex)	component>
+TEAD_(family)	TEAD_YAP1_(complex)	component>
+YAP1	TEAD_YAP1_(complex)	component>

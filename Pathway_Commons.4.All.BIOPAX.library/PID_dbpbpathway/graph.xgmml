@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_26151"/>
+ <att name="displayName" type="string" value="transcriptional activation of dbpb from mrna"/>
+ <att name="name" type="string" value="dbpbpathway"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_4d6ffd95a9902532747a8ca0267f2f91"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="dbpB/RNA strand">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7121645e1e3376e6ef5aa56043b4ced5"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="dbpB/RNA strand"/>
+ </node>
+ <node id="1" label="dbpB 30kD">
+  <att name="label" type="string" value="dbpB 30kD"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_fc0af171fd0f27b471bb864ff82b5cbe"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="2" label="RNA strand">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/RnaReference_97f85e49c65735cd8a810d34e2fbe8dc"/>
+  <att name="type" type="string" value="rna"/>
+  <att name="label" type="string" value="RNA strand"/>
+ </node>
+ <node id="3" label="DBPB">
+  <att name="label" type="string" value="DBPB"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt:P67809"/>
+   <att name="db_xref" type="string" value="HGNC:YBX1"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:YBX1"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:8014"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_004559"/>
+   <att name="db_xref" type="string" value="omim:154030"/>
+   <att name="db_xref" type="string" value="UniProt:Q5FVF0"/>
+   <att name="db_xref" type="string" value="UniProt:P16990"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000361626"/>
+   <att name="db_xref" type="string" value="NCBI Gene:4904"/>
+   <att name="db_xref" type="string" value="UniProt:P16991"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1H95"/>
+   <att name="db_xref" type="string" value="UniProt:Q15325"/>
+   <att name="db_xref" type="string" value="UniProt:Q14972"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_004550"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000321358"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000065978"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P67809"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="YBOX1_HUMAN"/>
+   <att name="aliases" type="string" value="CBF-A"/>
+   <att name="aliases" type="string" value="YBX1"/>
+   <att name="aliases" type="string" value="YB1"/>
+   <att name="aliases" type="string" value="EFI-A"/>
+   <att name="aliases" type="string" value="CCAAT-binding transcription factor I subunit A"/>
+   <att name="aliases" type="string" value="Y-box-binding protein 1"/>
+   <att name="aliases" type="string" value="Enhancer factor I subunit A"/>
+   <att name="aliases" type="string" value="YB-1"/>
+   <att name="aliases" type="string" value="DNA-binding protein B"/>
+   <att name="aliases" type="string" value="NSEP1"/>
+   <att name="aliases" type="string" value="Y-box transcription factor"/>
+   <att name="aliases" type="string" value="DBPB"/>
+  </att>
+ </node>
+ <node id="4" label="dbpB 20kD">
+  <att name="label" type="string" value="dbpB 20kD"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_54d03d6bc1260cf116f0da1bd45cf404"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="5" label="Tyrosine Phosphatase">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_b46c53e87c809800331d8e95b6e4fe12"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Tyrosine Phosphatase"/>
+ </node>
+ <node id="6" label="3.4.21.5">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt:Q53H06"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1A2C"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_000497"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_000506"/>
+   <att name="db_xref" type="string" value="UniProt:Q4QZ40"/>
+   <att name="db_xref" type="string" value="HGNC:F2"/>
+   <att name="db_xref" type="string" value="PANTHER Family:PTHR24254:SF0"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UCA1"/>
+   <att name="db_xref" type="string" value="NCBI Gene:2147"/>
+   <att name="db_xref" type="string" value="UniProt:Q53H04"/>
+   <att name="db_xref" type="string" value="UniProt:B4E1A7"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:3535"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000311907"/>
+   <att name="db_xref" type="string" value="omim:176930"/>
+   <att name="db_xref" type="string" value="UniProt:P00734"/>
+   <att name="db_xref" type="string" value="UniProt:B2R7F7"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000308541"/>
+   <att name="db_xref" type="string" value="UniProt:Q7Z7P3"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000180210"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:F2"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P00734"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="THRB_HUMAN"/>
+   <att name="aliases" type="string" value="Coagulation factor II"/>
+   <att name="aliases" type="string" value="Activation peptide fragment 1"/>
+   <att name="aliases" type="string" value="Activation peptide fragment 2"/>
+   <att name="aliases" type="string" value="F2"/>
+   <att name="aliases" type="string" value="Thrombin light chain"/>
+   <att name="aliases" type="string" value="Thrombin heavy chain"/>
+   <att name="aliases" type="string" value="3.4.21.5"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="3.4.21.5"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/ProteinReference_fc0af171fd0f27b471bb864ff82b5cbe - http://purl.org/pc2/4/ProteinReference_fc0af171fd0f27b471bb864ff82b5cbe" source="1" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9bda86ff5c03be99b3318a22f3eeaef6"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/RnaReference_97f85e49c65735cd8a810d34e2fbe8dc - http://purl.org/pc2/4/Complex_7121645e1e3376e6ef5aa56043b4ced5" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7121645e1e3376e6ef5aa56043b4ced5"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P67809 - http://purl.org/pc2/4/Complex_7121645e1e3376e6ef5aa56043b4ced5" source="3" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7121645e1e3376e6ef5aa56043b4ced5"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P67809 - http://identifiers.org/uniprot/P67809" source="3" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_88cd0e90c4c48088b18f5363be9a6983"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_b46c53e87c809800331d8e95b6e4fe12 - http://purl.org/pc2/4/ProteinReference_fc0af171fd0f27b471bb864ff82b5cbe" source="5" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_ce3e670d21297cd8d0d12caf2f2a259f"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P00734 - http://purl.org/pc2/4/ProteinReference_54d03d6bc1260cf116f0da1bd45cf404" source="6" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_5a26ccd424948a939bedc462eda58b25"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

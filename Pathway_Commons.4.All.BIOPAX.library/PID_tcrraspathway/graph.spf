@@ -1,0 +1,31 @@
+protein	BRAF
+protein	ELK1
+protein	ERK1-2
+complex	ERK1-2/ELK1_(complex)
+protein	Erk1-2-active
+protein	FOS
+protein	MAP2K1
+protein	MAP3K8
+protein	PRKCA
+protein	PRKCB
+protein	PTPN7
+protein	RAF1
+protein	RAS_family
+complex	RAS_family/GTP_(complex)
+MAP3K8	MAP2K1	-a>
+MAP2K1	Erk1-2-active	-a>
+PRKCA	RAF1	-a>
+PRKCA	BRAF	-a>
+RAF1	MAP2K1	-a>
+PRKCB	RAF1	-a>
+PRKCB	BRAF	-a>
+RAS_family/GTP_(complex)	RAF1	-a>
+RAS_family/GTP_(complex)	BRAF	-a>
+Erk1-2-active	ERK1-2	-a>
+Erk1-2-active	ERK1-2/ELK1_(complex)	component>
+Erk1-2-active	FOS	-a>
+ERK1-2	Erk1-2-active	-a>
+ELK1	ERK1-2/ELK1_(complex)	component>
+BRAF	MAP2K1	-a>
+RAS_family	RAS_family/GTP_(complex)	component>
+PTPN7	ERK1-2	-a>

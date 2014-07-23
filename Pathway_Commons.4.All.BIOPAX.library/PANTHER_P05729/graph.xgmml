@@ -1,0 +1,210 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="MODEL_NOTES=Bupropion is a drug in the amino ketone class that was developed for use as an antidepressant. It is marketed as bupropion hydrochloride under the brand name Wellbutrin (GlaxoSmithKline). Its exact mechanism of action as an antidepressant is unknown. Bupropion has also been found to be useful in smoking cessation therapy, particularly in combination with nicotine replacement therapy and behavioral therapy. It is marketed for smoking cessation therapy as bupropion hydrochloride, sustained-release formulation, under the brand name Zyban (GlaxoSmithKline). It can block the reuptake of dopamine and norepinephrine in the brain and may be a brain nicotinic acetylcholine receptor antagonist, suggesting its use in smoking cessation therapy.######In humans given an oral dose of bupropion, radioimmunoassay indicated rapid absorption and appearance of the drug in plasma. Plasma levels fall as the drug is extensively metabolized in the liver. Approximately 80% of a dose of bupropion is excreted as metabolites in urine, with less than 1% excreted as unchanged bupropion. Bupropion is metabolized to basic and acidic metabolites in humans. Major basic metabolites include hydroxybupropion, and the amino alcohol isomers threohydrobupropion and erythrohydrobupropion. Two acidic metabolites, m-chlorobenzoic acid and m-chlorohippuric acid, have also been identified. Differences in bupropion metabolism between humans and animals have been described. Humans given an oral dose of 14C-bupropion excreted relatively more basic metabolites than rats, which excreted predominantly acidic metabolites. Human plasma contained relatively more hydroxybupropion than bupropion, while the opposite was true for rat plasma.######Hydroxybupropion is the main physiologically active metabolite in humans. The involvement of the cytochrome P450 isoform 2B6 in this hydroxylation reaction has been shown. The formation of threohydrobupropion and erythrohydrobupropion involves modification of the aminoketone bupropion to amino alcohols by ketone reduction. The concentration of erythrohydrobupropion in human plasma is low compared to that of the threohydrobupropion isomer. Glucuronide conjugates of threohydrobupropion and erythrohydrobupropion have been identified. In humans given an oral dose of 14C-bupropion, an average of 13% of the dose was excreted in urine as these glucuronides.######The formation of m-chlorobenzoic acid involves side chain cleavage, converting basic bupropion to an acidic metabolite. In humans given an oral dose of 14C-bupropion, only 0.3% of the dose was excreted in urine as m-chlorobenzoic acid. This metabolite is inactive. m-Chlorohippuric acid is the glycine conjugate of m-chlorobenzoic acid. In humans given an oral dose of 14C-bupropion, 22% of the dose was excreted in urine as m-chlorohippuric acid.;######PMID: 15081921, PMID: 10997944, PMID: 11454731, PMID: 6406469, PMID: 12911050, PMID: 9378846 Medline=17073575 Medline=16815319 Medline=17009913"/>
+ <att name="url" type="string" value="http://identifiers.org/panther.pathway/P05729"/>
+ <att name="displayName" type="string" value="Bupropion_degradation"/>
+ <att name="name" type="string" value="Bupropion_degradation"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="PANTHER Pathway:P05729"/>
+ </att>
+ <node id="0" label="m-chlorohippurate">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_8889d3e969a8ef4452f0e7572a276247"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="m-chlorohippurate"/>
+ </node>
+ <node id="1" label="NAD(P)">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13390"/>
+   <att name="db_xref" type="string" value="BioCyc:NAD-P-OR-NOP"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_3125f9ed467bf83fdd5ff924d8e97c6a"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="NAD(P)"/>
+ </node>
+ <node id="2" label="hydroxybupropion">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_066677eb86fd0725dff70e8e83de88d5"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="hydroxybupropion"/>
+ </node>
+ <node id="3" label="2-(tert-butylamino)-1-(3-chlorophenyl)propan-1-one">
+  <att name="label" type="string" value="2-(tert-butylamino)-1-(3-chlorophenyl)propan-1-one"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="pubchem-substance:17425136"/>
+   <att name="db_xref" type="string" value="InChIKey:SNPPWIUOZRMYNY-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:3219"/>
+   <att name="db_xref" type="string" value="pubchem:17425136"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_67fa9a5afdde3e4133f0e4d69380fb96"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="4" label="O2">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:7860"/>
+   <att name="db_xref" type="string" value="InChIKey:MYMOFIZGZYHOMD-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:30491"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:15379"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:10745"/>
+   <att name="db_xref" type="string" value="pubchem:8145133"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:44742"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:25366"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29097"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:23833"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13416"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145133"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_300211b5259cc7323c4c94545a0ac544"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="O2"/>
+ </node>
+ <node id="5" label="Hgly">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="pubchem:8145759"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:10792"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:5460"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:24368"/>
+   <att name="db_xref" type="string" value="InChIKey:DHMQDGOQFOQNFH-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:14344"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145759"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:15428"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:42964"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_72968583946b041afc69e3dff3bb959e"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Hgly"/>
+ </node>
+ <node id="6" label="erythrohydrobupropion">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_2958e8b74637c0072a39f6da47b1af1c"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="erythrohydrobupropion"/>
+ </node>
+ <node id="7" label="NADPH">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="BioCyc:NADH-P-OR-NOP"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13392"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_d8cfb70829e970655e19306933517516"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="NADPH"/>
+ </node>
+ <node id="8" label="threohydrobupropion">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_90b40caf167cd8ee4b3b20c9ecabc31f"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="threohydrobupropion"/>
+ </node>
+ <node id="9" label="3-chlorobenzoic acid, ion(1-)">
+  <att name="label" type="string" value="3-chlorobenzoic acid, ion(1-)"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:19984"/>
+   <att name="db_xref" type="string" value="InChIKey:LULAYUGMBFYYEX-UHFFFAOYSA-M"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8146996"/>
+   <att name="db_xref" type="string" value="pubchem:8146996"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_99f3eb46889586fe9b6eaf347f264c27"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="10" label="[OH2]">
+  <att name="label" type="string" value="[OH2]"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:42043"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:15377"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:5585"/>
+   <att name="db_xref" type="string" value="pubchem:8145132"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:42857"/>
+   <att name="db_xref" type="string" value="InChIKey:XLYOFNOQVPJJNP-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:44292"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145132"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:44819"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:27313"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:44701"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13352"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:10743"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:43228"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_2d1dbb6bf34992aed3c895e614042791"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_67fa9a5afdde3e4133f0e4d69380fb96 - http://purl.org/pc2/4/SmallMolecule_066677eb86fd0725dff70e8e83de88d5" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9ca7f7dcf3a21d9fdf3a316e2adbd1cf"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_67fa9a5afdde3e4133f0e4d69380fb96 - http://purl.org/pc2/4/SmallMolecule_3125f9ed467bf83fdd5ff924d8e97c6a" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9ca7f7dcf3a21d9fdf3a316e2adbd1cf"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_67fa9a5afdde3e4133f0e4d69380fb96 - http://purl.org/pc2/4/SmallMolecule_2958e8b74637c0072a39f6da47b1af1c" source="3" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_44eb3043c83bae58f0a11297a0800a43"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_67fa9a5afdde3e4133f0e4d69380fb96 - http://purl.org/pc2/4/SmallMolecule_90b40caf167cd8ee4b3b20c9ecabc31f" source="3" target="8">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_fa29123f99c7e56b4635adb0d128c21b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_67fa9a5afdde3e4133f0e4d69380fb96 - http://purl.org/pc2/4/SmallMolecule_99f3eb46889586fe9b6eaf347f264c27" source="3" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_91b2ca129a957fecd213349affbf756c"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_67fa9a5afdde3e4133f0e4d69380fb96 - http://purl.org/pc2/4/SmallMolecule_2d1dbb6bf34992aed3c895e614042791" source="3" target="10">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9ca7f7dcf3a21d9fdf3a316e2adbd1cf"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_300211b5259cc7323c4c94545a0ac544 - http://purl.org/pc2/4/SmallMolecule_3125f9ed467bf83fdd5ff924d8e97c6a" source="4" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9ca7f7dcf3a21d9fdf3a316e2adbd1cf"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_300211b5259cc7323c4c94545a0ac544 - http://purl.org/pc2/4/SmallMolecule_2d1dbb6bf34992aed3c895e614042791" source="4" target="10">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9ca7f7dcf3a21d9fdf3a316e2adbd1cf"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_300211b5259cc7323c4c94545a0ac544 - http://purl.org/pc2/4/SmallMolecule_066677eb86fd0725dff70e8e83de88d5" source="4" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9ca7f7dcf3a21d9fdf3a316e2adbd1cf"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_72968583946b041afc69e3dff3bb959e - http://purl.org/pc2/4/SmallMolecule_8889d3e969a8ef4452f0e7572a276247" source="5" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_4fe9d004d680e83f5e2e76a1066b0fa7"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_72968583946b041afc69e3dff3bb959e - http://purl.org/pc2/4/SmallMolecule_2d1dbb6bf34992aed3c895e614042791" source="5" target="10">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_4fe9d004d680e83f5e2e76a1066b0fa7"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_d8cfb70829e970655e19306933517516 - http://purl.org/pc2/4/SmallMolecule_3125f9ed467bf83fdd5ff924d8e97c6a" source="7" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9ca7f7dcf3a21d9fdf3a316e2adbd1cf"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_d8cfb70829e970655e19306933517516 - http://purl.org/pc2/4/SmallMolecule_2d1dbb6bf34992aed3c895e614042791" source="7" target="10">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9ca7f7dcf3a21d9fdf3a316e2adbd1cf"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_d8cfb70829e970655e19306933517516 - http://purl.org/pc2/4/SmallMolecule_066677eb86fd0725dff70e8e83de88d5" source="7" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9ca7f7dcf3a21d9fdf3a316e2adbd1cf"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_99f3eb46889586fe9b6eaf347f264c27 - http://purl.org/pc2/4/SmallMolecule_8889d3e969a8ef4452f0e7572a276247" source="9" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_4fe9d004d680e83f5e2e76a1066b0fa7"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_99f3eb46889586fe9b6eaf347f264c27 - http://purl.org/pc2/4/SmallMolecule_2d1dbb6bf34992aed3c895e614042791" source="9" target="10">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_4fe9d004d680e83f5e2e76a1066b0fa7"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

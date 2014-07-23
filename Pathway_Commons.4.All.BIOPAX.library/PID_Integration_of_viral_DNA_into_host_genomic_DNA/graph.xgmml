@@ -1,0 +1,260 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_139767"/>
+ <att name="displayName" type="string" value="Integration of viral DNA into host genomic DNA"/>
+ <att name="name" type="string" value="Integration_of_viral_DNA_into_host_genomic_DNA"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_faeeaaf324aaf697cf10f48c6554aafb"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="BAF">
+  <att name="label" type="string" value="BAF"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="RefSeq:NP_001137457"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_003860"/>
+   <att name="db_xref" type="string" value="UniProt:Q6FGG7"/>
+   <att name="db_xref" type="string" value="UniProt:O75531"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000533166"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000416128"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:17397"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_003851"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000527348"/>
+   <att name="db_xref" type="string" value="UniProt:O60558"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001143985"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000310275"/>
+   <att name="db_xref" type="string" value="NCBI Gene:8815"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000445560"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:BANF1"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000312175"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1CI4"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000175334"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000432867"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000433760"/>
+   <att name="db_xref" type="string" value="omim:603811"/>
+   <att name="db_xref" type="string" value="HGNC:BANF1"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/O75531"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="BAF_HUMAN"/>
+   <att name="aliases" type="string" value="BCRG1"/>
+   <att name="aliases" type="string" value="Breakpoint cluster region protein 1"/>
+   <att name="aliases" type="string" value="Barrier-to-autointegration factor, N-terminally processed"/>
+   <att name="aliases" type="string" value="BANF1"/>
+   <att name="aliases" type="string" value="BAF"/>
+  </att>
+ </node>
+ <node id="1" label="viral minus strand DNA (ful-length)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_c700b25a1842745e194765a1a6fc9270"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="viral minus strand DNA (ful-length)"/>
+ </node>
+ <node id="2" label="viral minus strand DNA with sticky 3' end">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_d033b80cc2377ff1fe65bdbdf2357ba5"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="viral minus strand DNA with sticky 3' end"/>
+ </node>
+ <node id="3" label="Integrated provirus">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_83c5f2fb982cbe2a3b9bcba5962b8734"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Integrated provirus"/>
+ </node>
+ <node id="4" label="Vpr protein">
+  <att name="label" type="string" value="Vpr protein"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_cb72e19af92061f7271c404f670e7aea"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="5" label="viral PIC proteins">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="viral PIC proteins"/>
+ </node>
+ <node id="6" label="viral plus strand DNA with sticky 3' end">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_965da8e8d9758b265b4a3d66183822f9"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="viral plus strand DNA with sticky 3' end"/>
+ </node>
+ <node id="7" label="IN bound to sticky 3' ends of viral DNA">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_2fcebce25c550c4cc807e98e0fe1306e"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="IN bound to sticky 3' ends of viral DNA"/>
+ </node>
+ <node id="8" label="HMG1/Y">
+  <att name="label" type="string" value="HMG1/Y"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_6c565c400ff57beca8c332ebe0440af9"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="9" label="genomic DNA with staggered 5' ends">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_18e25577c7feba50b8cc2628d5386a91"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="genomic DNA with staggered 5' ends"/>
+ </node>
+ <node id="10" label="IN:viral DNA bound to host genomic DNA with staggered ends">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7dfcbf362617d7de7a253eb65d9b17a6"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="IN:viral DNA bound to host genomic DNA with staggered ends"/>
+ </node>
+ <node id="11" label="Integrase">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_d566b6de676ee7d1260e0ef172a7db6b"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Integrase"/>
+ </node>
+ <node id="12" label="Host genomic DNA">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_9e4c7569b10ecb43968bcaa000b6366e"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Host genomic DNA"/>
+ </node>
+ <node id="13" label="PSIP1">
+  <att name="label" type="string" value="PSIP1"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_acdb5a2657e72db820f47d05147e949c"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="14" label="Vpu protein">
+  <att name="label" type="string" value="Vpu protein"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_a674cdae1527325cc16f56040a8266df"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="15" label="Vif">
+  <att name="label" type="string" value="Vif"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_bdb1421b2f4ba27a3373d919ec11ce27"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="16" label="Matrix">
+  <att name="label" type="string" value="Matrix"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_1b5f1ca7e4cb472c6f8f280ee29d5d29"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="17" label="viral plus strand DNA (full-length)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_374376b9263f41581b892b1dddf6328c"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="viral plus strand DNA (full-length)"/>
+ </node>
+ <node id="18" label="linear duplex viral DNA">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_3d55c4a2c8bc969b5b3ccc70efdd3c9f"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="linear duplex viral DNA"/>
+ </node>
+ <node id="19" label="p6 protein">
+  <att name="label" type="string" value="p6 protein"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_a70af53e91f567f9c62f02ae887153a0"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="20" label="Rev">
+  <att name="label" type="string" value="Rev"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_778dd738cf9790ff550eab73fe734d32"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="21" label="viral DNA with 3' sticky ends">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_69df8cf508d3edcb386f7657fb3e002c"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="viral DNA with 3' sticky ends"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/O75531 - http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71" source="0" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_c700b25a1842745e194765a1a6fc9270 - http://purl.org/pc2/4/Complex_3d55c4a2c8bc969b5b3ccc70efdd3c9f" source="1" target="18">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_3d55c4a2c8bc969b5b3ccc70efdd3c9f"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_d033b80cc2377ff1fe65bdbdf2357ba5 - http://purl.org/pc2/4/Complex_69df8cf508d3edcb386f7657fb3e002c" source="2" target="21">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_69df8cf508d3edcb386f7657fb3e002c"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_cb72e19af92061f7271c404f670e7aea - http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71" source="4" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_965da8e8d9758b265b4a3d66183822f9 - http://purl.org/pc2/4/Complex_69df8cf508d3edcb386f7657fb3e002c" source="6" target="21">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_69df8cf508d3edcb386f7657fb3e002c"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_2fcebce25c550c4cc807e98e0fe1306e - http://purl.org/pc2/4/Complex_7dfcbf362617d7de7a253eb65d9b17a6" source="7" target="10">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7dfcbf362617d7de7a253eb65d9b17a6"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_6c565c400ff57beca8c332ebe0440af9 - http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71" source="8" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_18e25577c7feba50b8cc2628d5386a91 - http://purl.org/pc2/4/Complex_7dfcbf362617d7de7a253eb65d9b17a6" source="9" target="10">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7dfcbf362617d7de7a253eb65d9b17a6"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_7dfcbf362617d7de7a253eb65d9b17a6 - http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71" source="10" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_2ad19ffbd0df930fd51f2ebce1881e22"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_d566b6de676ee7d1260e0ef172a7db6b - http://purl.org/pc2/4/Complex_2fcebce25c550c4cc807e98e0fe1306e" source="11" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_2fcebce25c550c4cc807e98e0fe1306e"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_9e4c7569b10ecb43968bcaa000b6366e - http://purl.org/pc2/4/Complex_83c5f2fb982cbe2a3b9bcba5962b8734" source="12" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_83c5f2fb982cbe2a3b9bcba5962b8734"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_acdb5a2657e72db820f47d05147e949c - http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71" source="13" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_a674cdae1527325cc16f56040a8266df - http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71" source="14" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_bdb1421b2f4ba27a3373d919ec11ce27 - http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71" source="15" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_1b5f1ca7e4cb472c6f8f280ee29d5d29 - http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71" source="16" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_374376b9263f41581b892b1dddf6328c - http://purl.org/pc2/4/Complex_3d55c4a2c8bc969b5b3ccc70efdd3c9f" source="17" target="18">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_3d55c4a2c8bc969b5b3ccc70efdd3c9f"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_3d55c4a2c8bc969b5b3ccc70efdd3c9f - http://purl.org/pc2/4/Complex_83c5f2fb982cbe2a3b9bcba5962b8734" source="18" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_83c5f2fb982cbe2a3b9bcba5962b8734"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_a70af53e91f567f9c62f02ae887153a0 - http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71" source="19" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_778dd738cf9790ff550eab73fe734d32 - http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71" source="20" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7b5fb281c8cc65ef2c4461360f3e8c71"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_69df8cf508d3edcb386f7657fb3e002c - http://purl.org/pc2/4/Complex_2fcebce25c550c4cc807e98e0fe1306e" source="21" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_2fcebce25c550c4cc807e98e0fe1306e"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Reviewed: He, Lei, 2009--1-1-"/>
+ <att name="displayName" type="string" value="Zinc influx into cells by the SLC39 gene family"/>
+ <att name="name" type="string" value="Zinc influx into cells by the SLC39 gene family"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_8833d5ded7e8fe61bbc0cc3c1435a647"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Pubmed:12748861"/>
+  <att name="db_xref" type="string" value="Pubmed:12659941"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:442380"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_20603"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="zinc(II) cation">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:10113"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:49972"/>
+   <att name="db_xref" type="string" value="pubchem:11533263"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:49982"/>
+   <att name="db_xref" type="string" value="pubchem-substance:11533263"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29105"/>
+   <att name="db_xref" type="string" value="InChIKey:PTFCDOFLOPIGGS-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:27368"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_68bec1b35b2b66bd1d955c4df082dc3a"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="zinc(II) cation"/>
+ </node>
+ <node id="1" label="zinc(II) cation">
+  <att name="label" type="string" value="zinc(II) cation"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:10113"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:49972"/>
+   <att name="db_xref" type="string" value="pubchem:11533263"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:49982"/>
+   <att name="db_xref" type="string" value="pubchem-substance:11533263"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29105"/>
+   <att name="db_xref" type="string" value="InChIKey:PTFCDOFLOPIGGS-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:27368"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_e2b8ad8b66fd7603dfacf0a739e90361"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="zinc(II) cation">
+  <att name="label" type="string" value="zinc(II) cation"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:10113"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:49972"/>
+   <att name="db_xref" type="string" value="pubchem:11533263"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:49982"/>
+   <att name="db_xref" type="string" value="pubchem-substance:11533263"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29105"/>
+   <att name="db_xref" type="string" value="InChIKey:PTFCDOFLOPIGGS-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:27368"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_fc0755fc5b3bc0658c8a0f9fe6dc7021"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_68bec1b35b2b66bd1d955c4df082dc3a - http://purl.org/pc2/4/SmallMolecule_e2b8ad8b66fd7603dfacf0a739e90361" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_12c94a123ea8775785717d282dfe2227"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_fc0755fc5b3bc0658c8a0f9fe6dc7021 - http://purl.org/pc2/4/SmallMolecule_e2b8ad8b66fd7603dfacf0a739e90361" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_fe490ddca6c16185e50ee15c900b2a48"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

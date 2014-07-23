@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="MODEL_NOTES=Anandamide is an endocannabinoid. After it is released to the extracellular space from postsynaptic terminal, it binds to the cannabinoid receptor on the presynaptic terminal (see Endogenous cannabinoid signaling pathway). Anandamide is also transported via carrier-mediated uptake into nerve endings and glia. The nature of the carrier or transporter has not been characterized. It is believed to be through a selective process if facilitated diffusion. After anandamide is internalized in nerve endings or glia, it is degraded by fatty acid amide hydrolase (FAAH) into arachidonic acid and ethanolamine."/>
+ <att name="url" type="string" value="http://identifiers.org/panther.pathway/P05728"/>
+ <att name="displayName" type="string" value="Anandamide_degradation"/>
+ <att name="name" type="string" value="Anandamide_degradation"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="PANTHER Pathway:P05728"/>
+ </att>
+ <node id="0" label="(all-Z)-N-(2-hydroxyethyl)-5,8,11,14-eicosatetraenamide">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:2700"/>
+   <att name="db_xref" type="string" value="InChIKey:LGEQQWMQCRIYKG-DOFZRALJSA-N"/>
+   <att name="db_xref" type="string" value="pubchem:11534104"/>
+   <att name="db_xref" type="string" value="pubchem-substance:11534104"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_1ef3c5a443d6c8d094ac23d080ae41a0"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="(all-Z)-N-(2-hydroxyethyl)-5,8,11,14-eicosatetraenamide"/>
+ </node>
+ <node id="1" label="all-cis-5,8,11,14-eicosatetraenoic acid">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:22608"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:2799"/>
+   <att name="db_xref" type="string" value="pubchem:8145109"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:15843"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145109"/>
+   <att name="db_xref" type="string" value="InChIKey:YZXBAPSDXZZRGB-DOFZRALJSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:40501"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_20f55640ee79489d2e720c943719f2a3"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="all-cis-5,8,11,14-eicosatetraenoic acid"/>
+ </node>
+ <node id="2" label="colamine">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:4880"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:14223"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145052"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:23979"/>
+   <att name="db_xref" type="string" value="pubchem:8145052"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:42323"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:272066"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:16000"/>
+   <att name="db_xref" type="string" value="InChIKey:HZAXFHJVJLSVMW-UHFFFAOYSA-N"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6af6e66d0436942f4334dd4976259584"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="colamine"/>
+ </node>
+ <node id="3" label="(all-Z)-N-(2-hydroxyethyl)-5,8,11,14-eicosatetraenamide">
+  <att name="label" type="string" value="(all-Z)-N-(2-hydroxyethyl)-5,8,11,14-eicosatetraenamide"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:2700"/>
+   <att name="db_xref" type="string" value="InChIKey:LGEQQWMQCRIYKG-DOFZRALJSA-N"/>
+   <att name="db_xref" type="string" value="pubchem:11534104"/>
+   <att name="db_xref" type="string" value="pubchem-substance:11534104"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_f9bee64c250db55ad6f229b6e22486e9"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_1ef3c5a443d6c8d094ac23d080ae41a0 - http://purl.org/pc2/4/SmallMolecule_f9bee64c250db55ad6f229b6e22486e9" source="0" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/TransportWithBiochemicalReaction_05716261925ea7a51df9e22820111643"/>
+  <att name="class" type="string" value="TransportWithBiochemicalReaction"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_f9bee64c250db55ad6f229b6e22486e9 - http://purl.org/pc2/4/SmallMolecule_20f55640ee79489d2e720c943719f2a3" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_ad28800b4683cb45db2d3a64ef6d0aee"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_f9bee64c250db55ad6f229b6e22486e9 - http://purl.org/pc2/4/SmallMolecule_6af6e66d0436942f4334dd4976259584" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_ad28800b4683cb45db2d3a64ef6d0aee"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

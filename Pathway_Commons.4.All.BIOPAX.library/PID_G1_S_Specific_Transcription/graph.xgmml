@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_51995"/>
+ <att name="displayName" type="string" value="G1/S-Specific Transcription"/>
+ <att name="name" type="string" value="G1_S_Specific_Transcription"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_e38767e95fbb65c6f1ba1e64ff6cfc2f"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="DP-1:E2F1 complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c0efa8eac4d76e5e3cbe5cd8ba181cd9"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="DP-1:E2F1 complex"/>
+ </node>
+ <node id="1" label="E2F-1">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="HGNC Symbol:E2F1"/>
+   <att name="db_xref" type="string" value="UniProt:Q92768"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1H24"/>
+   <att name="db_xref" type="string" value="HGNC:E2F1"/>
+   <att name="db_xref" type="string" value="UniProt:Q01094"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000345571"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_005216"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:3113"/>
+   <att name="db_xref" type="string" value="omim:189971"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000343380"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000101412"/>
+   <att name="db_xref" type="string" value="UniProt:Q13143"/>
+   <att name="db_xref" type="string" value="NCBI Gene:1869"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_005225"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q01094"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="E2F1_HUMAN"/>
+   <att name="aliases" type="string" value="Retinoblastoma-binding protein 3"/>
+   <att name="aliases" type="string" value="Retinoblastoma-associated protein 1"/>
+   <att name="aliases" type="string" value="RBBP-3"/>
+   <att name="aliases" type="string" value="pRB-binding protein E2F-1"/>
+   <att name="aliases" type="string" value="E2F1"/>
+   <att name="aliases" type="string" value="RBBP3"/>
+   <att name="aliases" type="string" value="PBR3"/>
+   <att name="aliases" type="string" value="RBAP-1"/>
+   <att name="aliases" type="string" value="E2F-1"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="E2F-1"/>
+ </node>
+ <node id="2" label="E2F1 targets">
+  <att name="label" type="string" value="E2F1 targets"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_0de6bacef2477bebc6128a97ba5d6260"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="3" label="E2F dimerization partner 1">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt:Q5JSB4"/>
+   <att name="db_xref" type="string" value="omim:189902"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:TFDP1"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000375370"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_009042"/>
+   <att name="db_xref" type="string" value="UniProt:Q14186"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:11749"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:2AZE"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_007111"/>
+   <att name="db_xref" type="string" value="HGNC:TFDP1"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000364519"/>
+   <att name="db_xref" type="string" value="UniProt:Q8IZL5"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000198176"/>
+   <att name="db_xref" type="string" value="NCBI Gene:7027"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q14186"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="TFDP1_HUMAN"/>
+   <att name="aliases" type="string" value="DP1"/>
+   <att name="aliases" type="string" value="DRTF1"/>
+   <att name="aliases" type="string" value="TFDP1"/>
+   <att name="aliases" type="string" value="DRTF1-polypeptide 1"/>
+   <att name="aliases" type="string" value="E2F dimerization partner 1"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="E2F dimerization partner 1"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/Complex_c0efa8eac4d76e5e3cbe5cd8ba181cd9 - http://purl.org/pc2/4/ProteinReference_0de6bacef2477bebc6128a97ba5d6260" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_8d656e5f7e36d566e2c8b02fdb9a1ae8"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q01094 - http://purl.org/pc2/4/Complex_c0efa8eac4d76e5e3cbe5cd8ba181cd9" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c0efa8eac4d76e5e3cbe5cd8ba181cd9"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q14186 - http://purl.org/pc2/4/Complex_c0efa8eac4d76e5e3cbe5cd8ba181cd9" source="3" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c0efa8eac4d76e5e3cbe5cd8ba181cd9"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

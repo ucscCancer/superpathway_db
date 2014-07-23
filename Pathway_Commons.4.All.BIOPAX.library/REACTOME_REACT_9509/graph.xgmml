@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Edited: Matthews, L, 2007-01-26 11:41:42"/>
+ <att name="displayName" type="string" value="Gap junction assembly"/>
+ <att name="name" type="string" value="Gap junction assembly"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_cdfcdbfd071dd9e6ddfccd380ab42c81"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Pubmed:8665925"/>
+  <att name="db_xref" type="string" value="Pubmed:15033576"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_9509"/>
+  <att name="db_xref" type="string" value="GENE ONTOLOGY:GO:0016264"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:190861"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Connexin 43 hemi-channel">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_92d8e57a8fa16c8f27bcf88bbfd081cb"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Connexin 43 hemi-channel"/>
+ </node>
+ <node id="1" label="Hemi-channels">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a09cb412872a0fd3acb7a3c6cb651bd7"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Hemi-channels"/>
+ </node>
+ <node id="2" label="gap junction plaque">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ee5186e5817f8e0ca47c2aed3e5397d1"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="gap junction plaque"/>
+ </node>
+ <node id="3" label="microtubule">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_a3d29ee3e830719d3aa41b49b6a9e464"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="microtubule"/>
+ </node>
+ <node id="4" label="Gap junction 43 kDa heart protein">
+  <att name="label" type="string" value="Gap junction 43 kDa heart protein"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="NCBI Gene:2697"/>
+   <att name="db_xref" type="string" value="UniProt:Q6FHU1"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:4274"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000282561"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000152661"/>
+   <att name="db_xref" type="string" value="UniProt:P17302"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:GJA1"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_000156"/>
+   <att name="db_xref" type="string" value="omim:121014"/>
+   <att name="db_xref" type="string" value="UniProt:Q9Y5I8"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000282561"/>
+   <att name="db_xref" type="string" value="HGNC:GJA1"/>
+   <att name="db_xref" type="string" value="UniProt:B2R5U9"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_000165"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P17302"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="CXA1_HUMAN"/>
+   <att name="aliases" type="string" value="GJA1"/>
+   <att name="aliases" type="string" value="Connexin-43"/>
+   <att name="aliases" type="string" value="GJAL"/>
+   <att name="aliases" type="string" value="Cx43"/>
+   <att name="aliases" type="string" value="Gap junction 43 kDa heart protein"/>
+  </att>
+ </node>
+ <node id="5" label="Connexin 43 connexon in Golgi transport vesicle">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_1cb073d1ef0cd5929ca7cbc9fd8dd91b"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Connexin 43 connexon in Golgi transport vesicle"/>
+ </node>
+ <node id="6" label="Junctional channel">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_73d2fbf558aa5ebc84e854571d921e64"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Junctional channel"/>
+ </node>
+ <node id="7" label="Docked Cx43-containing transport vesicles">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_39441dbc78a5b86e46fe6b952690d530"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Docked Cx43-containing transport vesicles"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/Complex_a09cb412872a0fd3acb7a3c6cb651bd7 - http://purl.org/pc2/4/Complex_73d2fbf558aa5ebc84e854571d921e64" source="1" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_73d2fbf558aa5ebc84e854571d921e64"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_a3d29ee3e830719d3aa41b49b6a9e464 - http://purl.org/pc2/4/Complex_39441dbc78a5b86e46fe6b952690d530" source="3" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_39441dbc78a5b86e46fe6b952690d530"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P17302 - http://purl.org/pc2/4/Complex_92d8e57a8fa16c8f27bcf88bbfd081cb" source="4" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_92d8e57a8fa16c8f27bcf88bbfd081cb"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P17302 - http://purl.org/pc2/4/Complex_1cb073d1ef0cd5929ca7cbc9fd8dd91b" source="4" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_1cb073d1ef0cd5929ca7cbc9fd8dd91b"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_1cb073d1ef0cd5929ca7cbc9fd8dd91b - http://purl.org/pc2/4/Complex_39441dbc78a5b86e46fe6b952690d530" source="5" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_39441dbc78a5b86e46fe6b952690d530"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_73d2fbf558aa5ebc84e854571d921e64 - http://purl.org/pc2/4/Complex_ee5186e5817f8e0ca47c2aed3e5397d1" source="6" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ee5186e5817f8e0ca47c2aed3e5397d1"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

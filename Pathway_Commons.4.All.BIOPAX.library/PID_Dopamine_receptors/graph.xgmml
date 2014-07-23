@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_152410"/>
+ <att name="displayName" type="string" value="Dopamine receptors"/>
+ <att name="name" type="string" value="Dopamine_receptors"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_8f6b6f83186241554d98e16ef77a6c08"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="DRD2, 3, 4:dopamine">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ecc03d91cef578c6d09bd5fd13aae150"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="DRD2, 3, 4:dopamine"/>
+ </node>
+ <node id="1" label="DRD1, 5">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_1732c55a08be8ac8615bacfb891b3d81"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="DRD1, 5"/>
+ </node>
+ <node id="2" label="DRD2, 3, 4">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_a0c4cac268d3ce793e2e67046cbe8638"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="DRD2, 3, 4"/>
+ </node>
+ <node id="3" label="DRD1, 5:dopamine">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f04a899a50551db157b592acaab8b99d"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="DRD1, 5:dopamine"/>
+ </node>
+ <node id="4" label="2-(3,4-Dihydroxyphenyl)ethylamine">
+  <att name="label" type="string" value="2-(3,4-Dihydroxyphenyl)ethylamine"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_587c8d7081f408f9eb8d9ea3a8295ffa"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/ProteinReference_1732c55a08be8ac8615bacfb891b3d81 - http://purl.org/pc2/4/Complex_f04a899a50551db157b592acaab8b99d" source="1" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f04a899a50551db157b592acaab8b99d"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_a0c4cac268d3ce793e2e67046cbe8638 - http://purl.org/pc2/4/Complex_ecc03d91cef578c6d09bd5fd13aae150" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ecc03d91cef578c6d09bd5fd13aae150"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_587c8d7081f408f9eb8d9ea3a8295ffa - http://purl.org/pc2/4/Complex_ecc03d91cef578c6d09bd5fd13aae150" source="4" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ecc03d91cef578c6d09bd5fd13aae150"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_587c8d7081f408f9eb8d9ea3a8295ffa - http://purl.org/pc2/4/Complex_f04a899a50551db157b592acaab8b99d" source="4" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f04a899a50551db157b592acaab8b99d"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

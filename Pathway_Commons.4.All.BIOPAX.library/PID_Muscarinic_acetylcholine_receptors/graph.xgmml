@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_99974"/>
+ <att name="displayName" type="string" value="Muscarinic acetylcholine receptors"/>
+ <att name="name" type="string" value="Muscarinic_acetylcholine_receptors"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_49cc2518af31d1692abe929c5138656f"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="ChEBI:15355 O-acetylcholine">
+  <att name="label" type="string" value="ChEBI:15355 O-acetylcholine"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_98906ec522234a4989ae19ae3b0b9bb1"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="M2/M4 receptors">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_372b5395b5733c6316f6dba5640216b7"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="M2/M4 receptors"/>
+ </node>
+ <node id="2" label="M2/M4:acetylcholine">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_88f7e65765097741931911d56e6fd554"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="M2/M4:acetylcholine"/>
+ </node>
+ <node id="3" label="M1/M3/M5:acetylcholine">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_70dda6dc949462bf685182e7cd07d27c"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="M1/M3/M5:acetylcholine"/>
+ </node>
+ <node id="4" label="M1/M3/M5 receptors">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_f8e2f0775539ddd8c96344614275fbe9"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="M1/M3/M5 receptors"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_98906ec522234a4989ae19ae3b0b9bb1 - http://purl.org/pc2/4/Complex_88f7e65765097741931911d56e6fd554" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_88f7e65765097741931911d56e6fd554"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_98906ec522234a4989ae19ae3b0b9bb1 - http://purl.org/pc2/4/Complex_70dda6dc949462bf685182e7cd07d27c" source="0" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_70dda6dc949462bf685182e7cd07d27c"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_372b5395b5733c6316f6dba5640216b7 - http://purl.org/pc2/4/Complex_88f7e65765097741931911d56e6fd554" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_88f7e65765097741931911d56e6fd554"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_f8e2f0775539ddd8c96344614275fbe9 - http://purl.org/pc2/4/Complex_70dda6dc949462bf685182e7cd07d27c" source="4" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_70dda6dc949462bf685182e7cd07d27c"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

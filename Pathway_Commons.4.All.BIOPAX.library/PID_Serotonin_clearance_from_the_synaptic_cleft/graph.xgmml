@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_64032"/>
+ <att name="displayName" type="string" value="Serotonin clearance from the synaptic cleft"/>
+ <att name="name" type="string" value="Serotonin_clearance_from_the_synaptic_cleft"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_e9d64990408b91b90853cd97959d31a9"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Sodium">
+  <att name="label" type="string" value="Sodium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="Enteramine">
+  <att name="label" type="string" value="Enteramine"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_0cd0c0c147bdd594cfa20b08ffe9c0a1"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="Sodium dependent Serotonin transporter">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_6d309007fbc96d40f67caea328e2786c"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Sodium dependent Serotonin transporter"/>
+ </node>
+ <node id="3" label="Enteramine">
+  <att name="label" type="string" value="Enteramine"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_9bc518c09d754013967b591e336c6bcf"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="4" label="Sodium">
+  <att name="label" type="string" value="Sodium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2 - http://purl.org/pc2/4/SmallMolecule_0cd0c0c147bdd594cfa20b08ffe9c0a1" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_c755f00b2ce8ad59c774b0ba6ba4a7d6"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2 - http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_c755f00b2ce8ad59c774b0ba6ba4a7d6"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_6d309007fbc96d40f67caea328e2786c - http://purl.org/pc2/4/SmallMolecule_0cd0c0c147bdd594cfa20b08ffe9c0a1" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_51d910c34cce55cebd3c2deb8f369ac8"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_9bc518c09d754013967b591e336c6bcf - http://purl.org/pc2/4/SmallMolecule_0cd0c0c147bdd594cfa20b08ffe9c0a1" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_c755f00b2ce8ad59c774b0ba6ba4a7d6"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_9bc518c09d754013967b591e336c6bcf - http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e" source="3" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_c755f00b2ce8ad59c774b0ba6ba4a7d6"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+</graph>

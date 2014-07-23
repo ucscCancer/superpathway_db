@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://www.reactome.org/biopax/46/48887#Pathway1152"/>
+ <att name="displayName" type="string" value="The proton buffering model"/>
+ <att name="name" type="string" value="The proton buffering model"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_e4fecf3caa30f217d42b16fe6a7a0b90"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Pubmed:14871489"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:167827"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_6196"/>
+  <att name="db_xref" type="string" value="GENE ONTOLOGY:GO:0015992"/>
+  <att name="db_xref" type="string" value="Pubmed:11239490"/>
+  <att name="db_xref" type="string" value="Pubmed:8300577"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="H(+)">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13357"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:15378"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:5584"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:10744"/>
+   <att name="db_xref" type="string" value="pubchem:8145820"/>
+   <att name="db_xref" type="string" value="InChIKey:GPRLSGONYQIRFK-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145820"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_f0af6769577b1483f36d39375aa43cd2"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="H(+)"/>
+ </node>
+ <node id="1" label="H(+)">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13357"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:15378"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:5584"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:10744"/>
+   <att name="db_xref" type="string" value="pubchem:8145820"/>
+   <att name="db_xref" type="string" value="InChIKey:GPRLSGONYQIRFK-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145820"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_0b783e86c3fd9b37d9f87abb0cef17cf"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="H(+)"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_f0af6769577b1483f36d39375aa43cd2 - http://purl.org/pc2/4/SmallMolecule_0b783e86c3fd9b37d9f87abb0cef17cf" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_12d973dc0f87f6171f7435da56146675"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Reviewed: Peterlin, BM, 2005-01-05 00:00:00"/>
+ <att name="displayName" type="string" value="Late Phase of HIV Life Cycle"/>
+ <att name="name" type="string" value="Late Phase of HIV Life Cycle"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_63c30d0ade2c88ba069e599e52fb2ecf"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Pubmed:3031512"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_6361"/>
+  <att name="db_xref" type="string" value="Pubmed:15719065"/>
+  <att name="db_xref" type="string" value="Pubmed:10562489"/>
+  <att name="db_xref" type="string" value="Pubmed:10550206"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:162599"/>
+  <att name="db_xref" type="string" value="Pubmed:15183343"/>
+  <att name="db_xref" type="string" value="Pubmed:9891806"/>
+  <att name="db_xref" type="string" value="Pubmed:2825027"/>
+  <att name="db_xref" type="string" value="GENE ONTOLOGY:GO:0016032"/>
+  <att name="db_xref" type="string" value="Pubmed:2784194"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="HSCoA">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="pubchem-substance:8145823"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:41631"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13298"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:41597"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:3771"/>
+   <att name="db_xref" type="string" value="pubchem:8145823"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:741566"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13294"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13295"/>
+   <att name="db_xref" type="string" value="InChIKey:RGJOEKWQDUBAIZ-IBOSZNHHSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:15346"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:23355"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_8456337cb8992753880e1dd677063361"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="HSCoA"/>
+ </node>
+ <node id="1" label="S-tetradecanoyl-coenzyme A">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="pubchem:8143232"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:15218"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:52969"/>
+   <att name="db_xref" type="string" value="InChIKey:DUAFKXOFBZQTQE-QSGBVPJFSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:14637"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8143232"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:15532"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:26898"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:9475"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_2f729df0bad21e3683277475dfb049cf"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="S-tetradecanoyl-coenzyme A"/>
+ </node>
+ <node id="2" label="UniProt:P04601 nef">
+  <att name="label" type="string" value="UniProt:P04601 nef"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:P04601"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P04601"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="nef"/>
+   <att name="aliases" type="string" value="UniProt:P04601 nef"/>
+  </att>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_2f729df0bad21e3683277475dfb049cf - http://purl.org/pc2/4/SmallMolecule_8456337cb8992753880e1dd677063361" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f8bc703c35a3b154c12fe3b75590616b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_2f729df0bad21e3683277475dfb049cf - http://identifiers.org/uniprot/P04601" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f8bc703c35a3b154c12fe3b75590616b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P04601 - http://purl.org/pc2/4/SmallMolecule_8456337cb8992753880e1dd677063361" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f8bc703c35a3b154c12fe3b75590616b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P04601 - http://identifiers.org/uniprot/P04601" source="2" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f8bc703c35a3b154c12fe3b75590616b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

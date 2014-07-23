@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_140217"/>
+ <att name="displayName" type="string" value="Toll Like Receptor TLR1:TLR2 Cascade"/>
+ <att name="name" type="string" value="Toll_Like_Receptor_TLR1_TLR2_Cascade"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_9c1e8f65dbea926b196b593dd3be7a6d"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="UniProt:Q5FWG5 TLR1">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:Q5FWG5"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q5FWG5"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="TLR1"/>
+   <att name="aliases" type="string" value="UniProt:Q5FWG5 TLR1"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="UniProt:Q5FWG5 TLR1"/>
+ </node>
+ <node id="1" label="TIL4">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt:O15454"/>
+   <att name="db_xref" type="string" value="UniProt:O60603"/>
+   <att name="db_xref" type="string" value="UniProt:D1CS48"/>
+   <att name="db_xref" type="string" value="UniProt:Q8NI00"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000260010"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:11848"/>
+   <att name="db_xref" type="string" value="omim:603028"/>
+   <att name="db_xref" type="string" value="HGNC:TLR2"/>
+   <att name="db_xref" type="string" value="UniProt:D1CS45"/>
+   <att name="db_xref" type="string" value="NCBI Gene:7097"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:TLR2"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_003255"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000260010"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000137462"/>
+   <att name="db_xref" type="string" value="UniProt:D1CS49"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1FYW"/>
+   <att name="db_xref" type="string" value="UniProt:B3Y612"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_003264"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/O60603"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="TLR2_HUMAN"/>
+   <att name="aliases" type="string" value="TLR2"/>
+   <att name="aliases" type="string" value="Toll/interleukin-1 receptor-like protein 4"/>
+   <att name="aliases" type="string" value="CD282"/>
+   <att name="aliases" type="string" value="TIL4"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="TIL4"/>
+ </node>
+ <node id="2" label="Adenosine 5'-triphosphate">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Adenosine 5'-triphosphate"/>
+ </node>
+ <node id="3" label="Adenosine 5'-diphosphate">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Adenosine 5'-diphosphate"/>
+ </node>
+ <node id="4" label="TLR1:TLR2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_88600ed48d36f97be683b16d7cc4ab41"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="TLR1:TLR2"/>
+ </node>
+ <node id="5" label="TLR1:TLR2 with ligand">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a66c6ed898325988c5be10d395d9366a"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="TLR1:TLR2 with ligand"/>
+ </node>
+ <node id="6" label="TLR1:TLR2 recognized ligand">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_3fd6293123ffc05276e9e6821947762d"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="TLR1:TLR2 recognized ligand"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/Q5FWG5 - http://purl.org/pc2/4/Complex_88600ed48d36f97be683b16d7cc4ab41" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_88600ed48d36f97be683b16d7cc4ab41"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/O60603 - http://purl.org/pc2/4/Complex_88600ed48d36f97be683b16d7cc4ab41" source="1" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_88600ed48d36f97be683b16d7cc4ab41"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148 - http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3" source="2" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_6d1b491f8d67d15e0ce5ef3a52520e44"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_88600ed48d36f97be683b16d7cc4ab41 - http://purl.org/pc2/4/Complex_a66c6ed898325988c5be10d395d9366a" source="4" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a66c6ed898325988c5be10d395d9366a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_3fd6293123ffc05276e9e6821947762d - http://purl.org/pc2/4/Complex_a66c6ed898325988c5be10d395d9366a" source="6" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a66c6ed898325988c5be10d395d9366a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

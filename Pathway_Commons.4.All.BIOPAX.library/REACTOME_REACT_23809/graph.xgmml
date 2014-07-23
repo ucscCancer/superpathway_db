@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Reviewed: Calamita, G, 2010-07-15"/>
+ <att name="displayName" type="string" value="Transport of Glycerol from Adipocytes to the Liver by Aquaporins"/>
+ <att name="name" type="string" value="Transport of Glycerol from Adipocytes to the Liver by Aquaporins"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_d5c14a3ce9c8b69fccc10b7fa6dd8765"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Pubmed:16764946"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_23809"/>
+  <att name="db_xref" type="string" value="Pubmed:19096781"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:432030"/>
+  <att name="db_xref" type="string" value="GENE ONTOLOGY:GO:0015793"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Gro">
+  <att name="label" type="string" value="Gro"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="pubchem:8144020"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:42998"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:131422"/>
+   <att name="db_xref" type="string" value="InChIKey:PEDCQBHIVMGVHV-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:24351"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8144020"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:14334"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:17754"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:5448"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_54bfc4c3004342485a1fd08e43a62439"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="Gro">
+  <att name="label" type="string" value="Gro"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="pubchem:8144020"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:42998"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:131422"/>
+   <att name="db_xref" type="string" value="InChIKey:PEDCQBHIVMGVHV-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:24351"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8144020"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:14334"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:17754"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:5448"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_c6d672a5485a3a64cba7501d18893e74"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_54bfc4c3004342485a1fd08e43a62439 - http://purl.org/pc2/4/SmallMolecule_c6d672a5485a3a64cba7501d18893e74" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_6169cc393110ac3a966f4884a4b01c21"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_c6d672a5485a3a64cba7501d18893e74 - http://purl.org/pc2/4/SmallMolecule_54bfc4c3004342485a1fd08e43a62439" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_c6c69311cdb554d655750e3b3a635405"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

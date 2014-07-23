@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_55179"/>
+ <att name="displayName" type="string" value="Translesion synthesis by HREV1"/>
+ <att name="name" type="string" value="Translesion_synthesis_by_HREV1"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_e99276417cb5f5df1356e4fd409768e6"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="HREV1">
+  <att name="label" type="string" value="HREV1"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_c9230a26ba7e1af3986a97e1744cf398"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="1" label="damaged DNA substrate with misinserted bases">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_9cba0af567bdc23e2654eb659e78cb81"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="damaged DNA substrate with misinserted bases"/>
+ </node>
+ <node id="2" label="HREV1:damaged DNA template complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7a0aaf6d0af21f88c6558e3cde39fcea"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="HREV1:damaged DNA template complex"/>
+ </node>
+ <node id="3" label="Elongated DNA template with bypassed lesion">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_6d6d1d267641be936e4365f35ca7f7b7"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Elongated DNA template with bypassed lesion"/>
+ </node>
+ <node id="4" label="HREV1:lesioned DNA template with misinserted bases">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_48068d0c9e33b64f447fa6d5ff7a4914"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="HREV1:lesioned DNA template with misinserted bases"/>
+ </node>
+ <node id="5" label="damaged DNA substrate">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_f86cee9943cb5b465f3ab5a10575b9f6"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="damaged DNA substrate"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/ProteinReference_c9230a26ba7e1af3986a97e1744cf398 - http://purl.org/pc2/4/Complex_7a0aaf6d0af21f88c6558e3cde39fcea" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7a0aaf6d0af21f88c6558e3cde39fcea"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_c9230a26ba7e1af3986a97e1744cf398 - http://purl.org/pc2/4/Complex_48068d0c9e33b64f447fa6d5ff7a4914" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_48068d0c9e33b64f447fa6d5ff7a4914"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_9cba0af567bdc23e2654eb659e78cb81 - http://purl.org/pc2/4/Complex_48068d0c9e33b64f447fa6d5ff7a4914" source="1" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_48068d0c9e33b64f447fa6d5ff7a4914"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_7a0aaf6d0af21f88c6558e3cde39fcea - http://purl.org/pc2/4/Complex_48068d0c9e33b64f447fa6d5ff7a4914" source="2" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_e51fc001a0b8680bc9566ce58d543b67"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_48068d0c9e33b64f447fa6d5ff7a4914 - http://purl.org/pc2/4/PhysicalEntity_6d6d1d267641be936e4365f35ca7f7b7" source="4" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_14b1f2f233bea01f0d5f0b95a8341f26"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_f86cee9943cb5b465f3ab5a10575b9f6 - http://purl.org/pc2/4/Complex_7a0aaf6d0af21f88c6558e3cde39fcea" source="5" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7a0aaf6d0af21f88c6558e3cde39fcea"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

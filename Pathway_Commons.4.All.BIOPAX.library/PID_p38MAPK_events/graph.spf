@@ -1,0 +1,18 @@
+protein	Active_MAPKAP_kinase
+complex	MAP_kinase_p38_(Mg2+_cofactor)_(complex)
+protein	MAPKAP_kinase
+complex	Phospho-MAP_kinase_p38_(Mg2+_cofactor)_(complex)
+protein	Phospho-p38_MAPK_alpha/beta
+protein	RALGDS
+complex	Ras-GTP_RalGDS_complex_(complex)
+protein	SRC
+protein	p21_RAS
+complex	p21_RAS_GTP_(complex)
+MAPKAP_kinase	Active_MAPKAP_kinase	-a>
+SRC	Phospho-MAP_kinase_p38_(Mg2+_cofactor)_(complex)	-a>
+Phospho-p38_MAPK_alpha/beta	Phospho-MAP_kinase_p38_(Mg2+_cofactor)_(complex)	component>
+RALGDS	Ras-GTP_RalGDS_complex_(complex)	component>
+MAP_kinase_p38_(Mg2+_cofactor)_(complex)	Phospho-MAP_kinase_p38_(Mg2+_cofactor)_(complex)	-a>
+Phospho-MAP_kinase_p38_(Mg2+_cofactor)_(complex)	Active_MAPKAP_kinase	-a>
+p21_RAS	p21_RAS_GTP_(complex)	component>
+p21_RAS_GTP_(complex)	Ras-GTP_RalGDS_complex_(complex)	component>

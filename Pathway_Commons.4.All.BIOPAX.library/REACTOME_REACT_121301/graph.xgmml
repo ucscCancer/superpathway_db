@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://www.reactome.org/biopax/46/48887#Pathway1000"/>
+ <att name="displayName" type="string" value="Hyaluronan biosynthesis and export"/>
+ <att name="name" type="string" value="Hyaluronan biosynthesis and export"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_acd89cb0999158d4e69bf7c38222fe5a"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Reactome:REACT_121301"/>
+  <att name="db_xref" type="string" value="Pubmed:3124495"/>
+  <att name="db_xref" type="string" value="GENE ONTOLOGY:GO:0030213"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:2142850"/>
+  <att name="db_xref" type="string" value="Pubmed:17981795"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="(GlcA)1 (GlcNAc)1">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="pubchem:135610684"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:64024"/>
+   <att name="db_xref" type="string" value="InChIKey:LJORHONFMDUUHP-ASXIHULMSA-N"/>
+   <att name="db_xref" type="string" value="pubchem-substance:135610684"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6b8f8ece51606639c186d83c1c4db8d7"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="(GlcA)1 (GlcNAc)1"/>
+ </node>
+ <node id="1" label="Hyaluronan">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_870118f1aa513a1eb926e870d47b8e44"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Hyaluronan"/>
+ </node>
+ <node id="2" label="HA polymer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_636a8934f022bfad130c118dbb167f91"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="HA polymer"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6b8f8ece51606639c186d83c1c4db8d7 - http://purl.org/pc2/4/PhysicalEntity_636a8934f022bfad130c118dbb167f91" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_fa16d1e1aedeb527fdbb3445d21bffcb"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_636a8934f022bfad130c118dbb167f91 - http://purl.org/pc2/4/PhysicalEntity_870118f1aa513a1eb926e870d47b8e44" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_6c235fd3e90dd5c696197005ece0bd60"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

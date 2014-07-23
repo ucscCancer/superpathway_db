@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_117943"/>
+ <att name="displayName" type="string" value="PLC-mediated hydrolysis of PIP2"/>
+ <att name="name" type="string" value="PLC_mediated_hydrolysis_of_PIP2"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_5589623e559e4c8dcbf5ec797f0972e9"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Phospholipase C-gamma-2">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="omim:600220"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:9066"/>
+   <att name="db_xref" type="string" value="UniProt:D3DUL3"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:2K2J"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000197943"/>
+   <att name="db_xref" type="string" value="UniProt:Q969T5"/>
+   <att name="db_xref" type="string" value="HGNC:PLCG2"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000352336"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000359376"/>
+   <att name="db_xref" type="string" value="NCBI Gene:5336"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_002661"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:PLCG2"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_002652"/>
+   <att name="db_xref" type="string" value="UniProt:P16885"/>
+   <att name="db_xref" type="string" value="PANTHER Family:PTHR10336:SF25"/>
+   <att name="db_xref" type="string" value="UniProt:Q3ZTS2"/>
+   <att name="db_xref" type="string" value="UniProt:Q59H45"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P16885"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="PLCG2_HUMAN"/>
+   <att name="aliases" type="string" value="PLCG2"/>
+   <att name="aliases" type="string" value="Phosphoinositide phospholipase C-gamma-2"/>
+   <att name="aliases" type="string" value="Phospholipase C-IV"/>
+   <att name="aliases" type="string" value="PLC-IV"/>
+   <att name="aliases" type="string" value="PLC-gamma-2"/>
+   <att name="aliases" type="string" value="3.1.4.11"/>
+   <att name="aliases" type="string" value="Phospholipase C-gamma-2"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Phospholipase C-gamma-2"/>
+ </node>
+ <node id="1" label="1,2-Diacylglycerol">
+  <att name="label" type="string" value="1,2-Diacylglycerol"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_4cce2fb2d608e5d6da4e6278a22e7300"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="1-Phosphatidyl-D-myo-inositol 4,5-bisphosphate">
+  <att name="label" type="string" value="1-Phosphatidyl-D-myo-inositol 4,5-bisphosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_a2ee2b5db71cdb9352dfe22f0f805599"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="Inositol 1,4,5-trisphosphate">
+  <att name="label" type="string" value="Inositol 1,4,5-trisphosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_701c5dc04b673a14cbac1c4146d3d34e"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/P16885 - http://purl.org/pc2/4/SmallMolecule_4cce2fb2d608e5d6da4e6278a22e7300" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_c7d137e9004161fc6f24b08b5b6ceeac"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_a2ee2b5db71cdb9352dfe22f0f805599 - http://purl.org/pc2/4/SmallMolecule_4cce2fb2d608e5d6da4e6278a22e7300" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_dae62b1a89ed9931ca6ff6492c43d575"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_a2ee2b5db71cdb9352dfe22f0f805599 - http://purl.org/pc2/4/SmallMolecule_701c5dc04b673a14cbac1c4146d3d34e" source="2" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_dae62b1a89ed9931ca6ff6492c43d575"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

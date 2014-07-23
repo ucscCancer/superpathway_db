@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_90410"/>
+ <att name="displayName" type="string" value="Adenosine P1 receptors"/>
+ <att name="name" type="string" value="Adenosine_P1_receptors"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_ab2dd920f73d6264b210046c8805ceb2"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="A2a/A2b receptors">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_305b7eac29ea64107798670b0b5ca0eb"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="A2a/A2b receptors"/>
+ </node>
+ <node id="1" label="A1/A3 receptors">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_a60065caad7316b14e811d8d7f8e0815"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="A1/A3 receptors"/>
+ </node>
+ <node id="2" label="A2a/A2b receptor:Adenosine">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d04efe20f5c6df27742fe6acbc196923"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="A2a/A2b receptor:Adenosine"/>
+ </node>
+ <node id="3" label="adenosine">
+  <att name="label" type="string" value="adenosine"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_ae18a6fa04235dbd5c0b87037ab21195"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="4" label="A1/A3 receptor:Adenosine">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e5a452a0ce4555b0582ea2f470d66b4c"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="A1/A3 receptor:Adenosine"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/ProteinReference_305b7eac29ea64107798670b0b5ca0eb - http://purl.org/pc2/4/Complex_d04efe20f5c6df27742fe6acbc196923" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d04efe20f5c6df27742fe6acbc196923"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_a60065caad7316b14e811d8d7f8e0815 - http://purl.org/pc2/4/Complex_e5a452a0ce4555b0582ea2f470d66b4c" source="1" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e5a452a0ce4555b0582ea2f470d66b4c"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_ae18a6fa04235dbd5c0b87037ab21195 - http://purl.org/pc2/4/Complex_d04efe20f5c6df27742fe6acbc196923" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d04efe20f5c6df27742fe6acbc196923"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_ae18a6fa04235dbd5c0b87037ab21195 - http://purl.org/pc2/4/Complex_e5a452a0ce4555b0582ea2f470d66b4c" source="3" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e5a452a0ce4555b0582ea2f470d66b4c"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

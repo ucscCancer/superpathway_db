@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="HREV1 encodes a template dependent dCMP transferase activity that can insert a C residue opposite an abasic site.&lt;BR&gt;"/>
+ <att name="displayName" type="string" value="Translesion synthesis by HREV1"/>
+ <att name="name" type="string" value="Translesion synthesis by HREV1"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_b2c2d11f01ed0ff50b2b7291223e0ef7"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:110312"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_8"/>
+  <att name="db_xref" type="string" value="Pubmed:10760286"/>
+  <att name="db_xref" type="string" value="Pubmed:10536157"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="damaged DNA substrate">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_f38c948c9807e6b299df2f8d8379a7af"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="damaged DNA substrate"/>
+ </node>
+ <node id="1" label="REV1:damaged DNA template complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_2e9031e3cf1bcc17f8ad2f8dbddc5bc0"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="REV1:damaged DNA template complex"/>
+ </node>
+ <node id="2" label="REV1:lesioned DNA template with misinserted bases">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c23dcf4a88757618aa37b0f843807939"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="REV1:lesioned DNA template with misinserted bases"/>
+ </node>
+ <node id="3" label="Alpha integrin-binding protein 80">
+  <att name="label" type="string" value="Alpha integrin-binding protein 80"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt:Q53SI7"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000258428"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001032961"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:2EBW"/>
+   <att name="db_xref" type="string" value="omim:606134"/>
+   <att name="db_xref" type="string" value="HGNC:REV1"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000377091"/>
+   <att name="db_xref" type="string" value="UniProt:Q9C0J4"/>
+   <att name="db_xref" type="string" value="UniProt:Q9NUP2"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000135945"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_016316"/>
+   <att name="db_xref" type="string" value="UniProt:O95941"/>
+   <att name="db_xref" type="string" value="NCBI Gene:51455"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000393445"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:14060"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001037872"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000258428"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_057400"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:REV1"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UBZ9"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q9UBZ9"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="REV1_HUMAN"/>
+   <att name="aliases" type="string" value="REV1"/>
+   <att name="aliases" type="string" value="AIBP80"/>
+   <att name="aliases" type="string" value="REV1L"/>
+   <att name="aliases" type="string" value="2.7.7.-"/>
+   <att name="aliases" type="string" value="Rev1-like terminal deoxycytidyl transferase"/>
+   <att name="aliases" type="string" value="Alpha integrin-binding protein 80"/>
+  </att>
+ </node>
+ <node id="4" label="damaged DNA substrate with misinserted bases">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_91aed530aacbe1f2c0083b3e06d4ded3"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="damaged DNA substrate with misinserted bases"/>
+ </node>
+ <node id="5" label="Elongated DNA template with bypassed lesion">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_25684975acfaa8c848c9e33902d163de"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Elongated DNA template with bypassed lesion"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_f38c948c9807e6b299df2f8d8379a7af - http://purl.org/pc2/4/Complex_2e9031e3cf1bcc17f8ad2f8dbddc5bc0" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_2e9031e3cf1bcc17f8ad2f8dbddc5bc0"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_c23dcf4a88757618aa37b0f843807939 - http://identifiers.org/uniprot/Q9UBZ9" source="2" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_ebaacdd31aa5dee164a0a3e15d1e0ae1"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_c23dcf4a88757618aa37b0f843807939 - http://purl.org/pc2/4/PhysicalEntity_25684975acfaa8c848c9e33902d163de" source="2" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_ebaacdd31aa5dee164a0a3e15d1e0ae1"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9UBZ9 - http://purl.org/pc2/4/Complex_2e9031e3cf1bcc17f8ad2f8dbddc5bc0" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_2e9031e3cf1bcc17f8ad2f8dbddc5bc0"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9UBZ9 - http://purl.org/pc2/4/Complex_c23dcf4a88757618aa37b0f843807939" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c23dcf4a88757618aa37b0f843807939"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_91aed530aacbe1f2c0083b3e06d4ded3 - http://purl.org/pc2/4/Complex_c23dcf4a88757618aa37b0f843807939" source="4" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c23dcf4a88757618aa37b0f843807939"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

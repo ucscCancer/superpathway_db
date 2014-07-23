@@ -1,0 +1,66 @@
+complex	AP-1_(complex)
+protein	CSNK2A1
+complex	ELK-1/SRF/SRF_(complex)
+protein	ELK1
+protein	FOS
+protein	GRB2
+protein	HRAS
+protein	JAK1
+protein	JUN
+protein	MAP2K1
+protein	MAP2K4
+protein	MAP3K1
+protein	MAPK3
+protein	MAPK8
+complex	PDGF/PDGF/PDGF_R/PDGF_R_(complex)
+protein	PDGFA
+protein	PDGFRA
+complex	PI3K_(complex)
+protein	PIK3CA
+protein	PIK3R1
+protein	PKC
+protein	PLCG1
+protein	RAF1
+protein	RASA1
+complex	SHC/GRB2/SOS-1_(complex)
+protein	SHC1
+protein	SOS1
+protein	SRF
+protein	STAT1
+complex	STAT1/STAT3_(complex)
+protein	STAT3
+PDGFRA	PDGF/PDGF/PDGF_R/PDGF_R_(complex)	component>
+MAP3K1	MAP2K1	-a>
+MAP3K1	MAP2K4	-a>
+HRAS	MAP3K1	-a>
+HRAS	RAF1	-a>
+MAP2K1	MAPK3	-a>
+SHC/GRB2/SOS-1_(complex)	HRAS	-a>
+MAP2K4	MAPK8	-a>
+RAF1	MAP2K1	-a>
+STAT3	STAT1/STAT3_(complex)	component>
+STAT1	STAT1/STAT3_(complex)	component>
+MAPK3	ELK1	-a>
+MAPK3	JUN	-a>
+PIK3CA	PI3K_(complex)	component>
+FOS	AP-1_(complex)	component>
+JUN	AP-1_(complex)	component>
+PKC	ELK1	-a>
+ELK1	ELK-1/SRF/SRF_(complex)	component>
+ELK1	FOS	-a>
+PIK3R1	PI3K_(complex)	component>
+JAK1	STAT3	-a>
+JAK1	STAT1	-a>
+MAPK8	JUN	-a>
+PDGFA	PDGF/PDGF/PDGF_R/PDGF_R_(complex)	component>
+SRF	ELK-1/SRF/SRF_(complex)	component>
+SHC1	SHC/GRB2/SOS-1_(complex)	component>
+PDGF/PDGF/PDGF_R/PDGF_R_(complex)	PLCG1	-a>
+PDGF/PDGF/PDGF_R/PDGF_R_(complex)	PI3K_(complex)	-a>
+PDGF/PDGF/PDGF_R/PDGF_R_(complex)	SHC/GRB2/SOS-1_(complex)	-a>
+PDGF/PDGF/PDGF_R/PDGF_R_(complex)	RASA1	-a>
+PDGF/PDGF/PDGF_R/PDGF_R_(complex)	JAK1	-a>
+CSNK2A1	SRF	-a>
+CSNK2A1	JUN	-a|
+SOS1	SHC/GRB2/SOS-1_(complex)	component>
+GRB2	SHC/GRB2/SOS-1_(complex)	component>

@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_70470"/>
+ <att name="displayName" type="string" value="Type II Na+/Pi cotransporters"/>
+ <att name="name" type="string" value="Type_II_Na__Pi_cotransporters"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_f88cb3ec524dc7d6e461f157e6f052eb"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Sodium">
+  <att name="label" type="string" value="Sodium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="Inorganic Phosphate">
+  <att name="label" type="string" value="Inorganic Phosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_e16e2e931bc93b503c83db26ae084a10"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="Inorganic Phosphate">
+  <att name="label" type="string" value="Inorganic Phosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_149d50830ae1a778c163416feecdb4fc"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="NPT2C">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000355353"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_080877"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000198569"/>
+   <att name="db_xref" type="string" value="NCBI Gene:142680"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001177317"/>
+   <att name="db_xref" type="string" value="HGNC:SLC34A3"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:20305"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001170787"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000538474"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001170788"/>
+   <att name="db_xref" type="string" value="UniProt:Q8N130"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:SLC34A3"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001177316"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000442397"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_543153"/>
+   <att name="db_xref" type="string" value="UniProt:A2BFA1"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000361134"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q8N130"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="NPT2C_HUMAN"/>
+   <att name="aliases" type="string" value="NaPi-2c"/>
+   <att name="aliases" type="string" value="Solute carrier family 34 member 3"/>
+   <att name="aliases" type="string" value="Sodium/phosphate cotransporter 2C"/>
+   <att name="aliases" type="string" value="Na(+)/Pi cotransporter 2C"/>
+   <att name="aliases" type="string" value="Sodium/inorganic phosphate cotransporter IIC"/>
+   <att name="aliases" type="string" value="Sodium-phosphate transport protein 2C"/>
+   <att name="aliases" type="string" value="Na(+)-dependent phosphate cotransporter 2C"/>
+   <att name="aliases" type="string" value="SLC34A3"/>
+   <att name="aliases" type="string" value="NPTIIC"/>
+   <att name="aliases" type="string" value="NPT2C"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="NPT2C"/>
+ </node>
+ <node id="4" label="Electrogenic Na+/Pi cotransporters">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_4ce222195486ce4b6eb32f72d498d347"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Electrogenic Na+/Pi cotransporters"/>
+ </node>
+ <node id="5" label="Sodium">
+  <att name="label" type="string" value="Sodium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2 - http://purl.org/pc2/4/SmallMolecule_e16e2e931bc93b503c83db26ae084a10" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_9d24b9c38ada1d37e65e6a4fe6ab10a3"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2 - http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e" source="0" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_9d24b9c38ada1d37e65e6a4fe6ab10a3"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_149d50830ae1a778c163416feecdb4fc - http://purl.org/pc2/4/SmallMolecule_e16e2e931bc93b503c83db26ae084a10" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_9d24b9c38ada1d37e65e6a4fe6ab10a3"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_149d50830ae1a778c163416feecdb4fc - http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e" source="2" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_9d24b9c38ada1d37e65e6a4fe6ab10a3"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q8N130 - http://purl.org/pc2/4/SmallMolecule_e16e2e931bc93b503c83db26ae084a10" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_1bad94d689cea6b242b5f761b4540a48"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_4ce222195486ce4b6eb32f72d498d347 - http://purl.org/pc2/4/SmallMolecule_e16e2e931bc93b503c83db26ae084a10" source="4" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_9e12692b686951e58ec2af8c53e2b21c"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

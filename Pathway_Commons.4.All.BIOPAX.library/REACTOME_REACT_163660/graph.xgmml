@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://www.reactome.org/biopax/46/48887#Pathway1282"/>
+ <att name="displayName" type="string" value="Synthesis and processing of ENV and VPU"/>
+ <att name="name" type="string" value="Synthesis and processing of ENV and VPU"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_1cb40fdf495048e0e4faa1af7ef7105b"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:171286"/>
+  <att name="db_xref" type="string" value="GENE ONTOLOGY:GO:0019082"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_163660"/>
+  <att name="db_xref" type="string" value="Pubmed:22762019"/>
+ </att>
+ <att name="organism" type="string" value="11676"/>
+ <node id="0" label="gp41 homotrimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_4ba8df5e51b5e938546596b3fb1597cf"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="gp41 homotrimer"/>
+ </node>
+ <node id="1" label="Trimeric ENV precursor">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0b7b3044be3a66c4eed579c2b8968053"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Trimeric ENV precursor"/>
+ </node>
+ <node id="2" label="UniProt:P05919 vpu">
+  <att name="label" type="string" value="UniProt:P05919 vpu"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:P05919"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P05919"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="vpu"/>
+   <att name="aliases" type="string" value="UniProt:P05919 vpu"/>
+  </att>
+ </node>
+ <node id="3" label="UniProt:P04578 env">
+  <att name="label" type="string" value="UniProt:P04578 env"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:P04578"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P04578"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="env"/>
+   <att name="aliases" type="string" value="UniProt:P04578 env"/>
+  </att>
+ </node>
+ <node id="4" label="Trimeric gp120:gp41 oligomer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f960ca6c1cf5759309afc98adedafb9c"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Trimeric gp120:gp41 oligomer"/>
+ </node>
+ <node id="5" label="Trimeric gp120:gp41 oligomer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_453caf061d76a29bfef68c6eb9688f5c"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Trimeric gp120:gp41 oligomer"/>
+ </node>
+ <node id="6" label="Trimeric ENV precursor">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_4dc560596bc8f92e9f378061e14b0db5"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Trimeric ENV precursor"/>
+ </node>
+ <node id="7" label="EMBL:AF033819 EMBL:AF033819">
+  <att name="label" type="string" value="EMBL:AF033819 EMBL:AF033819"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ENA:AF033819"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/RnaReference_2e446e234dcc84578acd19ee96b4f388"/>
+  <att name="type" type="string" value="rna"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="EMBL:AF033819"/>
+   <att name="aliases" type="string" value="EMBL:AF033819 EMBL:AF033819"/>
+  </att>
+ </node>
+ <node id="8" label="gp120 homotrimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a9654e0b91f29fea88d0a5360cd94039"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="gp120 homotrimer"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/Complex_4ba8df5e51b5e938546596b3fb1597cf - http://purl.org/pc2/4/Complex_f960ca6c1cf5759309afc98adedafb9c" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f960ca6c1cf5759309afc98adedafb9c"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_4ba8df5e51b5e938546596b3fb1597cf - http://purl.org/pc2/4/Complex_453caf061d76a29bfef68c6eb9688f5c" source="0" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_453caf061d76a29bfef68c6eb9688f5c"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P05919 - http://identifiers.org/uniprot/P05919" source="2" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_556f3a73872dcd248c6374c91c7f6881"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P04578 - http://purl.org/pc2/4/Complex_4ba8df5e51b5e938546596b3fb1597cf" source="3" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_4ba8df5e51b5e938546596b3fb1597cf"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P04578 - http://purl.org/pc2/4/Complex_0b7b3044be3a66c4eed579c2b8968053" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0b7b3044be3a66c4eed579c2b8968053"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P04578 - http://purl.org/pc2/4/Complex_4dc560596bc8f92e9f378061e14b0db5" source="3" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_4dc560596bc8f92e9f378061e14b0db5"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P04578 - http://identifiers.org/uniprot/P04578" source="3" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_18b537e0e6ef1ff5dc24a130a423a48c"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P04578 - http://purl.org/pc2/4/Complex_a9654e0b91f29fea88d0a5360cd94039" source="3" target="8">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a9654e0b91f29fea88d0a5360cd94039"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/RnaReference_2e446e234dcc84578acd19ee96b4f388 - http://purl.org/pc2/4/RnaReference_2e446e234dcc84578acd19ee96b4f388" source="7" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_0543eafbcbf2f9489f41f5c0ff5877dd"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/RnaReference_2e446e234dcc84578acd19ee96b4f388 - http://identifiers.org/uniprot/P05919" source="7" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_950d075ab55c74b1cec58ddb293e4f62"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/RnaReference_2e446e234dcc84578acd19ee96b4f388 - http://identifiers.org/uniprot/P04578" source="7" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_90a44da37bf46e09ada4e49f6d203153"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_a9654e0b91f29fea88d0a5360cd94039 - http://purl.org/pc2/4/Complex_f960ca6c1cf5759309afc98adedafb9c" source="8" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f960ca6c1cf5759309afc98adedafb9c"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_a9654e0b91f29fea88d0a5360cd94039 - http://purl.org/pc2/4/Complex_453caf061d76a29bfef68c6eb9688f5c" source="8" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_453caf061d76a29bfef68c6eb9688f5c"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

@@ -1,0 +1,15 @@
+complex	2xMMAA_(complex)
+complex	2xMMAA_2xMUT_(complex)
+complex	2xMMAA_2xMUT_AdoCbl_(complex)
+protein	MMAA
+protein	MUT
+complex	MUT_dimer_apoenzyme_(complex)
+complex	methylmalonyl-CoA_mutase__homodimer_(complex)
+MUT	MUT_dimer_apoenzyme_(complex)	component>
+MUT	methylmalonyl-CoA_mutase__homodimer_(complex)	component>
+MUT_dimer_apoenzyme_(complex)	2xMMAA_2xMUT_(complex)	component>
+methylmalonyl-CoA_mutase__homodimer_(complex)	2xMMAA_2xMUT_AdoCbl_(complex)	component>
+MMAA	2xMMAA_(complex)	component>
+2xMMAA_2xMUT_AdoCbl_(complex)	2xMMAA_2xMUT_(complex)	-a>
+2xMMAA_(complex)	2xMMAA_2xMUT_AdoCbl_(complex)	component>
+2xMMAA_(complex)	2xMMAA_2xMUT_(complex)	component>

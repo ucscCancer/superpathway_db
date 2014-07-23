@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_72206"/>
+ <att name="displayName" type="string" value="The fatty acid cycling model"/>
+ <att name="name" type="string" value="The_fatty_acid_cycling_model"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_ece4e3d3f648131573aab2b8a17f365d"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="UCP dimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e32cf1f3880511a126998706a0cbb5df"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="UCP dimer"/>
+ </node>
+ <node id="1" label="Fatty Acid anion &quot;head-in&quot;">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_f057f0bcaf0e1e2a2c8b98b7966bfe36"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Fatty Acid anion &quot;head-in&quot;"/>
+ </node>
+ <node id="2" label="Fatty Acid &quot;head-in&quot;">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_de94fd7d1de50ca598875b94a9fbdc0d"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Fatty Acid &quot;head-in&quot;"/>
+ </node>
+ <node id="3" label="H+">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_272e9084e5f489e8b2c131bd8b49b36d"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="H+"/>
+ </node>
+ <node id="4" label="Fatty Acid anion &quot;head-out&quot;">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_e26905ea8a7f700eeed09d9e5d006016"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Fatty Acid anion &quot;head-out&quot;"/>
+ </node>
+ <node id="5" label="FA anion:UCP dimer &quot;head-out&quot; complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f89c2b10161407388024fc4206bf9f3e"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="FA anion:UCP dimer &quot;head-out&quot; complex"/>
+ </node>
+ <node id="6" label="UCP dimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_23bcee1b7d76996c7b082081774e87b0"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="UCP dimer"/>
+ </node>
+ <node id="7" label="Fatty Acid &quot;head-out&quot;">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_2f0735a51cd1bf03260f1913a17b330d"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Fatty Acid &quot;head-out&quot;"/>
+ </node>
+ <node id="8" label="Fatty Acid anion &quot;head-out&quot;">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_9cb2ffc825f85a5abb2700ada0cab82e"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Fatty Acid anion &quot;head-out&quot;"/>
+ </node>
+ <node id="9" label="FA anion:UCP dimer &quot;head-in&quot; complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_2b8afcf8b06cd1cbcf397b8101d4d17c"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="FA anion:UCP dimer &quot;head-in&quot; complex"/>
+ </node>
+ <node id="10" label="Fatty Acid anion &quot;head-in&quot;">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_003681fb3ac982194faca53b5d3ebd23"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Fatty Acid anion &quot;head-in&quot;"/>
+ </node>
+ <node id="11" label="UCP">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_dc6ecb09bb5afba43e983f56a579a159"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="UCP"/>
+ </node>
+ <node id="12" label="H+">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_ecddd3f6c93b4e32e82ae15c06ddeb01"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="H+"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/Complex_e32cf1f3880511a126998706a0cbb5df - http://purl.org/pc2/4/Complex_f89c2b10161407388024fc4206bf9f3e" source="0" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f89c2b10161407388024fc4206bf9f3e"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_e32cf1f3880511a126998706a0cbb5df - http://purl.org/pc2/4/Complex_2b8afcf8b06cd1cbcf397b8101d4d17c" source="0" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_2b8afcf8b06cd1cbcf397b8101d4d17c"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_f057f0bcaf0e1e2a2c8b98b7966bfe36 - http://purl.org/pc2/4/Complex_2b8afcf8b06cd1cbcf397b8101d4d17c" source="1" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f0610ca7b43f87766d7f4fdc835a3525"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_de94fd7d1de50ca598875b94a9fbdc0d - http://purl.org/pc2/4/SmallMolecule_ecddd3f6c93b4e32e82ae15c06ddeb01" source="2" target="12">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_a59ca6a1e68068b08924c5de06f87ff2"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_de94fd7d1de50ca598875b94a9fbdc0d - http://purl.org/pc2/4/PhysicalEntity_f057f0bcaf0e1e2a2c8b98b7966bfe36" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_a59ca6a1e68068b08924c5de06f87ff2"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_272e9084e5f489e8b2c131bd8b49b36d - http://purl.org/pc2/4/PhysicalEntity_2f0735a51cd1bf03260f1913a17b330d" source="3" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9913bd98f6337663e9575763f4857443"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_e26905ea8a7f700eeed09d9e5d006016 - http://purl.org/pc2/4/PhysicalEntity_2f0735a51cd1bf03260f1913a17b330d" source="4" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9913bd98f6337663e9575763f4857443"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_f89c2b10161407388024fc4206bf9f3e - http://purl.org/pc2/4/Complex_23bcee1b7d76996c7b082081774e87b0" source="5" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_a2d67aaeb646eeef07915821c7d57a5e"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_f89c2b10161407388024fc4206bf9f3e - http://purl.org/pc2/4/PhysicalEntity_e26905ea8a7f700eeed09d9e5d006016" source="5" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_a2d67aaeb646eeef07915821c7d57a5e"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_23bcee1b7d76996c7b082081774e87b0 - http://purl.org/pc2/4/Complex_2b8afcf8b06cd1cbcf397b8101d4d17c" source="6" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f0610ca7b43f87766d7f4fdc835a3525"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_9cb2ffc825f85a5abb2700ada0cab82e - http://purl.org/pc2/4/Complex_f89c2b10161407388024fc4206bf9f3e" source="8" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f89c2b10161407388024fc4206bf9f3e"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_2b8afcf8b06cd1cbcf397b8101d4d17c - http://purl.org/pc2/4/Complex_f89c2b10161407388024fc4206bf9f3e" source="9" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_57715a1d08194f5e2b40d906910e83d8"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_003681fb3ac982194faca53b5d3ebd23 - http://purl.org/pc2/4/Complex_2b8afcf8b06cd1cbcf397b8101d4d17c" source="10" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_2b8afcf8b06cd1cbcf397b8101d4d17c"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_dc6ecb09bb5afba43e983f56a579a159 - http://purl.org/pc2/4/Complex_e32cf1f3880511a126998706a0cbb5df" source="11" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e32cf1f3880511a126998706a0cbb5df"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_dc6ecb09bb5afba43e983f56a579a159 - http://purl.org/pc2/4/Complex_23bcee1b7d76996c7b082081774e87b0" source="11" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_23bcee1b7d76996c7b082081774e87b0"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

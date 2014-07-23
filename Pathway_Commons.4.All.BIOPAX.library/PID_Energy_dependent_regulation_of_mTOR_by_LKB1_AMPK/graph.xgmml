@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_141226"/>
+ <att name="displayName" type="string" value="Energy dependent regulation of mTOR by LKB1-AMPK"/>
+ <att name="name" type="string" value="Energy_dependent_regulation_of_mTOR_by_LKB1_AMPK"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_941c58d4bbfe76f16e05b9670d5b0127"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Adenosine 5'-triphosphate">
+  <att name="label" type="string" value="Adenosine 5'-triphosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="Inorganic Phosphate">
+  <att name="label" type="string" value="Inorganic Phosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_e16e2e931bc93b503c83db26ae084a10"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="Adenylic acid">
+  <att name="label" type="string" value="Adenylic acid"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_784cc34d4e6dd5eb90cc9fe444ed40b3"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="AMPK beta">
+  <att name="label" type="string" value="AMPK beta"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_a492294a67ad16f3a17da5e6bad6f50d"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="4" label="Phosphorylated AMPK heterotrimer:AMP">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b779dfdab78cc0e90b9e3fe0a49c7f7a"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Phosphorylated AMPK heterotrimer:AMP"/>
+ </node>
+ <node id="5" label="AMPK gamma">
+  <att name="label" type="string" value="AMPK gamma"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_1bd0637159ec830d30b6b76966039267"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="6" label="Adenosine 5'-diphosphate">
+  <att name="label" type="string" value="Adenosine 5'-diphosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="7" label="Phosphorylated AMPK alpha">
+  <att name="label" type="string" value="Phosphorylated AMPK alpha"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_01363714af28f253bf9822560b82d2cf"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="8" label="Phosphorylated AMPK heterotrimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_77bdf40a164b3511d506028e21b8d329"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Phosphorylated AMPK heterotrimer"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148 - http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3" source="0" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_8633faeceabce5f9a539a10795fabafc"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148 - http://purl.org/pc2/4/SmallMolecule_e16e2e931bc93b503c83db26ae084a10" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_8633faeceabce5f9a539a10795fabafc"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148 - http://purl.org/pc2/4/Complex_b779dfdab78cc0e90b9e3fe0a49c7f7a" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Control_ffd32d343fe9d44b136f7106ff82268c"/>
+  <att name="class" type="string" value="Control"/>
+  <att name="interaction" type="string" value="-a|"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_784cc34d4e6dd5eb90cc9fe444ed40b3 - http://purl.org/pc2/4/Complex_b779dfdab78cc0e90b9e3fe0a49c7f7a" source="2" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b779dfdab78cc0e90b9e3fe0a49c7f7a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_a492294a67ad16f3a17da5e6bad6f50d - http://purl.org/pc2/4/Complex_77bdf40a164b3511d506028e21b8d329" source="3" target="8">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_77bdf40a164b3511d506028e21b8d329"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_b779dfdab78cc0e90b9e3fe0a49c7f7a - http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3" source="4" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Control_9320825ec522b543d1e71b4dc0032c32"/>
+  <att name="class" type="string" value="Control"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_b779dfdab78cc0e90b9e3fe0a49c7f7a - http://purl.org/pc2/4/Complex_b779dfdab78cc0e90b9e3fe0a49c7f7a" source="4" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Control_d50a9ce13c610bbea3682beec0bdb055"/>
+  <att name="class" type="string" value="Control"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_1bd0637159ec830d30b6b76966039267 - http://purl.org/pc2/4/Complex_77bdf40a164b3511d506028e21b8d329" source="5" target="8">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_77bdf40a164b3511d506028e21b8d329"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_01363714af28f253bf9822560b82d2cf - http://purl.org/pc2/4/Complex_77bdf40a164b3511d506028e21b8d329" source="7" target="8">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_77bdf40a164b3511d506028e21b8d329"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_77bdf40a164b3511d506028e21b8d329 - http://purl.org/pc2/4/Complex_b779dfdab78cc0e90b9e3fe0a49c7f7a" source="8" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b779dfdab78cc0e90b9e3fe0a49c7f7a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

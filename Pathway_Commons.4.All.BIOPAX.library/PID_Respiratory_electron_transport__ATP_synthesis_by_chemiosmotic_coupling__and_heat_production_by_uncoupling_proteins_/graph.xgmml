@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_77206"/>
+ <att name="displayName" type="string" value="Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins."/>
+ <att name="name" type="string" value="Respiratory_electron_transport__ATP_synthesis_by_chemiosmotic_coupling__and_heat_production_by_uncoupling_proteins_"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_f02ebd3ee632064a1d94ef3e8c2fbdf2"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Water">
+  <att name="label" type="string" value="Water"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_f41bbc12ec686b7a13fb91194f16cf17"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="H+">
+  <att name="label" type="string" value="H+"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_ecddd3f6c93b4e32e82ae15c06ddeb01"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="H+">
+  <att name="label" type="string" value="H+"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_272e9084e5f489e8b2c131bd8b49b36d"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_ecddd3f6c93b4e32e82ae15c06ddeb01 - http://purl.org/pc2/4/SmallMolecule_f41bbc12ec686b7a13fb91194f16cf17" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_b50e3d2e0cf0a7783bb59713983832ee"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_ecddd3f6c93b4e32e82ae15c06ddeb01 - http://purl.org/pc2/4/SmallMolecule_272e9084e5f489e8b2c131bd8b49b36d" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_b50e3d2e0cf0a7783bb59713983832ee"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_272e9084e5f489e8b2c131bd8b49b36d - http://purl.org/pc2/4/SmallMolecule_f41bbc12ec686b7a13fb91194f16cf17" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_aa65ee2ffd77aef05870fe3659242314"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_272e9084e5f489e8b2c131bd8b49b36d - http://purl.org/pc2/4/SmallMolecule_ecddd3f6c93b4e32e82ae15c06ddeb01" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_d919046a029fa9237210ffc3cb03a107"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+</graph>

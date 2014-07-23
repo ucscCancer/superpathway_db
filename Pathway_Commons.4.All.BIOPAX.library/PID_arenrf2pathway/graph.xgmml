@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_4667"/>
+ <att name="displayName" type="string" value="oxidative stress induced gene expression via nrf2"/>
+ <att name="name" type="string" value="arenrf2pathway"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_28357ca736d389a81fa1e77f8dbe6fea"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="ROS">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_e11c36dba23835d0eba7716723941e6c"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="ROS"/>
+ </node>
+ <node id="1" label="Small Mafs">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_317278952e67d34b1c3ebb8b131ef87c"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Small Mafs"/>
+ </node>
+ <node id="2" label="Nrf2/Small Mafs">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b193d2b685cd772acd85bdeed0fffcbc"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Nrf2/Small Mafs"/>
+ </node>
+ <node id="3" label="KEAP1">
+  <att name="label" type="string" value="KEAP1"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1U6D"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000079999"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000171111"/>
+   <att name="db_xref" type="string" value="NCBI Gene:9817"/>
+   <att name="db_xref" type="string" value="UniProt:Q8WTX1"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_012289"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000171111"/>
+   <att name="db_xref" type="string" value="HGNC:KEAP1"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_203500"/>
+   <att name="db_xref" type="string" value="UniProt:Q6LEP0"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:23177"/>
+   <att name="db_xref" type="string" value="UniProt:Q14145"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000393623"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000377245"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_036421"/>
+   <att name="db_xref" type="string" value="UniProt:Q9BPY9"/>
+   <att name="db_xref" type="string" value="omim:606016"/>
+   <att name="db_xref" type="string" value="UniProt:B3KPD5"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_987096"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:KEAP1"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q14145"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="KEAP1_HUMAN"/>
+   <att name="aliases" type="string" value="INRF2"/>
+   <att name="aliases" type="string" value="KIAA0132"/>
+   <att name="aliases" type="string" value="Kelch-like protein 19"/>
+   <att name="aliases" type="string" value="Cytosolic inhibitor of Nrf2"/>
+   <att name="aliases" type="string" value="INrf2"/>
+   <att name="aliases" type="string" value="KLHL19"/>
+   <att name="aliases" type="string" value="KEAP1"/>
+  </att>
+ </node>
+ <node id="4" label="PKC">
+  <att name="label" type="string" value="PKC"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_bb7712e85153c72334b08483ba393d97"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="5" label="NFE2-related factor 2">
+  <att name="label" type="string" value="NFE2-related factor 2"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="HGNC:HGNC:7782"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000397062"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_006164"/>
+   <att name="db_xref" type="string" value="UniProt:Q96F71"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_006155"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001138884"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000380253"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000411575"/>
+   <att name="db_xref" type="string" value="omim:600492"/>
+   <att name="db_xref" type="string" value="UniProt:Q53RW6"/>
+   <att name="db_xref" type="string" value="UniProt:Q16236"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001138885"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000467401"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001145413"/>
+   <att name="db_xref" type="string" value="UniProt:B2RBU2"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001145412"/>
+   <att name="db_xref" type="string" value="UniProt:E9PGJ7"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:NFE2L2"/>
+   <att name="db_xref" type="string" value="NCBI Gene:4780"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000397063"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000380252"/>
+   <att name="db_xref" type="string" value="UniProt:Q59HH2"/>
+   <att name="db_xref" type="string" value="HGNC:NFE2L2"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000446151"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000116044"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000464747"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:2FLU"/>
+   <att name="db_xref" type="string" value="UniProt:B4E338"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q16236"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="NF2L2_HUMAN"/>
+   <att name="aliases" type="string" value="HEBP1"/>
+   <att name="aliases" type="string" value="NF-E2-related factor 2"/>
+   <att name="aliases" type="string" value="NRF2"/>
+   <att name="aliases" type="string" value="Nuclear factor, erythroid derived 2, like 2"/>
+   <att name="aliases" type="string" value="NFE2L2"/>
+   <att name="aliases" type="string" value="NFE2-related factor 2"/>
+  </att>
+ </node>
+ <node id="6" label="Nrf2/bZip">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_5f3f4c305ae4ee1ceeb228ce619daf8a"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Nrf2/bZip"/>
+ </node>
+ <node id="7" label="bZip">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_0211c0a35cf4baf6cb66cbc640ec0d0a"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="bZip"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_e11c36dba23835d0eba7716723941e6c - http://purl.org/pc2/4/ProteinReference_bb7712e85153c72334b08483ba393d97" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_5efa866e9c78cf2e16fab37cbf8dcc59"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_317278952e67d34b1c3ebb8b131ef87c - http://purl.org/pc2/4/Complex_b193d2b685cd772acd85bdeed0fffcbc" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b193d2b685cd772acd85bdeed0fffcbc"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_bb7712e85153c72334b08483ba393d97 - http://identifiers.org/uniprot/Q14145" source="4" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_7f0f8c93b8e11173305b0e6a97603c83"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_bb7712e85153c72334b08483ba393d97 - http://purl.org/pc2/4/ProteinReference_bb7712e85153c72334b08483ba393d97" source="4" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_358ee7cbced2ef1be436eecbb650ce7b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q16236 - http://purl.org/pc2/4/Complex_5f3f4c305ae4ee1ceeb228ce619daf8a" source="5" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_5f3f4c305ae4ee1ceeb228ce619daf8a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q16236 - http://purl.org/pc2/4/Complex_b193d2b685cd772acd85bdeed0fffcbc" source="5" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b193d2b685cd772acd85bdeed0fffcbc"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q16236 - http://identifiers.org/uniprot/Q16236" source="5" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_dc4215703a378aa0cfd6098358675c4f"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_0211c0a35cf4baf6cb66cbc640ec0d0a - http://purl.org/pc2/4/Complex_5f3f4c305ae4ee1ceeb228ce619daf8a" source="7" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_5f3f4c305ae4ee1ceeb228ce619daf8a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

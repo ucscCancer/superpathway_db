@@ -1,0 +1,433 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_43279"/>
+ <att name="displayName" type="string" value="Digestion of dietary carbohydrate"/>
+ <att name="name" type="string" value="Digestion_of_dietary_carbohydrate"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_feca29a4bb8a60e63dc0541292372c26"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="maltase-glucoamylase dimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c17135bb0051c0d4f904315bcdb54ecc"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="maltase-glucoamylase dimer"/>
+ </node>
+ <node id="1" label="D-Galactose">
+  <att name="label" type="string" value="D-Galactose"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6647e91a50c81b89b893dff36f4b97f8"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="TREA">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="HGNC:HGNC:12266"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_007180"/>
+   <att name="db_xref" type="string" value="UniProt:Q32MB9"/>
+   <att name="db_xref" type="string" value="UniProt:O43280"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000118094"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:TREH"/>
+   <att name="db_xref" type="string" value="NCBI Gene:11181"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000264029"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_009111"/>
+   <att name="db_xref" type="string" value="Pubmed:9427547"/>
+   <att name="db_xref" type="string" value="HGNC:TREH"/>
+   <att name="db_xref" type="string" value="UniProt:Q53FY8"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000264029"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/O43280"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="TREA_HUMAN"/>
+   <att name="aliases" type="string" value="Alpha,alpha-trehalose glucohydrolase"/>
+   <att name="aliases" type="string" value="Alpha,alpha-trehalase"/>
+   <att name="aliases" type="string" value="TREH"/>
+   <att name="aliases" type="string" value="3.2.1.28"/>
+   <att name="aliases" type="string" value="TREA"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="TREA"/>
+ </node>
+ <node id="3" label="D-Fructose">
+  <att name="label" type="string" value="D-Fructose"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6f7547430468f7ca27dc115c99931c83"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="4" label="1-alpha-D-Glucopyranosyl-4-alpha-D-glucopyranose">
+  <att name="label" type="string" value="1-alpha-D-Glucopyranosyl-4-alpha-D-glucopyranose"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_fb1ff9745e316dc297515b62cc782393"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="5" label="Lactase-glycosylceramidase">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="NCBI Gene:3938"/>
+   <att name="db_xref" type="string" value="UniProt:P09848"/>
+   <att name="db_xref" type="string" value="omim:603202"/>
+   <att name="db_xref" type="string" value="UniProt:Q4ZG58"/>
+   <att name="db_xref" type="string" value="HGNC:LCT"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:LCT"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_002290"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000115850"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000264162"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:6530"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_002299"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000264162"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P09848"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="LPH_HUMAN"/>
+   <att name="aliases" type="string" value="LPH"/>
+   <att name="aliases" type="string" value="Lactase"/>
+   <att name="aliases" type="string" value="LCT"/>
+   <att name="aliases" type="string" value="3.2.1.62"/>
+   <att name="aliases" type="string" value="Phlorizin hydrolase"/>
+   <att name="aliases" type="string" value="3.2.1.108"/>
+   <att name="aliases" type="string" value="Lactase-glycosylceramidase"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Lactase-glycosylceramidase"/>
+ </node>
+ <node id="6" label="alpha,alpha-Trehalose">
+  <att name="label" type="string" value="alpha,alpha-Trehalose"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_be95e94e1addc96cb73f2354731c8c86"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="7" label="3.2.1.1">
+  <att name="label" type="string" value="3.2.1.1"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PubMed:2423416"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1B2Y"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_000699"/>
+   <att name="db_xref" type="string" value="HGNC:AMY2A"/>
+   <att name="db_xref" type="string" value="NCBI Gene:279"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000397582"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:477"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000243480"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000414303"/>
+   <att name="db_xref" type="string" value="PubMed:2450054"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:AMY2A"/>
+   <att name="db_xref" type="string" value="PubMed:6336237"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_000690"/>
+   <att name="db_xref" type="string" value="PubMed:2788608"/>
+   <att name="db_xref" type="string" value="omim:104650"/>
+   <att name="db_xref" type="string" value="UniProt:P04746"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P04746"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="AMYP_HUMAN"/>
+   <att name="aliases" type="string" value="AMY2A"/>
+   <att name="aliases" type="string" value="1,4-alpha-D-glucan glucanohydrolase"/>
+   <att name="aliases" type="string" value="PA"/>
+   <att name="aliases" type="string" value="3.2.1.1"/>
+  </att>
+ </node>
+ <node id="8" label="starch (amylose)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_9ab7a6fa5124fe40e55ec6718b26735e"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="starch (amylose)"/>
+ </node>
+ <node id="9" label="alpha-D-Glucose">
+  <att name="label" type="string" value="alpha-D-Glucose"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_9ee90d741822f02a8ca1fac4c35f73e7"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="10" label="ChEBI:28912 limit dextrins">
+  <att name="label" type="string" value="ChEBI:28912 limit dextrins"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_a7b3a2a6aca708435a7b7d87f7278070"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="11" label="Alpha-glucosidase">
+  <att name="label" type="string" value="Alpha-glucosidase"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt:O43451"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:2QLY"/>
+   <att name="db_xref" type="string" value="UniProt:Q86UM5"/>
+   <att name="db_xref" type="string" value="omim:154360"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:7043"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_004668"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000259858"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000456134"/>
+   <att name="db_xref" type="string" value="NCBI Gene:8972"/>
+   <att name="db_xref" type="string" value="UniProt:Q0VAX6"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_004659"/>
+   <att name="db_xref" type="string" value="HGNC:MGAM"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000563244"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000549489"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000447378"/>
+   <att name="db_xref" type="string" value="UniProt:Q75ME7"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:MGAM"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000257335"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/O43451"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="MGA_HUMAN"/>
+   <att name="aliases" type="string" value="3.2.1.3"/>
+   <att name="aliases" type="string" value="Maltase"/>
+   <att name="aliases" type="string" value="MGAM"/>
+   <att name="aliases" type="string" value="Glucan 1,4-alpha-glucosidase"/>
+   <att name="aliases" type="string" value="Glucoamylase"/>
+   <att name="aliases" type="string" value="3.2.1.20"/>
+   <att name="aliases" type="string" value="MGAML"/>
+   <att name="aliases" type="string" value="MGA"/>
+   <att name="aliases" type="string" value="Alpha-glucosidase"/>
+  </att>
+ </node>
+ <node id="12" label="starch (amylopectin)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_041bb3c979cf81a2d9619d9de5a83f2b"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="starch (amylopectin)"/>
+ </node>
+ <node id="13" label="Maltotriose">
+  <att name="label" type="string" value="Maltotriose"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_387410a42ddf1579971675c3c4eff79b"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="14" label="Sucrose">
+  <att name="label" type="string" value="Sucrose"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_a19f8abd2938721a341ebdf536d10f5b"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="15" label="Isomaltase">
+  <att name="label" type="string" value="Isomaltase"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="HGNC Symbol:SI"/>
+   <att name="db_xref" type="string" value="omim:609845"/>
+   <att name="db_xref" type="string" value="UniProt:P14410"/>
+   <att name="db_xref" type="string" value="HGNC:SI"/>
+   <att name="db_xref" type="string" value="UniProt:Q1JQ80"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000090402"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001041"/>
+   <att name="db_xref" type="string" value="UniProt:A2RUC3"/>
+   <att name="db_xref" type="string" value="NCBI Gene:6476"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:10856"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000264382"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001032"/>
+   <att name="db_xref" type="string" value="UniProt:Q1RMC2"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000264382"/>
+   <att name="db_xref" type="string" value="Pubmed:807575"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P14410"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="SUIS_HUMAN"/>
+   <att name="aliases" type="string" value="3.2.1.48"/>
+   <att name="aliases" type="string" value="3.2.1.10"/>
+   <att name="aliases" type="string" value="SI"/>
+   <att name="aliases" type="string" value="Sucrase"/>
+   <att name="aliases" type="string" value="Isomaltase"/>
+  </att>
+ </node>
+ <node id="16" label="Milk sugar">
+  <att name="label" type="string" value="Milk sugar"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_d556ded8e7018d4528070f61e01a8f1b"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="17" label="Water">
+  <att name="label" type="string" value="Water"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_c2a44c2786740665d7be3723fceab525"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="18" label="lactase-phlorizin hydrolase dimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_4543cd0148ec272addc076fd45721915"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="lactase-phlorizin hydrolase dimer"/>
+ </node>
+ <node id="19" label="sucrase-isomaltase dimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_9e0bc0dc4fa5f243d3e5f797d5fe7ef2"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="sucrase-isomaltase dimer"/>
+ </node>
+ <node id="20" label="sucrase-isomaltase">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_81922908e9a7c73e73a94019d8a03999"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="sucrase-isomaltase"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/Complex_c17135bb0051c0d4f904315bcdb54ecc - http://purl.org/pc2/4/SmallMolecule_9ee90d741822f02a8ca1fac4c35f73e7" source="0" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_fe539b65757273476b3a6f4d0809baef"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_c17135bb0051c0d4f904315bcdb54ecc - http://purl.org/pc2/4/SmallMolecule_fb1ff9745e316dc297515b62cc782393" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_951114e379b319b33b32a43311c7673a"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/O43280 - http://purl.org/pc2/4/SmallMolecule_9ee90d741822f02a8ca1fac4c35f73e7" source="2" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_092b1011e5b2ba1aefbd0a7a8636e797"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_fb1ff9745e316dc297515b62cc782393 - http://purl.org/pc2/4/SmallMolecule_9ee90d741822f02a8ca1fac4c35f73e7" source="4" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_0144b987f5e94b051df9f73cdc210fe1"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P09848 - http://purl.org/pc2/4/Complex_4543cd0148ec272addc076fd45721915" source="5" target="18">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_4543cd0148ec272addc076fd45721915"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_be95e94e1addc96cb73f2354731c8c86 - http://purl.org/pc2/4/SmallMolecule_9ee90d741822f02a8ca1fac4c35f73e7" source="6" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9d8ab36c00508e10e5d79c87400bde14"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P04746 - http://purl.org/pc2/4/SmallMolecule_a7b3a2a6aca708435a7b7d87f7278070" source="7" target="10">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_da455b070b435d6c971b501fc87807fc"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P04746 - http://purl.org/pc2/4/SmallMolecule_fb1ff9745e316dc297515b62cc782393" source="7" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_ff4843a561565c7e2d0690583afe3e27"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_9ab7a6fa5124fe40e55ec6718b26735e - http://purl.org/pc2/4/SmallMolecule_fb1ff9745e316dc297515b62cc782393" source="8" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_096d5e45b6181155f768969a0b792ffa"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_9ab7a6fa5124fe40e55ec6718b26735e - http://purl.org/pc2/4/SmallMolecule_387410a42ddf1579971675c3c4eff79b" source="8" target="13">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_096d5e45b6181155f768969a0b792ffa"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_a7b3a2a6aca708435a7b7d87f7278070 - http://purl.org/pc2/4/SmallMolecule_9ee90d741822f02a8ca1fac4c35f73e7" source="10" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_836fc3ce09e2d820063b074fc80c2fef"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_a7b3a2a6aca708435a7b7d87f7278070 - http://purl.org/pc2/4/SmallMolecule_387410a42ddf1579971675c3c4eff79b" source="10" target="13">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_836fc3ce09e2d820063b074fc80c2fef"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_a7b3a2a6aca708435a7b7d87f7278070 - http://purl.org/pc2/4/SmallMolecule_fb1ff9745e316dc297515b62cc782393" source="10" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_836fc3ce09e2d820063b074fc80c2fef"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/O43451 - http://purl.org/pc2/4/Complex_c17135bb0051c0d4f904315bcdb54ecc" source="11" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c17135bb0051c0d4f904315bcdb54ecc"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_041bb3c979cf81a2d9619d9de5a83f2b - http://purl.org/pc2/4/SmallMolecule_a7b3a2a6aca708435a7b7d87f7278070" source="12" target="10">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_849ac778e9e6cc2805f0c9f140c30873"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_041bb3c979cf81a2d9619d9de5a83f2b - http://purl.org/pc2/4/SmallMolecule_fb1ff9745e316dc297515b62cc782393" source="12" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_849ac778e9e6cc2805f0c9f140c30873"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_041bb3c979cf81a2d9619d9de5a83f2b - http://purl.org/pc2/4/SmallMolecule_387410a42ddf1579971675c3c4eff79b" source="12" target="13">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_849ac778e9e6cc2805f0c9f140c30873"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_387410a42ddf1579971675c3c4eff79b - http://purl.org/pc2/4/SmallMolecule_9ee90d741822f02a8ca1fac4c35f73e7" source="13" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_dc6b7e6184a6ac0cfb64ddcaf13c2547"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_387410a42ddf1579971675c3c4eff79b - http://purl.org/pc2/4/SmallMolecule_fb1ff9745e316dc297515b62cc782393" source="13" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_dc6b7e6184a6ac0cfb64ddcaf13c2547"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_a19f8abd2938721a341ebdf536d10f5b - http://purl.org/pc2/4/SmallMolecule_9ee90d741822f02a8ca1fac4c35f73e7" source="14" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_50cf3906f322becb9c6a50ede62e7872"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_a19f8abd2938721a341ebdf536d10f5b - http://purl.org/pc2/4/SmallMolecule_6f7547430468f7ca27dc115c99931c83" source="14" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_50cf3906f322becb9c6a50ede62e7872"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P14410 - http://purl.org/pc2/4/Complex_81922908e9a7c73e73a94019d8a03999" source="15" target="20">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_81922908e9a7c73e73a94019d8a03999"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_d556ded8e7018d4528070f61e01a8f1b - http://purl.org/pc2/4/SmallMolecule_9ee90d741822f02a8ca1fac4c35f73e7" source="16" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_b8f9dd70d7f4ef1084ce530b6281fc0f"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_d556ded8e7018d4528070f61e01a8f1b - http://purl.org/pc2/4/SmallMolecule_6647e91a50c81b89b893dff36f4b97f8" source="16" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_b8f9dd70d7f4ef1084ce530b6281fc0f"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_c2a44c2786740665d7be3723fceab525 - http://purl.org/pc2/4/SmallMolecule_6f7547430468f7ca27dc115c99931c83" source="17" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_50cf3906f322becb9c6a50ede62e7872"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_c2a44c2786740665d7be3723fceab525 - http://purl.org/pc2/4/SmallMolecule_fb1ff9745e316dc297515b62cc782393" source="17" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_dc6b7e6184a6ac0cfb64ddcaf13c2547"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_c2a44c2786740665d7be3723fceab525 - http://purl.org/pc2/4/SmallMolecule_9ee90d741822f02a8ca1fac4c35f73e7" source="17" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_50cf3906f322becb9c6a50ede62e7872"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_c2a44c2786740665d7be3723fceab525 - http://purl.org/pc2/4/SmallMolecule_a7b3a2a6aca708435a7b7d87f7278070" source="17" target="10">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_849ac778e9e6cc2805f0c9f140c30873"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_c2a44c2786740665d7be3723fceab525 - http://purl.org/pc2/4/SmallMolecule_387410a42ddf1579971675c3c4eff79b" source="17" target="13">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_096d5e45b6181155f768969a0b792ffa"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_c2a44c2786740665d7be3723fceab525 - http://purl.org/pc2/4/SmallMolecule_6647e91a50c81b89b893dff36f4b97f8" source="17" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_b8f9dd70d7f4ef1084ce530b6281fc0f"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_4543cd0148ec272addc076fd45721915 - http://purl.org/pc2/4/SmallMolecule_9ee90d741822f02a8ca1fac4c35f73e7" source="18" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_6c30ff2e6cc852eec96eea9988dea24a"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_9e0bc0dc4fa5f243d3e5f797d5fe7ef2 - http://purl.org/pc2/4/SmallMolecule_fb1ff9745e316dc297515b62cc782393" source="19" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_b1ae94d10787ccf3fe3caca7ed5fa32f"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_9e0bc0dc4fa5f243d3e5f797d5fe7ef2 - http://purl.org/pc2/4/SmallMolecule_9ee90d741822f02a8ca1fac4c35f73e7" source="19" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_6381c6a695107b4dfbb8a4df4721305c"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_9e0bc0dc4fa5f243d3e5f797d5fe7ef2 - http://purl.org/pc2/4/SmallMolecule_6f7547430468f7ca27dc115c99931c83" source="19" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_54b4d2cbdf0e68d575e92c42e562ae44"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_9e0bc0dc4fa5f243d3e5f797d5fe7ef2 - http://purl.org/pc2/4/SmallMolecule_387410a42ddf1579971675c3c4eff79b" source="19" target="13">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_f99ef05ee5a825d6b00968d99ca8483a"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_81922908e9a7c73e73a94019d8a03999 - http://purl.org/pc2/4/Complex_9e0bc0dc4fa5f243d3e5f797d5fe7ef2" source="20" target="19">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_9e0bc0dc4fa5f243d3e5f797d5fe7ef2"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

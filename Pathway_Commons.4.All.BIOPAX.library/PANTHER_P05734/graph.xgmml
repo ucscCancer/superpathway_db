@@ -1,0 +1,184 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="MODEL_NOTES=Synaptic vesicle trafficking at the presynaptic active zone is a key process regulating synatpci transmission. The increase of Ca++ concentration triggers the docking of synatptic vesicle to the presynatpci membrane. Vesicle proteins, such as synaptotagmin and synaptobrevin, interact with syntaxin and SNAP25 on the presynaptic membrane to for the SNARE complex. The vesicle membrane then fuses with the presynptic membrane, which results in neurotransmitter release to the synatpci cleft. Subsequently, the SNARE complex is disassembled, and the vesicle is recycled. Medline=16707259 Medline=12154365 Medline=12600315 Medline=15217342"/>
+ <att name="url" type="string" value="http://identifiers.org/panther.pathway/P05734"/>
+ <att name="displayName" type="string" value="Synaptic_vesicle_trafficking"/>
+ <att name="name" type="string" value="Synaptic_vesicle_trafficking"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="PANTHER Pathway:P05734"/>
+ </att>
+ <node id="0" label="Syntaxin 1/2">
+  <att name="label" type="string" value="Syntaxin 1/2"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PANTHER Pathway Component:P05772"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_7955d967e2137b7f5a8e411d61af6c62"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="1" label="Rab3A">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PANTHER Pathway Component:P05780"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_1d6460f542889bbd7e16d223811ab590"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Rab3A"/>
+ </node>
+ <node id="2" label="Munc13">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PANTHER Pathway Component:P05773"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_a088474b540aba6d96aca02ff656faf9"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Munc13"/>
+ </node>
+ <node id="3" label="neurotransmitter">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:25512"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_aaba7f1087ff3994480096430650c207"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="neurotransmitter"/>
+ </node>
+ <node id="4" label="Synaptobrevin">
+  <att name="label" type="string" value="Synaptobrevin"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PANTHER Pathway Component:P05779"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_59b54535b760d19ae100f6c01bddaeee"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="5" label="neurotransmitter">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:25512"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_476dafa5f7f6bbf5a2ccfbb75c562d86"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="neurotransmitter"/>
+ </node>
+ <node id="6" label="RIM1alpha/2alpha">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PANTHER Pathway Component:P05776"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_1827515ca35de099b3d20cf64db355e5"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="RIM1alpha/2alpha"/>
+ </node>
+ <node id="7" label="Synaptotagmin">
+  <att name="label" type="string" value="Synaptotagmin"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PANTHER Pathway Component:P05769"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_6d4f779162ae44a4d3c6f20bcd3b6f75"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="8" label="Munc18">
+  <att name="label" type="string" value="Munc18"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PANTHER Pathway Component:P05770"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_7c8bf7b168d4983641cedca197f556cd"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="9" label="synaptic vesicle fusion complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="synaptic vesicle fusion complex"/>
+ </node>
+ <node id="10" label="calcium, doubly charged positive ion">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29108"/>
+   <att name="db_xref" type="string" value="pubchem:8145461"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:3308"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:22988"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:48760"/>
+   <att name="db_xref" type="string" value="InChIKey:BHPQYMZQTOCNFJ-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145461"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_7af94ba58cc9b2791ca685384dd66c7d"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="calcium, doubly charged positive ion"/>
+ </node>
+ <node id="11" label="SNARE complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_fd4667bf95d13802e96ec9d19168276a"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="SNARE complex"/>
+ </node>
+ <node id="12" label="SNAP-25">
+  <att name="label" type="string" value="SNAP-25"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PANTHER Pathway Component:P05778"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_82ab2991fbc8f22bc8a79e7a5724b29a"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/ProteinReference_7955d967e2137b7f5a8e411d61af6c62 - http://purl.org/pc2/4/Complex_fd4667bf95d13802e96ec9d19168276a" source="0" target="11">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_fd4667bf95d13802e96ec9d19168276a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_7955d967e2137b7f5a8e411d61af6c62 - http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3" source="0" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_1d6460f542889bbd7e16d223811ab590 - http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3" source="1" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_a088474b540aba6d96aca02ff656faf9 - http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3" source="2" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_59b54535b760d19ae100f6c01bddaeee - http://purl.org/pc2/4/Complex_fd4667bf95d13802e96ec9d19168276a" source="4" target="11">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_fd4667bf95d13802e96ec9d19168276a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_59b54535b760d19ae100f6c01bddaeee - http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3" source="4" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_476dafa5f7f6bbf5a2ccfbb75c562d86 - http://purl.org/pc2/4/SmallMolecule_aaba7f1087ff3994480096430650c207" source="5" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/TransportWithBiochemicalReaction_7ec55f9f2604d08a4f34354727c09e88"/>
+  <att name="class" type="string" value="TransportWithBiochemicalReaction"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_1827515ca35de099b3d20cf64db355e5 - http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3" source="6" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_6d4f779162ae44a4d3c6f20bcd3b6f75 - http://purl.org/pc2/4/Complex_fd4667bf95d13802e96ec9d19168276a" source="7" target="11">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_fd4667bf95d13802e96ec9d19168276a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_6d4f779162ae44a4d3c6f20bcd3b6f75 - http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3" source="7" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_7c8bf7b168d4983641cedca197f556cd - http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3" source="8" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_7af94ba58cc9b2791ca685384dd66c7d - http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3" source="10" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_82ab2991fbc8f22bc8a79e7a5724b29a - http://purl.org/pc2/4/Complex_fd4667bf95d13802e96ec9d19168276a" source="12" target="11">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_fd4667bf95d13802e96ec9d19168276a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_82ab2991fbc8f22bc8a79e7a5724b29a - http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3" source="12" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c20f4de593ccab77764fcfb10041bae3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

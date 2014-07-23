@@ -1,0 +1,138 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_165554"/>
+ <att name="displayName" type="string" value="Effects of PIP2 hydrolysis"/>
+ <att name="name" type="string" value="Effects_of_PIP2_hydrolysis"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_5c413a404437d38f26c6a8ad0665a5a4"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="ChEBI:29089 1,2-diacyl-sn-glycerol 3-phosphate">
+  <att name="label" type="string" value="ChEBI:29089 1,2-diacyl-sn-glycerol 3-phosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6281de741bde8bf8135d28ef8799fcc8"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="IP3 receptor bound to IP3 and Ca++">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="IP3 receptor bound to IP3 and Ca++"/>
+ </node>
+ <node id="2" label="Diacylglycerol kinase">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_193fedfd4ba40744aa1e8bc817869c5d"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Diacylglycerol kinase"/>
+ </node>
+ <node id="3" label="Calcium">
+  <att name="label" type="string" value="Calcium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_b4597af1a47b10e9fdcdaa13ae5bb2e7"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="4" label="Adenosine 5'-triphosphate">
+  <att name="label" type="string" value="Adenosine 5'-triphosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="5" label="Adenosine 5'-diphosphate">
+  <att name="label" type="string" value="Adenosine 5'-diphosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="6" label="1,2-Diacylglycerol">
+  <att name="label" type="string" value="1,2-Diacylglycerol"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_4cce2fb2d608e5d6da4e6278a22e7300"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="7" label="IP3 receptor">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7fac34761896d537418e234ef08cfc3b"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="IP3 receptor"/>
+ </node>
+ <node id="8" label="IP3R subunits">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_29dab887ea646727e2b88799495ef082"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="IP3R subunits"/>
+ </node>
+ <node id="9" label="Inositol 1,4,5-trisphosphate">
+  <att name="label" type="string" value="Inositol 1,4,5-trisphosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_5563b7c19ede64f71bd0cd0367631d31"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="10" label="Calcium">
+  <att name="label" type="string" value="Calcium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="11" label="Inositol 1,4,5-trisphosphate">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_701c5dc04b673a14cbac1c4146d3d34e"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Inositol 1,4,5-trisphosphate"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711 - http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212" source="1" target="10">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_fa8433148597f1607341176d51d6a489"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_193fedfd4ba40744aa1e8bc817869c5d - http://purl.org/pc2/4/SmallMolecule_6281de741bde8bf8135d28ef8799fcc8" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_969da5711734d0d353000b809162796f"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_b4597af1a47b10e9fdcdaa13ae5bb2e7 - http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_b4597af1a47b10e9fdcdaa13ae5bb2e7 - http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212" source="3" target="10">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_5c14728796f21c0553b332739ed79372"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148 - http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3" source="4" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_0c7d99ffd947e3d653e11f823b2e5364"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148 - http://purl.org/pc2/4/SmallMolecule_6281de741bde8bf8135d28ef8799fcc8" source="4" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_0c7d99ffd947e3d653e11f823b2e5364"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4cce2fb2d608e5d6da4e6278a22e7300 - http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3" source="6" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_0c7d99ffd947e3d653e11f823b2e5364"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4cce2fb2d608e5d6da4e6278a22e7300 - http://purl.org/pc2/4/SmallMolecule_6281de741bde8bf8135d28ef8799fcc8" source="6" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_0c7d99ffd947e3d653e11f823b2e5364"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_7fac34761896d537418e234ef08cfc3b - http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711" source="7" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_29dab887ea646727e2b88799495ef082 - http://purl.org/pc2/4/Complex_7fac34761896d537418e234ef08cfc3b" source="8" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7fac34761896d537418e234ef08cfc3b"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_5563b7c19ede64f71bd0cd0367631d31 - http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711" source="9" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_701c5dc04b673a14cbac1c4146d3d34e - http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711" source="11" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_6645a284ad2e9b35a4af0e4ce5dad1f4"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

@@ -1,0 +1,38 @@
+complex	Complex_(PCNA/RFC/_Pol_delta)_(complex)
+complex	Complex_(Pol_alpha/Primase)_(complex)
+protein	EGFR
+protein	Hel
+protein	Histones
+protein	PCNA
+protein	Pol_alpha
+protein	Primase
+protein	RFC
+protein	RPA
+protein	Top
+complex	dsDNA_(complex)
+complex	dsDNA-primase_complex_(complex)
+complex	dsDNA-primase-RFC_complex_(complex)
+complex	dsDNA-replication_complex_(complex)
+PCNA	dsDNA-replication_complex_(complex)	-a>
+PCNA	Complex_(PCNA/RFC/_Pol_delta)_(complex)	component>
+RFC	Complex_(PCNA/RFC/_Pol_delta)_(complex)	component>
+RFC	dsDNA-primase-RFC_complex_(complex)	component>
+Complex_(Pol_alpha/Primase)_(complex)	dsDNA-primase_complex_(complex)	component>
+Complex_(Pol_alpha/Primase)_(complex)	dsDNA-replication_complex_(complex)	component>
+Complex_(Pol_alpha/Primase)_(complex)	dsDNA-primase-RFC_complex_(complex)	component>
+Top	dsDNA-replication_complex_(complex)	component>
+Top	dsDNA_(complex)	component>
+Top	dsDNA-primase-RFC_complex_(complex)	component>
+dsDNA_(complex)	dsDNA-primase_complex_(complex)	component>
+EGFR	dsDNA-replication_complex_(complex)	-a>
+EGFR	Complex_(PCNA/RFC/_Pol_delta)_(complex)	component>
+Complex_(PCNA/RFC/_Pol_delta)_(complex)	dsDNA-replication_complex_(complex)	component>
+dsDNA-primase-RFC_complex_(complex)	dsDNA-replication_complex_(complex)	-a>
+RPA	dsDNA-replication_complex_(complex)	component>
+RPA	dsDNA_(complex)	component>
+RPA	dsDNA-primase-RFC_complex_(complex)	component>
+Primase	Complex_(Pol_alpha/Primase)_(complex)	component>
+Hel	dsDNA-replication_complex_(complex)	component>
+Hel	dsDNA_(complex)	component>
+Hel	dsDNA-primase-RFC_complex_(complex)	component>
+Pol_alpha	Complex_(Pol_alpha/Primase)_(complex)	component>

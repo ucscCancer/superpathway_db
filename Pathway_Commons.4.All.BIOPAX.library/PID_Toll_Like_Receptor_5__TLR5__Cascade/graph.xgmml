@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_90638"/>
+ <att name="displayName" type="string" value="Toll Like Receptor 5 (TLR5) Cascade"/>
+ <att name="name" type="string" value="Toll_Like_Receptor_5__TLR5__Cascade"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_daaa4477d2a16b03026014d2cd2304a4"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Adenosine 5'-triphosphate">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Adenosine 5'-triphosphate"/>
+ </node>
+ <node id="1" label="Adenosine 5'-diphosphate">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Adenosine 5'-diphosphate"/>
+ </node>
+ <node id="2" label="TLR5 homodimer bound to bacterial flagellin">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d0ccc09877795e7f3b96efa540ad409f"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="TLR5 homodimer bound to bacterial flagellin"/>
+ </node>
+ <node id="3" label="Toll/interleukin-1 receptor-like protein 3">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1P95"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000342210"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000187554"/>
+   <att name="db_xref" type="string" value="UniProt:B3Y633"/>
+   <att name="db_xref" type="string" value="HGNC:TLR5"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_003259"/>
+   <att name="db_xref" type="string" value="UniProt:Q32MI3"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000340089"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_003268"/>
+   <att name="db_xref" type="string" value="UniProt:O15456"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:TLR5"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000440643"/>
+   <att name="db_xref" type="string" value="NCBI Gene:7100"/>
+   <att name="db_xref" type="string" value="UniProt:B1AZ05"/>
+   <att name="db_xref" type="string" value="UniProt:D3DTB8"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000366881"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000355846"/>
+   <att name="db_xref" type="string" value="UniProt:O60602"/>
+   <att name="db_xref" type="string" value="omim:603031"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:11851"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000540964"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/O60602"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="TLR5_HUMAN"/>
+   <att name="aliases" type="string" value="TIL3"/>
+   <att name="aliases" type="string" value="TLR5"/>
+   <att name="aliases" type="string" value="Toll/interleukin-1 receptor-like protein 3"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Toll/interleukin-1 receptor-like protein 3"/>
+ </node>
+ <node id="4" label="fliC">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:P04949"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P04949"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="hag"/>
+   <att name="aliases" type="string" value="flaF"/>
+   <att name="aliases" type="string" value="UniProt:P04949 fliC"/>
+   <att name="aliases" type="string" value="b1923"/>
+   <att name="aliases" type="string" value="JW1908"/>
+   <att name="aliases" type="string" value="fliC"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="fliC"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148 - http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_6d1b491f8d67d15e0ce5ef3a52520e44"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/O60602 - http://purl.org/pc2/4/Complex_d0ccc09877795e7f3b96efa540ad409f" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d0ccc09877795e7f3b96efa540ad409f"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P04949 - http://purl.org/pc2/4/Complex_d0ccc09877795e7f3b96efa540ad409f" source="4" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d0ccc09877795e7f3b96efa540ad409f"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

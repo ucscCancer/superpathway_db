@@ -1,0 +1,13 @@
+protein	APOC2
+protein	APOC3
+protein	CETP
+complex	CETP_cholesterol_ester_complex_(complex)
+complex	CETP_triacylglycerol_complex_(complex)
+protein	LDLR
+protein	LDLRAP1
+CETP	CETP_triacylglycerol_complex_(complex)	component>
+CETP	CETP_cholesterol_ester_complex_(complex)	component>
+APOC2	LDLR	-a>
+APOC3	LDLR	-a|
+LDLRAP1	LDLR	-a>
+LDLRAP1	CETP_triacylglycerol_complex_(complex)	-a>

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_46866"/>
+ <att name="displayName" type="string" value="Amine ligand-binding receptors"/>
+ <att name="name" type="string" value="Amine_ligand_binding_receptors"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_820056a71501b80324c9f328b144b079"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="2-Phenylethylamine">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_99b0abbc5cb71af71cf95b5ddb8aa14e"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="2-Phenylethylamine"/>
+ </node>
+ <node id="1" label="TaR-1">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="RefSeq:NP_612200"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:17734"/>
+   <att name="db_xref" type="string" value="UniProt:Q96RJ0"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000275216"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000275216"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_138327"/>
+   <att name="db_xref" type="string" value="UniProt:Q3MIH8"/>
+   <att name="db_xref" type="string" value="UniProt:Q2M1W5"/>
+   <att name="db_xref" type="string" value="UniProt:Q5VUQ1"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000146399"/>
+   <att name="db_xref" type="string" value="HGNC:TAAR1"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:TAAR1"/>
+   <att name="db_xref" type="string" value="NCBI Gene:134864"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q96RJ0"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="TAAR1_HUMAN"/>
+   <att name="aliases" type="string" value="TA1"/>
+   <att name="aliases" type="string" value="Trace amine receptor 1"/>
+   <att name="aliases" type="string" value="TRAR1"/>
+   <att name="aliases" type="string" value="TAAR1"/>
+   <att name="aliases" type="string" value="TAR1"/>
+   <att name="aliases" type="string" value="TaR-1"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="TaR-1"/>
+ </node>
+ <node id="2" label="Trace amine-associated receptor:beta-PEA">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_94c3c944e72e0b4d204b9f1fa5ed23eb"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Trace amine-associated receptor:beta-PEA"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_99b0abbc5cb71af71cf95b5ddb8aa14e - http://purl.org/pc2/4/Complex_94c3c944e72e0b4d204b9f1fa5ed23eb" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_94c3c944e72e0b4d204b9f1fa5ed23eb"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q96RJ0 - http://purl.org/pc2/4/Complex_94c3c944e72e0b4d204b9f1fa5ed23eb" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_94c3c944e72e0b4d204b9f1fa5ed23eb"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

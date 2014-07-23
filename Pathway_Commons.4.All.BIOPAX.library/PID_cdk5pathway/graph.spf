@@ -1,0 +1,37 @@
+protein	CDK5
+protein	CDK5R1
+protein	EGR1
+protein	GRB2
+protein	HRAS
+protein	MAP2K1
+protein	MAP2K2
+protein	MAPK1
+protein	MAPK3
+protein	NGF
+complex	NGF/NGF_R_(complex)
+complex	NGF/NGF_R/SHC/GRB2/SOS-1_(complex)
+protein	NGFR
+complex	P35/CDK5(+)_(complex)
+protein	RAF1
+protein	SHC1
+protein	SOS1
+NGF	NGF/NGF_R/SHC/GRB2/SOS-1_(complex)	component>
+NGF	NGF/NGF_R_(complex)	component>
+SHC1	NGF/NGF_R/SHC/GRB2/SOS-1_(complex)	component>
+SOS1	NGF/NGF_R/SHC/GRB2/SOS-1_(complex)	component>
+MAPK3	MAPK1	-a>
+MAPK3	EGR1	-a>
+P35/CDK5(+)_(complex)	MAP2K1	-a>
+MAP2K2	MAPK3	-a>
+MAP2K2	MAP2K1	-a>
+MAP2K1	MAP2K2	-a>
+MAP2K1	MAPK3	-a>
+GRB2	NGF/NGF_R/SHC/GRB2/SOS-1_(complex)	component>
+CDK5R1	P35/CDK5(+)_(complex)	component>
+NGFR	NGF/NGF_R/SHC/GRB2/SOS-1_(complex)	component>
+NGFR	NGF/NGF_R_(complex)	component>
+MAPK1	MAPK3	-a>
+MAPK1	EGR1	-a>
+RAF1	MAP2K2	-a>
+HRAS	RAF1	-a>
+CDK5	P35/CDK5(+)_(complex)	component>

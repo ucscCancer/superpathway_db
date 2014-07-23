@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_40608"/>
+ <att name="displayName" type="string" value="Cam-PDE 1 activation"/>
+ <att name="name" type="string" value="Cam_PDE_1_activation"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_a905472265939c8ee8ac37c7aaff261f"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Water">
+  <att name="label" type="string" value="Water"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_deab5bdc5d7299be544be3488402bc7e"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="active Cam-PDE 1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d51346eac74609d04d05cbd720c3427d"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="active Cam-PDE 1"/>
+ </node>
+ <node id="2" label="Adenylic acid">
+  <att name="label" type="string" value="Adenylic acid"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_988ed0fba945081581398560cbb6b785"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="Cyclic adenylic acid">
+  <att name="label" type="string" value="Cyclic adenylic acid"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_9d37cb8274d3e955fc028f613f7b0210"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="4" label="Cam-PDE 1 homodimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_6313a4991ba59b09b14ae1af9f8de1f9"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Cam-PDE 1 homodimer"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_deab5bdc5d7299be544be3488402bc7e - http://purl.org/pc2/4/SmallMolecule_988ed0fba945081581398560cbb6b785" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f375a6556568541b915fba953230b6e5"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_d51346eac74609d04d05cbd720c3427d - http://purl.org/pc2/4/SmallMolecule_988ed0fba945081581398560cbb6b785" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_bb15cf3dc50ca2f07ad779368932beed"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_9d37cb8274d3e955fc028f613f7b0210 - http://purl.org/pc2/4/SmallMolecule_988ed0fba945081581398560cbb6b785" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f375a6556568541b915fba953230b6e5"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_6313a4991ba59b09b14ae1af9f8de1f9 - http://purl.org/pc2/4/Complex_d51346eac74609d04d05cbd720c3427d" source="4" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d51346eac74609d04d05cbd720c3427d"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

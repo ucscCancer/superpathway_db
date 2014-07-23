@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_108026"/>
+ <att name="displayName" type="string" value="Sodium-coupled phosphate cotransporters"/>
+ <att name="name" type="string" value="Sodium_coupled_phosphate_cotransporters"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_1ac9f10f7684f3a74f6b6cce2cdbe251"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Inorganic Phosphate">
+  <att name="label" type="string" value="Inorganic Phosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_149d50830ae1a778c163416feecdb4fc"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="Sodium">
+  <att name="label" type="string" value="Sodium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="Inorganic Phosphate">
+  <att name="label" type="string" value="Inorganic Phosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_e16e2e931bc93b503c83db26ae084a10"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="Type III Na+/Pi cotransporters">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_4971345fc9dacf79917ec7392bbcdd62"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Type III Na+/Pi cotransporters"/>
+ </node>
+ <node id="4" label="Sodium">
+  <att name="label" type="string" value="Sodium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_149d50830ae1a778c163416feecdb4fc - http://purl.org/pc2/4/SmallMolecule_e16e2e931bc93b503c83db26ae084a10" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_a5f079ed17addc9f66e60c55a02e334c"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_149d50830ae1a778c163416feecdb4fc - http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_a5f079ed17addc9f66e60c55a02e334c"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2 - http://purl.org/pc2/4/SmallMolecule_e16e2e931bc93b503c83db26ae084a10" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_a5f079ed17addc9f66e60c55a02e334c"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6500e5923ef0a40fa9a2421b045d18d2 - http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e" source="1" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_a5f079ed17addc9f66e60c55a02e334c"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_4971345fc9dacf79917ec7392bbcdd62 - http://purl.org/pc2/4/SmallMolecule_2bf4ff8f5f5ddf4b26b86f741bf9a50e" source="3" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_dd88a736a396e483ca17a83cae824829"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

@@ -1,0 +1,40 @@
+complex	AP-1_(complex)
+complex	BAPTA-AM/Ca_++_(complex)
+complex	CREB/CREB_(complex)
+protein	CREB1
+protein	CSNK2A1
+protein	CaM
+complex	CaM/Ca_++_(complex)
+protein	FOS
+protein	GRB2
+protein	HBX
+protein	HRAS
+protein	JUN
+protein	LAMTOR5
+protein	MAP2K1
+protein	MAPK3
+protein	PTK2B
+complex	PYK2/SRC_(complex)
+protein	RAF1
+complex	SHC/GRB2/SOS-1_(complex)
+protein	SHC1
+protein	SOS1
+protein	SRC
+HRAS	RAF1	-a>
+MAP2K1	MAPK3	-a>
+HBX	CREB/CREB_(complex)	-a>
+CaM/Ca_++_(complex)	PYK2/SRC_(complex)	-a>
+RAF1	MAP2K1	-a>
+JUN	AP-1_(complex)	component>
+MAPK3	JUN	-a>
+SRC	PYK2/SRC_(complex)	component>
+SHC1	SHC/GRB2/SOS-1_(complex)	component>
+FOS	AP-1_(complex)	component>
+CREB1	CREB/CREB_(complex)	component>
+CSNK2A1	JUN	-a|
+SOS1	SHC/GRB2/SOS-1_(complex)	component>
+PTK2B	PYK2/SRC_(complex)	component>
+GRB2	SHC/GRB2/SOS-1_(complex)	component>
+CaM	CaM/Ca_++_(complex)	component>
+LAMTOR5	HBX	-a|
+PYK2/SRC_(complex)	SHC/GRB2/SOS-1_(complex)	-a>

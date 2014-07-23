@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_129583"/>
+ <att name="displayName" type="string" value="VEGF ligand-receptor interactions"/>
+ <att name="name" type="string" value="VEGF_ligand_receptor_interactions"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_1f62eb1387b52e302e719cf1652b827a"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="VEGFR1">
+  <att name="label" type="string" value="VEGFR1"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_b6017f3882fdd5847a01a7b32e858bad"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="1" label="Protein-tyrosine kinase receptor flk-1">
+  <att name="label" type="string" value="Protein-tyrosine kinase receptor flk-1"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="HGNC:KDR"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000263923"/>
+   <att name="db_xref" type="string" value="PubMed:1656371"/>
+   <att name="db_xref" type="string" value="PubMed:7559454"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_002253"/>
+   <att name="db_xref" type="string" value="PubMed:1717995"/>
+   <att name="db_xref" type="string" value="UniProt:P35968"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:6307"/>
+   <att name="db_xref" type="string" value="PubMed:12426207"/>
+   <att name="db_xref" type="string" value="PubMed:12213878"/>
+   <att name="db_xref" type="string" value="Pubmed:1417831"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_002244"/>
+   <att name="db_xref" type="string" value="PubMed:12174363"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1VR2"/>
+   <att name="db_xref" type="string" value="UniProt:A2RRS0"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:KDR"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000263923"/>
+   <att name="db_xref" type="string" value="PubMed:11852061"/>
+   <att name="db_xref" type="string" value="PubMed:11809684"/>
+   <att name="db_xref" type="string" value="PubMed:12439912"/>
+   <att name="db_xref" type="string" value="NCBI Gene:3791"/>
+   <att name="db_xref" type="string" value="PubMed:11986954"/>
+   <att name="db_xref" type="string" value="omim:191306"/>
+   <att name="db_xref" type="string" value="PubMed:11824379"/>
+   <att name="db_xref" type="string" value="PubMed:11693202"/>
+   <att name="db_xref" type="string" value="PubMed:11807987"/>
+   <att name="db_xref" type="string" value="pubmed:11960378"/>
+   <att name="db_xref" type="string" value="UniProt:O60723"/>
+   <att name="db_xref" type="string" value="UniProt:B5A925"/>
+   <att name="db_xref" type="string" value="PubMed:12067897"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000128052"/>
+   <att name="db_xref" type="string" value="UniProt:C5IFA0"/>
+   <att name="db_xref" type="string" value="UniProt:Q14178"/>
+   <att name="db_xref" type="string" value="PubMed:7736781"/>
+   <att name="db_xref" type="string" value="PANTHER Family:PTHR24416:SF162"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P35968"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="VGFR2_HUMAN"/>
+   <att name="aliases" type="string" value="CD309"/>
+   <att name="aliases" type="string" value="KDR"/>
+   <att name="aliases" type="string" value="VEGFR2"/>
+   <att name="aliases" type="string" value="Kinase insert domain receptor"/>
+   <att name="aliases" type="string" value="FLK1"/>
+   <att name="aliases" type="string" value="Fetal liver kinase 1"/>
+   <att name="aliases" type="string" value="VEGFR-2"/>
+   <att name="aliases" type="string" value="2.7.10.1"/>
+   <att name="aliases" type="string" value="FLK-1"/>
+   <att name="aliases" type="string" value="Protein-tyrosine kinase receptor flk-1"/>
+  </att>
+ </node>
+ <node id="2" label="VEGF">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_cc7a6df5fc9503781c6f25669c80f768"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="VEGF"/>
+ </node>
+ <node id="3" label="VEGF homodimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_1921feede26cdc32fff2e05e8ffb4b44"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="VEGF homodimer"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_cc7a6df5fc9503781c6f25669c80f768 - http://purl.org/pc2/4/Complex_1921feede26cdc32fff2e05e8ffb4b44" source="2" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_1921feede26cdc32fff2e05e8ffb4b44"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

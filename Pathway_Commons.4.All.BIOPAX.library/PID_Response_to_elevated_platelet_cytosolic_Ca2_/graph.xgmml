@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_141954"/>
+ <att name="displayName" type="string" value="Response to elevated platelet cytosolic Ca2+"/>
+ <att name="name" type="string" value="Response_to_elevated_platelet_cytosolic_Ca2_"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_a080cb0e9f61038872bee1d3afef3e10"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Calcium">
+  <att name="label" type="string" value="Calcium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="Protein Kinase C, conventional">
+  <att name="label" type="string" value="Protein Kinase C, conventional"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_92eb25b08325769632d92bc94efeeb87"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="2" label="Activated conventional protein kinase C">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_6d9466df355636174014ef8d2b28e535"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Activated conventional protein kinase C"/>
+ </node>
+ <node id="3" label="1,2-Diacylglycerol">
+  <att name="label" type="string" value="1,2-Diacylglycerol"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_4cce2fb2d608e5d6da4e6278a22e7300"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="4" label="Phosphatidylserine">
+  <att name="label" type="string" value="Phosphatidylserine"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_a32958d9756e1cc45c6a00d9eb92ed64"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212 - http://purl.org/pc2/4/PhysicalEntity_6d9466df355636174014ef8d2b28e535" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_e93e9f9906feb90342ea72ef9f0d10ad"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_92eb25b08325769632d92bc94efeeb87 - http://purl.org/pc2/4/PhysicalEntity_6d9466df355636174014ef8d2b28e535" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_e93e9f9906feb90342ea72ef9f0d10ad"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4cce2fb2d608e5d6da4e6278a22e7300 - http://purl.org/pc2/4/PhysicalEntity_6d9466df355636174014ef8d2b28e535" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_e93e9f9906feb90342ea72ef9f0d10ad"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_a32958d9756e1cc45c6a00d9eb92ed64 - http://purl.org/pc2/4/PhysicalEntity_6d9466df355636174014ef8d2b28e535" source="4" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_e93e9f9906feb90342ea72ef9f0d10ad"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

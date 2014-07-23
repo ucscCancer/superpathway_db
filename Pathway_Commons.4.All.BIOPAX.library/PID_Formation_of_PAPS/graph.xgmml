@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_143826"/>
+ <att name="displayName" type="string" value="Formation of PAPS"/>
+ <att name="name" type="string" value="Formation_of_PAPS"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_c5d38282506f8bc81b1a9c0f8a0348e0"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="PPi">
+  <att name="label" type="string" value="PPi"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_a7ef23c40d4eabf2e7eaa062e3799c91"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="3'-Phosphoadenylyl sulfate">
+  <att name="label" type="string" value="3'-Phosphoadenylyl sulfate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_3e639f36261f88bf3df12dc751777467"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="Adenosine 5'-phosphosulfate">
+  <att name="label" type="string" value="Adenosine 5'-phosphosulfate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_4aa94b22deb154771d0bb551e61b1553"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="Bifunctional APS synthetase">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_1b55c3ce67f4b1c50ebe41872570f395"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Bifunctional APS synthetase"/>
+ </node>
+ <node id="4" label="Sulfuric acid">
+  <att name="label" type="string" value="Sulfuric acid"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_e67bb40b65feda53af1709611f37e39b"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="5" label="Adenosine 5'-triphosphate">
+  <att name="label" type="string" value="Adenosine 5'-triphosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="6" label="Adenosine 5'-diphosphate">
+  <att name="label" type="string" value="Adenosine 5'-diphosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4aa94b22deb154771d0bb551e61b1553 - http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3" source="2" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9ee008b2ad85356063c269f0aaa72d64"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4aa94b22deb154771d0bb551e61b1553 - http://purl.org/pc2/4/SmallMolecule_3e639f36261f88bf3df12dc751777467" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9ee008b2ad85356063c269f0aaa72d64"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_1b55c3ce67f4b1c50ebe41872570f395 - http://purl.org/pc2/4/SmallMolecule_a7ef23c40d4eabf2e7eaa062e3799c91" source="3" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_7a4fcc6642d85ee1818cec870b874c0b"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_1b55c3ce67f4b1c50ebe41872570f395 - http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3" source="3" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_6adf5ddb1fc96ecf8379acad18f52852"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_e67bb40b65feda53af1709611f37e39b - http://purl.org/pc2/4/SmallMolecule_a7ef23c40d4eabf2e7eaa062e3799c91" source="4" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_18c1cbd7da4edb8a87ca5bff4eba8455"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_e67bb40b65feda53af1709611f37e39b - http://purl.org/pc2/4/SmallMolecule_4aa94b22deb154771d0bb551e61b1553" source="4" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_18c1cbd7da4edb8a87ca5bff4eba8455"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148 - http://purl.org/pc2/4/SmallMolecule_a7ef23c40d4eabf2e7eaa062e3799c91" source="5" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_18c1cbd7da4edb8a87ca5bff4eba8455"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148 - http://purl.org/pc2/4/SmallMolecule_4aa94b22deb154771d0bb551e61b1553" source="5" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_18c1cbd7da4edb8a87ca5bff4eba8455"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148 - http://purl.org/pc2/4/SmallMolecule_6e57be827dcf2f4c077b9943d8dc96c3" source="5" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9ee008b2ad85356063c269f0aaa72d64"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_49d926ca21fbbe7597833959d5f04148 - http://purl.org/pc2/4/SmallMolecule_3e639f36261f88bf3df12dc751777467" source="5" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9ee008b2ad85356063c269f0aaa72d64"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

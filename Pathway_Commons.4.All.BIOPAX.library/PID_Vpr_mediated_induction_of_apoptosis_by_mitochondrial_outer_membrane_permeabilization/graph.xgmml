@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_138337"/>
+ <att name="displayName" type="string" value="Vpr-mediated induction of apoptosis by mitochondrial outer membrane permeabilization"/>
+ <att name="name" type="string" value="Vpr_mediated_induction_of_apoptosis_by_mitochondrial_outer_membrane_permeabilization"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_efacd0a78c8003af85fef40a17fe2cff"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="ANT1:Vpr complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_54009ea3a23b8129221d6e8c0bcbf762"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="ANT1:Vpr complex"/>
+ </node>
+ <node id="1" label="ADP/ATP translocase monomer (generic)">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_0f610bc22715bdf0bb8adc012ec2ce5b"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="ADP/ATP translocase monomer (generic)"/>
+ </node>
+ <node id="2" label="Vpr protein">
+  <att name="label" type="string" value="Vpr protein"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_65ccc23a1568257d8d58e80eb010665e"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="3" label="Vpr protein">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_91cbc3c258819b2b824f48fac31f45e9"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Vpr protein"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/ProteinReference_0f610bc22715bdf0bb8adc012ec2ce5b - http://purl.org/pc2/4/Complex_54009ea3a23b8129221d6e8c0bcbf762" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_54009ea3a23b8129221d6e8c0bcbf762"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_65ccc23a1568257d8d58e80eb010665e - http://purl.org/pc2/4/Complex_54009ea3a23b8129221d6e8c0bcbf762" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_54009ea3a23b8129221d6e8c0bcbf762"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_91cbc3c258819b2b824f48fac31f45e9 - http://purl.org/pc2/4/ProteinReference_65ccc23a1568257d8d58e80eb010665e" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_85f00c2d8ba929c38f971ee9ce56c990"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

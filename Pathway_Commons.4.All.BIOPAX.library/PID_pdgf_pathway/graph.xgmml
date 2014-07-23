@@ -1,0 +1,458 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_153599"/>
+ <att name="displayName" type="string" value="PDGF receptor signaling network"/>
+ <att name="name" type="string" value="pdgf_pathway"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_98a2ed77d70d40caf6ef99029bb856c6"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="PDGF-CC/PDGFRA (dimer)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_56200de8d5ee309bde98e70d1fdf5036"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="PDGF-CC/PDGFRA (dimer)"/>
+ </node>
+ <node id="1" label="PDGFB">
+  <att name="label" type="string" value="PDGFB"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt:Q15354"/>
+   <att name="db_xref" type="string" value="UniProt:P01127"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000100311"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000330382"/>
+   <att name="db_xref" type="string" value="UniProt:G3XAG8"/>
+   <att name="db_xref" type="string" value="UniProt:Q6FHE7"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000370963"/>
+   <att name="db_xref" type="string" value="NCBI Gene:5155"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UF23"/>
+   <att name="db_xref" type="string" value="HGNC:PDGFB"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:8800"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_033016"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_002599"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:PDGFB"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_148937"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_002608"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000331163"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000381551"/>
+   <att name="db_xref" type="string" value="UniProt:P78431"/>
+   <att name="db_xref" type="string" value="omim:190040"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1PDG"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P01127"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="PDGFB_HUMAN"/>
+   <att name="aliases" type="string" value="PDGF subunit B"/>
+   <att name="aliases" type="string" value="Platelet-derived growth factor beta polypeptide"/>
+   <att name="aliases" type="string" value="SIS"/>
+   <att name="aliases" type="string" value="PDGF-2"/>
+   <att name="aliases" type="string" value="Becaplermin"/>
+   <att name="aliases" type="string" value="PDGF2"/>
+   <att name="aliases" type="string" value="Proto-oncogene c-Sis"/>
+   <att name="aliases" type="string" value="Platelet-derived growth factor B chain"/>
+   <att name="aliases" type="string" value="PDGFB"/>
+  </att>
+ </node>
+ <node id="2" label="PDGF-BB/PDGFRB (dimer)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_cb14d4fa11fc283c2e5cd00adc94e40f"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="PDGF-BB/PDGFRB (dimer)"/>
+ </node>
+ <node id="3" label="Platelet-derived growth factor D, latent form">
+  <att name="label" type="string" value="Platelet-derived growth factor D, latent form"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="RefSeq:NM_025208"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000302193"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:30620"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_033135"/>
+   <att name="db_xref" type="string" value="UniProt:Q9BWV5"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000170962"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_079484"/>
+   <att name="db_xref" type="string" value="UniProt:Q9GZP0"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:PDGFD"/>
+   <att name="db_xref" type="string" value="HGNC:PDGFD"/>
+   <att name="db_xref" type="string" value="omim:609673"/>
+   <att name="db_xref" type="string" value="NCBI Gene:80310"/>
+   <att name="db_xref" type="string" value="PANTHER Family:PTHR10127:SF13"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_149126"/>
+   <att name="db_xref" type="string" value="UniProt:A8K9T6"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000302251"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000376865"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000393158"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q9GZP0"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="PDGFD_HUMAN"/>
+   <att name="aliases" type="string" value="SCDGFB"/>
+   <att name="aliases" type="string" value="Platelet-derived growth factor D, receptor-binding form"/>
+   <att name="aliases" type="string" value="IEGF"/>
+   <att name="aliases" type="string" value="PDGFD"/>
+   <att name="aliases" type="string" value="PDGFD latent form"/>
+   <att name="aliases" type="string" value="PDGF-D"/>
+   <att name="aliases" type="string" value="SCDGF-B"/>
+   <att name="aliases" type="string" value="Spinal cord-derived growth factor B"/>
+   <att name="aliases" type="string" value="PDGFD receptor-binding form"/>
+   <att name="aliases" type="string" value="Iris-expressed growth factor"/>
+   <att name="aliases" type="string" value="Platelet-derived growth factor D, latent form"/>
+  </att>
+ </node>
+ <node id="4" label="PDGF-BB/PDGFRA (dimer)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e28f50f8f269f50e399cac5cc269a456"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="PDGF-BB/PDGFRA (dimer)"/>
+ </node>
+ <node id="5" label="PDGF-AB/PDGFRA (dimer)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d1822b08787b2a836531215cbe0e5b93"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="PDGF-AB/PDGFRA (dimer)"/>
+ </node>
+ <node id="6" label="PDGF-CC/PDGFRA/PDGFRB">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0a09c4338a80c35d8b4050089754db99"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="PDGF-CC/PDGFRA/PDGFRB"/>
+ </node>
+ <node id="7" label="PDGF-AA/PDGFRA (dimer)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_01317ad0b8ba3b06d98b777c967390d9"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="PDGF-AA/PDGFRA (dimer)"/>
+ </node>
+ <node id="8" label="VEGF-E">
+  <att name="label" type="string" value="VEGF-E"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="HGNC:HGNC:8801"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000410048"/>
+   <att name="db_xref" type="string" value="UniProt:Q9NRA1"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000422464"/>
+   <att name="db_xref" type="string" value="omim:608452"/>
+   <att name="db_xref" type="string" value="HGNC:PDGFC"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UL22"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000442943"/>
+   <att name="db_xref" type="string" value="UniProt:B9EGR8"/>
+   <att name="db_xref" type="string" value="UniProt:B4DU34"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000541126"/>
+   <att name="db_xref" type="string" value="NCBI Gene:56034"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000502773"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_057289"/>
+   <att name="db_xref" type="string" value="UniProt:Q4W5M9"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:PDGFC"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000145431"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000422544"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_016205"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q9NRA1"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="PDGFC_HUMAN"/>
+   <att name="aliases" type="string" value="Fallotein"/>
+   <att name="aliases" type="string" value="PDGF-C"/>
+   <att name="aliases" type="string" value="PDGFC receptor-binding form"/>
+   <att name="aliases" type="string" value="Spinal cord-derived growth factor"/>
+   <att name="aliases" type="string" value="SCDGF"/>
+   <att name="aliases" type="string" value="PDGFC"/>
+   <att name="aliases" type="string" value="Platelet-derived growth factor C, latent form"/>
+   <att name="aliases" type="string" value="Platelet-derived growth factor C, receptor-binding form"/>
+   <att name="aliases" type="string" value="PDGFC latent form"/>
+   <att name="aliases" type="string" value="VEGF-E"/>
+  </att>
+ </node>
+ <node id="9" label="PDGF-1">
+  <att name="label" type="string" value="PDGF-1"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="NCBI Gene:5154"/>
+   <att name="db_xref" type="string" value="UniProt:B5BU73"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000383889"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000346508"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000354513"/>
+   <att name="db_xref" type="string" value="UniProt:P04085"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000405692"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_033023"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000402802"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000384673"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:8799"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000197461"/>
+   <att name="db_xref" type="string" value="HGNC:PDGFA"/>
+   <att name="db_xref" type="string" value="omim:173430"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:PDGFA"/>
+   <att name="db_xref" type="string" value="PANTHER Family:PTHR11633:SF3"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_148983"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_002598"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_002607"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P04085"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="PDGFA_HUMAN"/>
+   <att name="aliases" type="string" value="PDGF1"/>
+   <att name="aliases" type="string" value="Platelet-derived growth factor alpha polypeptide"/>
+   <att name="aliases" type="string" value="PDGFA"/>
+   <att name="aliases" type="string" value="Platelet-derived growth factor A chain"/>
+   <att name="aliases" type="string" value="PDGF subunit A"/>
+   <att name="aliases" type="string" value="PDGF-1"/>
+  </att>
+ </node>
+ <node id="10" label="PDGF-DD/PDGFRB (dimer)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_8ab5dc701ee5e98a2f276bbf49f116f5"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="PDGF-DD/PDGFRB (dimer)"/>
+ </node>
+ <node id="11" label="CD140a">
+  <att name="label" type="string" value="CD140a"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PubMed:12522257"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000257290"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_006197"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000424218"/>
+   <att name="db_xref" type="string" value="UniProt:Q6P4H5"/>
+   <att name="db_xref" type="string" value="UniProt:E9PBH0"/>
+   <att name="db_xref" type="string" value="Pubmed:10806482"/>
+   <att name="db_xref" type="string" value="PubMed:2531695"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000508170"/>
+   <att name="db_xref" type="string" value="PubMed:8586421"/>
+   <att name="db_xref" type="string" value="NCBI Gene:5156"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1GQ5"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000257290"/>
+   <att name="db_xref" type="string" value="PubMed:8261442"/>
+   <att name="db_xref" type="string" value="UniProt:Q96KZ7"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_006206"/>
+   <att name="db_xref" type="string" value="HGNC:PDGFRA"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000425648"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:PDGFRA"/>
+   <att name="db_xref" type="string" value="Pubmed:2544881"/>
+   <att name="db_xref" type="string" value="PubMed:11175793"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000134853"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UD28"/>
+   <att name="db_xref" type="string" value="UniProt:B2RE69"/>
+   <att name="db_xref" type="string" value="UniProt:P16234"/>
+   <att name="db_xref" type="string" value="omim:173490"/>
+   <att name="db_xref" type="string" value="PANTHER Family:PTHR24416:SF52"/>
+   <att name="db_xref" type="string" value="PubMed:12176024"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000509490"/>
+   <att name="db_xref" type="string" value="PubMed:12023424"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:8803"/>
+   <att name="db_xref" type="string" value="PubMed:2536956"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P16234"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="PGFRA_HUMAN"/>
+   <att name="aliases" type="string" value="PDGFR2"/>
+   <att name="aliases" type="string" value="Alpha platelet-derived growth factor receptor"/>
+   <att name="aliases" type="string" value="PDGFR-alpha"/>
+   <att name="aliases" type="string" value="PDGF-R-alpha"/>
+   <att name="aliases" type="string" value="Alpha-type platelet-derived growth factor receptor"/>
+   <att name="aliases" type="string" value="CD140a antigen"/>
+   <att name="aliases" type="string" value="CD140 antigen-like family member A"/>
+   <att name="aliases" type="string" value="2.7.10.1"/>
+   <att name="aliases" type="string" value="PDGFRA"/>
+   <att name="aliases" type="string" value="RHEPDGFRA"/>
+   <att name="aliases" type="string" value="Platelet-derived growth factor alpha receptor"/>
+   <att name="aliases" type="string" value="Platelet-derived growth factor receptor 2"/>
+   <att name="aliases" type="string" value="PDGFR-2"/>
+   <att name="aliases" type="string" value="CD140a"/>
+  </att>
+ </node>
+ <node id="12" label="None"/>
+ <node id="13" label="PDGF-AB/PDGFRA/PDGFRB">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b300e854bdb553f6a6d663375cb59a28"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="PDGF-AB/PDGFRA/PDGFRB"/>
+ </node>
+ <node id="14" label="PDGF-DD/PDGFRA/PDGFRB">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_6a139203429d19e6fa273abead6b3dd7"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="PDGF-DD/PDGFRA/PDGFRB"/>
+ </node>
+ <node id="15" label="Beta-type platelet-derived growth factor receptor">
+  <att name="label" type="string" value="Beta-type platelet-derived growth factor receptor"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PubMed:8586421"/>
+   <att name="db_xref" type="string" value="PubMed:2536956"/>
+   <att name="db_xref" type="string" value="PubMed:2835772"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:8804"/>
+   <att name="db_xref" type="string" value="PubMed:11919393"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000113721"/>
+   <att name="db_xref" type="string" value="Pubmed:10821867"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1GQ5"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_002609"/>
+   <att name="db_xref" type="string" value="omim:173410"/>
+   <att name="db_xref" type="string" value="HGNC:PDGFRB"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000261799"/>
+   <att name="db_xref" type="string" value="NCBI Gene:5159"/>
+   <att name="db_xref" type="string" value="PANTHER Family:PTHR24416:SF53"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:PDGFRB"/>
+   <att name="db_xref" type="string" value="Pubmed:2850496"/>
+   <att name="db_xref" type="string" value="PubMed:11861293"/>
+   <att name="db_xref" type="string" value="UniProt:Q8N5L4"/>
+   <att name="db_xref" type="string" value="PubMed:3107886"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000261799"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_002600"/>
+   <att name="db_xref" type="string" value="UniProt:P09619"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P09619"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="PGFRB_HUMAN"/>
+   <att name="aliases" type="string" value="PDGFR-1"/>
+   <att name="aliases" type="string" value="CD140b"/>
+   <att name="aliases" type="string" value="PDGFR"/>
+   <att name="aliases" type="string" value="Beta platelet-derived growth factor receptor"/>
+   <att name="aliases" type="string" value="Platelet-derived growth factor receptor 1"/>
+   <att name="aliases" type="string" value="PDGFR-beta"/>
+   <att name="aliases" type="string" value="PDGFR1"/>
+   <att name="aliases" type="string" value="CD140 antigen-like family member B"/>
+   <att name="aliases" type="string" value="PDGFRB"/>
+   <att name="aliases" type="string" value="2.7.10.1"/>
+   <att name="aliases" type="string" value="PDGF-R-beta"/>
+   <att name="aliases" type="string" value="Beta-type platelet-derived growth factor receptor"/>
+  </att>
+ </node>
+ <node id="16" label="PDGF-BB/PDGFRA/PDGFRB">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a3fcec95c2cea87b4a32f99879a19198"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="PDGF-BB/PDGFRA/PDGFRB"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/P01127 - http://purl.org/pc2/4/Complex_d1822b08787b2a836531215cbe0e5b93" source="1" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d1822b08787b2a836531215cbe0e5b93"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P01127 - http://purl.org/pc2/4/Complex_b300e854bdb553f6a6d663375cb59a28" source="1" target="13">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b300e854bdb553f6a6d663375cb59a28"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P01127 - http://purl.org/pc2/4/Complex_e28f50f8f269f50e399cac5cc269a456" source="1" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e28f50f8f269f50e399cac5cc269a456"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P01127 - http://purl.org/pc2/4/Complex_cb14d4fa11fc283c2e5cd00adc94e40f" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_cb14d4fa11fc283c2e5cd00adc94e40f"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P01127 - http://purl.org/pc2/4/Complex_a3fcec95c2cea87b4a32f99879a19198" source="1" target="16">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a3fcec95c2cea87b4a32f99879a19198"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9GZP0 - http://purl.org/pc2/4/Complex_8ab5dc701ee5e98a2f276bbf49f116f5" source="3" target="10">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_8ab5dc701ee5e98a2f276bbf49f116f5"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9GZP0 - http://purl.org/pc2/4/Complex_6a139203429d19e6fa273abead6b3dd7" source="3" target="14">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_6a139203429d19e6fa273abead6b3dd7"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_0a09c4338a80c35d8b4050089754db99 - None" source="6" target="12">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Control_56acbf8613941bd644371469718f09f4"/>
+  <att name="class" type="string" value="Control"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9NRA1 - http://purl.org/pc2/4/Complex_56200de8d5ee309bde98e70d1fdf5036" source="8" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_56200de8d5ee309bde98e70d1fdf5036"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9NRA1 - http://purl.org/pc2/4/Complex_0a09c4338a80c35d8b4050089754db99" source="8" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0a09c4338a80c35d8b4050089754db99"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P04085 - http://purl.org/pc2/4/Complex_d1822b08787b2a836531215cbe0e5b93" source="9" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d1822b08787b2a836531215cbe0e5b93"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P04085 - http://purl.org/pc2/4/Complex_b300e854bdb553f6a6d663375cb59a28" source="9" target="13">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b300e854bdb553f6a6d663375cb59a28"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P04085 - http://purl.org/pc2/4/Complex_01317ad0b8ba3b06d98b777c967390d9" source="9" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_01317ad0b8ba3b06d98b777c967390d9"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P16234 - http://purl.org/pc2/4/Complex_56200de8d5ee309bde98e70d1fdf5036" source="11" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_56200de8d5ee309bde98e70d1fdf5036"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P16234 - http://purl.org/pc2/4/Complex_e28f50f8f269f50e399cac5cc269a456" source="11" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e28f50f8f269f50e399cac5cc269a456"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P16234 - http://purl.org/pc2/4/Complex_d1822b08787b2a836531215cbe0e5b93" source="11" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d1822b08787b2a836531215cbe0e5b93"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P16234 - http://purl.org/pc2/4/Complex_0a09c4338a80c35d8b4050089754db99" source="11" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0a09c4338a80c35d8b4050089754db99"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P16234 - http://purl.org/pc2/4/Complex_01317ad0b8ba3b06d98b777c967390d9" source="11" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_01317ad0b8ba3b06d98b777c967390d9"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P16234 - http://purl.org/pc2/4/Complex_6a139203429d19e6fa273abead6b3dd7" source="11" target="14">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_6a139203429d19e6fa273abead6b3dd7"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P16234 - http://purl.org/pc2/4/Complex_b300e854bdb553f6a6d663375cb59a28" source="11" target="13">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b300e854bdb553f6a6d663375cb59a28"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P16234 - http://purl.org/pc2/4/Complex_a3fcec95c2cea87b4a32f99879a19198" source="11" target="16">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a3fcec95c2cea87b4a32f99879a19198"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_b300e854bdb553f6a6d663375cb59a28 - None" source="13" target="12">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Control_a3d913b2aad25522facaab9bafb2a213"/>
+  <att name="class" type="string" value="Control"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_6a139203429d19e6fa273abead6b3dd7 - None" source="14" target="12">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Control_5f27dc510a4d6733a7e8c6edec1498c7"/>
+  <att name="class" type="string" value="Control"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P09619 - http://purl.org/pc2/4/Complex_cb14d4fa11fc283c2e5cd00adc94e40f" source="15" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_cb14d4fa11fc283c2e5cd00adc94e40f"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P09619 - http://purl.org/pc2/4/Complex_8ab5dc701ee5e98a2f276bbf49f116f5" source="15" target="10">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_8ab5dc701ee5e98a2f276bbf49f116f5"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P09619 - http://purl.org/pc2/4/Complex_0a09c4338a80c35d8b4050089754db99" source="15" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0a09c4338a80c35d8b4050089754db99"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P09619 - http://purl.org/pc2/4/Complex_6a139203429d19e6fa273abead6b3dd7" source="15" target="14">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_6a139203429d19e6fa273abead6b3dd7"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P09619 - http://purl.org/pc2/4/Complex_b300e854bdb553f6a6d663375cb59a28" source="15" target="13">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b300e854bdb553f6a6d663375cb59a28"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P09619 - http://purl.org/pc2/4/Complex_a3fcec95c2cea87b4a32f99879a19198" source="15" target="16">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a3fcec95c2cea87b4a32f99879a19198"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

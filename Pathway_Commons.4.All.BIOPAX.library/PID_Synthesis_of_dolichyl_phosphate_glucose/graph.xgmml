@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_50041"/>
+ <att name="displayName" type="string" value="Synthesis of dolichyl-phosphate-glucose"/>
+ <att name="name" type="string" value="Synthesis_of_dolichyl_phosphate_glucose"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_382d27e75f4bf5ca0ee8ce2e601e3430"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Dolichyl beta-D-glucosyl phosphate">
+  <att name="label" type="string" value="Dolichyl beta-D-glucosyl phosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_7d5da0ee58291656ced6a8961e022781"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="UDP-glucose">
+  <att name="label" type="string" value="UDP-glucose"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_c32a7bbe3bd985dc062339afc8cb9725"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="dolichol phosphate">
+  <att name="label" type="string" value="dolichol phosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_3cd858c2624511d232b36d98960e11b0"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="Asparagine-linked glycosylation protein 5 homolog">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="HGNC:HGNC:20266"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000120697"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000239891"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001135836"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_013338"/>
+   <att name="db_xref" type="string" value="Pubmed:10359825"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001142364"/>
+   <att name="db_xref" type="string" value="PubMed:11042152"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000390533"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:ALG5"/>
+   <att name="db_xref" type="string" value="UniProt:B4DR37"/>
+   <att name="db_xref" type="string" value="HGNC:ALG5"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000239891"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_037470"/>
+   <att name="db_xref" type="string" value="UniProt:Q5TBA6"/>
+   <att name="db_xref" type="string" value="NCBI Gene:29880"/>
+   <att name="db_xref" type="string" value="UniProt:Q9Y673"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000443765"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q9Y673"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="ALG5_HUMAN"/>
+   <att name="aliases" type="string" value="ALG5"/>
+   <att name="aliases" type="string" value="2.4.1.117"/>
+   <att name="aliases" type="string" value="DolP-glucosyltransferase"/>
+   <att name="aliases" type="string" value="Asparagine-linked glycosylation protein 5 homolog"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Asparagine-linked glycosylation protein 5 homolog"/>
+ </node>
+ <node id="4" label="Dolichyl beta-D-glucosyl phosphate">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_df85c65574a695f10abf685638faf285"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Dolichyl beta-D-glucosyl phosphate"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_7d5da0ee58291656ced6a8961e022781 - http://purl.org/pc2/4/SmallMolecule_df85c65574a695f10abf685638faf285" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_2751d2659a4c521d6380cf12d1f20b4b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_c32a7bbe3bd985dc062339afc8cb9725 - http://purl.org/pc2/4/SmallMolecule_7d5da0ee58291656ced6a8961e022781" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_1fd3d30332a44f80ffda87acef980b28"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_3cd858c2624511d232b36d98960e11b0 - http://purl.org/pc2/4/SmallMolecule_7d5da0ee58291656ced6a8961e022781" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_1fd3d30332a44f80ffda87acef980b28"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9Y673 - http://purl.org/pc2/4/SmallMolecule_7d5da0ee58291656ced6a8961e022781" source="3" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_ec406a493b6520460d59b004bc62dcec"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

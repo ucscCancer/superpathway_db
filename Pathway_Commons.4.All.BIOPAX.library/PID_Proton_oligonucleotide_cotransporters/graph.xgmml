@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_104972"/>
+ <att name="displayName" type="string" value="Proton/oligonucleotide cotransporters"/>
+ <att name="name" type="string" value="Proton_oligonucleotide_cotransporters"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_91e880d10052bcf14828752c6fab673f"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="H+">
+  <att name="label" type="string" value="H+"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="Di-peptides/tri-peptides">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_d14937afa97b3b411d8010e50252af9d"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Di-peptides/tri-peptides"/>
+ </node>
+ <node id="2" label="H+">
+  <att name="label" type="string" value="H+"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_a8b5330c6327ea32cf1f306bc5bb7702"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="PHT cotransporters">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_47ee9503a6420ec4998c01edc5bab8c7"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="PHT cotransporters"/>
+ </node>
+ <node id="4" label="Di-peptides/tri-peptides">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_275fca7ff61b843150fff4439eb884ae"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Di-peptides/tri-peptides"/>
+ </node>
+ <node id="5" label="PEPT cotransporters">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_a3820f5d1b1d815d235b1a8c5a0f451e"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="PEPT cotransporters"/>
+ </node>
+ <node id="6" label="Histidine/di-peptides">
+  <att name="label" type="string" value="Histidine/di-peptides"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_bee963ee15b6062590a89c9ef064ca2d"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="7" label="H+">
+  <att name="label" type="string" value="H+"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="8" label="Histidine/di-peptides">
+  <att name="label" type="string" value="Histidine/di-peptides"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_fa1334b9a3ff8d940df8df73d60b14c8"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071 - http://purl.org/pc2/4/PhysicalEntity_275fca7ff61b843150fff4439eb884ae" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_c55c24e96525df8601394cb2f3e1b084"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071 - http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6" source="0" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_c55c24e96525df8601394cb2f3e1b084"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_d14937afa97b3b411d8010e50252af9d - http://purl.org/pc2/4/PhysicalEntity_275fca7ff61b843150fff4439eb884ae" source="1" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_c55c24e96525df8601394cb2f3e1b084"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_d14937afa97b3b411d8010e50252af9d - http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6" source="1" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_c55c24e96525df8601394cb2f3e1b084"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_a8b5330c6327ea32cf1f306bc5bb7702 - http://purl.org/pc2/4/SmallMolecule_fa1334b9a3ff8d940df8df73d60b14c8" source="2" target="8">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_5aa52fa13c1d19533a01a8528a6a68f5"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_a8b5330c6327ea32cf1f306bc5bb7702 - http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6" source="2" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_5aa52fa13c1d19533a01a8528a6a68f5"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_47ee9503a6420ec4998c01edc5bab8c7 - http://purl.org/pc2/4/SmallMolecule_fa1334b9a3ff8d940df8df73d60b14c8" source="3" target="8">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_5de29fca6917c1a2def38c8077c72028"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_a3820f5d1b1d815d235b1a8c5a0f451e - http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6" source="5" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_3db54e226d16782ab0ceb0d83c74a258"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_bee963ee15b6062590a89c9ef064ca2d - http://purl.org/pc2/4/SmallMolecule_fa1334b9a3ff8d940df8df73d60b14c8" source="6" target="8">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_5aa52fa13c1d19533a01a8528a6a68f5"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_bee963ee15b6062590a89c9ef064ca2d - http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6" source="6" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_5aa52fa13c1d19533a01a8528a6a68f5"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+</graph>

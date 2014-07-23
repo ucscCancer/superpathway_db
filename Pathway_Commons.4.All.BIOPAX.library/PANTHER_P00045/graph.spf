@@ -1,0 +1,34 @@
+complex	Complex_(Delta/Next)_(complex)
+complex	Complex_(Mastermind/Su(H)/_CoA/NIcs)_(complex)
+complex	Complex_(Notch/Delta)_(complex)
+complex	Complex_(Serrate/Next)_(complex)
+complex	Complex_(Serrate/Notch)_(complex)
+protein	FOS
+protein	HRAS
+protein	KRAS
+protein	MYC
+protein	NIcs
+protein	NIct
+protein	Next
+protein	Notch
+protein	Ntm
+protein	Serrate
+protein	Su(H)
+Notch	Complex_(Serrate/Notch)_(complex)	component>
+Notch	Complex_(Notch/Delta)_(complex)	component>
+Serrate	Complex_(Serrate/Notch)_(complex)	component>
+Serrate	Complex_(Serrate/Next)_(complex)	component>
+Su(H)	Complex_(Mastermind/Su(H)/_CoA/NIcs)_(complex)	component>
+NIcs	Complex_(Mastermind/Su(H)/_CoA/NIcs)_(complex)	component>
+FOS	Complex_(Mastermind/Su(H)/_CoA/NIcs)_(complex)	component>
+NIct	NIcs	-a|
+NIct	Ntm	-a|
+Next	Complex_(Delta/Next)_(complex)	component>
+Next	Complex_(Serrate/Next)_(complex)	component>
+Complex_(Serrate/Notch)_(complex)	Complex_(Serrate/Next)_(complex)	-a|
+Complex_(Serrate/Notch)_(complex)	NIct	-a|
+KRAS	Complex_(Delta/Next)_(complex)	component>
+KRAS	Complex_(Notch/Delta)_(complex)	component>
+MYC	Complex_(Mastermind/Su(H)/_CoA/NIcs)_(complex)	component>
+Complex_(Notch/Delta)_(complex)	Complex_(Delta/Next)_(complex)	-a|
+Complex_(Notch/Delta)_(complex)	NIct	-a|

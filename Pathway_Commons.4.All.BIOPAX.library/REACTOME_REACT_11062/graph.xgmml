@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Reviewed: Greene, LA, 2007-11-08 15:39:37"/>
+ <att name="displayName" type="string" value="NGF processing"/>
+ <att name="name" type="string" value="NGF processing"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_f0facc2a1d582db2bfba04149c4b626b"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:167060"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_11062"/>
+  <att name="db_xref" type="string" value="GENE ONTOLOGY:GO:0032455"/>
+  <att name="db_xref" type="string" value="Pubmed:12787574"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="pro-beta-NGF homodimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_2e1befbf4d636077219a451535ef1194"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="pro-beta-NGF homodimer"/>
+ </node>
+ <node id="1" label="mature beta-NGF homodimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d266dc6e90a61338f3c89dffca923554"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="mature beta-NGF homodimer"/>
+ </node>
+ <node id="2" label="pro-beta-NGF homodimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b78b6360ef779aac91aec3bf4b475084"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="pro-beta-NGF homodimer"/>
+ </node>
+ <node id="3" label="NGF">
+  <att name="label" type="string" value="NGF"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000358525"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_002506"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1SG1"/>
+   <att name="db_xref" type="string" value="UniProt:Q96P60"/>
+   <att name="db_xref" type="string" value="UniProt:Q9P2Q8"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UKL8"/>
+   <att name="db_xref" type="string" value="UniProt:P01138"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:7808"/>
+   <att name="db_xref" type="string" value="NCBI Gene:4803"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:NGF"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000369512"/>
+   <att name="db_xref" type="string" value="omim:162030"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000134259"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_002497"/>
+   <att name="db_xref" type="string" value="HGNC:NGF"/>
+   <att name="db_xref" type="string" value="UniProt:A1A4E5"/>
+   <att name="db_xref" type="string" value="UniProt:Q6FHA0"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P01138"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="NGF_HUMAN"/>
+   <att name="aliases" type="string" value="NGFB"/>
+   <att name="aliases" type="string" value="Beta-NGF"/>
+   <att name="aliases" type="string" value="NGF"/>
+  </att>
+ </node>
+ <node id="4" label="pro-beta-NGF homodimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_16aa085881e0ffb7e3513822b140b6e4"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="pro-beta-NGF homodimer"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/P01138 - http://purl.org/pc2/4/Complex_d266dc6e90a61338f3c89dffca923554" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d266dc6e90a61338f3c89dffca923554"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P01138 - http://purl.org/pc2/4/Complex_b78b6360ef779aac91aec3bf4b475084" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b78b6360ef779aac91aec3bf4b475084"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P01138 - http://purl.org/pc2/4/Complex_2e1befbf4d636077219a451535ef1194" source="3" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_2e1befbf4d636077219a451535ef1194"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P01138 - http://purl.org/pc2/4/Complex_16aa085881e0ffb7e3513822b140b6e4" source="3" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_16aa085881e0ffb7e3513822b140b6e4"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P01138 - http://identifiers.org/uniprot/P01138" source="3" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_3758dd28f397c695df9b062db1fa7d76"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

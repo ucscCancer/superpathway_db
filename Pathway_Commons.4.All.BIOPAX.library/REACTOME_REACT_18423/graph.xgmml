@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="ATF6-alpha is a transmembrane protein that normally resides in the Endoplasmic Reticulum (ER) membrane. Here its luminal C-terminal domain is associated with BiP, shielding 2 Golgi-targeting regions and thus keeping ATF6-alpha in the ER. Upon interaction of BiP with unfolded proteins in the ER, ATF6-alpha dissociates and transits to the Golgi where it is cleaved by the S1P and S2P proteases that reside in the Golgi, releasing the N-terminal domain of ATF6-alpha into the cytosol. After transiting to the nucleus, the N-terminal domain acts as a transcription factor to activate genes encoding chaperones."/>
+ <att name="displayName" type="string" value="Activation of Chaperones by ATF6-alpha"/>
+ <att name="name" type="string" value="Activation of Chaperones by ATF6-alpha"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_52fcbfe62770d5759b9631d85fee7e07"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="GENE ONTOLOGY:GO:0006987"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:381033"/>
+  <att name="db_xref" type="string" value="Pubmed:18436705"/>
+  <att name="db_xref" type="string" value="Pubmed:18048764"/>
+  <att name="db_xref" type="string" value="Pubmed:18038217"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_18348"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="BiP:Unfolded Protein">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_43d71828c06223c1d7065e741ee0e816"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="BiP:Unfolded Protein"/>
+ </node>
+ <node id="1" label="Endoplasmic reticulum lumenal Ca(2+)-binding protein grp78">
+  <att name="label" type="string" value="Endoplasmic reticulum lumenal Ca(2+)-binding protein grp78"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000324173"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:HSPA5"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UK02"/>
+   <att name="db_xref" type="string" value="HGNC:HSPA5"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_005338"/>
+   <att name="db_xref" type="string" value="PANTHER Family:PTHR19375:SF1"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000324460"/>
+   <att name="db_xref" type="string" value="UniProt:P11021"/>
+   <att name="db_xref" type="string" value="omim:138120"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:5238"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_005347"/>
+   <att name="db_xref" type="string" value="UniProt:Q9NPF1"/>
+   <att name="db_xref" type="string" value="UniProt:B0QZ61"/>
+   <att name="db_xref" type="string" value="NCBI Gene:3309"/>
+   <att name="db_xref" type="string" value="UniProt:Q2EF78"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:3IUC"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000044574"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P11021"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="GRP78_HUMAN"/>
+   <att name="aliases" type="string" value="GRP-78"/>
+   <att name="aliases" type="string" value="BiP"/>
+   <att name="aliases" type="string" value="GRP78"/>
+   <att name="aliases" type="string" value="Immunoglobulin heavy chain-binding protein"/>
+   <att name="aliases" type="string" value="HSPA5"/>
+   <att name="aliases" type="string" value="Heat shock 70 kDa protein 5"/>
+   <att name="aliases" type="string" value="Endoplasmic reticulum lumenal Ca(2+)-binding protein grp78"/>
+  </att>
+ </node>
+ <node id="2" label="Activating transcription factor 6 alpha">
+  <att name="label" type="string" value="Activating transcription factor 6 alpha"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000356919"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_007348"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000367942"/>
+   <att name="db_xref" type="string" value="HGNC:ATF6"/>
+   <att name="db_xref" type="string" value="NCBI Gene:22926"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UEC9"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_031374"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:ATF6"/>
+   <att name="db_xref" type="string" value="UniProt:Q6IPB5"/>
+   <att name="db_xref" type="string" value="UniProt:P18850"/>
+   <att name="db_xref" type="string" value="PANTHER Family:PTHR22952:SF10"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:791"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000118217"/>
+   <att name="db_xref" type="string" value="omim:605537"/>
+   <att name="db_xref" type="string" value="UniProt:O15139"/>
+   <att name="db_xref" type="string" value="UniProt:Q5VW62"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P18850"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="ATF6A_HUMAN"/>
+   <att name="aliases" type="string" value="ATF6-alpha"/>
+   <att name="aliases" type="string" value="cAMP-dependent transcription factor ATF-6 alpha"/>
+   <att name="aliases" type="string" value="Processed cyclic AMP-dependent transcription factor ATF-6 alpha"/>
+   <att name="aliases" type="string" value="ATF6"/>
+   <att name="aliases" type="string" value="Activating transcription factor 6 alpha"/>
+  </att>
+ </node>
+ <node id="3" label="unfolded protein">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_fae24001d93ef72a1bd6c54c7e8fd309"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="unfolded protein"/>
+ </node>
+ <node id="4" label="ATF6-alpha:BiP">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d52b71cc40e1c6eec72ccf91f90d97f6"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="ATF6-alpha:BiP"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/P11021 - http://purl.org/pc2/4/Complex_43d71828c06223c1d7065e741ee0e816" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_43d71828c06223c1d7065e741ee0e816"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P11021 - http://purl.org/pc2/4/Complex_d52b71cc40e1c6eec72ccf91f90d97f6" source="1" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d52b71cc40e1c6eec72ccf91f90d97f6"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P18850 - http://identifiers.org/uniprot/P18850" source="2" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_3850d2d057944df628c75993fdb056ca"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P18850 - http://purl.org/pc2/4/Complex_d52b71cc40e1c6eec72ccf91f90d97f6" source="2" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d52b71cc40e1c6eec72ccf91f90d97f6"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_fae24001d93ef72a1bd6c54c7e8fd309 - http://purl.org/pc2/4/Complex_43d71828c06223c1d7065e741ee0e816" source="3" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_43d71828c06223c1d7065e741ee0e816"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_fae24001d93ef72a1bd6c54c7e8fd309 - http://identifiers.org/uniprot/P18850" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_56c6602827f2f934ed8aadefe57e17c6"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_d52b71cc40e1c6eec72ccf91f90d97f6 - http://purl.org/pc2/4/Complex_43d71828c06223c1d7065e741ee0e816" source="4" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_56c6602827f2f934ed8aadefe57e17c6"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_d52b71cc40e1c6eec72ccf91f90d97f6 - http://identifiers.org/uniprot/P18850" source="4" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_56c6602827f2f934ed8aadefe57e17c6"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

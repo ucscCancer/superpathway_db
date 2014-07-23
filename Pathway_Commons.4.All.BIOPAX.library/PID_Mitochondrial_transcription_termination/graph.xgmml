@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_33286"/>
+ <att name="displayName" type="string" value="Mitochondrial transcription termination"/>
+ <att name="name" type="string" value="Mitochondrial_transcription_termination"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_d22def94e64c33870d633fe0661ca7aa"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="mTERF">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000127989"/>
+   <att name="db_xref" type="string" value="UniProt:Q99551"/>
+   <att name="db_xref" type="string" value="UniProt:A4D1E3"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_008911"/>
+   <att name="db_xref" type="string" value="UniProt:Q53H51"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000351870"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:MTERF"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_006980"/>
+   <att name="db_xref" type="string" value="UniProt:Q32NF8"/>
+   <att name="db_xref" type="string" value="NCBI Gene:7978"/>
+   <att name="db_xref" type="string" value="HGNC:MTERF"/>
+   <att name="db_xref" type="string" value="UniProt:Q9BVR7"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000248643"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:21463"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q99551"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="MTERF_HUMAN"/>
+   <att name="aliases" type="string" value="Mitochondrial transcription termination factor 1"/>
+   <att name="aliases" type="string" value="MTERF"/>
+   <att name="aliases" type="string" value="mTERF"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="mTERF"/>
+ </node>
+ <node id="1" label="mTERF:mitochondrial transcription termination sequence">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_730d137beb9c87207ed6f34310e0f6d6"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="mTERF:mitochondrial transcription termination sequence"/>
+ </node>
+ <node id="2" label="mitochondrial transcription termination sequence">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_df7b7f5b94e28d664a87ba853a648644"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="mitochondrial transcription termination sequence"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/Q99551 - http://purl.org/pc2/4/Complex_730d137beb9c87207ed6f34310e0f6d6" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_730d137beb9c87207ed6f34310e0f6d6"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_df7b7f5b94e28d664a87ba853a648644 - http://purl.org/pc2/4/Complex_730d137beb9c87207ed6f34310e0f6d6" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_730d137beb9c87207ed6f34310e0f6d6"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

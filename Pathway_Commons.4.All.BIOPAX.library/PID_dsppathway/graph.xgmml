@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_64532"/>
+ <att name="displayName" type="string" value="regulation of map kinase pathways through dual specificity phosphatases"/>
+ <att name="name" type="string" value="dsppathway"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_f0181ee59c5f775bd648e5e82a6675a1"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="DSP">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_8858dfba6440b67618e78be62c9125ed"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="DSP"/>
+ </node>
+ <node id="1" label="MAPK">
+  <att name="label" type="string" value="MAPK"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_fa17f78307ef22123d6d81b21c5122a2"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/ProteinReference_8858dfba6440b67618e78be62c9125ed - http://purl.org/pc2/4/ProteinReference_fa17f78307ef22123d6d81b21c5122a2" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_726f5e49cd37b222702c3bb0712c9f0d"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_fa17f78307ef22123d6d81b21c5122a2 - http://purl.org/pc2/4/ProteinReference_fa17f78307ef22123d6d81b21c5122a2" source="1" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_52dff5c38c725b5e441bd9534cd4bbf3"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

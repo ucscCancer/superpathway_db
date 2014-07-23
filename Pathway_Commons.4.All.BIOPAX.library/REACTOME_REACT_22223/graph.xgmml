@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Nicotinic acetylcholne receptors that have low Ca2+ permeability allow the influx of Na+ which causes depolarization of the membrane initiating voltage dependent responses such as activation of voltage dependent opening of Ca2+ channels and thus eliciting an increase in Ca2+ and downstream signaling. These receptors could be found in both presynaptic and postsynaptic terminals."/>
+ <att name="displayName" type="string" value="Highly sodium permeable acetylcholine nicotinic receptors"/>
+ <att name="name" type="string" value="Highly sodium permeable acetylcholine nicotinic receptors"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_f2ae48567889c1918d6f602731a0020e"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Pubmed:9110108"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_22223"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:629587"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="sodium cation">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="InChIKey:FKNQFGJONOIPTF-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="pubchem:8145464"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29101"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:9175"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145464"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:49766"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:26717"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_4c7ac839ad391bfe68868f4b7da3422d"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="sodium cation"/>
+ </node>
+ <node id="1" label="2-acetyloxy-N,N,N-trimethylethanaminium">
+  <att name="label" type="string" value="2-acetyloxy-N,N,N-trimethylethanaminium"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="InChIKey:OIPILFWXSMYKGL-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145821"/>
+   <att name="db_xref" type="string" value="pubchem:8145821"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:15355"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:40559"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:12686"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:2416"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:22197"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13715"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_873ecb54ebb6e9749a2e9e25e12c4ba2"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="sodium cation">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="InChIKey:FKNQFGJONOIPTF-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="pubchem:8145464"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29101"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:9175"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145464"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:49766"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:26717"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_50f8c884360db8a4fc94f1a47d4d4bb1"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="sodium cation"/>
+ </node>
+ <node id="3" label="O-Acetylcholine bound to Acetylcholine receptor">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_773db1dc4901fec1750232ab5225a5b6"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="O-Acetylcholine bound to Acetylcholine receptor"/>
+ </node>
+ <node id="4" label="Highly sodium permeable nicotinic acetylcholine receptors">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a8259a2d9dcc84bebfd71f1ad7a9c010"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Highly sodium permeable nicotinic acetylcholine receptors"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_873ecb54ebb6e9749a2e9e25e12c4ba2 - http://purl.org/pc2/4/Complex_773db1dc4901fec1750232ab5225a5b6" source="1" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_773db1dc4901fec1750232ab5225a5b6"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_50f8c884360db8a4fc94f1a47d4d4bb1 - http://purl.org/pc2/4/SmallMolecule_4c7ac839ad391bfe68868f4b7da3422d" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_d6924cc926115923a8f286f9107e9fca"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_50f8c884360db8a4fc94f1a47d4d4bb1 - http://purl.org/pc2/4/Complex_a8259a2d9dcc84bebfd71f1ad7a9c010" source="2" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_d6924cc926115923a8f286f9107e9fca"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_a8259a2d9dcc84bebfd71f1ad7a9c010 - http://purl.org/pc2/4/SmallMolecule_4c7ac839ad391bfe68868f4b7da3422d" source="4" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_d6924cc926115923a8f286f9107e9fca"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_a8259a2d9dcc84bebfd71f1ad7a9c010 - http://purl.org/pc2/4/Complex_773db1dc4901fec1750232ab5225a5b6" source="4" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_773db1dc4901fec1750232ab5225a5b6"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_a8259a2d9dcc84bebfd71f1ad7a9c010 - http://purl.org/pc2/4/Complex_a8259a2d9dcc84bebfd71f1ad7a9c010" source="4" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_d6924cc926115923a8f286f9107e9fca"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

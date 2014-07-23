@@ -1,0 +1,16 @@
+protein	CAV1
+protein	FABP4
+protein	LIPE
+protein	MGLL
+protein	PKA_catalytic_subunit
+protein	PLIN1
+protein	PP1_catalytic_subunit
+complex	phosphorylated_HSL_dimer_(complex)
+complex	phosphorylated_HSL_dimer_FABP4_complex_(complex)
+PP1_catalytic_subunit	PLIN1	-a>
+LIPE	phosphorylated_HSL_dimer_(complex)	component>
+PKA_catalytic_subunit	LIPE	-a>
+PKA_catalytic_subunit	PLIN1	-a>
+phosphorylated_HSL_dimer_(complex)	phosphorylated_HSL_dimer_FABP4_complex_(complex)	component>
+FABP4	phosphorylated_HSL_dimer_FABP4_complex_(complex)	component>
+CAV1	PLIN1	-a>

@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://www.reactome.org/biopax/46/48887#Pathway1092"/>
+ <att name="displayName" type="string" value="Synthesis of BMP"/>
+ <att name="name" type="string" value="Synthesis of BMP"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_b195866130f4d8ea250908f824a6c3f5"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Pubmed:21136156"/>
+  <att name="db_xref" type="string" value="Pubmed:10101262"/>
+  <att name="db_xref" type="string" value="GENE ONTOLOGY:GO:2001312"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:1483171"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_121039"/>
+  <att name="db_xref" type="string" value="Pubmed:17558022"/>
+  <att name="db_xref" type="string" value="Pubmed:650089"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="phosphatidylglycerols">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:14804"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:17517"/>
+   <att name="db_xref" type="string" value="pubchem:99437364"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:26033"/>
+   <att name="db_xref" type="string" value="pubchem-substance:99437364"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:26032"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:8130"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_4d32d66d4d9e508b26dd63745e6f1a61"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="phosphatidylglycerols"/>
+ </node>
+ <node id="1" label="phosphatidylglycerols">
+  <att name="label" type="string" value="phosphatidylglycerols"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:14804"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:17517"/>
+   <att name="db_xref" type="string" value="pubchem:99437364"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:26033"/>
+   <att name="db_xref" type="string" value="pubchem-substance:99437364"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:26032"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:8130"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_62705140939e154a0c1d9ccb32cb0407"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="bis(monoacylglycerol) hydrogen phosphate">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:60815"/>
+   <att name="db_xref" type="string" value="pubchem:104222413"/>
+   <att name="db_xref" type="string" value="pubchem-substance:104222413"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_b233b3b9e5d559dfa6c02f1cda40fe25"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="bis(monoacylglycerol) hydrogen phosphate"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4d32d66d4d9e508b26dd63745e6f1a61 - http://purl.org/pc2/4/SmallMolecule_62705140939e154a0c1d9ccb32cb0407" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_ce03b55fcb399d6df4761cc31e4a7c7f"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_62705140939e154a0c1d9ccb32cb0407 - http://purl.org/pc2/4/SmallMolecule_b233b3b9e5d559dfa6c02f1cda40fe25" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_14510fa25e7869e23bba4a585a0fb55d"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

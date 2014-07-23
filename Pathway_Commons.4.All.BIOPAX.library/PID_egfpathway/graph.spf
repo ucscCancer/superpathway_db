@@ -1,0 +1,48 @@
+protein	EGF
+complex	EGF/EGF-R_(complex)
+protein	EGFR
+protein	ELK1
+protein	GRB2
+protein	HRAS
+protein	JAK1
+protein	MAP2K1
+protein	MAP2K4
+protein	MAP3K1
+protein	MAPK8
+complex	PI3K_(complex)
+protein	PIK3CA
+protein	PIK3R1
+protein	PKC
+protein	PLCG1
+protein	RASA1
+complex	SHC/GRB2/SOS-1_(complex)
+protein	SHC1
+protein	SOS1
+protein	STAT1
+complex	STAT1/STAT3_(complex)
+protein	STAT3
+complex	STAT3/STAT3_(complex)
+HRAS	MAP3K1	-a>
+EGFR	EGF/EGF-R_(complex)	component>
+SHC/GRB2/SOS-1_(complex)	HRAS	-a>
+MAP2K4	MAPK8	-a>
+EGF	EGF/EGF-R_(complex)	component>
+STAT3	STAT1/STAT3_(complex)	component>
+STAT3	STAT3/STAT3_(complex)	component>
+STAT1	STAT1/STAT3_(complex)	component>
+PIK3CA	PI3K_(complex)	component>
+MAP3K1	MAP2K1	-a>
+MAP3K1	MAP2K4	-a>
+PKC	ELK1	-a>
+GRB2	SHC/GRB2/SOS-1_(complex)	component>
+EGF/EGF-R_(complex)	STAT3	-a>
+EGF/EGF-R_(complex)	STAT1	-a>
+EGF/EGF-R_(complex)	PI3K_(complex)	-a>
+EGF/EGF-R_(complex)	PLCG1	-a>
+EGF/EGF-R_(complex)	SHC/GRB2/SOS-1_(complex)	-a>
+EGF/EGF-R_(complex)	JAK1	-a>
+EGF/EGF-R_(complex)	RASA1	-a>
+PIK3R1	PI3K_(complex)	component>
+SHC1	SHC/GRB2/SOS-1_(complex)	component>
+RASA1	HRAS	-a>
+SOS1	SHC/GRB2/SOS-1_(complex)	component>

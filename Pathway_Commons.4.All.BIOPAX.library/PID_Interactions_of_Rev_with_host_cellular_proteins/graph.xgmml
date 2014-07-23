@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_125579"/>
+ <att name="displayName" type="string" value="Interactions of Rev with host cellular proteins"/>
+ <att name="name" type="string" value="Interactions_of_Rev_with_host_cellular_proteins"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_2eb83a5f870f6451dd225dbe4e458f5c"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Guanosine diphosphate">
+  <att name="label" type="string" value="Guanosine diphosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_1d6f140d9892d80f7f0a951c53668662"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="Chromosome condensation protein 1">
+  <att name="label" type="string" value="Chromosome condensation protein 1"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENST00000373833"/>
+   <att name="db_xref" type="string" value="UniProt:P18754"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001041664"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000362939"/>
+   <att name="db_xref" type="string" value="HGNC:RCC1"/>
+   <att name="db_xref" type="string" value="omim:179710"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001048194"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000180198"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:RCC1"/>
+   <att name="db_xref" type="string" value="UniProt:Q6NT97"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001260"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001041660"/>
+   <att name="db_xref" type="string" value="NCBI Gene:1104"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001048199"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000362937"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001041659"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000381931"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:1913"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001269"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000373831"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001048195"/>
+   <att name="db_xref" type="string" value="UniProt:Q16269"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000362938"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000398958"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1A12"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000373832"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P18754"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="RCC1_HUMAN"/>
+   <att name="aliases" type="string" value="CHC1"/>
+   <att name="aliases" type="string" value="RCC1"/>
+   <att name="aliases" type="string" value="Cell cycle regulatory protein"/>
+   <att name="aliases" type="string" value="Chromosome condensation protein 1"/>
+  </att>
+ </node>
+ <edge label="http://identifiers.org/uniprot/P18754 - http://purl.org/pc2/4/SmallMolecule_1d6f140d9892d80f7f0a951c53668662" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Control_64487d15d2f3d173b2194fb554193089"/>
+  <att name="class" type="string" value="Control"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

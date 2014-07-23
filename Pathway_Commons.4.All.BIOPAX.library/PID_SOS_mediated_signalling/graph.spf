@@ -1,0 +1,13 @@
+protein	GRB2
+complex	GRB2_SOS1_(complex)
+complex	GRB2_SOS_IRS-P_(complex)
+protein	SOS1
+protein	p21_RAS
+complex	p21_RAS_GTP_(complex)
+protein	phospho-IRS-1/2
+SOS1	GRB2_SOS1_(complex)	component>
+GRB2_SOS1_(complex)	GRB2_SOS_IRS-P_(complex)	component>
+GRB2	GRB2_SOS1_(complex)	component>
+phospho-IRS-1/2	GRB2_SOS_IRS-P_(complex)	component>
+p21_RAS	p21_RAS_GTP_(complex)	component>
+GRB2_SOS_IRS-P_(complex)	p21_RAS_GTP_(complex)	-a>

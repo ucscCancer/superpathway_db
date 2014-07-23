@@ -1,0 +1,13 @@
+protein	MAP2K2
+protein	MAPK1
+complex	MEK2_ERK-2_(complex)
+complex	phospho-ERK-2_dimer_(complex)
+complex	phospho-ERK-2_MEK2_(complex)
+MEK2_ERK-2_(complex)	phospho-ERK-2_MEK2_(complex)	-a>
+phospho-ERK-2_MEK2_(complex)	MAP2K2	-a>
+phospho-ERK-2_MEK2_(complex)	MAPK1	-a>
+MAPK1	MEK2_ERK-2_(complex)	component>
+MAPK1	phospho-ERK-2_MEK2_(complex)	component>
+MAPK1	phospho-ERK-2_dimer_(complex)	component>
+MAP2K2	MEK2_ERK-2_(complex)	component>
+MAP2K2	phospho-ERK-2_MEK2_(complex)	component>

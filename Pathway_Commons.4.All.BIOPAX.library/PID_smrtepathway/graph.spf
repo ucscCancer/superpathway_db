@@ -1,0 +1,28 @@
+protein	EGF
+complex	EGF/EGF-R_(complex)
+protein	EGFR
+protein	GRB2
+protein	HRAS
+protein	MAP2K1
+protein	MAP2K4
+protein	MAP3K1
+protein	MAPK14
+protein	NCOR2
+protein	RAC1
+complex	SHC/GRB2/SOS-1_(complex)
+protein	SHC1
+protein	SOS1
+SHC1	SHC/GRB2/SOS-1_(complex)	component>
+SOS1	SHC/GRB2/SOS-1_(complex)	component>
+RAC1	MAP3K1	-a>
+HRAS	RAC1	-a>
+MAP3K1	MAP2K1	-a>
+MAP3K1	NCOR2	-a>
+MAP3K1	MAP2K4	-a>
+EGFR	EGF/EGF-R_(complex)	component>
+MAPK14	NCOR2	-a>
+MAP2K1	NCOR2	-a>
+GRB2	SHC/GRB2/SOS-1_(complex)	component>
+EGF/EGF-R_(complex)	SHC/GRB2/SOS-1_(complex)	-a>
+MAP2K4	MAPK14	-a>
+EGF	EGF/EGF-R_(complex)	component>

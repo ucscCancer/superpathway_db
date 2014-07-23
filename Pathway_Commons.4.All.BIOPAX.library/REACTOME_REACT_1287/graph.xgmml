@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Pol eta consists of 713 amino acids and can bypass thymidine-thymidine dimers adding two As correctly opposite to the lesion. Mutations in Pol eta gene result in the loss of this bypass activity in accounting for the XP variant phenotype (XPV) among human xeroderma pigmentosum disorder patients. Pol eta can carry out TLS past various UV and chemical induced lesions via two steps: a. preferential incorporation of correct bases opposite to the lesion&lt;BR&gt;b. conditional elongation only at the sites where such correct bases are inserted.&lt;BR&gt;"/>
+ <att name="displayName" type="string" value="Translesion synthesis by Pol eta"/>
+ <att name="name" type="string" value="Translesion synthesis by Pol eta"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_36bd441c4f4d0cc976555af85cd2b6f1"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:110320"/>
+  <att name="db_xref" type="string" value="Pubmed:10856253"/>
+  <att name="db_xref" type="string" value="Pubmed:10369688"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_1287"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="damaged DNA substrate">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_f38c948c9807e6b299df2f8d8379a7af"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="damaged DNA substrate"/>
+ </node>
+ <node id="1" label="damaged DNA substrate inserted with correct base complement">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_e08c263779ce6835b5588d2140169b3f"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="damaged DNA substrate inserted with correct base complement"/>
+ </node>
+ <node id="2" label="Pol eta:damaged DNA template complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f49efa3b28f7b4f29db2bca0af1bacd3"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Pol eta:damaged DNA template complex"/>
+ </node>
+ <node id="3" label="RAD30A">
+  <att name="label" type="string" value="RAD30A"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="omim:603968"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000372226"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000372236"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_006493"/>
+   <att name="db_xref" type="string" value="PubMed:11756691"/>
+   <att name="db_xref" type="string" value="PubMed:11821420"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:2I5O"/>
+   <att name="db_xref" type="string" value="UniProt:Q9Y253"/>
+   <att name="db_xref" type="string" value="UniProt:Q9BX13"/>
+   <att name="db_xref" type="string" value="PubMed:12426396"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000361300"/>
+   <att name="db_xref" type="string" value="PubMed:10871396"/>
+   <att name="db_xref" type="string" value="UniProt:Q96BC4"/>
+   <att name="db_xref" type="string" value="PubMed:12244178"/>
+   <att name="db_xref" type="string" value="PubMed:12509472"/>
+   <att name="db_xref" type="string" value="UniProt:Q7L8E3"/>
+   <att name="db_xref" type="string" value="PubMed:11994004"/>
+   <att name="db_xref" type="string" value="PubMed:10385124"/>
+   <att name="db_xref" type="string" value="PubMed:10398605"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_006502"/>
+   <att name="db_xref" type="string" value="NCBI Gene:5429"/>
+   <att name="db_xref" type="string" value="PubMed:11554790"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:9181"/>
+   <att name="db_xref" type="string" value="HGNC:POLH"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000361310"/>
+   <att name="db_xref" type="string" value="Pubmed:10856253"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:POLH"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000170734"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q9Y253"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="POLH_HUMAN"/>
+   <att name="aliases" type="string" value="Xeroderma pigmentosum variant type protein"/>
+   <att name="aliases" type="string" value="POLH"/>
+   <att name="aliases" type="string" value="RAD30 homolog A"/>
+   <att name="aliases" type="string" value="XPV"/>
+   <att name="aliases" type="string" value="RAD30"/>
+   <att name="aliases" type="string" value="2.7.7.7"/>
+   <att name="aliases" type="string" value="RAD30A"/>
+  </att>
+ </node>
+ <node id="4" label="Elongated DNA template with bypassed lesion">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_25684975acfaa8c848c9e33902d163de"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Elongated DNA template with bypassed lesion"/>
+ </node>
+ <node id="5" label="Pol eta:lesioned DNA template inserted with correct base complement">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_826c25a9d9ea77563bfb1e753c80a438"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Pol eta:lesioned DNA template inserted with correct base complement"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_f38c948c9807e6b299df2f8d8379a7af - http://purl.org/pc2/4/Complex_f49efa3b28f7b4f29db2bca0af1bacd3" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f49efa3b28f7b4f29db2bca0af1bacd3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_e08c263779ce6835b5588d2140169b3f - http://purl.org/pc2/4/Complex_826c25a9d9ea77563bfb1e753c80a438" source="1" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_826c25a9d9ea77563bfb1e753c80a438"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9Y253 - http://purl.org/pc2/4/Complex_f49efa3b28f7b4f29db2bca0af1bacd3" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f49efa3b28f7b4f29db2bca0af1bacd3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9Y253 - http://purl.org/pc2/4/Complex_826c25a9d9ea77563bfb1e753c80a438" source="3" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_826c25a9d9ea77563bfb1e753c80a438"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_826c25a9d9ea77563bfb1e753c80a438 - http://purl.org/pc2/4/PhysicalEntity_25684975acfaa8c848c9e33902d163de" source="5" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_6d1cd87deb79e4771cb0c5b4a54d95f1"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_826c25a9d9ea77563bfb1e753c80a438 - http://identifiers.org/uniprot/Q9Y253" source="5" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_6d1cd87deb79e4771cb0c5b4a54d95f1"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

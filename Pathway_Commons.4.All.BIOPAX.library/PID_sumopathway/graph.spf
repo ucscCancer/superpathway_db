@@ -1,0 +1,46 @@
+protein	SAE1
+complex	SAE1/SAE2_(complex)
+protein	SUMO_target_protein
+protein	SUMO1
+complex	SUMO1/SAE1/SAE2_(complex)
+protein	SUMO2
+complex	SUMO2/3/SAE1/SAE2_(complex)
+complex	SUMO2/3/Ubc9_(complex)
+protein	SUMO3
+complex	Sumo_target_protein/SUMO_1_(complex)
+complex	Sumo_target_protein/SUMO2/3_(complex)
+complex	Sumo_target_protein/SUMO2/3/SUMO2/3/SUMO2/3_(complex)
+complex	Sumo_target_protein/SUMO2/3/SUMO2/3/SUMO2/3/SUMO1_(complex)
+complex	Sumo_target_protein/SUMO2/3SUMO2/3_(complex)
+protein	UBA2
+protein	UBE2I
+UBE2I	SUMO2/3/Ubc9_(complex)	component>
+SUMO_target_protein	UBE2I	-a>
+SUMO_target_protein	Sumo_target_protein/SUMO2/3SUMO2/3_(complex)	component>
+SUMO_target_protein	Sumo_target_protein/SUMO2/3/SUMO2/3/SUMO2/3/SUMO1_(complex)	component>
+SUMO_target_protein	Sumo_target_protein/SUMO2/3/SUMO2/3/SUMO2/3_(complex)	component>
+SUMO_target_protein	Sumo_target_protein/SUMO2/3_(complex)	component>
+SUMO_target_protein	Sumo_target_protein/SUMO_1_(complex)	component>
+SUMO1	Sumo_target_protein/SUMO2/3/SUMO2/3/SUMO2/3/SUMO1_(complex)	component>
+SUMO1	SUMO1/SAE1/SAE2_(complex)	component>
+SUMO1	Sumo_target_protein/SUMO_1_(complex)	component>
+SUMO3	Sumo_target_protein/SUMO2/3SUMO2/3_(complex)	component>
+SUMO3	SUMO2/3/Ubc9_(complex)	component>
+SUMO3	Sumo_target_protein/SUMO2/3_(complex)	component>
+SUMO3	Sumo_target_protein/SUMO2/3/SUMO2/3/SUMO2/3/SUMO1_(complex)	component>
+SUMO3	Sumo_target_protein/SUMO2/3/SUMO2/3/SUMO2/3_(complex)	component>
+SUMO3	SUMO2/3/SAE1/SAE2_(complex)	component>
+SUMO2	Sumo_target_protein/SUMO2/3SUMO2/3_(complex)	component>
+SUMO2	SUMO2/3/Ubc9_(complex)	component>
+SUMO2	Sumo_target_protein/SUMO2/3_(complex)	component>
+SUMO2	Sumo_target_protein/SUMO2/3/SUMO2/3/SUMO2/3/SUMO1_(complex)	component>
+SUMO2	Sumo_target_protein/SUMO2/3/SUMO2/3/SUMO2/3_(complex)	component>
+SUMO2	SUMO2/3/SAE1/SAE2_(complex)	component>
+SUMO2/3/Ubc9_(complex)	Sumo_target_protein/SUMO2/3_(complex)	-a>
+SUMO2/3/Ubc9_(complex)	UBE2I	-a>
+SAE1	SUMO2/3/SAE1/SAE2_(complex)	component>
+SAE1	SUMO1/SAE1/SAE2_(complex)	component>
+SAE1	SAE1/SAE2_(complex)	component>
+UBA2	SUMO2/3/SAE1/SAE2_(complex)	component>
+UBA2	SUMO1/SAE1/SAE2_(complex)	component>
+UBA2	SAE1/SAE2_(complex)	component>

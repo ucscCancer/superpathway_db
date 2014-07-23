@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_131436"/>
+ <att name="displayName" type="string" value="Translesion synthesis by Pol zeta"/>
+ <att name="name" type="string" value="Translesion_synthesis_by_Pol_zeta"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_c5a951cd01ab978fe157aaac4d63161e"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Pol zeta:damaged DNA template complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0d39ffb3db21d9170308f45233fc5de0"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Pol zeta:damaged DNA template complex"/>
+ </node>
+ <node id="1" label="Pol zeta complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d4f8bc1fc40d73797adaf282447a962a"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Pol zeta complex"/>
+ </node>
+ <node id="2" label="MAD2L2">
+  <att name="label" type="string" value="MAD2L2"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt:Q9UNA7"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000116670"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000235310"/>
+   <att name="db_xref" type="string" value="NCBI Gene:10459"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:MAD2L2"/>
+   <att name="db_xref" type="string" value="omim:604094"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000376667"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_006332"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_006341"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000365855"/>
+   <att name="db_xref" type="string" value="UniProt:Q5TGW7"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000235310"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000376692"/>
+   <att name="db_xref" type="string" value="UniProt:Q9Y6I6"/>
+   <att name="db_xref" type="string" value="HGNC:MAD2L2"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:6764"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UI95"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001127325"/>
+   <att name="db_xref" type="string" value="UniProt:B3KNE3"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001120797"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000365882"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q9UI95"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="MD2L2_HUMAN"/>
+   <att name="aliases" type="string" value="REV7"/>
+   <att name="aliases" type="string" value="Mitotic arrest deficient 2-like protein 2"/>
+   <att name="aliases" type="string" value="REV7 homolog"/>
+   <att name="aliases" type="string" value="MAD2-like protein 2"/>
+   <att name="aliases" type="string" value="MAD2B"/>
+   <att name="aliases" type="string" value="hREV7"/>
+   <att name="aliases" type="string" value="MAD2L2"/>
+  </att>
+ </node>
+ <node id="3" label="UniProt:Q9UID5 hREV3">
+  <att name="label" type="string" value="UniProt:Q9UID5 hREV3"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:Q9UID5"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q9UID5"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="hREV3"/>
+   <att name="aliases" type="string" value="UniProt:Q9UID5 hREV3"/>
+  </att>
+ </node>
+ <node id="4" label="Pol zeta complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0cc282959179616335b07daf9218f0bb"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Pol zeta complex"/>
+ </node>
+ <node id="5" label="damaged DNA substrate">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_f86cee9943cb5b465f3ab5a10575b9f6"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="damaged DNA substrate"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/Complex_0d39ffb3db21d9170308f45233fc5de0 - http://purl.org/pc2/4/Complex_d4f8bc1fc40d73797adaf282447a962a" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_deaf076a3b320fd653d487bf114e78ca"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9UI95 - http://purl.org/pc2/4/Complex_0cc282959179616335b07daf9218f0bb" source="2" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0cc282959179616335b07daf9218f0bb"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9UI95 - http://purl.org/pc2/4/Complex_d4f8bc1fc40d73797adaf282447a962a" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d4f8bc1fc40d73797adaf282447a962a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9UID5 - http://purl.org/pc2/4/Complex_0cc282959179616335b07daf9218f0bb" source="3" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0cc282959179616335b07daf9218f0bb"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9UID5 - http://purl.org/pc2/4/Complex_d4f8bc1fc40d73797adaf282447a962a" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d4f8bc1fc40d73797adaf282447a962a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_0cc282959179616335b07daf9218f0bb - http://purl.org/pc2/4/Complex_0d39ffb3db21d9170308f45233fc5de0" source="4" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0d39ffb3db21d9170308f45233fc5de0"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_f86cee9943cb5b465f3ab5a10575b9f6 - http://purl.org/pc2/4/Complex_0d39ffb3db21d9170308f45233fc5de0" source="5" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0d39ffb3db21d9170308f45233fc5de0"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

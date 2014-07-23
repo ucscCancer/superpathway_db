@@ -1,0 +1,32 @@
+protein	FOS
+protein	FOSL1
+protein	FOSL2
+complex	IFN-beta/IFNAR1/IFNAR2_(complex)
+protein	IFNAR1
+protein	IFNAR2
+protein	IFNB1
+protein	IKKs
+protein	IRF9
+protein	MAPK8
+complex	RANKL/RANK_(complex)
+protein	RELA
+complex	RELA/p50_(complex)
+protein	TNFRSF11A
+protein	TNFSF11
+protein	TRAF6
+protein	p50
+TNFSF11	RANKL/RANK_(complex)	component>
+TRAF6	MAPK8	-a>
+TRAF6	IKKs	-a>
+FOS	FOSL1	-a>
+FOS	FOSL2	-a>
+IRF9	FOS	-a|
+IFNB1	IFN-beta/IFNAR1/IFNAR2_(complex)	component>
+IFNAR2	IFN-beta/IFNAR1/IFNAR2_(complex)	component>
+RANKL/RANK_(complex)	TRAF6	-a>
+RANKL/RANK_(complex)	FOS	-a>
+IFNAR1	IFN-beta/IFNAR1/IFNAR2_(complex)	component>
+TNFRSF11A	RANKL/RANK_(complex)	component>
+IFN-beta/IFNAR1/IFNAR2_(complex)	IRF9	-a>
+p50	RELA/p50_(complex)	component>
+RELA	RELA/p50_(complex)	component>

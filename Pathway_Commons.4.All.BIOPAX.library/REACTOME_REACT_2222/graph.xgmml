@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Polymerization is carried out by DNA polymerases, delta and epsilon."/>
+ <att name="displayName" type="string" value="Gap-filling DNA repair synthesis and ligation in TC-NER"/>
+ <att name="name" type="string" value="Gap-filling DNA repair synthesis and ligation in TC-NER"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_0fa4f7d2d86d7bf760a6bd25607336f5"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:109979"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_74"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="damaged DNA substrate:nascent mRNA hybrid with dual incisions">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_29e71bdb4098e8489b703792a80b0128"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="damaged DNA substrate:nascent mRNA hybrid with dual incisions"/>
+ </node>
+ <node id="1" label="6.5.1.1">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt:Q32P23"/>
+   <att name="db_xref" type="string" value="PubMed:8696349"/>
+   <att name="db_xref" type="string" value="HGNC:LIG1"/>
+   <att name="db_xref" type="string" value="PubMed:2204063"/>
+   <att name="db_xref" type="string" value="PubMed:9539976"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:LIG1"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000263274"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000263274"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_000234"/>
+   <att name="db_xref" type="string" value="Pubmed:12200445"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1X9N"/>
+   <att name="db_xref" type="string" value="NCBI Gene:3978"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000105486"/>
+   <att name="db_xref" type="string" value="PubMed:10827190"/>
+   <att name="db_xref" type="string" value="omim:126391"/>
+   <att name="db_xref" type="string" value="PubMed:11948189"/>
+   <att name="db_xref" type="string" value="UniProt:B2RAI8"/>
+   <att name="db_xref" type="string" value="UniProt:P18858"/>
+   <att name="db_xref" type="string" value="PubMed:8432525"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_000225"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:6598"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P18858"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="DNLI1_HUMAN"/>
+   <att name="aliases" type="string" value="DNA ligase I"/>
+   <att name="aliases" type="string" value="LIG1"/>
+   <att name="aliases" type="string" value="Polydeoxyribonucleotide synthase [ATP] 1"/>
+   <att name="aliases" type="string" value="6.5.1.1"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="6.5.1.1"/>
+ </node>
+ <node id="2" label="repaired DNA template:nascent mRNA hybrid">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_bbfd88ad63fbf86fa7fa1bdba2626600"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="repaired DNA template:nascent mRNA hybrid"/>
+ </node>
+ <node id="3" label="newly synthesized DNA fragment">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_a9363f3357e16ace67a813c587bbc390"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="newly synthesized DNA fragment"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_29e71bdb4098e8489b703792a80b0128 - http://purl.org/pc2/4/PhysicalEntity_bbfd88ad63fbf86fa7fa1bdba2626600" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_e44938e35c1256cbaa1a36f69b2ad6a1"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_29e71bdb4098e8489b703792a80b0128 - http://identifiers.org/uniprot/P18858" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_e44938e35c1256cbaa1a36f69b2ad6a1"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P18858 - http://purl.org/pc2/4/PhysicalEntity_bbfd88ad63fbf86fa7fa1bdba2626600" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_e44938e35c1256cbaa1a36f69b2ad6a1"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P18858 - http://identifiers.org/uniprot/P18858" source="1" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_e44938e35c1256cbaa1a36f69b2ad6a1"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_a9363f3357e16ace67a813c587bbc390 - http://purl.org/pc2/4/PhysicalEntity_bbfd88ad63fbf86fa7fa1bdba2626600" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_e44938e35c1256cbaa1a36f69b2ad6a1"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_a9363f3357e16ace67a813c587bbc390 - http://identifiers.org/uniprot/P18858" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_e44938e35c1256cbaa1a36f69b2ad6a1"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_60272"/>
+ <att name="displayName" type="string" value="Gap-filling DNA repair synthesis and ligation in GG-NER"/>
+ <att name="name" type="string" value="Gap_filling_DNA_repair_synthesis_and_ligation_in_GG_NER"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_588b5d2b3d99c41594cfc4ca5c9b6e4a"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="newly synthesized DNA fragment">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_09d7c2f266c65f382c1b3cd8874d548e"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="newly synthesized DNA fragment"/>
+ </node>
+ <node id="1" label="Polydeoxyribonucleotide synthase [ATP] 1">
+  <att name="label" type="string" value="Polydeoxyribonucleotide synthase [ATP] 1"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENST00000263274"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000263274"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000105486"/>
+   <att name="db_xref" type="string" value="PubMed:11948189"/>
+   <att name="db_xref" type="string" value="omim:126391"/>
+   <att name="db_xref" type="string" value="PubMed:8696349"/>
+   <att name="db_xref" type="string" value="PubMed:10827190"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:LIG1"/>
+   <att name="db_xref" type="string" value="PubMed:8432525"/>
+   <att name="db_xref" type="string" value="Pubmed:12200445"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_000225"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1X9N"/>
+   <att name="db_xref" type="string" value="PubMed:2204063"/>
+   <att name="db_xref" type="string" value="NCBI Gene:3978"/>
+   <att name="db_xref" type="string" value="UniProt:B2RAI8"/>
+   <att name="db_xref" type="string" value="UniProt:Q32P23"/>
+   <att name="db_xref" type="string" value="UniProt:P18858"/>
+   <att name="db_xref" type="string" value="PubMed:9539976"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_000234"/>
+   <att name="db_xref" type="string" value="HGNC:LIG1"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:6598"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P18858"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="DNLI1_HUMAN"/>
+   <att name="aliases" type="string" value="6.5.1.1"/>
+   <att name="aliases" type="string" value="DNA ligase I"/>
+   <att name="aliases" type="string" value="LIG1"/>
+   <att name="aliases" type="string" value="Polydeoxyribonucleotide synthase [ATP] 1"/>
+  </att>
+ </node>
+ <node id="2" label="incised DNA without lesion">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_7000689ec2c9b7fd29597c75db8924b6"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="incised DNA without lesion"/>
+ </node>
+ <node id="3" label="Repaired double-stranded DNA">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_9ef70226033c3ad6cce9617eca7f48de"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Repaired double-stranded DNA"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_09d7c2f266c65f382c1b3cd8874d548e - http://identifiers.org/uniprot/P18858" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_eb06a9fe1bf2a5516cbacc3024c0518e"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_09d7c2f266c65f382c1b3cd8874d548e - http://purl.org/pc2/4/PhysicalEntity_9ef70226033c3ad6cce9617eca7f48de" source="0" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_eb06a9fe1bf2a5516cbacc3024c0518e"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P18858 - http://identifiers.org/uniprot/P18858" source="1" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_eb06a9fe1bf2a5516cbacc3024c0518e"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P18858 - http://purl.org/pc2/4/PhysicalEntity_9ef70226033c3ad6cce9617eca7f48de" source="1" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_eb06a9fe1bf2a5516cbacc3024c0518e"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_7000689ec2c9b7fd29597c75db8924b6 - http://identifiers.org/uniprot/P18858" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_eb06a9fe1bf2a5516cbacc3024c0518e"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_7000689ec2c9b7fd29597c75db8924b6 - http://purl.org/pc2/4/PhysicalEntity_9ef70226033c3ad6cce9617eca7f48de" source="2" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_eb06a9fe1bf2a5516cbacc3024c0518e"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

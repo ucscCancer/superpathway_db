@@ -1,0 +1,39 @@
+complex	AP-1_(complex)
+protein	CSNK2A1
+protein	ELK1
+protein	FOS
+protein	GRB2
+protein	HRAS
+protein	JUN
+protein	MAP2K1
+protein	MAPK3
+protein	MAPK8
+protein	NGF
+complex	NGF/NGF_R/NGF/NGF_R_(complex)
+protein	NGFR
+complex	PI3K_(complex)
+protein	PIK3CA
+protein	PIK3R1
+protein	PLCG1
+complex	SHC/GRB2/SOS-1_(complex)
+protein	SHC1
+protein	SOS1
+NGF	NGF/NGF_R/NGF/NGF_R_(complex)	component>
+SHC1	SHC/GRB2/SOS-1_(complex)	component>
+NGF/NGF_R/NGF/NGF_R_(complex)	PLCG1	-a>
+NGF/NGF_R/NGF/NGF_R_(complex)	SHC/GRB2/SOS-1_(complex)	-a>
+NGF/NGF_R/NGF/NGF_R_(complex)	PI3K_(complex)	-a>
+ELK1	FOS	-a>
+HRAS	PIK3CA	-a>
+FOS	AP-1_(complex)	component>
+JUN	AP-1_(complex)	component>
+MAPK3	ELK1	-a>
+MAP2K1	MAPK3	-a>
+GRB2	SHC/GRB2/SOS-1_(complex)	component>
+SOS1	SHC/GRB2/SOS-1_(complex)	component>
+PIK3R1	PI3K_(complex)	component>
+PIK3CA	MAP2K1	-a>
+PIK3CA	PI3K_(complex)	component>
+MAPK8	JUN	-a>
+CSNK2A1	JUN	-a|
+NGFR	NGF/NGF_R/NGF/NGF_R_(complex)	component>

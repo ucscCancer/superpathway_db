@@ -1,0 +1,26 @@
+protein	AMPK_beta
+protein	AMPK_gamma
+protein	Phosphorylated_AMPK_alpha
+complex	Phosphorylated_AMPK_heterotrimer_(complex)
+complex	Phosphorylated_AMPK_heterotrimer_AMP_(complex)
+protein	RHEB
+complex	Rheb_GDP_(complex)
+complex	Rheb_GTP_(complex)
+protein	TSC1
+complex	TSC1_Phosphorylated_TSC2_(Ser1387)_(complex)
+complex	TSC1_TSC2_(complex)
+protein	TSC2
+TSC2	TSC1_Phosphorylated_TSC2_(Ser1387)_(complex)	component>
+TSC2	TSC1_TSC2_(complex)	component>
+AMPK_beta	Phosphorylated_AMPK_heterotrimer_(complex)	component>
+Phosphorylated_AMPK_heterotrimer_(complex)	Phosphorylated_AMPK_heterotrimer_AMP_(complex)	component>
+TSC1_Phosphorylated_TSC2_(Ser1387)_(complex)	Rheb_GDP_(complex)	-a>
+TSC1_TSC2_(complex)	TSC1_Phosphorylated_TSC2_(Ser1387)_(complex)	-a>
+Phosphorylated_AMPK_heterotrimer_AMP_(complex)	TSC1_Phosphorylated_TSC2_(Ser1387)_(complex)	-a>
+Phosphorylated_AMPK_alpha	Phosphorylated_AMPK_heterotrimer_(complex)	component>
+RHEB	Rheb_GDP_(complex)	component>
+RHEB	Rheb_GTP_(complex)	component>
+AMPK_gamma	Phosphorylated_AMPK_heterotrimer_(complex)	component>
+Rheb_GTP_(complex)	Rheb_GDP_(complex)	-a>
+TSC1	TSC1_Phosphorylated_TSC2_(Ser1387)_(complex)	component>
+TSC1	TSC1_TSC2_(complex)	component>

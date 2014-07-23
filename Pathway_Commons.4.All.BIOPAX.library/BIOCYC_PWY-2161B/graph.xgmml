@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="&lt;b&gt;General Background&lt;/b&gt; Folates are required in a variety of reactions (known as one-carbon metabolism), where they act as carriers of one-carbon units in various oxidation states. These one-carbon units are utilized in the biosynthesis of various cellular components, including glycine, methionine, formylmethionine, thymidylate, pantothenate and purine nucleotides. Folate is modified in cells by successive additions of |FRAME:GLT| residues, forming folate polyglutamates (or folylpoly-&amp;gamma;-glutamates) (see |FRAME: PWY-2161|). Most of the glutamate residues are added by &amp;gamma;-carboxy-linked polyglutamylation via an amide linkage to the &amp;gamma;-carboxylate group of the folate or folate derivative. Since these isopeptide bonds are different from the more common &amp;alpha;-carboxyl-linked amide bonds, they are not hydrolyzed by most peptidases or proteases. &lt;b&gt;About This Pathway&lt;/b&gt; As humans are not able to synthesize folate &lt;i&gt;in vivo&lt;/i&gt;, they are absolutely dependent on nutritional sources, making folate a vitamin. Food folates exist mainly as the polyglutamylated forms |FRAME: 5-METHYL-THF| (5-methyl-H&lt;sub&gt;4&lt;/sub&gt;PteGlu&lt;sub&gt;n&lt;/sub&gt;) and |FRAME: 10-FORMYL-THF| (formyl-H&lt;sub&gt;4&lt;/sub&gt;PteGlu&lt;sub&gt;n&lt;/sub&gt;) |CITS: [405403]|. In humans, during the absorption of food folates, which are usually polyglutamylated, the folate derivatives are hydrolyzed to a mono-glutamate level prior to transport by the enzyme |FRAME: HS06361-MONOMER|. The monoglutamylated forms are then metabolized within the enterocyte into 5-methyl-H&lt;sub&gt;4&lt;/sub&gt;PteGlu&lt;sub&gt;1&lt;/sub&gt;. This monoglutamyl folate coenzyme is the plasma form of the vitamin |CITS: [13906633][2736319]|, and is transported to peripheral tissues where it is demethylated by the vitamin B12-dependent |FRAME:ENZRXN66-547| to monoglutamyl tetrahydrofolate (H&lt;sub&gt;4&lt;/sub&gt;PteGlu&lt;sub&gt;1&lt;/sub&gt;). &amp;gamma;-Glutamyl hydrolases exhibit either endo- or exopeptidase activity, depending on the tissue of origin |CITS: [6547136]|. In mammals they are often lysosomal with an acidic pH optimum |CITS: [2174100]|. The enzyme is often sulfhydryl and zinc dependent |CITS: [2867095][2341911]|, may be heavily glycosylated |CITS: [1150668][8343522]|."/>
+ <att name="displayName" type="string" value="glutamate removal from folates"/>
+ <att name="name" type="string" value="glutamate removal from folates"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_1f16bbb6bfd4a64d2b2ea6dcc37bf65e"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="BioCyc:PWY-2161B"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="L-glutamic acid monoanion">
+  <att name="label" type="string" value="L-glutamic acid monoanion"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="pubchem:8145391"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:21301"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145391"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29985"/>
+   <att name="db_xref" type="string" value="InChIKey:WHUUTDBJXJRKMK-VKHMYHEASA-M"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13107"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_fe61308dc2fe30c3d46e71f57d007b86"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="aqua">
+  <att name="label" type="string" value="aqua"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="pubchem-substance:8145132"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:43228"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13352"/>
+   <att name="db_xref" type="string" value="InChIKey:XLYOFNOQVPJJNP-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:44292"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:42043"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:44701"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:42857"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:44819"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:27313"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:5585"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:10743"/>
+   <att name="db_xref" type="string" value="pubchem:8145132"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:15377"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_875e62a423949e87b997f62bf429d158"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="Gamma-Glu-X carboxypeptidase">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="RefSeq:NM_003878"/>
+   <att name="db_xref" type="string" value="NCBI Gene:8836"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:4248"/>
+   <att name="db_xref" type="string" value="omim:601509"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1L9X"/>
+   <att name="db_xref" type="string" value="UniProt:Q92820"/>
+   <att name="db_xref" type="string" value="HGNC:GGH"/>
+   <att name="db_xref" type="string" value="PubMed:8621474"/>
+   <att name="db_xref" type="string" value="PubMed:11953431"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000260118"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000137563"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:GGH"/>
+   <att name="db_xref" type="string" value="PubMed:9614206"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000260118"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_003869"/>
+   <att name="db_xref" type="string" value="PubMed:8816764"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q92820"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="GGH_HUMAN"/>
+   <att name="aliases" type="string" value="Conjugase"/>
+   <att name="aliases" type="string" value="3.4.19.9"/>
+   <att name="aliases" type="string" value="GH"/>
+   <att name="aliases" type="string" value="GGH"/>
+   <att name="aliases" type="string" value="Gamma-Glu-X carboxypeptidase"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Gamma-Glu-X carboxypeptidase"/>
+ </node>
+ <node id="3" label="H&lt;sub&gt;4&lt;/sub&gt;PteGlu&lt;sub&gt;n&lt;/sub&gt;">
+  <att name="label" type="string" value="H&lt;sub&gt;4&lt;/sub&gt;PteGlu&lt;sub&gt;n&lt;/sub&gt;"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="BioCyc:THF-GLU-N"/>
+   <att name="db_xref" type="string" value="KEGG Compound:C03541"/>
+   <att name="db_xref" type="string" value="PubChem-substance:25202940"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_cdb71284897b80855f42ab15639fcbbb"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_875e62a423949e87b997f62bf429d158 - http://purl.org/pc2/4/SmallMolecule_fe61308dc2fe30c3d46e71f57d007b86" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_da45b1bea052e8eaa45864894abade0d"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_875e62a423949e87b997f62bf429d158 - http://purl.org/pc2/4/SmallMolecule_cdb71284897b80855f42ab15639fcbbb" source="1" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_da45b1bea052e8eaa45864894abade0d"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q92820 - http://purl.org/pc2/4/SmallMolecule_cdb71284897b80855f42ab15639fcbbb" source="2" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_c33ff12f4d02b5f02e54aeb72285ed7e"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_cdb71284897b80855f42ab15639fcbbb - http://purl.org/pc2/4/SmallMolecule_fe61308dc2fe30c3d46e71f57d007b86" source="3" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_da45b1bea052e8eaa45864894abade0d"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_cdb71284897b80855f42ab15639fcbbb - http://purl.org/pc2/4/SmallMolecule_cdb71284897b80855f42ab15639fcbbb" source="3" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_da45b1bea052e8eaa45864894abade0d"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_166145"/>
+ <att name="displayName" type="string" value="DNA Damage Reversal"/>
+ <att name="name" type="string" value="DNA_Damage_Reversal"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_b6781ab354d2e1293ffa67434dfee1f6"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="ENSEMBL:ENSGALP00000028424 MGMT">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_2c5b58e17e9864cbb928a82a95be9f41"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="MGMT"/>
+   <att name="aliases" type="string" value="(O-6-methylguanine-DNA- alkyltransferase"/>
+   <att name="aliases" type="string" value="(6-O- methylguanine-DNA methyltransferase)"/>
+   <att name="aliases" type="string" value="Methylated-DNA--protein-cysteine methyltransferase (EC 2.1.1.63)"/>
+   <att name="aliases" type="string" value="ENSEMBL:ENSGALP00000028424 MGMT"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="ENSEMBL:ENSGALP00000028424 MGMT"/>
+ </node>
+ <node id="1" label="MGMT">
+  <att name="label" type="string" value="MGMT"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PubMed:2359121"/>
+   <att name="db_xref" type="string" value="PubMed:12185595"/>
+   <att name="db_xref" type="string" value="PubMed:11911967"/>
+   <att name="db_xref" type="string" value="PubMed:2405387"/>
+   <att name="db_xref" type="string" value="UniProt:Q5VY78"/>
+   <att name="db_xref" type="string" value="NCBI GENE:4255"/>
+   <att name="db_xref" type="string" value="omim:156569"/>
+   <att name="db_xref" type="string" value="PubMed:12119040"/>
+   <att name="db_xref" type="string" value="PubMed:11802813"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000306010"/>
+   <att name="db_xref" type="string" value="PubMed:11980845"/>
+   <att name="db_xref" type="string" value="PubMed:2394694"/>
+   <att name="db_xref" type="string" value="PubMed:12170182"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:MGMT"/>
+   <att name="db_xref" type="string" value="PubMed:11564893"/>
+   <att name="db_xref" type="string" value="HGNC:MGMT"/>
+   <att name="db_xref" type="string" value="PubMed:2188979"/>
+   <att name="db_xref" type="string" value="UniProt:P16455"/>
+   <att name="db_xref" type="string" value="PubMed:12483540"/>
+   <att name="db_xref" type="string" value="PubMed:1635460"/>
+   <att name="db_xref" type="string" value="PubMed:12503076"/>
+   <att name="db_xref" type="string" value="PubMed:11956078"/>
+   <att name="db_xref" type="string" value="PubMed:12087469"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000302111"/>
+   <att name="db_xref" type="string" value="PubMed:11719438"/>
+   <att name="db_xref" type="string" value="PubMed:11872960"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:7059"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000170430"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P16455"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="MGMT_HUMAN"/>
+   <att name="aliases" type="string" value="2.1.1.63"/>
+   <att name="aliases" type="string" value="O-6-methylguanine-DNA-alkyltransferase"/>
+   <att name="aliases" type="string" value="6-O-methylguanine-DNA methyltransferase"/>
+   <att name="aliases" type="string" value="MGMT"/>
+  </att>
+ </node>
+ <node id="2" label="DNA with no 6-O-methylated guanine">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_f169788e8eb2265dd0dad0901c49610b"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="DNA with no 6-O-methylated guanine"/>
+ </node>
+ <node id="3" label="6-O-methyguanine containing damaged DNA">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_79543a0da1c62159d87d2e8ebd759679"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="6-O-methyguanine containing damaged DNA"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/ProteinReference_2c5b58e17e9864cbb928a82a95be9f41 - http://purl.org/pc2/4/PhysicalEntity_f169788e8eb2265dd0dad0901c49610b" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_c02aab8c03717fe70bbe44887526f3a7"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P16455 - http://identifiers.org/uniprot/P16455" source="1" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_964b7429937d833719869774958bf656"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P16455 - http://purl.org/pc2/4/PhysicalEntity_f169788e8eb2265dd0dad0901c49610b" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_964b7429937d833719869774958bf656"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_79543a0da1c62159d87d2e8ebd759679 - http://identifiers.org/uniprot/P16455" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_964b7429937d833719869774958bf656"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_79543a0da1c62159d87d2e8ebd759679 - http://purl.org/pc2/4/PhysicalEntity_f169788e8eb2265dd0dad0901c49610b" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_964b7429937d833719869774958bf656"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

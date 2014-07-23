@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://biocyc.org/biopax/biopax-level3Pathway136555"/>
+ <att name="displayName" type="string" value="D-mannose degradation"/>
+ <att name="name" type="string" value="mannose degradation"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_51b78bf2de2acf351a228a0e5671fd57"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="BioCyc:MANNCAT-PWY"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="beta-D-fructofuranose 6-phosphate dianion">
+  <att name="label" type="string" value="beta-D-fructofuranose 6-phosphate dianion"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="pubchem:99319301"/>
+   <att name="db_xref" type="string" value="InChIKey:BGWGXPAPYGQALX-ARQDHWQXSA-L"/>
+   <att name="db_xref" type="string" value="pubchem-substance:99319301"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:57634"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_5f8c8146eb2b2dcf0426f791c9f19712"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="PMI">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000318192"/>
+   <att name="db_xref" type="string" value="PubMed:341373"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:MPI"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000318318"/>
+   <att name="db_xref" type="string" value="UniProt:P34949"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:7216"/>
+   <att name="db_xref" type="string" value="PubMed:1222586"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_002435"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000323744"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000178802"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000352410"/>
+   <att name="db_xref" type="string" value="PANTHER Family:PTHR10309:SF0"/>
+   <att name="db_xref" type="string" value="HGNC:MPI"/>
+   <att name="db_xref" type="string" value="Pubmed:8307007"/>
+   <att name="db_xref" type="string" value="NCBI Gene:4351"/>
+   <att name="db_xref" type="string" value="UniProt:Q96AB0"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_002426"/>
+   <att name="db_xref" type="string" value="UniProt:A8K8K9"/>
+   <att name="db_xref" type="string" value="PubMed:9525984"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P34949"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="MPI_HUMAN"/>
+   <att name="aliases" type="string" value="5.3.1.8"/>
+   <att name="aliases" type="string" value="Phosphomannose isomerase"/>
+   <att name="aliases" type="string" value="PMI1"/>
+   <att name="aliases" type="string" value="MPI"/>
+   <att name="aliases" type="string" value="Phosphohexomutase"/>
+   <att name="aliases" type="string" value="PMI"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="PMI"/>
+ </node>
+ <node id="2" label="alpha-D-mannopyranose 6-phosphate">
+  <att name="label" type="string" value="alpha-D-mannopyranose 6-phosphate"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:60332"/>
+   <att name="db_xref" type="string" value="pubchem-substance:99365022"/>
+   <att name="db_xref" type="string" value="pubchem:99365022"/>
+   <att name="db_xref" type="string" value="InChIKey:NBSCHQHZLSJFNQ-PQMKYFCFSA-L"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_099a771bcc753b6d7638902df82771e8"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/P34949 - http://purl.org/pc2/4/SmallMolecule_5f8c8146eb2b2dcf0426f791c9f19712" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_fec7b43e7fe3ceec44504407a05fff7a"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_099a771bcc753b6d7638902df82771e8 - http://purl.org/pc2/4/SmallMolecule_5f8c8146eb2b2dcf0426f791c9f19712" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_21d8ba9c0b975fa2930bcd3e2e70203e"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

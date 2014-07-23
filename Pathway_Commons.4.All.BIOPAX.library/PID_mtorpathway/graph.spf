@@ -1,0 +1,84 @@
+protein	40s_Ribosome_subunit
+complex	40s_Ribosome_subunit/60s_Ribosome_Subunit/RNA_strand_(complex)
+protein	60s_Ribosome_Subunit
+protein	AKT1
+complex	EIF-4E/EIF-4G/EIF-4A_(complex)
+complex	EIF-4E/EIF-4G/EIF-4A/eIF-4B/RNA_strand_(complex)
+complex	EIF-4E/EIF4EBP_(complex)
+protein	EIF3A
+protein	EIF4A1
+protein	EIF4B
+protein	EIF4E
+protein	EIF4EBP1
+protein	EIF4G1
+complex	FKBP12/Rapamycin_(complex)
+protein	FKBP1A
+complex	GH_R/IRS-1_(complex)
+complex	GH/GH_R_(complex)
+protein	GH1
+protein	GHR
+protein	IRS1
+protein	MKNK1
+protein	MTOR
+protein	PDK2
+complex	PI3K_(complex)
+protein	PIK3CA
+protein	PIK3R1
+protein	PPP2R5D
+protein	PTEN
+protein	RHEB
+rna	RNA_strand
+protein	RPS6
+complex	RPS6(+)/eIF3/40s_Ribosome_subunit_(complex)
+protein	RPS6KB1
+protein	TSC1
+complex	TSC1/TSC2_(complex)
+protein	TSC2
+GHR	GH/GH_R_(complex)	component>
+MKNK1	EIF-4E/EIF-4G/EIF-4A_(complex)	-a>
+AKT1	MTOR	-a>
+AKT1	TSC1/TSC2_(complex)	-a>
+AKT1	RPS6KB1	-a>
+TSC2	TSC1/TSC2_(complex)	component>
+TSC1	TSC1/TSC2_(complex)	component>
+EIF3A	RPS6(+)/eIF3/40s_Ribosome_subunit_(complex)	component>
+PIK3CA	PI3K_(complex)	component>
+RPS6KB1	AKT1	-a>
+RPS6KB1	PDK2	-a>
+RPS6KB1	RPS6(+)/eIF3/40s_Ribosome_subunit_(complex)	-a>
+RPS6KB1	EIF4B	-a>
+PIK3R1	PI3K_(complex)	component>
+FKBP12/Rapamycin_(complex)	MTOR	-a>
+TSC1/TSC2_(complex)	RHEB	-a>
+MTOR	PPP2R5D	-a>
+MTOR	EIF4E	-a>
+MTOR	RPS6KB1	-a>
+RNA_strand	EIF-4E/EIF-4G/EIF-4A/eIF-4B/RNA_strand_(complex)	component>
+RNA_strand	40s_Ribosome_subunit/60s_Ribosome_Subunit/RNA_strand_(complex)	component>
+EIF4E	EIF-4E/EIF-4G/EIF-4A_(complex)	component>
+EIF4E	EIF-4E/EIF-4G/EIF-4A/eIF-4B/RNA_strand_(complex)	component>
+EIF4E	EIF-4E/EIF4EBP_(complex)	component>
+60s_Ribosome_Subunit	40s_Ribosome_subunit/60s_Ribosome_Subunit/RNA_strand_(complex)	component>
+EIF4B	EIF-4E/EIF-4G/EIF-4A/eIF-4B/RNA_strand_(complex)	component>
+40s_Ribosome_subunit	40s_Ribosome_subunit/60s_Ribosome_Subunit/RNA_strand_(complex)	component>
+40s_Ribosome_subunit	RPS6(+)/eIF3/40s_Ribosome_subunit_(complex)	component>
+GH1	GH/GH_R_(complex)	component>
+GH1	IRS1	-a>
+GH1	GH_R/IRS-1_(complex)	component>
+RPS6	RPS6(+)/eIF3/40s_Ribosome_subunit_(complex)	component>
+EIF4G1	EIF-4E/EIF-4G/EIF-4A/eIF-4B/RNA_strand_(complex)	component>
+EIF4G1	EIF-4E/EIF-4G/EIF-4A_(complex)	component>
+IRS1	GH_R/IRS-1_(complex)	component>
+IRS1	PI3K_(complex)	-a>
+PDK2	AKT1	-a>
+PDK2	RPS6KB1	-a>
+EIF4EBP1	EIF-4E/EIF4EBP_(complex)	component>
+GH_R/IRS-1_(complex)	GH/GH_R_(complex)	-a>
+GH_R/IRS-1_(complex)	IRS1	-a>
+FKBP1A	FKBP12/Rapamycin_(complex)	component>
+PPP2R5D	EIF-4E/EIF-4G/EIF-4A_(complex)	-a>
+PPP2R5D	EIF4EBP1	-a>
+PPP2R5D	RPS6KB1	-a>
+RHEB	MTOR	-a>
+EIF4A1	EIF-4E/EIF-4G/EIF-4A/eIF-4B/RNA_strand_(complex)	component>
+EIF4A1	EIF-4E/EIF-4G/EIF-4A_(complex)	component>

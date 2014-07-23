@@ -1,0 +1,20 @@
+protein	ACACA
+protein	CPT1A
+protein	LEP
+protein	LEPR
+complex	Leptin/Leptin_R_(complex)
+protein	PRKAA1
+complex	PRKAA2_(complex)
+protein	PRKAB1
+protein	PRKAB2
+protein	PRKAG1
+protein	PRKAG2
+PRKAB2	PRKAA2_(complex)	component>
+PRKAB1	PRKAA2_(complex)	component>
+PRKAG1	PRKAA2_(complex)	component>
+PRKAG2	PRKAA2_(complex)	component>
+PRKAA2_(complex)	ACACA	-a>
+PRKAA1	PRKAA2_(complex)	component>
+LEPR	Leptin/Leptin_R_(complex)	component>
+LEP	Leptin/Leptin_R_(complex)	component>
+Leptin/Leptin_R_(complex)	PRKAA2_(complex)	-a>

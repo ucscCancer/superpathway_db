@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://www.reactome.org/biopax/46/48887#Pathway28"/>
+ <att name="displayName" type="string" value="Highly calcium permeable nicotinic acetylcholine receptors"/>
+ <att name="name" type="string" value="Highly calcium permeable nicotinic acetylcholine receptors"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_1fcfd72802acca71631977ec4c46a900"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Reactome:REACT_22352"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:629597"/>
+  <att name="db_xref" type="string" value="Pubmed:14670366"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Highly calcium permeable nicotinic acetylcholine receptors">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_51bde1adaee5be2d30f0e91d250d6496"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Highly calcium permeable nicotinic acetylcholine receptors"/>
+ </node>
+ <node id="1" label="calcium, doubly charged positive ion">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:22988"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29108"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:3308"/>
+   <att name="db_xref" type="string" value="pubchem:8145461"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:48760"/>
+   <att name="db_xref" type="string" value="InChIKey:BHPQYMZQTOCNFJ-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145461"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_da40e87974937e71076067ea2a3e8aaf"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="calcium, doubly charged positive ion"/>
+ </node>
+ <node id="2" label="Azetylcholin">
+  <att name="label" type="string" value="Azetylcholin"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:40559"/>
+   <att name="db_xref" type="string" value="pubchem:8145821"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145821"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13715"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:2416"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:22197"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:12686"/>
+   <att name="db_xref" type="string" value="InChIKey:OIPILFWXSMYKGL-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:15355"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_873ecb54ebb6e9749a2e9e25e12c4ba2"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="calcium, doubly charged positive ion">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:22988"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29108"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:3308"/>
+   <att name="db_xref" type="string" value="pubchem:8145461"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:48760"/>
+   <att name="db_xref" type="string" value="InChIKey:BHPQYMZQTOCNFJ-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145461"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_9f649be9f1eb6fe641448a9fde073452"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="calcium, doubly charged positive ion"/>
+ </node>
+ <node id="4" label="0-acteylcholine bound to calcium permeable nictonic acteylcholine receptor complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e181a25a41c2c773913a0e5b214502a0"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="0-acteylcholine bound to calcium permeable nictonic acteylcholine receptor complex"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/Complex_51bde1adaee5be2d30f0e91d250d6496 - http://purl.org/pc2/4/Complex_51bde1adaee5be2d30f0e91d250d6496" source="0" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_e0c12cdad27bd355919a34b7f60d6c50"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_51bde1adaee5be2d30f0e91d250d6496 - http://purl.org/pc2/4/SmallMolecule_9f649be9f1eb6fe641448a9fde073452" source="0" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_e0c12cdad27bd355919a34b7f60d6c50"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_51bde1adaee5be2d30f0e91d250d6496 - http://purl.org/pc2/4/Complex_e181a25a41c2c773913a0e5b214502a0" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e181a25a41c2c773913a0e5b214502a0"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_da40e87974937e71076067ea2a3e8aaf - http://purl.org/pc2/4/Complex_51bde1adaee5be2d30f0e91d250d6496" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_e0c12cdad27bd355919a34b7f60d6c50"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_da40e87974937e71076067ea2a3e8aaf - http://purl.org/pc2/4/SmallMolecule_9f649be9f1eb6fe641448a9fde073452" source="1" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_e0c12cdad27bd355919a34b7f60d6c50"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_873ecb54ebb6e9749a2e9e25e12c4ba2 - http://purl.org/pc2/4/Complex_e181a25a41c2c773913a0e5b214502a0" source="2" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e181a25a41c2c773913a0e5b214502a0"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

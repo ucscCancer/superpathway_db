@@ -1,0 +1,40 @@
+protein	AGO1
+family	AGO1/2/3/4_(family)
+protein	AGO2
+protein	AGO3
+protein	AGO4
+protein	DICER1
+complex	Dicer_TRBP_duplex_miRNA_(complex)
+complex	Minimal_RISC_(miRNA)_(complex)
+protein	PRKRA
+protein	RAN
+complex	Ran-GTP_(complex)
+complex	Ran_GTP_(complex)
+complex	Ran_GTP_Exportin-5_(complex)
+protein	TARBP2
+protein	XPO5
+complex	pre-RISC_(miRNA)_(complex)
+complex	pre-miRNA_Ran_GTP_Exportin-5_(complex)
+Ran-GTP_(complex)	pre-miRNA_Ran_GTP_Exportin-5_(complex)	component>
+XPO5	pre-miRNA_Ran_GTP_Exportin-5_(complex)	component>
+XPO5	Ran_GTP_Exportin-5_(complex)	component>
+AGO1/2/3/4_(family)	pre-RISC_(miRNA)_(complex)	-a>
+AGO1/2/3/4_(family)	PRKRA	-a>
+AGO1/2/3/4_(family)	DICER1	-a>
+AGO1/2/3/4_(family)	TARBP2	-a>
+RAN	Ran-GTP_(complex)	component>
+RAN	Ran_GTP_(complex)	component>
+Dicer_TRBP_duplex_miRNA_(complex)	pre-RISC_(miRNA)_(complex)	-a>
+Dicer_TRBP_duplex_miRNA_(complex)	PRKRA	-a>
+Dicer_TRBP_duplex_miRNA_(complex)	DICER1	-a>
+Dicer_TRBP_duplex_miRNA_(complex)	TARBP2	-a>
+TARBP2	Dicer_TRBP_duplex_miRNA_(complex)	component>
+DICER1	Dicer_TRBP_duplex_miRNA_(complex)	component>
+Ran_GTP_(complex)	Ran_GTP_Exportin-5_(complex)	component>
+pre-miRNA_Ran_GTP_Exportin-5_(complex)	Ran_GTP_Exportin-5_(complex)	-a>
+pre-RISC_(miRNA)_(complex)	Minimal_RISC_(miRNA)_(complex)	-a>
+AGO4	AGO1/2/3/4_(family)	member>
+PRKRA	Dicer_TRBP_duplex_miRNA_(complex)	component>
+AGO1	AGO1/2/3/4_(family)	member>
+AGO3	AGO1/2/3/4_(family)	member>
+AGO2	AGO1/2/3/4_(family)	member>

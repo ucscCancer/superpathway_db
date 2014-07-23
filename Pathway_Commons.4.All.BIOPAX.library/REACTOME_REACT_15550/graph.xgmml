@@ -1,0 +1,525 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="The generation of insulin-containing secretory granules from proinsulin in the lumen of the endoplasmic reticulum (ER) can be described in 4 steps: formation of intramolecular disulfide bonds, formation of proinsulin-zinc-calcium complexes, proteolytic cleavage of proinsulin to yield insulin, translocation of the granules across the cytosol to the plasma membrane.&lt;br&gt;Transcription of the human insulin gene INS is activated by 4 important transcription factors: Pdx-1, MafA, Beta2/NeuroD1, and E47. The transcription factors interact with each other at the promoters of the insulin gene and act synergistically to promote transcription. Expression of the transcription factors is upregulated in response to glucose.&lt;br&gt;The preproinsulin mRNA is translated by ribosomes at the rough endoplasmic reticulum (ER) and the preproinsulin enters the secretion pathway by virtue of its signal peptide, which is cleaved during translation to yield proinsulin. Evidence indicates that the preproinsulin mRNA is stabilized by glucose.&lt;br&gt;In the process annotated in detail here, within the ER, three intramolecular disulfide bonds form between cysteine residues in the proinsulin. Formation of the bonds is the spontaneous result of the conformation of proinsulin and the oxidizing environment of the ER, which is maintained by Ero1-like alpha&lt;br&gt;The cystine bonded proinsulin then moves via vesicles from the ER to the Golgi Complex. High concentrations of zinc are maintained in the Golgi by zinc transporters ZnT5, ZnT6, and ZnT7 and the proinsulin forms complexes with zinc and calcium.&lt;br&gt;Proinsulin-zinc-calcium complexes bud in vesicles from the trans-Golgi to form immature secretory vesicles (secretory granules) in the cytosol. Within the immature granules the endoproteases Prohormone Convertase 1/3 and Prohormone Convertase 2 cleave at two sites of the proinsulin and Carboxypeptidase E removes a further 4 amino acid residues to yield the cystine-bonded A and B chains of mature insulin and the C peptide, which will also be secreted with the insulin. The insulin-zinc-calcium complexes form insoluble crystals within the granule&lt;br&gt;The insulin-containing secretory granules are then translocated across the cytosol to the inner surface of the plasma membrane. Translocation occurs initially by attachment of the granules to Kinesin-1, which motors along microtubules, and then by attachment to Myosin Va, which motors along the microfilaments of the cortical actin network.&lt;br&gt;A pancreatic beta cell contains about 10000 insulin granules of which about 1000 are docked at the plasma membrane and 50 are readily releasable in immediate response to stimulation by glucose or other secretogogues. Docking is due to interaction between the Exocyst proteins EXOC3 on the granule membrane and EXOC4 on the plasma membrane. Exocytosis is accomplished by interaction between SNARE-type proteins Syntaxin 1A and Syntaxin 4 on the plasma membrane and Synaptobrevin-2/VAMP2 on the granule membrane. Exocytosis is a calcium-dependent process due to interaction of the calcium-binding membrane protein Synaptotagmin V/IX with the SNARE-type proteins."/>
+ <att name="displayName" type="string" value="Insulin Processing"/>
+ <att name="name" type="string" value="Insulin Processing"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_4f866f11221f780a0d70f878647af4a7"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Pubmed:11815450"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:264876"/>
+  <att name="db_xref" type="string" value="Pubmed:16549443"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_15550"/>
+  <att name="db_xref" type="string" value="Pubmed:9631292"/>
+  <att name="db_xref" type="string" value="Pubmed:16714477"/>
+  <att name="db_xref" type="string" value="Pubmed:11815463"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Proinsulin-Zinc-Calcium Complex (granule)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ae01feef0e68a560c9dde7fae28152fb"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Proinsulin-Zinc-Calcium Complex (granule)"/>
+ </node>
+ <node id="1" label="Proinsulin-Zinc-Calcium Complex (golgi)">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0a81933f221b0c44b082b8d1bd39db39"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Proinsulin-Zinc-Calcium Complex (golgi)"/>
+ </node>
+ <node id="2" label="Insulin B chain">
+  <att name="label" type="string" value="Insulin B chain"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENST00000381330"/>
+   <att name="db_xref" type="string" value="NCBI Gene:3630"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000370731"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000254647"/>
+   <att name="db_xref" type="string" value="UniProt:P01308"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001172026"/>
+   <att name="db_xref" type="string" value="HGNC:INS"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001185097"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_000198"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000250971"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_000207"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001185098"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000380432"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000250971"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1A7F"/>
+   <att name="db_xref" type="string" value="omim:176730"/>
+   <att name="db_xref" type="string" value="UniProt:Q5EEX2"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:INS"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000397262"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001172027"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:6081"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P01308"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="INS_HUMAN"/>
+   <att name="aliases" type="string" value="Insulin A chain"/>
+   <att name="aliases" type="string" value="INS"/>
+   <att name="aliases" type="string" value="Insulin B chain"/>
+  </att>
+ </node>
+ <node id="3" label="calcium, doubly charged positive ion">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:22988"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:3308"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29108"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145461"/>
+   <att name="db_xref" type="string" value="pubchem:8145461"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:48760"/>
+   <att name="db_xref" type="string" value="InChIKey:BHPQYMZQTOCNFJ-UHFFFAOYSA-N"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6342fc052905dc901a7b5aedbdc305f9"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="calcium, doubly charged positive ion"/>
+ </node>
+ <node id="4" label="EXOC6">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt:E9PHI3"/>
+   <att name="db_xref" type="string" value="UniProt:Q5VXH8"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000371552"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_061926"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001013848"/>
+   <att name="db_xref" type="string" value="HGNC:EXOC6"/>
+   <att name="db_xref" type="string" value="UniProt:Q8TAG9"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000260762"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:EXOC6"/>
+   <att name="db_xref" type="string" value="UniProt:Q9NZ24"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001013870"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000360607"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000260762"/>
+   <att name="db_xref" type="string" value="NCBI Gene:54536"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_019053"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000138190"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:23196"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q8TAG9"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="EXOC6_HUMAN"/>
+   <att name="aliases" type="string" value="SEC15-like protein 1"/>
+   <att name="aliases" type="string" value="Exocyst complex component Sec15A"/>
+   <att name="aliases" type="string" value="SEC15L"/>
+   <att name="aliases" type="string" value="SEC15L1"/>
+   <att name="aliases" type="string" value="SEC15A"/>
+   <att name="aliases" type="string" value="EXOC6"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="EXOC6"/>
+ </node>
+ <node id="5" label="calcium, doubly charged positive ion">
+  <att name="label" type="string" value="calcium, doubly charged positive ion"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:22988"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:3308"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29108"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145461"/>
+   <att name="db_xref" type="string" value="pubchem:8145461"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:48760"/>
+   <att name="db_xref" type="string" value="InChIKey:BHPQYMZQTOCNFJ-UHFFFAOYSA-N"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_3344f3fc992dd8540c335b4b3f498df1"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="6" label="Exocyst Complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Exocyst Complex"/>
+ </node>
+ <node id="7" label="Insulin-Zinc-Calcium Complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ddd438f39bcf339feede94634c8e68c2"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Insulin-Zinc-Calcium Complex"/>
+ </node>
+ <node id="8" label="SEC5L1">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt:Q96AN6"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000230449"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_060773"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:EXOC2"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UJM7"/>
+   <att name="db_xref" type="string" value="UniProt:Q96KP1"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000112685"/>
+   <att name="db_xref" type="string" value="UniProt:Q9NUZ8"/>
+   <att name="db_xref" type="string" value="NCBI Gene:55770"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:24968"/>
+   <att name="db_xref" type="string" value="UniProt:Q5JPC8"/>
+   <att name="db_xref" type="string" value="omim:-"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000230449"/>
+   <att name="db_xref" type="string" value="HGNC:EXOC2"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_018303"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q96KP1"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="EXOC2_HUMAN"/>
+   <att name="aliases" type="string" value="SEC5"/>
+   <att name="aliases" type="string" value="EXOC2"/>
+   <att name="aliases" type="string" value="Exocyst complex component Sec5"/>
+   <att name="aliases" type="string" value="SEC5L1"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="SEC5L1"/>
+ </node>
+ <node id="9" label="Insulin">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_067325d257b3f81574df63b84d5a0056"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Insulin"/>
+ </node>
+ <node id="10" label="KIAA1067">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="HGNC:EXOC7"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:EXOC7"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_056034"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001013861"/>
+   <att name="db_xref" type="string" value="UniProt:Q8WV91"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001145299"/>
+   <att name="db_xref" type="string" value="omim:608163"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UPT5"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001145298"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_015219"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000333806"/>
+   <att name="db_xref" type="string" value="UniProt:Q9H9X3"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001138771"/>
+   <att name="db_xref" type="string" value="UniProt:Q9HA32"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001145297"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001138770"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000405575"/>
+   <att name="db_xref" type="string" value="UniProt:B5MC69"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000404322"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001013839"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000335146"/>
+   <att name="db_xref" type="string" value="UniProt:Q9H8C3"/>
+   <att name="db_xref" type="string" value="UniProt:B8XXP2"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000334100"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000182473"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000411744"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000384368"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000332065"/>
+   <att name="db_xref" type="string" value="UniProt:Q8ND93"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:23214"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001138769"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000468404"/>
+   <att name="db_xref" type="string" value="UniProt:Q96FF0"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000589210"/>
+   <att name="db_xref" type="string" value="NCBI Gene:23265"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q9UPT5"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="EXOC7_HUMAN"/>
+   <att name="aliases" type="string" value="Exocyst complex component Exo70"/>
+   <att name="aliases" type="string" value="EXO70"/>
+   <att name="aliases" type="string" value="EXOC7"/>
+   <att name="aliases" type="string" value="KIAA1067"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="KIAA1067"/>
+ </node>
+ <node id="11" label="zinc, ion (Zn2+)">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29105"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:49982"/>
+   <att name="db_xref" type="string" value="InChIKey:PTFCDOFLOPIGGS-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="pubchem-substance:11533263"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:10113"/>
+   <att name="db_xref" type="string" value="pubchem:11533263"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:49972"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:27368"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_f59e0692ff5bafb0cd7ba7b28942dd3e"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="zinc, ion (Zn2+)"/>
+ </node>
+ <node id="12" label="KIAA1699">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="HGNC Symbol:EXOC4"/>
+   <att name="db_xref" type="string" value="UniProt:Q96A65"/>
+   <att name="db_xref" type="string" value="HGNC:EXOC4"/>
+   <att name="db_xref" type="string" value="UniProt:Q9C0G4"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000253861"/>
+   <att name="db_xref" type="string" value="UniProt:Q9P102"/>
+   <att name="db_xref" type="string" value="omim:608185"/>
+   <att name="db_xref" type="string" value="UniProt:Q541U8"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_021807"/>
+   <att name="db_xref" type="string" value="NCBI Gene:60412"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:30389"/>
+   <att name="db_xref" type="string" value="UniProt:Q9H9K0"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000131558"/>
+   <att name="db_xref" type="string" value="UniProt:E9PED2"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000376868"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_068579"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000253861"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000393161"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q96A65"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="EXOC4_HUMAN"/>
+   <att name="aliases" type="string" value="EXOC4"/>
+   <att name="aliases" type="string" value="Exocyst complex component Sec8"/>
+   <att name="aliases" type="string" value="SEC8"/>
+   <att name="aliases" type="string" value="SEC8L1"/>
+   <att name="aliases" type="string" value="KIAA1699"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="KIAA1699"/>
+ </node>
+ <node id="13" label="Insulin:Zinc:Calcium Complex in docked granule">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_040b19955fc371d87b6712bf3eeab13f"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Insulin:Zinc:Calcium Complex in docked granule"/>
+ </node>
+ <node id="14" label="SEC6">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt:Q6P2E8"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000512944"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_009208"/>
+   <att name="db_xref" type="string" value="UniProt:Q8WUW0"/>
+   <att name="db_xref" type="string" value="HGNC:EXOC3"/>
+   <att name="db_xref" type="string" value="omim:608186"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:EXOC3"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000315013"/>
+   <att name="db_xref" type="string" value="UniProt:Q8TEN6"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000323377"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000425587"/>
+   <att name="db_xref" type="string" value="UniProt:Q96DI4"/>
+   <att name="db_xref" type="string" value="UniProt:O60645"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000180104"/>
+   <att name="db_xref" type="string" value="NCBI Gene:11336"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:30378"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_007277"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/O60645"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="EXOC3_HUMAN"/>
+   <att name="aliases" type="string" value="EXOC3"/>
+   <att name="aliases" type="string" value="Exocyst complex component Sec6"/>
+   <att name="aliases" type="string" value="SEC6L1"/>
+   <att name="aliases" type="string" value="SEC6"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="SEC6"/>
+ </node>
+ <node id="15" label="Exocyst complex component Sec3">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000326514"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000370695"/>
+   <att name="db_xref" type="string" value="omim:607879"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_060731"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001020095"/>
+   <att name="db_xref" type="string" value="NCBI Gene:55763"/>
+   <att name="db_xref" type="string" value="UniProt:Q504V4"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000090989"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000349598"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000334431"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000346134"/>
+   <att name="db_xref" type="string" value="UniProt:Q9NV70"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_839955"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001024924"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_178237"/>
+   <att name="db_xref" type="string" value="UniProt:Q9NZE4"/>
+   <att name="db_xref" type="string" value="UniProt:Q96T15"/>
+   <att name="db_xref" type="string" value="UniProt:Q8WUE7"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000381295"/>
+   <att name="db_xref" type="string" value="HGNC:EXOC1"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:EXOC1"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_018261"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:30380"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q9NV70"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="EXOC1_HUMAN"/>
+   <att name="aliases" type="string" value="EXOC1"/>
+   <att name="aliases" type="string" value="SEC3L1"/>
+   <att name="aliases" type="string" value="SEC3"/>
+   <att name="aliases" type="string" value="Exocyst complex component Sec3"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Exocyst complex component Sec3"/>
+ </node>
+ <node id="16" label="Exocyst complex component Sec10">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000070367"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_006535"/>
+   <att name="db_xref" type="string" value="NCBI Gene:10640"/>
+   <att name="db_xref" type="string" value="UniProt:B2R6C5"/>
+   <att name="db_xref" type="string" value="HGNC:EXOC5"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000413566"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:EXOC5"/>
+   <att name="db_xref" type="string" value="UniProt:O00471"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000389934"/>
+   <att name="db_xref" type="string" value="omim:604469"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:10696"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_006544"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/O00471"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="EXOC5_HUMAN"/>
+   <att name="aliases" type="string" value="hSec10"/>
+   <att name="aliases" type="string" value="SEC10L1"/>
+   <att name="aliases" type="string" value="EXOC5"/>
+   <att name="aliases" type="string" value="SEC10"/>
+   <att name="aliases" type="string" value="Exocyst complex component Sec10"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Exocyst complex component Sec10"/>
+ </node>
+ <node id="17" label="EXOC8">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="HGNC:HGNC:24659"/>
+   <att name="db_xref" type="string" value="omim:-"/>
+   <att name="db_xref" type="string" value="UniProt:B3KU33"/>
+   <att name="db_xref" type="string" value="UniProt:Q8IYI6"/>
+   <att name="db_xref" type="string" value="NCBI Gene:149371"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:EXOC8"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_787072"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000366645"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000360394"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000353564"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000116903"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_175876"/>
+   <att name="db_xref" type="string" value="HGNC:EXOC8"/>
+   <att name="db_xref" type="string" value="UniProt:Q5TE82"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000355605"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q8IYI6"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="EXOC8_HUMAN"/>
+   <att name="aliases" type="string" value="Exocyst complex 84 kDa subunit"/>
+   <att name="aliases" type="string" value="EXOC8"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="EXOC8"/>
+ </node>
+ <node id="18" label="zinc, ion (Zn2+)">
+  <att name="label" type="string" value="zinc, ion (Zn2+)"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29105"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:49982"/>
+   <att name="db_xref" type="string" value="InChIKey:PTFCDOFLOPIGGS-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="pubchem-substance:11533263"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:10113"/>
+   <att name="db_xref" type="string" value="pubchem:11533263"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:49972"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:27368"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_6fdf15a600400a14726b809a0cc5266a"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/Complex_ae01feef0e68a560c9dde7fae28152fb - http://purl.org/pc2/4/Complex_ddd438f39bcf339feede94634c8e68c2" source="0" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f8f4a71e3add67001a635b4354633084"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_ae01feef0e68a560c9dde7fae28152fb - http://identifiers.org/uniprot/P01308" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_f8f4a71e3add67001a635b4354633084"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P01308 - http://purl.org/pc2/4/Complex_067325d257b3f81574df63b84d5a0056" source="2" target="9">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_067325d257b3f81574df63b84d5a0056"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P01308 - http://purl.org/pc2/4/Complex_0a81933f221b0c44b082b8d1bd39db39" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0a81933f221b0c44b082b8d1bd39db39"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P01308 - http://purl.org/pc2/4/Complex_ae01feef0e68a560c9dde7fae28152fb" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ae01feef0e68a560c9dde7fae28152fb"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P01308 - http://identifiers.org/uniprot/P01308" source="2" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_4545fbe9b77d423d9bc5fc578382cd39"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6342fc052905dc901a7b5aedbdc305f9 - http://purl.org/pc2/4/Complex_0a81933f221b0c44b082b8d1bd39db39" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0a81933f221b0c44b082b8d1bd39db39"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q8TAG9 - http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156" source="4" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_3344f3fc992dd8540c335b4b3f498df1 - http://purl.org/pc2/4/Complex_040b19955fc371d87b6712bf3eeab13f" source="5" target="13">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_040b19955fc371d87b6712bf3eeab13f"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_3344f3fc992dd8540c335b4b3f498df1 - http://purl.org/pc2/4/Complex_ddd438f39bcf339feede94634c8e68c2" source="5" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ddd438f39bcf339feede94634c8e68c2"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_3344f3fc992dd8540c335b4b3f498df1 - http://purl.org/pc2/4/Complex_ae01feef0e68a560c9dde7fae28152fb" source="5" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ae01feef0e68a560c9dde7fae28152fb"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q96KP1 - http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156" source="8" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_067325d257b3f81574df63b84d5a0056 - http://purl.org/pc2/4/Complex_ddd438f39bcf339feede94634c8e68c2" source="9" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ddd438f39bcf339feede94634c8e68c2"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_067325d257b3f81574df63b84d5a0056 - http://purl.org/pc2/4/Complex_040b19955fc371d87b6712bf3eeab13f" source="9" target="13">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_040b19955fc371d87b6712bf3eeab13f"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9UPT5 - http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156" source="10" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_f59e0692ff5bafb0cd7ba7b28942dd3e - http://purl.org/pc2/4/Complex_0a81933f221b0c44b082b8d1bd39db39" source="11" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0a81933f221b0c44b082b8d1bd39db39"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q96A65 - http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156" source="12" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/O60645 - http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156" source="14" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9NV70 - http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156" source="15" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/O00471 - http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156" source="16" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q8IYI6 - http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156" source="17" target="6">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_164e95bbe40681700c90fd50b12da156"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6fdf15a600400a14726b809a0cc5266a - http://purl.org/pc2/4/Complex_040b19955fc371d87b6712bf3eeab13f" source="18" target="13">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_040b19955fc371d87b6712bf3eeab13f"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6fdf15a600400a14726b809a0cc5266a - http://purl.org/pc2/4/Complex_ddd438f39bcf339feede94634c8e68c2" source="18" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ddd438f39bcf339feede94634c8e68c2"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_6fdf15a600400a14726b809a0cc5266a - http://purl.org/pc2/4/Complex_ae01feef0e68a560c9dde7fae28152fb" source="18" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ae01feef0e68a560c9dde7fae28152fb"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

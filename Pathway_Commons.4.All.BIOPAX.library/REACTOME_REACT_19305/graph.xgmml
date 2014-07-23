@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Reviewed: He, L, 2009-08-24"/>
+ <att name="displayName" type="string" value="Class II GLUTs"/>
+ <att name="name" type="string" value="Class II GLUTs"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_27df7f31e3e48175694e6b169401c099"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Pubmed:12568659"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:428776"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_19281"/>
+  <att name="db_xref" type="string" value="Pubmed:18660845"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="hexoses transported by GLUT7/11">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_2d257af13f360050e2d97a8238a4fa43"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="hexoses transported by GLUT7/11"/>
+ </node>
+ <node id="1" label="D-Fructose [ChEBI:15824]">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:15824"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_3b1b01d14705c57ed1b9f2a244bbb66c"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="D-Fructose [ChEBI:15824]"/>
+ </node>
+ <node id="2" label="compounds transported by GLUT9">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_5cafabc87d2c998c15945fe612424683"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="compounds transported by GLUT9"/>
+ </node>
+ <node id="3" label="D-Fructose [ChEBI:15824]">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:15824"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_9113de2ad20bbc423f14b7b98f4454e9"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="D-Fructose [ChEBI:15824]"/>
+ </node>
+ <node id="4" label="hexoses transported by GLUT7/11">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_46798e902150d025743a31123bc036aa"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="hexoses transported by GLUT7/11"/>
+ </node>
+ <node id="5" label="compounds transported by GLUT9">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_1e24d38076021be9ab99dc1082665d90"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="compounds transported by GLUT9"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_2d257af13f360050e2d97a8238a4fa43 - http://purl.org/pc2/4/SmallMolecule_46798e902150d025743a31123bc036aa" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9066e957e1d9caea4133ab4a57ff48c1"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_9113de2ad20bbc423f14b7b98f4454e9 - http://purl.org/pc2/4/SmallMolecule_3b1b01d14705c57ed1b9f2a244bbb66c" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_c914088c0bb926ae1b6352eb26de7e6f"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_1e24d38076021be9ab99dc1082665d90 - http://purl.org/pc2/4/SmallMolecule_5cafabc87d2c998c15945fe612424683" source="5" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_596b3968fe53ba6787c1e6898a7c6de3"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

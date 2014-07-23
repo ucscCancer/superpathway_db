@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Authored: Mahajan, SS, 2010-11-08"/>
+ <att name="displayName" type="string" value="GABA A (rho) receptor activation"/>
+ <att name="name" type="string" value="GABA A (rho) receptor activation"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_88e894df2039bfd3e9aff593dcf83692"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Reactome:REACT_25168"/>
+  <att name="db_xref" type="string" value="Pubmed:17398006"/>
+  <att name="db_xref" type="string" value="Pubmed:10637650"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:977442"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="chloride(1-)">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="pubchem:8145194"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:3731"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:48804"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13970"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:3616"/>
+   <att name="db_xref" type="string" value="InChIKey:VEXZGXHMUGYJMC-UHFFFAOYSA-M"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13291"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:17996"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145194"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_5730749c387e7a1e80e50e29855395c7"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="chloride(1-)"/>
+ </node>
+ <node id="1" label="chloride(1-)">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="pubchem:8145194"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:3731"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:48804"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13970"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:3616"/>
+   <att name="db_xref" type="string" value="InChIKey:VEXZGXHMUGYJMC-UHFFFAOYSA-M"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13291"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:17996"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145194"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_c7a5dcdd16fdefb25e13301b4bcc2bea"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="chloride(1-)"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_5730749c387e7a1e80e50e29855395c7 - http://purl.org/pc2/4/SmallMolecule_c7a5dcdd16fdefb25e13301b4bcc2bea" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_bfc3bdcb3a564d89309c1bc964252d3b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

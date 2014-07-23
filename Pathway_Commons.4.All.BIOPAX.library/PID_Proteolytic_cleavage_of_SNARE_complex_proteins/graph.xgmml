@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_2969"/>
+ <att name="displayName" type="string" value="Proteolytic cleavage of SNARE complex proteins"/>
+ <att name="name" type="string" value="Proteolytic_cleavage_of_SNARE_complex_proteins"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_93dd51f2df9271f3a404c801c24fb829"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="BoNT Light chain Type C1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_27d0716d7840bccde781ed60848a3a0a"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="BoNT Light chain Type C1"/>
+ </node>
+ <node id="1" label="Zn2+">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_5f4c034fefa67f232db8e2159933e0c1"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Zn2+"/>
+ </node>
+ <node id="2" label="Syntaxin fragment">
+  <att name="label" type="string" value="Syntaxin fragment"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_a679810b5c379b0f8530e173486ca137"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="3" label="Syntaxins">
+  <att name="label" type="string" value="Syntaxins"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_32e9183bacf7dd3b3a55c043ecef561e"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="4" label="UniProt:P18640 Botulinum neurotoxin type C1">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:P18640"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P18640"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="Botulinum neurotoxin type C1"/>
+   <att name="aliases" type="string" value="UniProt:P18640 Botulinum neurotoxin type C1"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="UniProt:P18640 Botulinum neurotoxin type C1"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/Complex_27d0716d7840bccde781ed60848a3a0a - http://purl.org/pc2/4/ProteinReference_a679810b5c379b0f8530e173486ca137" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_3309997c743d88d89e9fb6b5d4eb9c72"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_5f4c034fefa67f232db8e2159933e0c1 - http://purl.org/pc2/4/Complex_27d0716d7840bccde781ed60848a3a0a" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_27d0716d7840bccde781ed60848a3a0a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_32e9183bacf7dd3b3a55c043ecef561e - http://purl.org/pc2/4/ProteinReference_a679810b5c379b0f8530e173486ca137" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_3cd037dd09b27f8bd53eaacac0a97146"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P18640 - http://purl.org/pc2/4/Complex_27d0716d7840bccde781ed60848a3a0a" source="4" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_27d0716d7840bccde781ed60848a3a0a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_11221"/>
+ <att name="displayName" type="string" value="Opsins"/>
+ <att name="name" type="string" value="Opsins"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_361a1e96ade35a498f30bef6e83027a0"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Photon">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_0379bdeb2d4f431cfc2845f5e0470e3c"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Photon"/>
+ </node>
+ <node id="1" label="Light-sensing opsins">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_4bbfd5de7f569af24f658b0d990deba9"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Light-sensing opsins"/>
+ </node>
+ <node id="2" label="Melanospin:photon">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b0e4a9138fec98829bc32f2f7ff7237e"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Melanospin:photon"/>
+ </node>
+ <node id="3" label="Opsins:photon">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c92fd65c0856b74bc539933bf6d9cc4a"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Opsins:photon"/>
+ </node>
+ <node id="4" label="OPN4">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="RefSeq:NP_150598"/>
+   <att name="db_xref" type="string" value="NCBI Gene:94233"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001025186"/>
+   <att name="db_xref" type="string" value="HGNC:OPN4"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:14449"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000361141"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000122375"/>
+   <att name="db_xref" type="string" value="UniProt:Q14D01"/>
+   <att name="db_xref" type="string" value="UniProt:Q8NGQ9"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_033282"/>
+   <att name="db_xref" type="string" value="omim:606665"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000241891"/>
+   <att name="db_xref" type="string" value="UniProt:Q2PP22"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000372071"/>
+   <att name="db_xref" type="string" value="UniProt:B7ZLB3"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000241891"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:OPN4"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UHM6"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001030015"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q9UHM6"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="OPN4_HUMAN"/>
+   <att name="aliases" type="string" value="Opsin-4"/>
+   <att name="aliases" type="string" value="MOP"/>
+   <att name="aliases" type="string" value="OPN4"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="OPN4"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_0379bdeb2d4f431cfc2845f5e0470e3c - http://purl.org/pc2/4/Complex_b0e4a9138fec98829bc32f2f7ff7237e" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b0e4a9138fec98829bc32f2f7ff7237e"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_0379bdeb2d4f431cfc2845f5e0470e3c - http://purl.org/pc2/4/Complex_c92fd65c0856b74bc539933bf6d9cc4a" source="0" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c92fd65c0856b74bc539933bf6d9cc4a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_4bbfd5de7f569af24f658b0d990deba9 - http://purl.org/pc2/4/Complex_c92fd65c0856b74bc539933bf6d9cc4a" source="1" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_c92fd65c0856b74bc539933bf6d9cc4a"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9UHM6 - http://purl.org/pc2/4/Complex_b0e4a9138fec98829bc32f2f7ff7237e" source="4" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b0e4a9138fec98829bc32f2f7ff7237e"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

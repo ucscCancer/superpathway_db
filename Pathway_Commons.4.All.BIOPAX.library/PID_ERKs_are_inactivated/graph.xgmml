@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_33195"/>
+ <att name="displayName" type="string" value="ERKs are inactivated"/>
+ <att name="name" type="string" value="ERKs_are_inactivated"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_75d4d312d572da7193699e98986ead34"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Orthophosphate">
+  <att name="label" type="string" value="Orthophosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_bcc8a0f2d54254f60c6acdab3554ebd7"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="PP2A-ABdeltaC complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_79c2759f721b0f4dca83a14d214cc714"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="PP2A-ABdeltaC complex"/>
+ </node>
+ <node id="2" label="Water">
+  <att name="label" type="string" value="Water"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_f589de280f2ccea8e43ae6342af65c78"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="PP2A-regulatory subunit B delta isoform">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_18131c5745f89a0eff4e24348f0b422e"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="PP2A-regulatory subunit B delta isoform"/>
+ </node>
+ <node id="4" label="PP2A-catalytic subunit C">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_57d5436ae40cefdb244b0237576d8b5c"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="PP2A-catalytic subunit C"/>
+ </node>
+ <node id="5" label="ERK1/2/5">
+  <att name="label" type="string" value="ERK1/2/5"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_dbc031b483d2ca7fcf48e30fbd4bb22b"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="6" label="PP2A-subunit A">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_30a72d64ac9569480a3072cc7e6bbbd4"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="PP2A-subunit A"/>
+ </node>
+ <node id="7" label="DUSP4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_ff9f1dd88c050707e4f0f90397980caf"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="DUSP4"/>
+ </node>
+ <node id="8" label="Phospho-ERK1/2/5">
+  <att name="label" type="string" value="Phospho-ERK1/2/5"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_a2bce582eb8e6095eeb0f0b9df8a3b95"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/Complex_79c2759f721b0f4dca83a14d214cc714 - http://purl.org/pc2/4/SmallMolecule_bcc8a0f2d54254f60c6acdab3554ebd7" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_020ad9d41f2677a7484ea88f621eb47a"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_f589de280f2ccea8e43ae6342af65c78 - http://purl.org/pc2/4/SmallMolecule_bcc8a0f2d54254f60c6acdab3554ebd7" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_eacc3412184a1e62044b203efed36b8c"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_f589de280f2ccea8e43ae6342af65c78 - http://purl.org/pc2/4/ProteinReference_dbc031b483d2ca7fcf48e30fbd4bb22b" source="2" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_eacc3412184a1e62044b203efed36b8c"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_18131c5745f89a0eff4e24348f0b422e - http://purl.org/pc2/4/Complex_79c2759f721b0f4dca83a14d214cc714" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_79c2759f721b0f4dca83a14d214cc714"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_57d5436ae40cefdb244b0237576d8b5c - http://purl.org/pc2/4/Complex_79c2759f721b0f4dca83a14d214cc714" source="4" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_79c2759f721b0f4dca83a14d214cc714"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_30a72d64ac9569480a3072cc7e6bbbd4 - http://purl.org/pc2/4/Complex_79c2759f721b0f4dca83a14d214cc714" source="6" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_79c2759f721b0f4dca83a14d214cc714"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_ff9f1dd88c050707e4f0f90397980caf - http://purl.org/pc2/4/ProteinReference_dbc031b483d2ca7fcf48e30fbd4bb22b" source="7" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_15a0eee482d6c2b97d629adb1b774ce1"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_a2bce582eb8e6095eeb0f0b9df8a3b95 - http://purl.org/pc2/4/SmallMolecule_bcc8a0f2d54254f60c6acdab3554ebd7" source="8" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_eacc3412184a1e62044b203efed36b8c"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_a2bce582eb8e6095eeb0f0b9df8a3b95 - http://purl.org/pc2/4/ProteinReference_dbc031b483d2ca7fcf48e30fbd4bb22b" source="8" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_eacc3412184a1e62044b203efed36b8c"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

@@ -1,0 +1,27 @@
+protein	CDK1
+protein	HRAS
+protein	KHDRBS1
+protein	MAP2K1
+protein	MAP2K2
+protein	MAPK1
+protein	MAPK3
+protein	RAF1
+protein	RASA1
+complex	SAM68/RASGAP_(complex)
+protein	SRC
+complex	SRC/SAM68_(complex)
+SRC	SRC/SAM68_(complex)	component>
+MAPK3	MAPK1	-a>
+MAPK3	KHDRBS1	-a>
+MAP2K2	MAPK3	-a>
+MAP2K2	MAP2K1	-a>
+HRAS	RAF1	-a>
+KHDRBS1	SAM68/RASGAP_(complex)	component>
+KHDRBS1	SRC/SAM68_(complex)	component>
+CDK1	SAM68/RASGAP_(complex)	-a>
+MAP2K1	MAP2K2	-a>
+MAP2K1	MAPK3	-a>
+MAPK1	MAPK3	-a>
+MAPK1	KHDRBS1	-a>
+RAF1	MAP2K2	-a>
+RASA1	SAM68/RASGAP_(complex)	component>

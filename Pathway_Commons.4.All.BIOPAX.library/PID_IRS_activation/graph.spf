@@ -1,0 +1,18 @@
+protein	INS
+protein	INSR
+protein	IRS
+complex	IRS_activated_insulin_receptor_(complex)
+complex	activated_insulin_receptor_(complex)
+complex	Insulin_(complex)
+protein	phospho-IRS
+complex	phospho-IRS_activated_insulin_receptor_(complex)
+complex	phospho-insulin_receptor_(complex)
+phospho-insulin_receptor_(complex)	activated_insulin_receptor_(complex)	component>
+phospho-IRS	phospho-IRS_activated_insulin_receptor_(complex)	component>
+IRS	IRS_activated_insulin_receptor_(complex)	component>
+INS	Insulin_(complex)	component>
+IRS_activated_insulin_receptor_(complex)	phospho-IRS_activated_insulin_receptor_(complex)	-a>
+INSR	phospho-insulin_receptor_(complex)	component>
+Insulin_(complex)	activated_insulin_receptor_(complex)	component>
+activated_insulin_receptor_(complex)	IRS_activated_insulin_receptor_(complex)	component>
+activated_insulin_receptor_(complex)	phospho-IRS_activated_insulin_receptor_(complex)	component>

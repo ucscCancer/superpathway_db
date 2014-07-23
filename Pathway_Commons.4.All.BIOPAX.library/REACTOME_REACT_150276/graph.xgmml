@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://www.reactome.org/biopax/46/48887#Pathway400"/>
+ <att name="displayName" type="string" value="Antagonism of Activin by Follistatin"/>
+ <att name="name" type="string" value="Antagonism of Activin by Follistatin"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_35acf25caf2752f3f2771b3a293a43f2"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Pubmed:15451564"/>
+  <att name="db_xref" type="string" value="Pubmed:7885475"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_150276"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:2473224"/>
+  <att name="db_xref" type="string" value="Pubmed:17229845"/>
+  <att name="db_xref" type="string" value="Pubmed:19273500"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="FS">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENST00000396947"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000256759"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:FST"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000134363"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_037541"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:2B0U"/>
+   <att name="db_xref" type="string" value="omim:136470"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_006341"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_013409"/>
+   <att name="db_xref" type="string" value="UniProt:P19883"/>
+   <att name="db_xref" type="string" value="NCBI Gene:10468"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000380151"/>
+   <att name="db_xref" type="string" value="UniProt:Q9BTH0"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_006350"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000256759"/>
+   <att name="db_xref" type="string" value="HGNC:FST"/>
+   <att name="db_xref" type="string" value="UniProt:B5BU94"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:3971"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P19883"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="FST_HUMAN"/>
+   <att name="aliases" type="string" value="Activin-binding protein"/>
+   <att name="aliases" type="string" value="FST"/>
+   <att name="aliases" type="string" value="FS"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="FS"/>
+ </node>
+ <node id="1" label="Follistatin-like protein 3">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="HGNC:FSTL3"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:3973"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_005860"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000070404"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:FSTL3"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000166139"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000166139"/>
+   <att name="db_xref" type="string" value="UniProt:A8K7E3"/>
+   <att name="db_xref" type="string" value="omim:605343"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:2KCX"/>
+   <att name="db_xref" type="string" value="UniProt:O95633"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_005851"/>
+   <att name="db_xref" type="string" value="NCBI Gene:10272"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/O95633"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="FSTL3_HUMAN"/>
+   <att name="aliases" type="string" value="FSTL3"/>
+   <att name="aliases" type="string" value="Follistatin-related gene protein"/>
+   <att name="aliases" type="string" value="FLRG"/>
+   <att name="aliases" type="string" value="Follistatin-like protein 3"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Follistatin-like protein 3"/>
+ </node>
+ <node id="2" label="Activin A/AB/B:FSTL3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_5d2b6550689eae1a570a54074c38e403"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Activin A/AB/B:FSTL3"/>
+ </node>
+ <node id="3" label="INHBA:INHBA/INHBA:INHBB/INHBB:INHBB">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_6d89c942cdf08bc1b315906deadd452f"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="INHBA:INHBA/INHBA:INHBB/INHBB:INHBB"/>
+ </node>
+ <node id="4" label="Activin:Follistatin">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f2b4f1615b2ee03f3463abb3a170348e"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Activin:Follistatin"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/P19883 - http://purl.org/pc2/4/Complex_f2b4f1615b2ee03f3463abb3a170348e" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f2b4f1615b2ee03f3463abb3a170348e"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/O95633 - http://purl.org/pc2/4/Complex_5d2b6550689eae1a570a54074c38e403" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_5d2b6550689eae1a570a54074c38e403"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_6d89c942cdf08bc1b315906deadd452f - http://purl.org/pc2/4/Complex_5d2b6550689eae1a570a54074c38e403" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_5d2b6550689eae1a570a54074c38e403"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_6d89c942cdf08bc1b315906deadd452f - http://purl.org/pc2/4/Complex_f2b4f1615b2ee03f3463abb3a170348e" source="3" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_f2b4f1615b2ee03f3463abb3a170348e"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

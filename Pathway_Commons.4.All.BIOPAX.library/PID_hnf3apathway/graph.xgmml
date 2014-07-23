@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_87896"/>
+ <att name="displayName" type="string" value="FOXA1 transcription factor network"/>
+ <att name="name" type="string" value="hnf3apathway"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_fe92f87b5e99ba373c3dba02aa3265af"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="HNF-3-alpha">
+  <att name="label" type="string" value="HNF-3-alpha"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="HGNC:HGNC:5021"/>
+   <att name="db_xref" type="string" value="HGNC:FOXA1"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_004496"/>
+   <att name="db_xref" type="string" value="omim:602294"/>
+   <att name="db_xref" type="string" value="UniProt:B2R9H6"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000250448"/>
+   <att name="db_xref" type="string" value="UniProt:Q9H2A0"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000129514"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000250448"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_004487"/>
+   <att name="db_xref" type="string" value="UniProt:P55317"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:FOXA1"/>
+   <att name="db_xref" type="string" value="NCBI Gene:3169"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P55317"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="FOXA1_HUMAN"/>
+   <att name="aliases" type="string" value="HNF-3A"/>
+   <att name="aliases" type="string" value="TCF3A"/>
+   <att name="aliases" type="string" value="Transcription factor 3A"/>
+   <att name="aliases" type="string" value="Forkhead box protein A1"/>
+   <att name="aliases" type="string" value="HNF3A"/>
+   <att name="aliases" type="string" value="TCF-3A"/>
+   <att name="aliases" type="string" value="FOXA1"/>
+   <att name="aliases" type="string" value="HNF-3-alpha"/>
+  </att>
+ </node>
+ <node id="1" label="AR">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="RefSeq:NP_001011645"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001011645"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:AR"/>
+   <att name="db_xref" type="string" value="UniProt:P10275"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UD95"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000169083"/>
+   <att name="db_xref" type="string" value="HGNC:AR"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000363822"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000374690"/>
+   <att name="db_xref" type="string" value="UniProt:A2RUN2"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000396043"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:644"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000379358"/>
+   <att name="db_xref" type="string" value="omim:313700"/>
+   <att name="db_xref" type="string" value="NCBI Gene:367"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_000035"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_000044"/>
+   <att name="db_xref" type="string" value="UniProt:B1AKD7"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1E3G"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P10275"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="ANDR_HUMAN"/>
+   <att name="aliases" type="string" value="DHTR"/>
+   <att name="aliases" type="string" value="NR3C4"/>
+   <att name="aliases" type="string" value="Dihydrotestosterone receptor"/>
+   <att name="aliases" type="string" value="Nuclear receptor subfamily 3 group C member 4"/>
+   <att name="aliases" type="string" value="AR"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="AR"/>
+ </node>
+ <node id="2" label="DHT/AR/FOXA1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e93bd28404208641f684b8b8796c0126"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="DHT/AR/FOXA1"/>
+ </node>
+ <node id="3" label="DHT">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="CAS:521-18-6"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_34c44e6003b6975ff2244e31678dd12a"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="DHT"/>
+ </node>
+ <node id="4" label="http://purl.org/pc2/4/TemplateReaction_4dabdd609acb1ca788f6dbe1e98b8592">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/TemplateReaction_4dabdd609acb1ca788f6dbe1e98b8592"/>
+ </node>
+ <node id="5" label="None"/>
+ <edge label="http://identifiers.org/uniprot/P55317 - http://purl.org/pc2/4/Complex_e93bd28404208641f684b8b8796c0126" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e93bd28404208641f684b8b8796c0126"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P55317 - None" source="0" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Control_08868e1efd6ba0abedc4ed5968f64a36"/>
+  <att name="class" type="string" value="Control"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P10275 - http://purl.org/pc2/4/Complex_e93bd28404208641f684b8b8796c0126" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e93bd28404208641f684b8b8796c0126"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_34c44e6003b6975ff2244e31678dd12a - http://purl.org/pc2/4/Complex_e93bd28404208641f684b8b8796c0126" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_e93bd28404208641f684b8b8796c0126"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="None - http://purl.org/pc2/4/TemplateReaction_4dabdd609acb1ca788f6dbe1e98b8592" source="5" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Control_dc5a6be0b93d580f5e51c4e4df453c9e"/>
+  <att name="class" type="string" value="Control"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

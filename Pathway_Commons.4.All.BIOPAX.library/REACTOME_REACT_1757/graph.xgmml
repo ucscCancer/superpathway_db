@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="In humans the deamination of adenosines to inosines is the most common editing event. It is particularly prevalent in the brain, where it leads to amino acid changes that affect the conductance of several ion channels. Inosines are recognized by the translation machinery as if they were guanosines.&lt;BR&gt;ADARs (Adenosine Deaminases Acting on RNA) modify pre-mRNA, acting as single peptides and recognize structural determinants in the RNA. To date 3 members of this deaminase family are known: ADAR 1, ADAR 2, and ADAR 3 that share a common modular domain structure. ADAR 1 and 2 contain a catalytic deaminase domain, a double-stranded RNA binding domain and exhibit RNA editing activity. ADAR1 activity is found in various mammalian tissues with the highest concentration in brain.&lt;BR&gt;An increasing number of mammalian genes have been found to undergo deamination by ADARs. Deamination by editing in pre-mRNAs encoding subunits of ionotropic glutamate receptors (GluRs) is another well studied example. An editing event at the Q/R site of the GluR2 (GluRB) subunit of AMPA receptors converts a Gln codon CAG to an Arg codon CIG rendering the heteromeric receptor impermeable to Ca 2+ ions. Another example is the editing of 5-HT2C subtype serotonin receptor mRNA resulting in receptor isoforms with reduced G-protein coupling efficiency (reviewed by Gerber and Keller, 2001).&lt;BR&gt;In mice, the editosomes with ADAR proteins require some cis-acting elements like an intronic 'editing-site complementary sequence (ECS)'. Although evolutionarily conserved, the actual role of ECS is not yet elucidated in humans. The editing complex can be generally represented as:&lt;BR&gt;"/>
+ <att name="displayName" type="string" value="mRNA Editing: A to I Conversion"/>
+ <att name="name" type="string" value="mRNA Editing: A to I Conversion"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_aa1e3cf8923c8c93475e065705ad5fcf"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Reactome:REACT_18"/>
+  <att name="db_xref" type="string" value="Pubmed:11406411"/>
+  <att name="db_xref" type="string" value="GENE ONTOLOGY:GO:0006382"/>
+  <att name="db_xref" type="string" value="Pubmed:12446660"/>
+  <att name="db_xref" type="string" value="Pubmed:1747369"/>
+  <att name="db_xref" type="string" value="Pubmed:12045112"/>
+  <att name="db_xref" type="string" value="Pubmed:8943218"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:75064"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="nascent pre-mRNA transcript">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_4e2f24f9e0c86c4523cb60996352dd81"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="nascent pre-mRNA transcript"/>
+ </node>
+ <node id="1" label="dsRNA duplex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_15c72355ed5cb3070fdd3c3c818d1228"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="dsRNA duplex"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_4e2f24f9e0c86c4523cb60996352dd81 - http://purl.org/pc2/4/PhysicalEntity_15c72355ed5cb3070fdd3c3c818d1228" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_8c03b1853757c1cf76813ef1fb0403ff"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

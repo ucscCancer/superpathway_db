@@ -1,0 +1,19 @@
+protein	BMAL1
+protein	Casein_kinase_I
+protein	Clock
+complex	Complex_(BMAL1/Clock)_(complex)
+complex	Complex_(Casein_kinase_I/Per)_(complex)
+complex	Complex_(Per/Casein_kinase_I)_(complex)
+complex	Complex_(Per/Cry/_Casein_kinase_I)_(complex)
+protein	GOT2
+protein	Per
+protein	Rev-erb
+Casein_kinase_I	Complex_(Per/Cry/_Casein_kinase_I)_(complex)	component>
+Casein_kinase_I	Complex_(Casein_kinase_I/Per)_(complex)	component>
+Casein_kinase_I	Complex_(Per/Casein_kinase_I)_(complex)	component>
+Clock	Complex_(BMAL1/Clock)_(complex)	component>
+Per	Complex_(Per/Cry/_Casein_kinase_I)_(complex)	component>
+Per	Complex_(Casein_kinase_I/Per)_(complex)	component>
+Per	Complex_(Per/Casein_kinase_I)_(complex)	component>
+BMAL1	Complex_(BMAL1/Clock)_(complex)	component>
+GOT2	Complex_(Per/Cry/_Casein_kinase_I)_(complex)	component>

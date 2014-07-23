@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_175121"/>
+ <att name="displayName" type="string" value="Agmatine biosynthesis"/>
+ <att name="name" type="string" value="Agmatine_biosynthesis"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_d5b53ce140bed8fa31901ca2de35c885"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="(4-Aminobutyl) guanidine">
+  <att name="label" type="string" value="(4-Aminobutyl) guanidine"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_2d06e0bf46b4f73abac0ae3f60f4fa53"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="1,4-Butanediamine">
+  <att name="label" type="string" value="1,4-Butanediamine"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_92fa43ae44c1d8236c71b6864508ea2f"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="Carbon dioxide">
+  <att name="label" type="string" value="Carbon dioxide"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_fda0d83471049904f962c870d2567399"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="ADC">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_34e9a8345ab38b9a46b41b5e406d9b84"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="ADC"/>
+ </node>
+ <node id="4" label="3.5.3.11">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt:Q9BSE5"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:18407"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000375826"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000116771"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000364986"/>
+   <att name="db_xref" type="string" value="Pubmed:11804860"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_079034"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:AGMAT"/>
+   <att name="db_xref" type="string" value="HGNC:AGMAT"/>
+   <att name="db_xref" type="string" value="UniProt:Q5TDH1"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_024758"/>
+   <att name="db_xref" type="string" value="UniProt:Q9H5J3"/>
+   <att name="db_xref" type="string" value="NCBI Gene:79814"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q9BSE5"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="SPEB_HUMAN"/>
+   <att name="aliases" type="string" value="AGMAT"/>
+   <att name="aliases" type="string" value="Agmatine ureohydrolase"/>
+   <att name="aliases" type="string" value="AUH"/>
+   <att name="aliases" type="string" value="3.5.3.11"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="3.5.3.11"/>
+ </node>
+ <node id="5" label="Water">
+  <att name="label" type="string" value="Water"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_deab5bdc5d7299be544be3488402bc7e"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="6" label="(S)-2-Amino-5-guanidinovaleric acid">
+  <att name="label" type="string" value="(S)-2-Amino-5-guanidinovaleric acid"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_d042479099171a8dadc8500e71447692"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="7" label="Carbamide">
+  <att name="label" type="string" value="Carbamide"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_011fa41201b53954294253845aaefb56"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_2d06e0bf46b4f73abac0ae3f60f4fa53 - http://purl.org/pc2/4/SmallMolecule_011fa41201b53954294253845aaefb56" source="0" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_6a2a63e38c413c494a0e53a372890e3c"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_2d06e0bf46b4f73abac0ae3f60f4fa53 - http://purl.org/pc2/4/SmallMolecule_92fa43ae44c1d8236c71b6864508ea2f" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_6a2a63e38c413c494a0e53a372890e3c"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_34e9a8345ab38b9a46b41b5e406d9b84 - http://purl.org/pc2/4/SmallMolecule_fda0d83471049904f962c870d2567399" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_bb433ddc46a4f819cfae0c50e75602f9"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9BSE5 - http://purl.org/pc2/4/SmallMolecule_011fa41201b53954294253845aaefb56" source="4" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_6a40f64606b5722f9015bf47a2549049"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_deab5bdc5d7299be544be3488402bc7e - http://purl.org/pc2/4/SmallMolecule_011fa41201b53954294253845aaefb56" source="5" target="7">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_6a2a63e38c413c494a0e53a372890e3c"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_deab5bdc5d7299be544be3488402bc7e - http://purl.org/pc2/4/SmallMolecule_92fa43ae44c1d8236c71b6864508ea2f" source="5" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_6a2a63e38c413c494a0e53a372890e3c"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_d042479099171a8dadc8500e71447692 - http://purl.org/pc2/4/SmallMolecule_2d06e0bf46b4f73abac0ae3f60f4fa53" source="6" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_576c545f453ea2c1d66f5d7e6e2a93cc"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_d042479099171a8dadc8500e71447692 - http://purl.org/pc2/4/SmallMolecule_fda0d83471049904f962c870d2567399" source="6" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_576c545f453ea2c1d66f5d7e6e2a93cc"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

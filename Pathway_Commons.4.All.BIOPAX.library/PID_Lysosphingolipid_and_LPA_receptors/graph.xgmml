@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_118007"/>
+ <att name="displayName" type="string" value="Lysosphingolipid and LPA receptors"/>
+ <att name="name" type="string" value="Lysosphingolipid_and_LPA_receptors"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_dea788c896d18e53ae52c30f468317bb"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="S1P-binding EDG receptors">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_79e5000773a95925b31ad4c69e32ec5b"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="S1P-binding EDG receptors"/>
+ </node>
+ <node id="1" label="LPA-binding EDG receptors">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_9c6dec0f0faec1b23a1d42cbada86632"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="LPA-binding EDG receptors"/>
+ </node>
+ <node id="2" label="Sphingosine 1-phosphate">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_945c03458076acb891b784b9a4f7a0e9"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Sphingosine 1-phosphate"/>
+ </node>
+ <node id="3" label="S1P-binding EDG receptors: S1P">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b3b489983b286acf0320e93a6fdd0623"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="S1P-binding EDG receptors: S1P"/>
+ </node>
+ <node id="4" label="LPA-binding EDG receptors: LPA">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_1f88950ff1c4caba9811af3bd0560ceb"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="LPA-binding EDG receptors: LPA"/>
+ </node>
+ <node id="5" label="Lysophosphatidic acid">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_a9630e217313fe1e866d49cd347b5b82"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Lysophosphatidic acid"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/ProteinReference_79e5000773a95925b31ad4c69e32ec5b - http://purl.org/pc2/4/Complex_b3b489983b286acf0320e93a6fdd0623" source="0" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b3b489983b286acf0320e93a6fdd0623"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_9c6dec0f0faec1b23a1d42cbada86632 - http://purl.org/pc2/4/Complex_1f88950ff1c4caba9811af3bd0560ceb" source="1" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_1f88950ff1c4caba9811af3bd0560ceb"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_945c03458076acb891b784b9a4f7a0e9 - http://purl.org/pc2/4/Complex_b3b489983b286acf0320e93a6fdd0623" source="2" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_b3b489983b286acf0320e93a6fdd0623"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_a9630e217313fe1e866d49cd347b5b82 - http://purl.org/pc2/4/Complex_1f88950ff1c4caba9811af3bd0560ceb" source="5" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_1f88950ff1c4caba9811af3bd0560ceb"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

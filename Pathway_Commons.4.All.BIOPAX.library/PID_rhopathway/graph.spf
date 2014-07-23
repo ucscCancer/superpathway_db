@@ -1,0 +1,36 @@
+protein	CFL1
+protein	DIAPH1
+protein	GAP
+protein	GSN
+protein	LIMK1
+protein	MYL2
+protein	MYLK
+protein	PFN1
+complex	PI-4-P5K_(complex)
+complex	PIP2/Gelsolin_(complex)
+complex	PIP2/Talin/Vinculin_(complex)
+protein	PIP5K1B
+protein	PPP1R12B
+protein	RHOA
+protein	ROCK1
+protein	Rho_GEFs
+protein	TLN1
+protein	VCL
+complex	mDIA/Profilin_(complex)
+PIP5K1B	PI-4-P5K_(complex)	component>
+LIMK1	CFL1	-a|
+VCL	PIP2/Talin/Vinculin_(complex)	component>
+ROCK1	LIMK1	-a>
+ROCK1	MYL2	-a>
+GAP	RHOA	-a>
+PFN1	mDIA/Profilin_(complex)	component>
+PI-4-P5K_(complex)	PIP2/Talin/Vinculin_(complex)	-a>
+PI-4-P5K_(complex)	PIP2/Gelsolin_(complex)	-a>
+PPP1R12B	MYL2	-a>
+RHOA	ROCK1	-a>
+RHOA	mDIA/Profilin_(complex)	-a>
+RHOA	PI-4-P5K_(complex)	-a>
+TLN1	PIP2/Talin/Vinculin_(complex)	component>
+MYLK	MYL2	-a>
+DIAPH1	mDIA/Profilin_(complex)	component>
+GSN	PIP2/Gelsolin_(complex)	component>

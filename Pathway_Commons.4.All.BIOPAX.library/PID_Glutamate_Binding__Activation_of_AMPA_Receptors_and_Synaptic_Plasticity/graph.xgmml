@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_91211"/>
+ <att name="displayName" type="string" value="Glutamate Binding, Activation of AMPA Receptors and Synaptic Plasticity"/>
+ <att name="name" type="string" value="Glutamate_Binding__Activation_of_AMPA_Receptors_and_Synaptic_Plasticity"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_bff753bd96b74c08666f9cd8acb4ca6b"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Ca permeable AMPA receptors">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_accf120e592298b6ecd267d00b38867f"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Ca permeable AMPA receptors"/>
+ </node>
+ <node id="1" label="http://purl.org/pc2/4/Interaction_0283ce777946d24e88ab48be82a1ee36">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Interaction_0283ce777946d24e88ab48be82a1ee36"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_accf120e592298b6ecd267d00b38867f - http://purl.org/pc2/4/Interaction_0283ce777946d24e88ab48be82a1ee36" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Control_29dd4b3a1bdf20445512bd28a5af8d05"/>
+  <att name="class" type="string" value="Control"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

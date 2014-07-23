@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_17199"/>
+ <att name="displayName" type="string" value="Adrenoceptors"/>
+ <att name="name" type="string" value="Adrenoceptors"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_41433f123a00382beb177876d376bab9"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Beta adrenoceptor:catecholamine">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_bc8168a7ef0e818d807d64b28a660c81"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Beta adrenoceptor:catecholamine"/>
+ </node>
+ <node id="1" label="Alpha-2 adrenoceptor:Catecholamine">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0b31d11c95f66c5c277bc2fb93b11b25"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Alpha-2 adrenoceptor:Catecholamine"/>
+ </node>
+ <node id="2" label="Alpha-1 adrenoceptor:Catecholamine">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_8d33f294c7c920458e288133e9fa23c3"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Alpha-1 adrenoceptor:Catecholamine"/>
+ </node>
+ <node id="3" label="Beta adrenoceptor">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_cc5b86c17e4fccc61ec3a2f6803df5c4"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Beta adrenoceptor"/>
+ </node>
+ <node id="4" label="Alpha-1 adrenoceptor">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_221d10831d4ccf2e6d115e6b4d876980"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Alpha-1 adrenoceptor"/>
+ </node>
+ <node id="5" label="Alpha-2 adrenoceptor">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_7c450a417daa28b1ede2bd906976254d"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Alpha-2 adrenoceptor"/>
+ </node>
+ <node id="6" label="Catecholamine">
+  <att name="label" type="string" value="Catecholamine"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_f8760602a0f4eae29390ddb4383bb0f9"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/ProteinReference_cc5b86c17e4fccc61ec3a2f6803df5c4 - http://purl.org/pc2/4/Complex_bc8168a7ef0e818d807d64b28a660c81" source="3" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_bc8168a7ef0e818d807d64b28a660c81"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_221d10831d4ccf2e6d115e6b4d876980 - http://purl.org/pc2/4/Complex_8d33f294c7c920458e288133e9fa23c3" source="4" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_8d33f294c7c920458e288133e9fa23c3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_7c450a417daa28b1ede2bd906976254d - http://purl.org/pc2/4/Complex_0b31d11c95f66c5c277bc2fb93b11b25" source="5" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0b31d11c95f66c5c277bc2fb93b11b25"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_f8760602a0f4eae29390ddb4383bb0f9 - http://purl.org/pc2/4/Complex_bc8168a7ef0e818d807d64b28a660c81" source="6" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_bc8168a7ef0e818d807d64b28a660c81"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_f8760602a0f4eae29390ddb4383bb0f9 - http://purl.org/pc2/4/Complex_0b31d11c95f66c5c277bc2fb93b11b25" source="6" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_0b31d11c95f66c5c277bc2fb93b11b25"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_f8760602a0f4eae29390ddb4383bb0f9 - http://purl.org/pc2/4/Complex_8d33f294c7c920458e288133e9fa23c3" source="6" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_8d33f294c7c920458e288133e9fa23c3"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

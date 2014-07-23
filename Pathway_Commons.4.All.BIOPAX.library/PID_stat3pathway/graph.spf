@@ -1,0 +1,21 @@
+protein	Cytokine_receptor
+protein	JAKs
+protein	MAPK1
+protein	MAPK3
+protein	MTOR
+protein	STAT3
+complex	STAT3/STAT3_(complex)
+complex	STAT3/STAT3_(Ser727)_(complex)
+protein	Stat3_activating_cytokines
+complex	Stat3_activating_cytokines/cytokine_receptor/JAKs/TYK2_(complex)
+protein	TYK2
+Cytokine_receptor	Stat3_activating_cytokines/cytokine_receptor/JAKs/TYK2_(complex)	component>
+STAT3	STAT3/STAT3_(Ser727)_(complex)	component>
+STAT3	STAT3/STAT3_(complex)	component>
+Stat3_activating_cytokines/cytokine_receptor/JAKs/TYK2_(complex)	STAT3	-a>
+Stat3_activating_cytokines	Stat3_activating_cytokines/cytokine_receptor/JAKs/TYK2_(complex)	component>
+MAPK3	STAT3/STAT3_(Ser727)_(complex)	-a>
+MAPK1	STAT3/STAT3_(Ser727)_(complex)	-a>
+MTOR	STAT3/STAT3_(Ser727)_(complex)	-a>
+JAKs	Stat3_activating_cytokines/cytokine_receptor/JAKs/TYK2_(complex)	component>
+TYK2	Stat3_activating_cytokines/cytokine_receptor/JAKs/TYK2_(complex)	component>

@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_164913"/>
+ <att name="displayName" type="string" value="Proton-coupled monocarboxylate transport"/>
+ <att name="name" type="string" value="Proton_coupled_monocarboxylate_transport"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_38885d761152b683ee1ec6fdf366b8a8"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Monocarboxylate transporters">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_3c7f100f243aa4deb40e76722a596fce"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="Monocarboxylate transporters"/>
+ </node>
+ <node id="1" label="MCT substrates">
+  <att name="label" type="string" value="MCT substrates"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_9c283b179a016577983dfbe13438e878"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="Beta-hydroxybutyrate">
+  <att name="label" type="string" value="Beta-hydroxybutyrate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_763edcabe2b15fa896df559267404440"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="H+">
+  <att name="label" type="string" value="H+"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="4" label="H+">
+  <att name="label" type="string" value="H+"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/ProteinReference_3c7f100f243aa4deb40e76722a596fce - http://purl.org/pc2/4/SmallMolecule_763edcabe2b15fa896df559267404440" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_eed7482361f88a27fed962dd3e0f94d3"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_9c283b179a016577983dfbe13438e878 - http://purl.org/pc2/4/SmallMolecule_763edcabe2b15fa896df559267404440" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_c6030b1ef0f10fb0948be23784892a70"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_9c283b179a016577983dfbe13438e878 - http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6" source="1" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_c6030b1ef0f10fb0948be23784892a70"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071 - http://purl.org/pc2/4/SmallMolecule_763edcabe2b15fa896df559267404440" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_c6030b1ef0f10fb0948be23784892a70"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_632b54699b95fbeb4318f8e4ecbb5071 - http://purl.org/pc2/4/SmallMolecule_4b6e462dcb2755a8cddb091097b466e6" source="3" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_c6030b1ef0f10fb0948be23784892a70"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+</graph>

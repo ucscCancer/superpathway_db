@@ -1,0 +1,20 @@
+protein	F10
+protein	F2
+protein	F7
+protein	F9
+protein	GAS6
+protein	PROC
+protein	PROS1
+protein	PROZ
+complex	factor_X_(complex)
+complex	pro-factor_X_(complex)
+complex	pro-protein_C_(complex)
+complex	protein_C_(complex)
+pro-protein_C_(complex)	PROC	-a>
+pro-protein_C_(complex)	protein_C_(complex)	-a>
+pro-factor_X_(complex)	factor_X_(complex)	-a>
+pro-factor_X_(complex)	F10	-a>
+F10	factor_X_(complex)	component>
+F10	pro-factor_X_(complex)	component>
+PROC	pro-protein_C_(complex)	component>
+PROC	protein_C_(complex)	component>

@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_141151"/>
+ <att name="displayName" type="string" value="Elevation of cytosolic Ca2+ levels"/>
+ <att name="name" type="string" value="Elevation_of_cytosolic_Ca2__levels"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_059cbe85ac03b2ba344fc977b478533b"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="ATP receptor">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENST00000225538"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UK84"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000225538"/>
+   <att name="db_xref" type="string" value="HGNC:P2RX1"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:8533"/>
+   <att name="db_xref" type="string" value="NCBI Gene:5023"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000108405"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_002558"/>
+   <att name="db_xref" type="string" value="omim:600845"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:P2RX1"/>
+   <att name="db_xref" type="string" value="UniProt:P51575"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_002549"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P51575"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="P2RX1_HUMAN"/>
+   <att name="aliases" type="string" value="P2X1"/>
+   <att name="aliases" type="string" value="Purinergic receptor"/>
+   <att name="aliases" type="string" value="P2RX1"/>
+   <att name="aliases" type="string" value="ATP receptor"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="ATP receptor"/>
+ </node>
+ <node id="1" label="IP3 receptor bound to IP3 and Ca++">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="IP3 receptor bound to IP3 and Ca++"/>
+ </node>
+ <node id="2" label="Calcium">
+  <att name="label" type="string" value="Calcium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_b4597af1a47b10e9fdcdaa13ae5bb2e7"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="Calcium">
+  <att name="label" type="string" value="Calcium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_df7a5a0090f832f4cd36bd55553e7ca5"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="4" label="Calcium">
+  <att name="label" type="string" value="Calcium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="5" label="IP3 receptor">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7fac34761896d537418e234ef08cfc3b"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="IP3 receptor"/>
+ </node>
+ <node id="6" label="IP3R subunits">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_29dab887ea646727e2b88799495ef082"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="IP3R subunits"/>
+ </node>
+ <node id="7" label="1D-myo-Inositol 1,4,5-trisphosphate">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_5563b7c19ede64f71bd0cd0367631d31"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="1D-myo-Inositol 1,4,5-trisphosphate"/>
+ </node>
+ <node id="8" label="P2X1 purinoreceptor bound to ATP">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ec15c469d477586210b47be0899fa18c"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="P2X1 purinoreceptor bound to ATP"/>
+ </node>
+ <node id="9" label="Adenosine 5'-triphosphate">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_cbf23c21618232bf4996067c25f8ea07"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Adenosine 5'-triphosphate"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/P51575 - http://purl.org/pc2/4/Complex_ec15c469d477586210b47be0899fa18c" source="0" target="8">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ec15c469d477586210b47be0899fa18c"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711 - http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212" source="1" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_fa8433148597f1607341176d51d6a489"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_b4597af1a47b10e9fdcdaa13ae5bb2e7 - http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_b4597af1a47b10e9fdcdaa13ae5bb2e7 - http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212" source="2" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_5c14728796f21c0553b332739ed79372"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_df7a5a0090f832f4cd36bd55553e7ca5 - http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212" source="3" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_3b192607605f7c8ba75bf52eaccf6efd"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_7fac34761896d537418e234ef08cfc3b - http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711" source="5" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_29dab887ea646727e2b88799495ef082 - http://purl.org/pc2/4/Complex_7fac34761896d537418e234ef08cfc3b" source="6" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_7fac34761896d537418e234ef08cfc3b"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_5563b7c19ede64f71bd0cd0367631d31 - http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711" source="7" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_32193d475ae3ab45664f0387679e1711"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_ec15c469d477586210b47be0899fa18c - http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212" source="8" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_d352669924b8a1f8ce144517147e260f"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_cbf23c21618232bf4996067c25f8ea07 - http://purl.org/pc2/4/Complex_ec15c469d477586210b47be0899fa18c" source="9" target="8">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ec15c469d477586210b47be0899fa18c"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

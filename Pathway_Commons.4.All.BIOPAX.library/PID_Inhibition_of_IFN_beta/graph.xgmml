@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_90693"/>
+ <att name="displayName" type="string" value="Inhibition of IFN-beta"/>
+ <att name="name" type="string" value="Inhibition_of_IFN_beta"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_e508390c3c2c2248daad93cd7267d344"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="NS1:Viral dsRNA Complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_3b775ad6a9d1c302b3081a6e96ace7ed"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="NS1:Viral dsRNA Complex"/>
+ </node>
+ <node id="1" label="Viral dsRNA (-) Stranded">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_d876cc77d7d14a1b75e5ceb6a347dc0e"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Viral dsRNA (-) Stranded"/>
+ </node>
+ <node id="2" label="NS1 Homodimer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_2ba77cb0ad8eef293c51673454cea708"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="NS1 Homodimer"/>
+ </node>
+ <node id="3" label="UniProt:P03496 NS">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:P03496"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P03496"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="NS"/>
+   <att name="aliases" type="string" value="UniProt:P03496 NS"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="UniProt:P03496 NS"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_d876cc77d7d14a1b75e5ceb6a347dc0e - http://purl.org/pc2/4/Complex_3b775ad6a9d1c302b3081a6e96ace7ed" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_3b775ad6a9d1c302b3081a6e96ace7ed"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_2ba77cb0ad8eef293c51673454cea708 - http://purl.org/pc2/4/Complex_3b775ad6a9d1c302b3081a6e96ace7ed" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_3b775ad6a9d1c302b3081a6e96ace7ed"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P03496 - http://purl.org/pc2/4/Complex_2ba77cb0ad8eef293c51673454cea708" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_2ba77cb0ad8eef293c51673454cea708"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Authored: Ferrer, J, Tello-Ruiz, MK, 2008--0-5-"/>
+ <att name="displayName" type="string" value="AKT-mediated inactivation of FOXO1A"/>
+ <att name="name" type="string" value="AKT-mediated inactivation of FOXO1A"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_f43d9512c85d8cb16f99d4952b0a5c9c"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:211163"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_13655"/>
+  <att name="db_xref" type="string" value="Pubmed:12228231"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="H3adp">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:16761"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13222"/>
+   <att name="db_xref" type="string" value="pubchem:8144912"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:22244"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:40553"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:2342"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8144912"/>
+   <att name="db_xref" type="string" value="InChIKey:XTWYTFMLZFPYCI-KQYNXXCUSA-N"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_f77bfe92ae3b34dca73a388dd9dcb08a"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="H3adp"/>
+ </node>
+ <node id="1" label="FKHR">
+  <att name="label" type="string" value="FKHR"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PANTHER Family:PTHR11829:SF50"/>
+   <att name="db_xref" type="string" value="HGNC:FOXO1"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:FOXO1"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:3819"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000368880"/>
+   <att name="db_xref" type="string" value="UniProt:Q5VYC7"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_002006"/>
+   <att name="db_xref" type="string" value="UniProt:Q6NSK6"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000150907"/>
+   <att name="db_xref" type="string" value="omim:136533"/>
+   <att name="db_xref" type="string" value="NCBI Gene:2308"/>
+   <att name="db_xref" type="string" value="UniProt:O43523"/>
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:3CO6"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000379561"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_002015"/>
+   <att name="db_xref" type="string" value="UniProt:Q12778"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q12778"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="FOXO1_HUMAN"/>
+   <att name="aliases" type="string" value="FOXO1"/>
+   <att name="aliases" type="string" value="FOXO1A"/>
+   <att name="aliases" type="string" value="Forkhead in rhabdomyosarcoma"/>
+   <att name="aliases" type="string" value="Forkhead box protein O1A"/>
+   <att name="aliases" type="string" value="FKHR"/>
+  </att>
+ </node>
+ <node id="2" label="adenosine 5'-(tetrahydrogen triphosphate)">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:13236"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8143180"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:22249"/>
+   <att name="db_xref" type="string" value="pubchem:8143180"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:2359"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:40938"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:15422"/>
+   <att name="db_xref" type="string" value="InChIKey:ZKHQWZAMYRWXGA-KQYNXXCUSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:10789"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:10841"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_81602dfe3a5b0b5441bf16f2526df2b3"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="adenosine 5'-(tetrahydrogen triphosphate)"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/Q12778 - http://purl.org/pc2/4/SmallMolecule_f77bfe92ae3b34dca73a388dd9dcb08a" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9a5d0c1986d0e1d4a6ee494c2964d364"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q12778 - http://identifiers.org/uniprot/Q12778" source="1" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_29ad2fce8f9c7f5214ba1d9f96139991"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_81602dfe3a5b0b5441bf16f2526df2b3 - http://purl.org/pc2/4/SmallMolecule_f77bfe92ae3b34dca73a388dd9dcb08a" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9a5d0c1986d0e1d4a6ee494c2964d364"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_81602dfe3a5b0b5441bf16f2526df2b3 - http://identifiers.org/uniprot/Q12778" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_9a5d0c1986d0e1d4a6ee494c2964d364"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

@@ -1,0 +1,47 @@
+complex	DNA_Polymerase_delta_tetramer_(complex)
+complex	DNA_polymerase_epsilon_(complex)
+protein	PCNA
+complex	PCNA_homotrimer_(complex)
+protein	POLD1
+protein	POLD2
+protein	POLD3
+protein	POLD4
+protein	POLE
+complex	RFC_Heteropentamer_(complex)
+protein	RFC1
+protein	RFC2
+protein	RFC3
+protein	RFC4
+protein	RFC5
+complex	RPA_heterotrimer_(complex)
+protein	RPA1
+protein	RPA2
+protein	RPA3
+PCNA	PCNA_homotrimer_(complex)	component>
+RPA_heterotrimer_(complex)	RFC_Heteropentamer_(complex)	-a>
+RPA_heterotrimer_(complex)	PCNA_homotrimer_(complex)	-a>
+RPA_heterotrimer_(complex)	DNA_polymerase_epsilon_(complex)	-a>
+POLE	DNA_polymerase_epsilon_(complex)	component>
+PCNA_homotrimer_(complex)	RPA_heterotrimer_(complex)	-a>
+PCNA_homotrimer_(complex)	RFC_Heteropentamer_(complex)	-a>
+PCNA_homotrimer_(complex)	DNA_polymerase_epsilon_(complex)	-a>
+DNA_polymerase_epsilon_(complex)	RPA_heterotrimer_(complex)	-a>
+DNA_polymerase_epsilon_(complex)	RFC_Heteropentamer_(complex)	-a>
+DNA_polymerase_epsilon_(complex)	PCNA_homotrimer_(complex)	-a>
+RFC5	RFC_Heteropentamer_(complex)	component>
+RFC4	RFC_Heteropentamer_(complex)	component>
+RFC_Heteropentamer_(complex)	RPA_heterotrimer_(complex)	-a>
+RFC_Heteropentamer_(complex)	PCNA_homotrimer_(complex)	-a>
+RFC_Heteropentamer_(complex)	DNA_polymerase_epsilon_(complex)	-a>
+RFC1	RFC_Heteropentamer_(complex)	component>
+DNA_Polymerase_delta_tetramer_(complex)	PCNA_homotrimer_(complex)	-a>
+RPA3	RPA_heterotrimer_(complex)	component>
+RPA2	RPA_heterotrimer_(complex)	component>
+POLD1	DNA_Polymerase_delta_tetramer_(complex)	component>
+POLD2	DNA_Polymerase_delta_tetramer_(complex)	component>
+POLD2	DNA_polymerase_epsilon_(complex)	component>
+POLD3	DNA_Polymerase_delta_tetramer_(complex)	component>
+POLD4	DNA_Polymerase_delta_tetramer_(complex)	component>
+RFC3	RFC_Heteropentamer_(complex)	component>
+RFC2	RFC_Heteropentamer_(complex)	component>
+RPA1	RPA_heterotrimer_(complex)	component>

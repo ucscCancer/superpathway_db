@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_170145"/>
+ <att name="displayName" type="string" value="Synthesis of substrates in N-glycan biosythesis"/>
+ <att name="name" type="string" value="Synthesis_of_substrates_in_N_glycan_biosythesis"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_d523def87ff34526e63530cb7c2073b2"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="D-Fructose 6-phosphoric acid">
+  <att name="label" type="string" value="D-Fructose 6-phosphoric acid"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_4282051dd02e3e611b2b46ad95c65a99"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="1" label="GDP-alpha-D-mannose">
+  <att name="label" type="string" value="GDP-alpha-D-mannose"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_29078e2e362c7affb627f70135356985"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="dolichol phosphate">
+  <att name="label" type="string" value="dolichol phosphate"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_3cd858c2624511d232b36d98960e11b0"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="dolichyl phosphate D-mannose">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_5b24896fcb2d81cfdd2552c30d95e057"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="dolichyl phosphate D-mannose"/>
+ </node>
+ <node id="4" label="PPi">
+  <att name="label" type="string" value="PPi"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_a7ef23c40d4eabf2e7eaa062e3799c91"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4282051dd02e3e611b2b46ad95c65a99 - http://purl.org/pc2/4/SmallMolecule_29078e2e362c7affb627f70135356985" source="0" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_4184e94306979e8a8746fddea0db8ce3"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_4282051dd02e3e611b2b46ad95c65a99 - http://purl.org/pc2/4/SmallMolecule_a7ef23c40d4eabf2e7eaa062e3799c91" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_4184e94306979e8a8746fddea0db8ce3"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_29078e2e362c7affb627f70135356985 - http://purl.org/pc2/4/SmallMolecule_5b24896fcb2d81cfdd2552c30d95e057" source="1" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_973c7d9026b3b4fc1faced5fd6038c7b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_3cd858c2624511d232b36d98960e11b0 - http://purl.org/pc2/4/SmallMolecule_5b24896fcb2d81cfdd2552c30d95e057" source="2" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_973c7d9026b3b4fc1faced5fd6038c7b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_5b24896fcb2d81cfdd2552c30d95e057 - http://purl.org/pc2/4/SmallMolecule_5b24896fcb2d81cfdd2552c30d95e057" source="3" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_973c7d9026b3b4fc1faced5fd6038c7b"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

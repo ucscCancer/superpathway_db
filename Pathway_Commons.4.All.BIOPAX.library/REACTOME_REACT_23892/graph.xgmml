@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Long chain fatty acids (LCFAs) are involved in many cellular functions. They can be used as an important source of energy by skeletal muscle and heart tissues. Also, they are used in the production of hormones which can regulate inflammation, blood pressure, the clotting process, blood lipid levels and the immune response. Fatty acid transporter proteins (FATPs) are a family of proteins which mediate fatty acid uptake into cells when overexpressed. FATPs also possess enzymatic activity, the details of which are captured elsewhere. There are 6 human genes of the SLC27A family which encode for FATP1-6 (Stahl A, 2004; Gimeno RE, 2007). To date, only FATP1, 4 and 6 have demonstrable transporter function. Fatty acids with carbon chain lengths of more than 10 are the most likely substrates for these transporters."/>
+ <att name="displayName" type="string" value="Transport of fatty acids"/>
+ <att name="name" type="string" value="Transport of fatty acids"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_321ed990a73ffd4e52006692bc9e1529"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Reactome:REACT_23892"/>
+  <att name="db_xref" type="string" value="Pubmed:17495600"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:804914"/>
+  <att name="db_xref" type="string" value="GENE ONTOLOGY:GO:0015909"/>
+  <att name="db_xref" type="string" value="Pubmed:12856180"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Long chain fatty acids">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_86ac38c1600038617161aee50cc7b8ba"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Long chain fatty acids"/>
+ </node>
+ <node id="1" label="Long chain fatty acids">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_f5105d46ae038a9e328869193bddc31d"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="Long chain fatty acids"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_f5105d46ae038a9e328869193bddc31d - http://purl.org/pc2/4/SmallMolecule_86ac38c1600038617161aee50cc7b8ba" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_cafe01456a48b3dbd0bee7c5ce66e37d"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+</graph>

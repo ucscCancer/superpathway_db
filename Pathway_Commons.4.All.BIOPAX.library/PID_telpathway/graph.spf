@@ -1,0 +1,50 @@
+protein	AKT1
+protein	BCL2
+protein	E6
+protein	KRAS
+protein	MYC
+protein	POLR2A
+protein	PPP2R5D
+protein	PRKCA
+protein	RB1
+protein	TEP1
+protein	TERF1
+protein	TERT
+protein	TERT_transcription_factors
+complex	TERT(+)/TEP1/hTR_RNA_(complex)
+complex	TERT(+1)/TEP1/hTR_RNA_(complex)
+complex	TERT(+1)/hTR_RNA/KU/TRF1_(complex)
+protein	TNKS
+protein	TP53
+protein	XRCC5
+protein	XRCC6
+rna	hTR_RNA
+complex	p53/RB_(complex)
+TNKS	TERF1	-a>
+TNKS	TEP1	-a>
+AKT1	TERT(+1)/TEP1/hTR_RNA_(complex)	-a>
+XRCC5	TERT(+1)/hTR_RNA/KU/TRF1_(complex)	component>
+XRCC6	TERT(+1)/hTR_RNA/KU/TRF1_(complex)	component>
+RB1	p53/RB_(complex)	component>
+MYC	TERT_transcription_factors	-a>
+TERT	TERT(+)/TEP1/hTR_RNA_(complex)	component>
+TERT	TERT(+1)/TEP1/hTR_RNA_(complex)	component>
+TERT	TERT(+1)/hTR_RNA/KU/TRF1_(complex)	component>
+TERT	TERT(+)/TEP1/hTR_RNA_(complex)	component>
+TEP1	TERT(+)/TEP1/hTR_RNA_(complex)	component>
+TEP1	TERT(+1)/TEP1/hTR_RNA_(complex)	component>
+TEP1	TERT(+)/TEP1/hTR_RNA_(complex)	component>
+PRKCA	TERT(+)/TEP1/hTR_RNA_(complex)	-a>
+POLR2A	TERT	-a>
+KRAS	TERT_transcription_factors	-a>
+E6	TERT_transcription_factors	-a>
+TP53	p53/RB_(complex)	component>
+TERT_transcription_factors	TERT	-a>
+p53/RB_(complex)	TERT	-a|
+hTR_RNA	TERT(+)/TEP1/hTR_RNA_(complex)	component>
+hTR_RNA	TERT(+1)/TEP1/hTR_RNA_(complex)	component>
+hTR_RNA	TERT(+1)/hTR_RNA/KU/TRF1_(complex)	component>
+hTR_RNA	TERT(+)/TEP1/hTR_RNA_(complex)	component>
+TERF1	TERT(+1)/hTR_RNA/KU/TRF1_(complex)	component>
+PPP2R5D	TERT(+)/TEP1/hTR_RNA_(complex)	-a>
+BCL2	TERT_transcription_factors	-a>

@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Authored: Gopinathrao, G, 2004-02-02 17:30:34"/>
+ <att name="displayName" type="string" value="Translesion synthesis by Pol zeta"/>
+ <att name="name" type="string" value="Translesion synthesis by Pol zeta"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_b56a52f3f6797925e9c18baf4f14f27f"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Reactome:REACT_822"/>
+  <att name="db_xref" type="string" value="Pubmed:10102035"/>
+  <att name="db_xref" type="string" value="Pubmed:9618506"/>
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:110325"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="REV7 homolog">
+  <att name="label" type="string" value="REV7 homolog"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="Ensembl:ENST00000376667"/>
+   <att name="db_xref" type="string" value="UniProt:Q9Y6I6"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001127325"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000365855"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000235310"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UNA7"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001120797"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_006332"/>
+   <att name="db_xref" type="string" value="omim:604094"/>
+   <att name="db_xref" type="string" value="UniProt:Q5TGW7"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_006341"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000365882"/>
+   <att name="db_xref" type="string" value="UniProt:Q9UI95"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:6764"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000235310"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000116670"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:MAD2L2"/>
+   <att name="db_xref" type="string" value="UniProt:B3KNE3"/>
+   <att name="db_xref" type="string" value="NCBI Gene:10459"/>
+   <att name="db_xref" type="string" value="HGNC:MAD2L2"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000376692"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q9UI95"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="MD2L2_HUMAN"/>
+   <att name="aliases" type="string" value="MAD2-like protein 2"/>
+   <att name="aliases" type="string" value="MAD2L2"/>
+   <att name="aliases" type="string" value="REV7"/>
+   <att name="aliases" type="string" value="MAD2B"/>
+   <att name="aliases" type="string" value="hREV7"/>
+   <att name="aliases" type="string" value="Mitotic arrest deficient 2-like protein 2"/>
+   <att name="aliases" type="string" value="REV7 homolog"/>
+  </att>
+ </node>
+ <node id="1" label="damaged DNA substrate">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_f38c948c9807e6b299df2f8d8379a7af"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="damaged DNA substrate"/>
+ </node>
+ <node id="2" label="Pol zeta:damaged DNA template complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_63f257793bebd8e04ef92e18dfbbdf5c"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Pol zeta:damaged DNA template complex"/>
+ </node>
+ <node id="3" label="Pol zeta complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_5410828dd8b622552cfcc26572e09044"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Pol zeta complex"/>
+ </node>
+ <node id="4" label="UniProt:Q9UID5 hREV3">
+  <att name="label" type="string" value="UniProt:Q9UID5 hREV3"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:Q9UID5"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/Q9UID5"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="hREV3"/>
+   <att name="aliases" type="string" value="UniProt:Q9UID5 hREV3"/>
+  </att>
+ </node>
+ <edge label="http://identifiers.org/uniprot/Q9UI95 - http://purl.org/pc2/4/Complex_5410828dd8b622552cfcc26572e09044" source="0" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_5410828dd8b622552cfcc26572e09044"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_f38c948c9807e6b299df2f8d8379a7af - http://purl.org/pc2/4/Complex_63f257793bebd8e04ef92e18dfbbdf5c" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_63f257793bebd8e04ef92e18dfbbdf5c"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_5410828dd8b622552cfcc26572e09044 - http://purl.org/pc2/4/Complex_63f257793bebd8e04ef92e18dfbbdf5c" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_63f257793bebd8e04ef92e18dfbbdf5c"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/Q9UID5 - http://purl.org/pc2/4/Complex_5410828dd8b622552cfcc26572e09044" source="4" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_5410828dd8b622552cfcc26572e09044"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

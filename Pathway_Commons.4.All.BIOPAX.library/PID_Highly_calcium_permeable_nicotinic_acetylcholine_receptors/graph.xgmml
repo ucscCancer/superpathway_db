@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_111812"/>
+ <att name="displayName" type="string" value="Highly calcium permeable nicotinic acetylcholine receptors"/>
+ <att name="name" type="string" value="Highly_calcium_permeable_nicotinic_acetylcholine_receptors"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_1b7064fce92d30f1233541282db522a7"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="ChEBI:15355 O-acetylcholine">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_98906ec522234a4989ae19ae3b0b9bb1"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="ChEBI:15355 O-acetylcholine"/>
+ </node>
+ <node id="1" label="Highly calcium permeable nicotinic acetylcholine receptors">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_a3163b7825ba94dceb13ef722dd99730"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Highly calcium permeable nicotinic acetylcholine receptors"/>
+ </node>
+ <node id="2" label="Calcium">
+  <att name="label" type="string" value="Calcium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_df7a5a0090f832f4cd36bd55553e7ca5"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="3" label="0-acteylcholine bound to calcium permeable nictonic acteylcholine receptor complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_6e52c0df55280e5cdf4711af3fcfb6fa"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="0-acteylcholine bound to calcium permeable nictonic acteylcholine receptor complex"/>
+ </node>
+ <node id="4" label="Highly calcium permeable nicotinic acetylcholine receptors">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_f9175c1823581c4839c50203513463f8"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Highly calcium permeable nicotinic acetylcholine receptors"/>
+ </node>
+ <node id="5" label="Calcium">
+  <att name="label" type="string" value="Calcium"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_98906ec522234a4989ae19ae3b0b9bb1 - http://purl.org/pc2/4/Complex_6e52c0df55280e5cdf4711af3fcfb6fa" source="0" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_6e52c0df55280e5cdf4711af3fcfb6fa"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_a3163b7825ba94dceb13ef722dd99730 - http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212" source="1" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_eab84b489151ff11e7e54c21b9cecd03"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_a3163b7825ba94dceb13ef722dd99730 - http://purl.org/pc2/4/PhysicalEntity_a3163b7825ba94dceb13ef722dd99730" source="1" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_eab84b489151ff11e7e54c21b9cecd03"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_df7a5a0090f832f4cd36bd55553e7ca5 - http://purl.org/pc2/4/SmallMolecule_7ef9e6676d85fc991367ad62f5a86212" source="2" target="5">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_eab84b489151ff11e7e54c21b9cecd03"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_df7a5a0090f832f4cd36bd55553e7ca5 - http://purl.org/pc2/4/PhysicalEntity_a3163b7825ba94dceb13ef722dd99730" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Transport_eab84b489151ff11e7e54c21b9cecd03"/>
+  <att name="class" type="string" value="Transport"/>
+  <att name="interaction" type="string" value="transport"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_f9175c1823581c4839c50203513463f8 - http://purl.org/pc2/4/Complex_6e52c0df55280e5cdf4711af3fcfb6fa" source="4" target="3">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_6e52c0df55280e5cdf4711af3fcfb6fa"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

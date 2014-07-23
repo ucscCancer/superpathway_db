@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_69467"/>
+ <att name="displayName" type="string" value="Activation of Ca-permeable Kainate Receptor"/>
+ <att name="name" type="string" value="Activation_of_Ca_permeable_Kainate_Receptor"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_5ffb7baa832d84e5aecf44024a987716"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="kaiante Receptors">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_2a50acb4e0a43c009f0b38dedc9b2a68"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="kaiante Receptors"/>
+ </node>
+ <node id="1" label="L-Glutaminic acid">
+  <att name="label" type="string" value="L-Glutaminic acid"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_f9cb83ea2bcb1d3ae2038633ccdec03e"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="2" label="Kainate receptor-glutamate complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ade7c4781b97e280ad520cfd84d081b9"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Kainate receptor-glutamate complex"/>
+ </node>
+ <node id="3" label="kaiante Receptors">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_189298708da56696c01189d88d07cf8e"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="kaiante Receptors"/>
+ </node>
+ <node id="4" label="L-Glutaminic acid">
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_7f0dbdbed305136e378759e5b5001165"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="L-Glutaminic acid"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_2a50acb4e0a43c009f0b38dedc9b2a68 - http://purl.org/pc2/4/Complex_ade7c4781b97e280ad520cfd84d081b9" source="0" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ade7c4781b97e280ad520cfd84d081b9"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_189298708da56696c01189d88d07cf8e - http://purl.org/pc2/4/SmallMolecule_f9cb83ea2bcb1d3ae2038633ccdec03e" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Catalysis_f8bacdc2e70da92dabd32c6c2d9c34c3"/>
+  <att name="class" type="string" value="Catalysis"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_7f0dbdbed305136e378759e5b5001165 - http://purl.org/pc2/4/Complex_ade7c4781b97e280ad520cfd84d081b9" source="4" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_ade7c4781b97e280ad520cfd84d081b9"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

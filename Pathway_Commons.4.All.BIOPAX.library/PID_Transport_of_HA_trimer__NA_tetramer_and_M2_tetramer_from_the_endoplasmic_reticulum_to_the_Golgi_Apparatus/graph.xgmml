@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_103684"/>
+ <att name="displayName" type="string" value="Transport of HA trimer, NA tetramer and M2 tetramer from the endoplasmic reticulum to the Golgi Apparatus"/>
+ <att name="name" type="string" value="Transport_of_HA_trimer__NA_tetramer_and_M2_tetramer_from_the_endoplasmic_reticulum_to_the_Golgi_Apparatus"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_b1c6930a2ef537f12029fd8dcc43402e"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="M2 Tetramer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_4441212e2a0d2785b56aa21f5af26733"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="M2 Tetramer"/>
+ </node>
+ <node id="1" label="Glycosylated NA Tetramer">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d6a2d3adadba1b79996e9e59a53fce77"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Glycosylated NA Tetramer"/>
+ </node>
+ <node id="2" label="UniProt:P06821 M">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:P06821"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P06821"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="M"/>
+   <att name="aliases" type="string" value="UniProt:P06821 M"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="UniProt:P06821 M"/>
+ </node>
+ <node id="3" label="UniProt:P03468 NA">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="UniProt Knowledgebase:P03468"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P03468"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="NA"/>
+   <att name="aliases" type="string" value="UniProt:P03468 NA"/>
+  </att>
+  <att name="type" type="string" value="protein"/>
+  <att name="label" type="string" value="UniProt:P03468 NA"/>
+ </node>
+ <edge label="http://identifiers.org/uniprot/P06821 - http://purl.org/pc2/4/Complex_4441212e2a0d2785b56aa21f5af26733" source="2" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_4441212e2a0d2785b56aa21f5af26733"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P03468 - http://purl.org/pc2/4/Complex_d6a2d3adadba1b79996e9e59a53fce77" source="3" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_d6a2d3adadba1b79996e9e59a53fce77"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

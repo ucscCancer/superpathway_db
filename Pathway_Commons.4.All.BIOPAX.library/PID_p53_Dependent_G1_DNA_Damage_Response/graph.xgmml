@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="http://pid.nci.nih.gov/biopaxpid_120949"/>
+ <att name="displayName" type="string" value="p53-Dependent G1 DNA Damage Response"/>
+ <att name="name" type="string" value="p53_Dependent_G1_DNA_Damage_Response"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_4bbb2e73ad1b2913488212fca55cb439"/>
+ <att name="db_xref" type="list"/>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="Cyclin E:Cdk2:p21/p27 complex">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_741c82cd0ab03c29de918690dd88f5ea"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Cyclin E:Cdk2:p21/p27 complex"/>
+ </node>
+ <node id="1" label="Cyclin E:Cdk2 complexes">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_910512ce246b54122d0511823940292f"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="Cyclin E:Cdk2 complexes"/>
+ </node>
+ <node id="2" label="Cell division protein kinase 2">
+  <att name="label" type="string" value="Cell division protein kinase 2"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="PROTEIN DATA BANK:1AQ1"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000266970"/>
+   <att name="db_xref" type="string" value="omim:116953"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_001789"/>
+   <att name="db_xref" type="string" value="HGNC:HGNC:1771"/>
+   <att name="db_xref" type="string" value="PANTHER Family:PTHR24056:SF123"/>
+   <att name="db_xref" type="string" value="RefSeq:NP_439892"/>
+   <att name="db_xref" type="string" value="HGNC:CDK2"/>
+   <att name="db_xref" type="string" value="UniProt:O75100"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSG00000123374"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_001798"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000243067"/>
+   <att name="db_xref" type="string" value="Ensembl:ENSP00000266970"/>
+   <att name="db_xref" type="string" value="HGNC Symbol:CDK2"/>
+   <att name="db_xref" type="string" value="UniProt:P24941"/>
+   <att name="db_xref" type="string" value="Ensembl:ENST00000354056"/>
+   <att name="db_xref" type="string" value="NCBI Gene:1017"/>
+   <att name="db_xref" type="string" value="UniProt:A8K7C6"/>
+   <att name="db_xref" type="string" value="RefSeq:NM_052827"/>
+  </att>
+  <att name="src_url" type="string" value="http://identifiers.org/uniprot/P24941"/>
+  <att name="type" type="string" value="protein"/>
+  <att name="aliases" type="list">
+   <att name="aliases" type="string" value="CDK2_HUMAN"/>
+   <att name="aliases" type="string" value="CDK2"/>
+   <att name="aliases" type="string" value="p33 protein kinase"/>
+   <att name="aliases" type="string" value="CDKN2"/>
+   <att name="aliases" type="string" value="2.7.11.22"/>
+   <att name="aliases" type="string" value="Cell division protein kinase 2"/>
+  </att>
+ </node>
+ <node id="3" label="p21/p27">
+  <att name="label" type="string" value="p21/p27"/>
+  <att name="db_xref" type="list"/>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/ProteinReference_82b5976aca0c08167d55284b5a8a3091"/>
+  <att name="type" type="string" value="protein"/>
+ </node>
+ <node id="4" label="Cyclin E">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/PhysicalEntity_d8a538c6c40e9cfa0dc0cc246a7cefd4"/>
+  <att name="type" type="string" value="PhysicalEntity"/>
+  <att name="label" type="string" value="Cyclin E"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/Complex_910512ce246b54122d0511823940292f - http://purl.org/pc2/4/Complex_741c82cd0ab03c29de918690dd88f5ea" source="1" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_741c82cd0ab03c29de918690dd88f5ea"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://identifiers.org/uniprot/P24941 - http://purl.org/pc2/4/Complex_910512ce246b54122d0511823940292f" source="2" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_910512ce246b54122d0511823940292f"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/ProteinReference_82b5976aca0c08167d55284b5a8a3091 - http://purl.org/pc2/4/Complex_741c82cd0ab03c29de918690dd88f5ea" source="3" target="0">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_741c82cd0ab03c29de918690dd88f5ea"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/PhysicalEntity_d8a538c6c40e9cfa0dc0cc246a7cefd4 - http://purl.org/pc2/4/Complex_910512ce246b54122d0511823940292f" source="4" target="1">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_910512ce246b54122d0511823940292f"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>

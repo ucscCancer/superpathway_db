@@ -1,0 +1,35 @@
+protein	COLEC11
+complex	COLEC11_Oligomer_(complex)
+complex	COLEC11_Trimer_(complex)
+complex	COLEC11_Ligand_(complex)
+complex	COLEC11_MASP1_(complex)
+protein	COLEC12
+complex	COLEC12_trimer_(complex)
+complex	COLEC12_Ligand_(complex)
+complex	Denatured_Collagen_I_III__Collagen_IV_(complex)
+protein	MARCO
+complex	MARCO_trimer_(complex)
+complex	MARCO_Ligand_(complex)
+protein	MASP1
+protein	MSR1
+complex	MSR1_(SCARA1)_trimer_(complex)
+complex	MSR1_Collagen_I_III_IV_(complex)
+complex	SCARA1_Ligand_(complex)
+protein	SCARA5
+complex	SCARA5_trimer_(complex)
+complex	SCARA5_Ligand_(complex)
+COLEC11_Oligomer_(complex)	COLEC11_MASP1_(complex)	component>
+COLEC11_Trimer_(complex)	COLEC11_Oligomer_(complex)	component>
+MARCO	MARCO_trimer_(complex)	component>
+COLEC11	COLEC11_Trimer_(complex)	component>
+MARCO_trimer_(complex)	MARCO_Ligand_(complex)	component>
+COLEC11_MASP1_(complex)	COLEC11_Ligand_(complex)	component>
+MASP1	COLEC11_MASP1_(complex)	component>
+COLEC12_trimer_(complex)	COLEC12_Ligand_(complex)	component>
+COLEC12	COLEC12_trimer_(complex)	component>
+SCARA5	SCARA5_trimer_(complex)	component>
+Denatured_Collagen_I_III__Collagen_IV_(complex)	MSR1_Collagen_I_III_IV_(complex)	component>
+SCARA5_trimer_(complex)	SCARA5_Ligand_(complex)	component>
+MSR1_(SCARA1)_trimer_(complex)	MSR1_Collagen_I_III_IV_(complex)	component>
+MSR1_(SCARA1)_trimer_(complex)	SCARA1_Ligand_(complex)	component>
+MSR1	MSR1_(SCARA1)_trimer_(complex)	component>

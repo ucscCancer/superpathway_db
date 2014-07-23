@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<graph directed="1" xmlns="http://www.cs.rpi.edu/XGMML" xmlns:cy="http://www.cytoscape.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <att name="comment" type="string" value="Edited: Mahajan, SS, 2011-05-23"/>
+ <att name="displayName" type="string" value="HCN channels"/>
+ <att name="name" type="string" value="HCN channels"/>
+ <att name="url" type="string" value="http://purl.org/pc2/4/Pathway_8fdb289daa091a3c7a7d00bc86129f62"/>
+ <att name="db_xref" type="list">
+  <att name="db_xref" type="string" value="Reactome Database ID Release 46:1296061"/>
+  <att name="db_xref" type="string" value="Reactome:REACT_75862"/>
+  <att name="db_xref" type="string" value="Pubmed:19584315"/>
+  <att name="db_xref" type="string" value="Pubmed:20213494"/>
+ </att>
+ <att name="organism" type="string" value="9606"/>
+ <node id="0" label="potassium cation">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="InChIKey:NPYPAHLBTDXSSS-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:49685"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:8345"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:26219"/>
+   <att name="db_xref" type="string" value="pubchem:8145463"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145463"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29103"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_773b0d06f4781858c8c91e4773b5d355"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="potassium cation"/>
+ </node>
+ <node id="1" label="HCN channels">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_233c21c3eb1ce4df3e1349ffe8fbc399"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="HCN channels"/>
+ </node>
+ <node id="2" label="HCN channel bound to cAMP">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a797db08d26a0935c9ec40ffc386b6f1"/>
+  <att name="type" type="string" value="complex"/>
+  <att name="label" type="string" value="HCN channel bound to cAMP"/>
+ </node>
+ <node id="3" label="adenosine 3',5'-cyclic monophosphate">
+  <att name="label" type="string" value="adenosine 3',5'-cyclic monophosphate"/>
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:11673"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:19827"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:17489"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:41588"/>
+   <att name="db_xref" type="string" value="InChIKey:IVOMOUWHDPKRLL-KQYNXXCUSA-N"/>
+   <att name="db_xref" type="string" value="pubchem:11533120"/>
+   <att name="db_xref" type="string" value="pubchem-substance:11533120"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:1325"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_85043314714a4359bb1b692df44a628d"/>
+  <att name="type" type="string" value="chemical"/>
+ </node>
+ <node id="4" label="potassium cation">
+  <att name="db_xref" type="list">
+   <att name="db_xref" type="string" value="InChIKey:NPYPAHLBTDXSSS-UHFFFAOYSA-N"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:49685"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:8345"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:26219"/>
+   <att name="db_xref" type="string" value="pubchem:8145463"/>
+   <att name="db_xref" type="string" value="pubchem-substance:8145463"/>
+   <att name="db_xref" type="string" value="ChEBI:CHEBI:29103"/>
+  </att>
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/SmallMolecule_92412e88aaf5e2c85cb8cf923fc114b5"/>
+  <att name="type" type="string" value="chemical"/>
+  <att name="label" type="string" value="potassium cation"/>
+ </node>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_773b0d06f4781858c8c91e4773b5d355 - http://purl.org/pc2/4/SmallMolecule_92412e88aaf5e2c85cb8cf923fc114b5" source="0" target="4">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/BiochemicalReaction_bf7a3d7a431d6aa6fa6977eb09149a5f"/>
+  <att name="class" type="string" value="BiochemicalReaction"/>
+  <att name="interaction" type="string" value="-a&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/Complex_233c21c3eb1ce4df3e1349ffe8fbc399 - http://purl.org/pc2/4/Complex_a797db08d26a0935c9ec40ffc386b6f1" source="1" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a797db08d26a0935c9ec40ffc386b6f1"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+ <edge label="http://purl.org/pc2/4/SmallMolecule_85043314714a4359bb1b692df44a628d - http://purl.org/pc2/4/Complex_a797db08d26a0935c9ec40ffc386b6f1" source="3" target="2">
+  <att name="src_url" type="string" value="http://purl.org/pc2/4/Complex_a797db08d26a0935c9ec40ffc386b6f1"/>
+  <att name="class" type="string" value="Complex"/>
+  <att name="interaction" type="string" value="component&gt;"/>
+ </edge>
+</graph>
